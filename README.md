@@ -26,4 +26,7 @@ This repository is intended for developers and modders, if you'd like to downloa
 Execute `regolith run` in the root directory of the project to build the project. It is recommended to build the project.
 
 ## Updates
-This branch fixes an issue where normal tools wouldn't show up in quick craft recipes. Also fixes an issue where tools made by the blacksmith class would never wear out or break.
+
+This branch attempts to balance some of the Origins.
+
+- Spiritual Body Perk has been removed from Phantom Origin

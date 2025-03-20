@@ -988,6 +988,32 @@
             },
             "cause": "drowning",
             "damage_per_tick": 4
+          },
+
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_daytime" },
+                { "test": "light_level", "operator": ">", "value": 14 },
+                { "test": "has_tag", "value": "power_sears_in_sunlight" },
+                { "test": "any_slot_empty", "operator": "equals", "value": "head" }
+              ]
+            },
+            "cause": "fire_tick",
+            "damage_per_tick": 2
+          },
+
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_daytime" },
+                { "test": "light_level", "operator": ">", "value": 14 },
+                { "test": "has_tag", "value": "power_sears_in_sunlight" },
+                { "test": "any_slot_empty", "operator": "not", "value": "head" }
+              ]
+            },
+            "cause": "fire_tick",
+            "damage_per_tick": 1
           }
         ]
       },

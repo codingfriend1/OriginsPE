@@ -29,4 +29,5 @@ Execute `regolith run` in the root directory of the project to build the project
 
 This branch attempts to balance some of the Origins.
 
-- Spiritual Body Perk has been removed from Phantom Origin
+- Phatoms can be hurt when outside of spectator mode. Spiritual Body Perk has been removed from Phantom Origin.
+- Headwear reduces 50% of sunlight damage for Phantoms but no longer fully prevents it.

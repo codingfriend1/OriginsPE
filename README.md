@@ -25,6 +25,12 @@ This repository is intended for developers and modders, if you'd like to downloa
 
 Execute `regolith run` in the root directory of the project to build the project. It is recommended to build the project.
 
+# Language Translations
+
+Language translations were performed by:
+
+[https://solveddev.github.io/AnyLanguage/](https://solveddev.github.io/AnyLanguage/)
+
 ## Updates
 
 This branch attempts to balance some of the Origins.

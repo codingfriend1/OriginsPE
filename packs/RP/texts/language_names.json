@@ -1,0 +1,282 @@
+[
+	[
+		"bg_BG",
+		[
+			"bg_BG",
+			[
+				"bg_BG",
+				"English (US)"
+			]
+		]
+	],
+	[
+		"cs_CZ",
+		[
+			"cs_CZ",
+			[
+				"cs_CZ",
+				"English (UK)"
+			]
+		]
+	],
+	[
+		"da_DK",
+		[
+			"da_DK",
+			[
+				"da_DK",
+				"Deutsch (Deutschland)"
+			]
+		]
+	],
+	[
+		"de_DE",
+		[
+			"de_DE",
+			[
+				"de_DE",
+				"Español (España)"
+			]
+		]
+	],
+	[
+		"el_GR",
+		[
+			"el_GR",
+			[
+				"el_GR",
+				"Español (México)"
+			]
+		]
+	],
+	[
+		"en_US",
+		[
+			"en_US",
+			[
+				"en_US",
+				"Français (France)"
+			]
+		]
+	],
+	[
+		"es_ES",
+		[
+			"es_ES",
+			[
+				"es_ES",
+				"Français (Canada)"
+			]
+		]
+	],
+	[
+		"es_MX",
+		[
+			"es_MX",
+			[
+				"es_MX",
+				"Italiano (Italia)"
+			]
+		]
+	],
+	[
+		"fi_FI",
+		[
+			"fi_FI",
+			[
+				"fi_FI",
+				"日本語 (日本)"
+			]
+		]
+	],
+	[
+		"fr_CA",
+		[
+			"fr_CA",
+			[
+				"fr_CA",
+				"한국어 (대한민국)"
+			]
+		]
+	],
+	[
+		"fr_FR",
+		[
+			"fr_FR",
+			[
+				"fr_FR",
+				"Português (Brasil)"
+			]
+		]
+	],
+	[
+		"hu_HU",
+		[
+			"hu_HU",
+			[
+				"hu_HU",
+				"Português (Portugal)"
+			]
+		]
+	],
+	[
+		"id_ID",
+		[
+			"id_ID",
+			[
+				"id_ID",
+				"Русский (Россия)"
+			]
+		]
+	],
+	[
+		"it_IT",
+		[
+			"it_IT",
+			[
+				"it_IT",
+				"简体中文 (中国)"
+			]
+		]
+	],
+	[
+		"ja_JP",
+		[
+			"ja_JP",
+			[
+				"ja_JP",
+				"繁體中文 (台灣)"
+			]
+		]
+	],
+	[
+		"ko_KR",
+		[
+			"ko_KR",
+			[
+				"ko_KR",
+				"Nederlands (Nederland)"
+			]
+		]
+	],
+	[
+		"nb_NO",
+		[
+			"nb_NO",
+			[
+				"nb_NO",
+				"Български (BG)"
+			]
+		]
+	],
+	[
+		"nl_NL",
+		[
+			"nl_NL",
+			[
+				"nl_NL",
+				"Čeština (Česká republika)"
+			]
+		]
+	],
+	[
+		"pl_PL",
+		[
+			"pl_PL",
+			[
+				"pl_PL",
+				"Dansk (DA)"
+			]
+		]
+	],
+	[
+		"pt_BR",
+		[
+			"pt_BR",
+			[
+				"pt_BR",
+				"Ελληνικά (Ελλάδα)"
+			]
+		]
+	],
+	[
+		"pt_PT",
+		[
+			"pt_PT",
+			[
+				"pt_PT",
+				"Suomi (Suomi)"
+			]
+		]
+	],
+	[
+		"ru_RU",
+		[
+			"ru_RU",
+			[
+				"ru_RU",
+				"Magyar (HU)"
+			]
+		]
+	],
+	[
+		"sk_SK",
+		[
+			"sk_SK",
+			[
+				"sk_SK",
+				"Bahasa Indonesia (Indonesia)"
+			]
+		]
+	],
+	[
+		"sv_SE",
+		[
+			"sv_SE",
+			[
+				"sv_SE",
+				"Norsk bokmål (Norge)"
+			]
+		]
+	],
+	[
+		"tr_TR",
+		[
+			"tr_TR",
+			[
+				"tr_TR",
+				"Polski (PL)"
+			]
+		]
+	],
+	[
+		"uk_UA",
+		[
+			"uk_UA",
+			[
+				"uk_UA",
+				"Slovensky (SK)"
+			]
+		]
+	],
+	[
+		"zh_CN",
+		[
+			"zh_CN",
+			[
+				"zh_CN",
+				"Svenska (Sverige)"
+			]
+		]
+	],
+	[
+		"zh_TW",
+		[
+			"zh_TW",
+			[
+				"zh_TW",
+				"Türkçe (Türkiye)"
+			]
+		]
+	]
+]

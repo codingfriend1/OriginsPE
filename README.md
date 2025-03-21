@@ -29,5 +29,6 @@ Execute `regolith run` in the root directory of the project to build the project
 
 This branch attempts to balance some of the Origins.
 
-- Phatoms can be hurt when outside of spectator mode. Spiritual Body Perk has been removed from Phantom Origin.
-- Headwear reduces 50% of sunlight damage for Phantoms but no longer fully prevents it.
+- Now Phatoms can be hurt when outside of spectator mode. Spiritual Body Perk has been removed from Phantom Origin.
+- Headwear on Phantoms only reduces 50% of sunlight damage but no longer fully prevents it.
+- Miner Class is blessed with Fortune +1 on all their pickaxes. No other players share this blessed status.

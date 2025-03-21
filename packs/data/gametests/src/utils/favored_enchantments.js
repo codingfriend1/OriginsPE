@@ -74,8 +74,6 @@ export function favoredEnchantment({ perkName, enchantmentName, exclusiveTools, 
             player.getComponent('inventory').container.setItem(slotIndex, itemStack);
             player.sendMessage(`⚠️ Your ${itemName} is no longer favored with ${specificEnchantment.id}!`);
 
-            console.log(`⚠️ Your ${itemName} is no longer favored with ${specificEnchantment.id}!`);
-
             return itemStack;
         }
 

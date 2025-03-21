@@ -996,6 +996,7 @@
                 { "test": "is_daytime" },
                 { "test": "light_level", "operator": ">", "value": 14 },
                 { "test": "has_tag", "value": "power_sears_in_sunlight" },
+                { "test": "in_water", "operator": "==", "value": false },
                 { "test": "any_slot_empty", "operator": "equals", "value": "head" }
               ]
             },
@@ -1009,6 +1010,7 @@
                 { "test": "is_daytime" },
                 { "test": "light_level", "operator": ">", "value": 14 },
                 { "test": "has_tag", "value": "power_sears_in_sunlight" },
+                { "test": "in_water", "operator": "==", "value": false },
                 { "test": "any_slot_empty", "operator": "not", "value": "head" }
               ]
             },

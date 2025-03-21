@@ -74,7 +74,7 @@ export function findItem(entity, item) {
  * @returns { { item: import("@minecraft/server").ItemStack, slot: number }[] | false }
  */
 export function findItemsWithLore(entity, item, lore) {
-  const _A = findItems(entity, item).filter(x => x.item.getLore().some(y => lore.some(z => y.includes(z))));
+  const _A = findItems(entity, item).filter(x => x.item?.getLore().some(y => lore.some(z => y.includes(z))));
   return _A.length > 0 ? _A : false;
 }
 

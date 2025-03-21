@@ -31,10 +31,17 @@ Language translations were performed by:
 
 [https://solveddev.github.io/AnyLanguage/](https://solveddev.github.io/AnyLanguage/)
 
-## Updates
+## Balance Updates
 
-This branch attempts to balance some of the Origins.
+This branch attempts to balance some of the Origins:
 
-- Now Phatoms can be hurt when outside of spectator mode. Spiritual Body Perk has been removed from Phantom Origin.
+- Phatoms origin can now be hurt when outside of spectator mode. Spiritual Body Perk has been removed.
 - Headwear on Phantoms only reduces 50% of sunlight damage but no longer fully prevents it.
 - Miner Class is blessed with Fortune +1 on all their pickaxes. No other players share this blessed status.
+
+## Bug Fixes
+
+- Solves issue where normal tools wouldn't show up in crafting recipes. 
+- Fixes an issue where tools made by the blacksmith class would never wear out or break.
+- Remove bug where blacksmith could convert tools from other players into Quality Equiptment simply by placing it in their inventory.
+- Fixes issue where Enderian origin could teleport outside of their render distance causing errors and spontoneous teleportation when the chunk loaded.

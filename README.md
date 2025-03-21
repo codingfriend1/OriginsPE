@@ -35,8 +35,8 @@ Language translations were performed by:
 
 This branch attempts to balance some of the Origins:
 
-- Phatoms origin can now be hurt when outside of spectator mode. Spiritual Body Perk has been removed.
-- Headwear on Phantoms only reduces 50% of sunlight damage but no longer fully prevents it.
+- Phantoms origin can now be hurt when outside of spectator mode. Spiritual Body Perk has been removed.
+- Headwear on Phantoms only reduce 50% of sunlight damage no longer 100%.
 - Miner Class is blessed with Fortune +1 on all their pickaxes. No other players share this blessed status.
 
 ## Bug Fixes

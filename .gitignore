@@ -12,3 +12,4 @@ node_modules/
 *.aseprj
 *.mcworld
 *.mcpack
+**/*.DS_Store

@@ -5,6 +5,7 @@ import { Vector3 } from "../utils/Vec3";
 import { removeTags } from "../utils/tags";
 import { toAllPlayers } from "./player";
 import { _SCOREBOARD } from "./resource_bar";
+import { getControlTags } from "./controls"
 
 
 /**
@@ -179,19 +180,46 @@ function onCloseGUI(player) {
  * 
  * @param { import('@minecraft/server').Player } player 
  */
-export function setupMenuItem(player) {
+export function setupMenuItem(player, CONTROLS) {
 
-  /**
-   * @type { import('@minecraft/server').Container }
-   */
-  const inventoryComponent = player.getComponent('inventory').container;
-  if (inventoryComponent.getItem(8)?.typeId !== 'r4isen1920_originspe:origins_menu') {
+  const platform = player.clientSystemInfo.platformType;
 
-  const originsMenuItem = new ItemStack('r4isen1920_originspe:origins_menu');
-    originsMenuItem.lockMode = ItemLockMode.slot;
-    originsMenuItem.keepOnDeath = true;
-    inventoryComponent.setItem(8, originsMenuItem);
+  const inventory = player.getComponent('inventory').container;
 
+  if(CONTROLS?.length >= 2) {
+    /**
+     * @type { import('@minecraft/server').Container }
+     */
+    if (inventory.getItem(8)?.typeId !== 'r4isen1920_originspe:origins_menu') {
+
+    const originsMenuItem = new ItemStack('r4isen1920_originspe:origins_menu');
+      originsMenuItem.lockMode = ItemLockMode.slot;
+      originsMenuItem.keepOnDeath = true;
+      inventory.setItem(8, originsMenuItem);
+    }
+  } else {
+
+    const origins_submenu = new ItemStack('r4isen1920_originspe:origins_submenu');
+    origins_submenu.keepOnDeath = true;
+    inventory.setItem(8, origins_submenu);
+
+    // 📱 Hotbar-based activation for mobile with one power
+    const controlTags = getControlTags(player);
+    const tag = controlTags && controlTags[0];
+
+    if (!tag) return;
+
+    const itemName = `r4isen1920_originspe:origins_power.${tag.replace("control_", "").replace("-hold", "")}`;
+
+    try {
+      const item = new ItemStack(itemName);
+      item.lockMode = ItemLockMode.slot;
+      item.keepOnDeath = true;
+      inventory.setItem(0, item);
+    } catch (e) {
+      console.warn(`[OriginsPE] ⚠️ Failed to assign item: '${itemName}' to ${player.name}`);
+      console.warn(`[OriginsPE] Error: ${e}`);
+    }
   }
 
 }

@@ -1,7 +1,7 @@
-import { Direction, world } from "@minecraft/server";
+import { Direction, world, system, ItemLockMode, ItemStack, TicksPerSecond } from "@minecraft/server";
 import { toAllPlayers } from "../../../origins/player";
 import { ResourceBar } from "../../../origins/resource_bar";
-import { rightClickDoubleClickWatcher } from "../../../utils/double_right_click_watcher.js";
+
 
 const blocksPerChunk = 16;
 const safeMaxRenderChunks = 11.5;
@@ -11,11 +11,6 @@ const MIN_DISTANCE = 16;   // No cooldown below this
 const MAX_DISTANCE = 192;  // Max cooldown at 12 chunks
 const MAX_COOLDOWN = 15;   // Max cooldown in seconds
 const MIN_TELEPORT_DISTANCE = 5; // Too close to allow teleporting
-
-rightClickDoubleClickWatcher.onDoubleClick((player) => {
-  player.addTag('_control_use_throw_ender_pearl');
-  throw_ender_pearl(player);
-});
 
 toAllPlayers(throw_ender_pearl, 2)
 
@@ -64,10 +59,10 @@ function throw_ender_pearl(player) {
   // 📏 Distance for cooldown & restriction
   const distance = getDistance(player.location, centeredTarget);
 
-  if (distance <= MIN_TELEPORT_DISTANCE) {
-    player.removeTag('_control_use_throw_ender_pearl');
-    return;
-  }
+  // if (distance <= MIN_TELEPORT_DISTANCE) {
+  //   player.removeTag('_control_use_throw_ender_pearl');
+  //   return;
+  // }
 
   const cooldownSeconds = calculateCooldown(distance);
 
@@ -138,7 +133,8 @@ function getTargetLocationFromBlockFace(targetBlock) {
 }
 
 /**
- * Checks if two blocks (feet + head) at the location are air.
+ * Checks if a location is clear enough to teleport to.
+ * Allows small decorative blocks like grass or flowers at feet level.
  * @param {{ x: number, y: number, z: number }} location 
  * @param {import('@minecraft/server').Dimension} dimension 
  * @returns {boolean}
@@ -146,8 +142,29 @@ function getTargetLocationFromBlockFace(targetBlock) {
 function isSpaceClearForTeleport(location, dimension) {
   const block = dimension.getBlock(location);
   const above = dimension.getBlock({ x: location.x, y: location.y + 1, z: location.z });
-  return block?.typeId === "minecraft:air" && above?.typeId === "minecraft:air";
+
+  const allowedFeetBlocks = new Set([
+    "minecraft:air",
+    "minecraft:grass",
+    "minecraft:tallgrass",
+    "minecraft:fern",
+    "minecraft:dead_bush",
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass",
+    "minecraft:carpet",
+    "minecraft:snow_layer",
+    "minecraft:small_dripleaf",
+    "minecraft:large_dripleaf_leaf",
+    "minecraft:sweet_berry_bush",
+    "minecraft:flowering_azalea",
+    "minecraft:azalea",
+    "minecraft:bamboo_sapling",
+    "minecraft:mangrove_propagule"
+  ]);
+
+  return allowedFeetBlocks.has(block?.typeId) && above?.typeId === "minecraft:air";
 }
+
 
 /**
  * Offsets a block location slightly to center the teleport position.

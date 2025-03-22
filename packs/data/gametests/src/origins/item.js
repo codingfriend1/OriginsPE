@@ -5,6 +5,7 @@ import { openOptionsGUI, openScreenPickerGUI, getToggleValue } from "./gui";
 import { openAbilityHotbar, closeAbilityHotbar, getControlTags } from "./controls";
 import { _SCOREBOARD } from "./resource_bar";
 import { toAllPlayers } from "./player";
+import { rightClickDoubleClickWatcher } from "../utils/double_right_click_watcher.js";
 
 
 /**
@@ -63,11 +64,9 @@ system.runTimeout(() => {
 
       }
 
-
-      if (!source.hasTag('controls_opened')) return;
-
       const playerControlTags = getControlTags(source);
-      if (playerControlTags.length === 0) return;
+
+      if (!source.hasTag('controls_opened') && playerControlTags.length !== 1) return;
 
       const controlTag = playerControlTags.find(tag => itemStack.typeId.includes(tag.replace('control_', '').replace('-hold', '')));
       if (!controlTag) return;
@@ -80,13 +79,39 @@ system.runTimeout(() => {
 
         default:
           source.addTag(`_control_use_${controlTag.replace('control_', '')}`);
-          closeAbilityHotbar(source);
+          if(source.hasTag('controls_opened')) {
+            closeAbilityHotbar(source);
+          }
           break;
 
       }
   
     }
   )
+
+  // rightClickDoubleClickWatcher.onDoubleClick(function rightClickDoubleClick(player) {
+
+  //   const inventory = player.getComponent("inventory").container;
+  //   const itemStack = inventory.getItem(player.selectedSlotIndex);
+
+  //   if (!itemStack) return;
+
+  //   const controlTags = getControlTags(player);
+
+  //   const controlTag = controlTags.find(tag =>
+  //     itemStack.typeId.includes(tag.replace("control_", "").replace("-hold", ""))
+  //   );
+
+  //   if (!controlTag) return;
+
+  //   const idSuffix = controlTag.replace("control_", "").replace("-hold", "");
+
+  //   if (controlTag.includes("-hold")) {
+  //     player.addTag(`_control_hold_${idSuffix}`);
+  //   } else {
+  //     player.addTag(`_control_use_${idSuffix}`);
+  //   }
+  // })
 
   /**
    * 

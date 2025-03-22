@@ -44,5 +44,5 @@ This branch attempts to balance some of the Origins:
 - Solves issue where normal tools wouldn't show up in crafting recipes. 
 - Fixes an issue where tools made by the blacksmith class would never wear out or break.
 - Remove bug where blacksmith could convert tools from other players into Quality Equiptment simply by placing it in their inventory.
-- Fixes issue where Enderian origin could teleport outside of their render distance causing errors and spontoneous teleportation when the chunk loaded.
+- Fixes issue where Enderian origin could teleport outside of their render distance causing errors and spontoneous teleportation when the chunk loaded. Prevents Enderian from teleporting into bodies of water.
 - Updates Enderian origin to allow progressively quicker teleports the shorter the distance down to instantaneous. Teleporting can now be activated by double clicking or pressing the use item button (double right-click or double left bumper on controller).

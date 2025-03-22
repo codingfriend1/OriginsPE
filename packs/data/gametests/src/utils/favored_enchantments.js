@@ -1,5 +1,5 @@
 import { world, system, ItemStack, EntityComponentTypes, EnchantmentTypes } from "@minecraft/server";
-import { inventoryWatcher } from "./custom_events";
+import { inventoryWatcher } from "./inventory_watcher";
 
 export function favoredEnchantment({ perkName, enchantmentName, exclusiveTools, lore }) {
 

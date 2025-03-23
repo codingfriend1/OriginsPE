@@ -24,12 +24,9 @@ function phantomize({ player }) {
 function checkMovement(player) {
   if (!player.hasTag('_phantomized')) return;
 
-  // Get and store position as a string
   const currentPos = player.location;
   const lastPosStr = player.getDynamicProperty('r4isen1920_originspe:last_pos');
   const lastPos = lastPosStr ? lastPosStr.split(',').map(Number) : null;
-
-  const cooldown = new ResourceBar(5, 100, 0, 2); // 2 seconds countdown
 
   const isPlayerMoving = !lastPos || (
     currentPos.x !== lastPos[0] ||
@@ -37,35 +34,37 @@ function checkMovement(player) {
     currentPos.z !== lastPos[2]
   );
 
-  // Save current location for next tick
   player.setDynamicProperty(
     'r4isen1920_originspe:last_pos',
     `${currentPos.x},${currentPos.y},${currentPos.z}`
   );
 
+  const BAR_ID = 5;
+  const STILLNESS_BEFORE_BAR = 5; // 0.5 seconds
+  const BAR_DURATION_SECONDS = 2;
+  const BAR_DURATION_TICKS = BAR_DURATION_SECONDS * 20 / 2; // 20
+  const EXIT_AFTER_TICKS = STILLNESS_BEFORE_BAR + BAR_DURATION_TICKS; // 30
+
+  const ticks = isPlayerMoving
+    ? 0
+    : Math.min((player.getDynamicProperty('r4isen1920_originspe:move_ticks') || 0) + 1, EXIT_AFTER_TICKS);
+
+  player.setDynamicProperty('r4isen1920_originspe:move_ticks', ticks);
+
+  const cooldown = new ResourceBar(BAR_ID, 100, 0, BAR_DURATION_SECONDS);
+
   if (isPlayerMoving) {
-    // Player is moving: reset state
-    player.setDynamicProperty('r4isen1920_originspe:move_ticks', 0);
     cooldown.pop(player);
     player.removeTag('_phantomized_stopped_moving');
     return;
   }
 
-  // Player is not moving — count how long they've been still
-  const ticks = Math.min(
-    (player.getDynamicProperty('r4isen1920_originspe:move_ticks') || 0) + 1,
-    40 // 2 seconds at 20 TPS
-  );
-  player.setDynamicProperty('r4isen1920_originspe:move_ticks', ticks);
-
-  if (ticks >= 5 && !player.hasTag('_phantomized_stopped_moving')) {
-    // After 5 ticks (0.25s) show resource bar (not instant)
+  if (ticks === STILLNESS_BEFORE_BAR) {
     cooldown.push(player);
     player.addTag('_phantomized_stopped_moving');
   }
 
-  if (ticks >= 20) {
-    // Player stayed still for 2 seconds, end form
+  if (ticks >= EXIT_AFTER_TICKS) {
     cooldown.pop(player);
     exitPhantomizedForm(player);
   }

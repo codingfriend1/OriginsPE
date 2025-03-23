@@ -1,14 +1,18 @@
 
 import { world } from "@minecraft/server";
-
-import { toAllPlayers } from "../../../origins/player";
 import { _SCOREBOARD, ResourceBar } from "../../../origins/resource_bar";
+import { usepower } from "../../../utils/PubSub";
+
+
+const POWER_CONTROL_ITEM_NAME = 'r4isen1920_originspe:origins_power.shooting_star';
+usepower.subscribe(POWER_CONTROL_ITEM_NAME, shooting_star);
+
 
 /**
  * 
  * @param { import('@minecraft/server').Player } player 
  */
-function shooting_star(player) {
+function shooting_star({ player }) {
   if (
     !player.hasTag('power_shooting_star') ||
     !player.hasTag('_control_use_shooting_star')
@@ -43,5 +47,3 @@ function shooting_star(player) {
   player.removeTag('_control_use_shooting_star');
 
 }
-
-toAllPlayers(shooting_star, 2)

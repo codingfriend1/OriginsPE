@@ -1,15 +1,19 @@
 
 import { TicksPerSecond, world } from "@minecraft/server";
-
-import { toAllPlayers } from "../../../origins/player";
 import { _SCOREBOARD, ResourceBar } from "../../../origins/resource_bar";
 import { Vector3 } from "../../../utils/Vec3";
+import { usepower } from "../../../utils/PubSub";
+
+
+const POWER_CONTROL_ITEM_NAME = 'r4isen1920_originspe:origins_power.hyper_leap';
+usepower.subscribe(POWER_CONTROL_ITEM_NAME, hyper_leap);
+
 
 /**
  * 
  * @param { import('@minecraft/server').Player } player 
  */
-function hyper_leap(player) {
+function hyper_leap({ player }) {
   if (
     !player.hasTag('power_hyper_leap') ||
     !player.hasTag('_control_use_hyper_leap')
@@ -64,5 +68,3 @@ function hyper_leap(player) {
   player.removeTag('_control_use_hyper_leap');
 
 }
-
-toAllPlayers(hyper_leap, 2)

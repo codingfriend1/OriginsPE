@@ -20,6 +20,9 @@ export function getControlTags(player) {
  * @param { import('@minecraft/server').Player } player
  */
 export function openAbilityHotbar(player) {
+
+  if (getControlTags(player).length < 2) return;
+
   /**
    * The old hotbar contents
    * @type { import('@minecraft/server').ItemStack[] }
@@ -108,6 +111,9 @@ export function openAbilityHotbar(player) {
  * @param { import('@minecraft/server').Player } player 
  */
 export function closeAbilityHotbar(player) {
+
+  if (getControlTags(player).length < 2) return;
+  
   /**
    * The old hotbar contents
    * @type { import('@minecraft/server').ItemStack[] }

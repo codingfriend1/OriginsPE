@@ -6,6 +6,7 @@ import { openAbilityHotbar, closeAbilityHotbar, getControlTags } from "./control
 import { _SCOREBOARD } from "./resource_bar";
 import { toAllPlayers } from "./player";
 import { rightClickDoubleClickWatcher } from "../utils/double_right_click_watcher.js";
+import { usepower, releasePower } from "../utils/PubSub";
 
 
 /**
@@ -79,39 +80,18 @@ system.runTimeout(() => {
 
         default:
           source.addTag(`_control_use_${controlTag.replace('control_', '')}`);
+
           if(source.hasTag('controls_opened')) {
             closeAbilityHotbar(source);
           }
           break;
 
       }
+
+      usepower.publish(itemStack.typeId, { player: source, itemStack });
   
     }
   )
-
-  // rightClickDoubleClickWatcher.onDoubleClick(function rightClickDoubleClick(player) {
-
-  //   const inventory = player.getComponent("inventory").container;
-  //   const itemStack = inventory.getItem(player.selectedSlotIndex);
-
-  //   if (!itemStack) return;
-
-  //   const controlTags = getControlTags(player);
-
-  //   const controlTag = controlTags.find(tag =>
-  //     itemStack.typeId.includes(tag.replace("control_", "").replace("-hold", ""))
-  //   );
-
-  //   if (!controlTag) return;
-
-  //   const idSuffix = controlTag.replace("control_", "").replace("-hold", "");
-
-  //   if (controlTag.includes("-hold")) {
-  //     player.addTag(`_control_hold_${idSuffix}`);
-  //   } else {
-  //     player.addTag(`_control_use_${idSuffix}`);
-  //   }
-  // })
 
   /**
    * 
@@ -136,6 +116,7 @@ system.runTimeout(() => {
 
       if (source.hasTag('controls_opened')) closeAbilityHotbar(source);
       source.removeTag(`_control_hold_${controlTag.replace('control_', '').replace('-hold', '')}`);
+      releasePower.publish(itemStack.typeId, { player: source, itemStack });
 
     }
   )

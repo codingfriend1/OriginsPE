@@ -1,6 +1,6 @@
 import { Direction, world, system, ItemLockMode, ItemStack, TicksPerSecond } from "@minecraft/server";
-import { toAllPlayers } from "../../../origins/player";
 import { ResourceBar } from "../../../origins/resource_bar";
+import { usepower } from "../../../utils/PubSub";
 
 
 const blocksPerChunk = 16;
@@ -11,14 +11,16 @@ const MIN_DISTANCE = 16;   // No cooldown below this
 const MAX_DISTANCE = 192;  // Max cooldown at 12 chunks
 const MAX_COOLDOWN = 15;   // Max cooldown in seconds
 const MIN_TELEPORT_DISTANCE = 5; // Too close to allow teleporting
+const POWER_CONTROL_ITEM_NAME = 'r4isen1920_originspe:origins_power.throw_ender_pearl';
 
-toAllPlayers(throw_ender_pearl, 2)
+usepower.subscribe(POWER_CONTROL_ITEM_NAME, throw_ender_pearl);
 
 /**
  * Handles teleportation ability triggered by double right-click.
  * @param {import('@minecraft/server').Player} player 
  */
-function throw_ender_pearl(player) {
+function throw_ender_pearl({ player }) {
+
   if (
     !player.hasTag('power_throw_ender_pearl') ||
     !player.hasTag('_control_use_throw_ender_pearl')

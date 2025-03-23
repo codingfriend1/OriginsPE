@@ -180,19 +180,21 @@ function onCloseGUI(player) {
  * 
  * @param { import('@minecraft/server').Player } player 
  */
-export function setupMenuItem(player, CONTROLS) {
+export function setupMenuItem(player) {
 
   const platform = player.clientSystemInfo.platformType;
 
   const inventory = player.getComponent('inventory').container;
 
-  if(CONTROLS?.length >= 2) {
+  const controlTags = getControlTags(player);
+
+  if(controlTags.length >= 2) {
     /**
      * @type { import('@minecraft/server').Container }
      */
     if (inventory.getItem(8)?.typeId !== 'r4isen1920_originspe:origins_menu') {
 
-    const originsMenuItem = new ItemStack('r4isen1920_originspe:origins_menu');
+      const originsMenuItem = new ItemStack('r4isen1920_originspe:origins_menu');
       originsMenuItem.lockMode = ItemLockMode.slot;
       originsMenuItem.keepOnDeath = true;
       inventory.setItem(8, originsMenuItem);
@@ -204,7 +206,7 @@ export function setupMenuItem(player, CONTROLS) {
     inventory.setItem(8, origins_submenu);
 
     // 📱 Hotbar-based activation for mobile with one power
-    const controlTags = getControlTags(player);
+    
     const tag = controlTags && controlTags[0];
 
     if (!tag) return;

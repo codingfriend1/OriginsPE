@@ -1,15 +1,19 @@
 
 import { LocationOutOfWorldBoundariesError, TicksPerSecond, world } from "@minecraft/server";
-
-import { toAllPlayers } from "../../../origins/player";
 import { ResourceBar } from "../../../origins/resource_bar";
 import { Vector3 } from "../../../utils/Vec3";
+import { usepower } from "../../../utils/PubSub";
+
+
+const POWER_CONTROL_ITEM_NAME = 'r4isen1920_originspe:origins_power.launch_into_air';
+
+usepower.subscribe(POWER_CONTROL_ITEM_NAME, launch_into_air);
 
 /**
  * 
  * @param { import('@minecraft/server').Player } player 
  */
-function launch_into_air(player) {
+function launch_into_air({ player }) {
   if (
     !player.hasTag('power_launch_into_air') ||
     !player.hasTag('_control_use_launch_into_air')
@@ -42,5 +46,3 @@ function launch_into_air(player) {
   player.removeTag('_control_use_launch_into_air');
 
 }
-
-toAllPlayers(launch_into_air, 2)

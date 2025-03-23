@@ -3,12 +3,17 @@ import { world } from "@minecraft/server";
 
 import { toAllPlayers } from "../../../origins/player";
 import { ResourceBar } from "../../../origins/resource_bar";
+import { usepower } from "../../../utils/PubSub";
+
+const POWER_CONTROL_ITEM_NAME = 'r4isen1920_originspe:origins_power.phantomize';
+
+usepower.subscribe(POWER_CONTROL_ITEM_NAME, phantomize);
 
 /**
  * 
  * @param { import('@minecraft/server').Player } player 
  */
-function phantomize(player) {
+function phantomize({ player }) {
   if (!player.hasTag('power_phantomize')) return;
 
   if (player.hasTag('_control_use_phantomize')) {
@@ -29,9 +34,12 @@ function phantomize(player) {
     return;
   }
 
-  const cooldown = new ResourceBar(5, 100, 0, 2)
+}
 
+function checkMovement(player) {
   if (player.hasTag('_phantomized')) {
+
+    const cooldown = new ResourceBar(5, 100, 0, 2)
 
     const isPlayerMoving = player.getVelocity().x !== 0 || player.getVelocity().y !== 0 || player.getVelocity().z !== 0;
 
@@ -62,10 +70,11 @@ function phantomize(player) {
     }
 
   }
-
 }
 
-toAllPlayers(phantomize, 2)
+toAllPlayers(checkMovement, 2);
+
+
 
 /**
  * 

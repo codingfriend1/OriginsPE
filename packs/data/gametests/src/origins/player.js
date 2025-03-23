@@ -4,6 +4,7 @@ import { world, system } from "@minecraft/server";
 import { openScreenPickerGUI, setupMenuItem } from "./gui.js";
 import { removeTags } from "../utils/tags.js";
 import { ResourceBar } from "./resource_bar.js";
+import { getControlTags } from "./controls";
 
 /**
  * 
@@ -191,7 +192,9 @@ export async function initModules(player) {
   loadPlayerEffects(player, 'skin', EFFECTS.skin);
   loadPlayerEffects(player, 'emitter', EFFECTS.emitter);
 
-  setupMenuItem(player, CONTROLS);
+  console.log(`player.js CONTROLS`, CONTROLS);
+
+  setupMenuItem(player);
 }
 
 
@@ -260,6 +263,23 @@ export function resetPlayerAttributes(player) {
 
   player.clearDynamicProperties();
 
+  resetPlayerPowerControls(player)
+}
+
+export function resetPlayerPowerControls(player) {
+  const controlTags = getControlTags(player);
+  const tag = controlTags && controlTags[0];
+
+  if (tag) {
+    const expectedItemName = `r4isen1920_originspe:origins_power.${tag.replace("control_", "").replace("-hold", "")}`;
+    const inventory = player.getComponent('inventory').container;
+
+    const slot0 = inventory.getItem(0);
+    if (slot0?.typeId === expectedItemName) {
+      // Clear the item if it matches
+      inventory.setItem(0, undefined);
+    }
+  }
 }
 
 /**

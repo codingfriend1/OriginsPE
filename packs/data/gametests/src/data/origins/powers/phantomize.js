@@ -14,66 +14,65 @@ usepower.subscribe(POWER_CONTROL_ITEM_NAME, phantomize);
  * @param { import('@minecraft/server').Player } player 
  */
 function phantomize({ player }) {
-  if (!player.hasTag('power_phantomize')) return;
+  if (player.hasTag('power_phantomize') && player.hasTag('_control_use_phantomize') && !player.hasTag('_phantomized')) {
 
-  if (player.hasTag('_control_use_phantomize')) {
+    enterPhantomizedForm(player);
 
-    switch (true) {
-
-      case !player.hasTag('_phantomized'):
-        enterPhantomizedForm(player);
-        break;
-
-      case player.hasTag('_phantomized'):
-        exitPhantomizedForm(player);
-        break;
-
-      default:
-        break;
-    }
-    return;
   }
-
 }
 
 function checkMovement(player) {
-  if (player.hasTag('_phantomized')) {
+  if (!player.hasTag('_phantomized')) return;
 
-    const cooldown = new ResourceBar(5, 100, 0, 2)
+  // Get and store position as a string
+  const currentPos = player.location;
+  const lastPosStr = player.getDynamicProperty('r4isen1920_originspe:last_pos');
+  const lastPos = lastPosStr ? lastPosStr.split(',').map(Number) : null;
 
-    const isPlayerMoving = player.getVelocity().x !== 0 || player.getVelocity().y !== 0 || player.getVelocity().z !== 0;
+  const cooldown = new ResourceBar(5, 100, 0, 2); // 2 seconds countdown
 
-    if (isPlayerMoving) {
+  const isPlayerMoving = !lastPos || (
+    currentPos.x !== lastPos[0] ||
+    currentPos.y !== lastPos[1] ||
+    currentPos.z !== lastPos[2]
+  );
 
-      player.setDynamicProperty('r4isen1920_originspe:move_ticks', 0)
+  // Save current location for next tick
+  player.setDynamicProperty(
+    'r4isen1920_originspe:last_pos',
+    `${currentPos.x},${currentPos.y},${currentPos.z}`
+  );
 
-      cooldown.pop(player);
+  if (isPlayerMoving) {
+    // Player is moving: reset state
+    player.setDynamicProperty('r4isen1920_originspe:move_ticks', 0);
+    cooldown.pop(player);
+    player.removeTag('_phantomized_stopped_moving');
+    return;
+  }
 
-      player.removeTag('_phantomized_stopped_moving');
+  // Player is not moving — count how long they've been still
+  const ticks = Math.min(
+    (player.getDynamicProperty('r4isen1920_originspe:move_ticks') || 0) + 1,
+    40 // 2 seconds at 20 TPS
+  );
+  player.setDynamicProperty('r4isen1920_originspe:move_ticks', ticks);
 
-    } else {
+  if (ticks >= 5 && !player.hasTag('_phantomized_stopped_moving')) {
+    // After 5 ticks (0.25s) show resource bar (not instant)
+    cooldown.push(player);
+    player.addTag('_phantomized_stopped_moving');
+  }
 
-      player.setDynamicProperty(
-        'r4isen1920_originspe:move_ticks',
-        Math.min((player.getDynamicProperty('r4isen1920_originspe:move_ticks') || 0) + 1, 20)
-      )
-      const move_ticks = player.getDynamicProperty('r4isen1920_originspe:move_ticks') || 0;
-
-      if (!player.hasTag('_phantomized_stopped_moving')) {
-        cooldown.push(player);
-        player.addTag('_phantomized_stopped_moving');
-      }
-
-      if (move_ticks >= 20) {
-        exitPhantomizedForm(player);
-      }
-    }
-
+  if (ticks >= 20) {
+    // Player stayed still for 2 seconds, end form
+    cooldown.pop(player);
+    exitPhantomizedForm(player);
   }
 }
 
-toAllPlayers(checkMovement, 2);
 
+toAllPlayers(checkMovement, 2);
 
 
 /**

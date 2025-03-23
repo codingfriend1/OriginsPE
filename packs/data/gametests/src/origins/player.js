@@ -192,8 +192,6 @@ export async function initModules(player) {
   loadPlayerEffects(player, 'skin', EFFECTS.skin);
   loadPlayerEffects(player, 'emitter', EFFECTS.emitter);
 
-  console.log(`player.js CONTROLS`, CONTROLS);
-
   setupMenuItem(player);
 }
 

@@ -2,6 +2,39 @@ import { Direction, world, system, ItemLockMode, ItemStack, TicksPerSecond } fro
 import { ResourceBar } from "../../../origins/resource_bar";
 import { usepower } from "../../../utils/PubSub";
 
+let isCurrentlyRaining = false; // global state you can check elsewhere
+
+world.afterEvents.weatherChange.subscribe(event => {
+  const { dimension, newWeather } = event;
+
+  if (dimension !== "overworld") return;
+
+  switch (newWeather) {
+    case "Clear":
+      isCurrentlyRaining = false;
+      console.warn("☀ Weather changed: Clear");
+      break;
+    case "Rain":
+      isCurrentlyRaining = true;
+      console.warn("🌧 Weather changed: Rain");
+      break;
+    case "Thunderstorm":
+      isCurrentlyRaining = true;
+      console.warn("⛈ Weather changed: Thunderstorm");
+      break;
+  }
+
+  // Optionally apply/remove tags to all players
+  world.getAllPlayers().forEach(player => {
+    if(player.dimension.id === 'minecraft:overworld') {
+      if (isCurrentlyRaining) {
+        player.addTag("rain_exposed"); // you'll still want to check for sky cover in your own code
+      } else {
+        player.removeTag("rain_exposed");
+      }
+    }
+  });
+});
 
 const blocksPerChunk = 16;
 const safeMaxRenderChunks = 11.5;
@@ -25,6 +58,11 @@ function throw_ender_pearl({ player }) {
     !player.hasTag('power_throw_ender_pearl') ||
     !player.hasTag('_control_use_throw_ender_pearl')
   ) return;
+
+  if (player.hasTag('rain_exposed')) {
+    player.sendMessage("§cYou can't teleport while its raining in the overworld!");
+    return;
+  }
 
   const playerMaxRenderChunks = player.clientSystemInfo.maxRenderDistance;
   const maxRenderDistance = Math.min(playerMaxRenderChunks, safeMaxRenderChunks) * blocksPerChunk;
@@ -50,7 +88,7 @@ function throw_ender_pearl({ player }) {
 
   // 🧱 Ensure space is clear (feet + head)
   if (!isSpaceClearForTeleport(targetLocation, targetBlock.block.dimension)) {
-    player.runCommandAsync(`say No room to teleport there!`);
+    player.sendMessage("origins.trait.throw_ender_pearl.failed"); // requires .lang entry
     cancelTeleport(player);
     return;
   }

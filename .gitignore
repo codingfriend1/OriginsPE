@@ -2,6 +2,7 @@
 /publish
 /.regolith
 deploy_originspe.sh
+build.sh
 
 /.vscode
 node_modules/
@@ -12,4 +13,8 @@ node_modules/
 *.aseprj
 *.mcworld
 *.mcpack
+<<<<<<< HEAD
 **/*.DS_Store
+=======
+*.DS_Store
+>>>>>>> fix-durability-and-recipes

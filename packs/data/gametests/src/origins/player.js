@@ -212,7 +212,7 @@ export async function initModules(player) {
   loadPlayerEffects(player, 'emitter', EFFECTS.emitter);
 
   setupMenuItem(player);
-
+  
   player.triggerEvent('r4isen1920_originspe:setupMenuItem');
   setup.publish('r4isen1920_originspe:setupMenuItem');
 }

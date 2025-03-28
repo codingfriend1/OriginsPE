@@ -28,8 +28,7 @@
       },
       "minecraft:use_animation": {
         "value": "eat"
-      },
-      "minecraft:render_offsets": "apple"
+      }
     }
   }
 }

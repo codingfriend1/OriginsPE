@@ -619,15 +619,119 @@
 
       "minecraft:damage_sensor": {
         "triggers": [
+
           {
+            "cause": "fall",
             "on_damage": {
-              "all_of": [
-                { "test": "has_tag", "value": "power_debilitating_strikes" },
-                { "test": "is_family", "subject": "other", "value": "mob" }
-              ],
-              "event": "r4isen1920_originspe:apply_slow_to_target"
-            }
+              "filters": {
+                "all_of": [
+                  { "test": "has_tag", "value": "power_lightweight" }
+                ]
+              }
+            },
+            "deals_damage": true,
+            "damage_multiplier": 0.50
           },
+          {
+            "cause": "fall",
+            "on_damage": {
+              "filters": {
+                "any_of": [
+                  { "test": "has_tag", "value": "power_strong_ankles" },
+                  { "test": "has_tag", "value": "power_smash" },
+                  { "test": "has_tag", "value": "power_fall_immunity" },
+                  { "test": "has_tag", "value": "power_cosmic_gift" },
+                  { "test": "has_tag", "value": "power_nimble" }
+
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+
+          {
+            "cause": "all",
+            "on_damage": {
+              "filters": {
+                "any_of": [
+
+                  {
+                    "all_of": [
+                      { "test": "has_tag", "value": "power_spiritual_body" },
+                      {
+                        "any_of": [
+                          { "test": "has_damage", "value": "attack" },
+                          { "test": "has_damage", "value": "contact" },
+                          { "test": "has_damage", "value": "falling_block" },
+                          { "test": "has_damage", "value": "projectile" },
+                          { "test": "has_damage", "value": "suffocation" },
+                          { "test": "has_damage", "value": "stalactite" },
+                          { "test": "has_damage", "value": "stalagmite" }
+                        ]
+                      }
+                    ]
+                  },
+
+                  {
+                    "all_of": [
+                      { "test": "has_tag", "value": "power_berry_craver" },
+                      {
+                        "test": "is_block",
+                        "subject": "block",
+                        "value": "minecraft:sweet_berry_bush"
+                      }
+                    ]
+                  },
+
+                  {
+                    "all_of": [
+                      { "test": "has_tag", "value": "_umbrail_veil_in" },
+                      { "test": "has_damage", "value": "projectile" }
+                    ]
+                  }
+
+                ]
+              }
+            },
+            "deals_damage": false
+          },
+
+          {
+            "cause": "projectile",
+            "on_damage": {
+              "filters": {
+                "test": "has_tag", "value": "power_unbreakable_skin"
+              }
+            },
+            "deals_damage": true,
+            "damage_multiplier": 0.7
+          },
+
+          {
+            "cause": "entity_attack",
+            "on_damage": {
+              "filters": {
+                  "test": "has_tag", "value": "power_fragile"
+              }
+            },
+            "deals_damage": true,
+            "damage_multiplier": 1.2
+          },
+
+          {
+            "cause": "all",
+            "on_damage": {
+              "filters": {
+                "any_of": [
+                  { "test": "has_tag", "value": "power_natural_armor" },
+                  { "test": "has_tag", "value": "power_tough" }
+                ]
+              }
+            },
+            "deals_damage": true,
+            "damage_multiplier": 0.8
+          },
+
           {
             "cause": "all",
             "on_damage": {
@@ -641,64 +745,31 @@
             "deals_damage": true,
             "damage_multiplier": 0.90
           },
+
           {
             "cause": "all",
             "on_damage": {
               "filters": {
                 "any_of": [
-                  { "test": "has_tag", "value": "power_natural_armor" },
-                  { "test": "has_tag", "value": "power_tough" }
+                  { "test": "has_tag", "value": "power_lightweight" },
+                  { "test": "has_tag", "value": "power_permeable" }
+                ]
+              }
+            },
+            "deals_damage": true,
+            "damage_multiplier": 1.1
+          },
 
-                ]
-              }
-            },
-            "deals_damage": true,
-            "damage_multiplier": 0.80
-          },
           {
-            "cause": "all",
             "on_damage": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "value": "fragile" },
-                  {
-                    "any_of": [
-                      { "test": "is_family", "subject": "other", "value": "mob" },
-                      { "test": "is_family", "subject": "other", "value": "monster" },
-                      { "test": "is_family", "subject": "other", "value": "hostile" }
-                    ]
-                  }
-                ]
-              }
-            },
-            "deals_damage": true,
-            "damage_multiplier": 1.2
+              "all_of": [
+                { "test": "has_tag", "value": "power_debilitating_strikes" },
+                { "test": "is_family", "subject": "other", "value": "mob" }
+              ],
+              "event": "r4isen1920_originspe:apply_slow_to_target"
+            }
           },
-          {
-            "cause": "all",
-            "on_damage": {
-              "filters": {
-                "any_of": [
-                  { "test": "has_tag", "value": "power_lightweight" }
-
-                ]
-              }
-            },
-            "deals_damage": true,
-            "damage_multiplier": 1.10
-          },
-          {
-            "cause": "projectile",
-            "on_damage": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "value": "power_unbreakable_skin" }
-                ]
-              }
-            },
-            "deals_damage": true,
-            "damage_multiplier": 0.7
-          },
+          
           {
             "cause": "all",
             "on_damage": {
@@ -706,7 +777,6 @@
                 "any_of": [
                   { "test": "has_tag", "value": "_master_of_webs_0" },
                   { "test": "has_tag", "value": "_climbing" }
-
                 ]
               }
             },
@@ -775,96 +845,22 @@
             "deals_damage": true,
             "damage_multiplier": 2
           },
-          {
-            "cause": "all",
-            "on_damage": {
-              "filters": {
-                "any_of": [
-                  { "test": "has_tag", "value": "power_permeable" }
 
-                ]
-              }
-            },
-            "deals_damage": true,
-            "damage_multiplier": 1.1
-          },
+          
 
-          {
-            "cause": "all",
-            "on_damage": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "value": "power_lightweight" },
-                  { "test": "has_damage", "value": "fall" }
-                ]
-              }
-            },
-            "deals_damage": true,
-            "damage_multiplier": 0.50
-          },
+          
 
-          {
-            "cause": "all",
-            "on_damage": {
-              "filters": {
-                "any_of": [
 
-                  {
-                    "all_of": [
-                      {
-                        "any_of": [
-                          { "test": "has_tag", "value": "power_strong_ankles" },
-                          { "test": "has_tag", "value": "power_smash" },
-                          { "test": "has_tag", "value": "power_fall_immunity" },
-                          { "test": "has_tag", "value": "power_cosmic_gift" },
-                          { "test": "has_tag", "value": "power_nimble" }
 
-                        ]
-                      },
-                      { "test": "has_damage", "value": "fall" }
-                    ]
-                  },
 
-                  {
-                    "all_of": [
-                      { "test": "has_tag", "value": "power_spiritual_body" },
-                      {
-                        "any_of": [
-                          { "test": "has_damage", "value": "attack" },
-                          { "test": "has_damage", "value": "contact" },
-                          { "test": "has_damage", "value": "falling_block" },
-                          { "test": "has_damage", "value": "projectile" },
-                          { "test": "has_damage", "value": "suffocation" },
-                          { "test": "has_damage", "value": "stalactite" },
-                          { "test": "has_damage", "value": "stalagmite" }
-                        ]
-                      }
-                    ]
-                  },
 
-                  {
-                    "all_of": [
-                      { "test": "has_tag", "value": "power_berry_craver" },
-                      {
-                        "test": "is_block",
-                        "subject": "block",
-                        "value": "minecraft:sweet_berry_bush"
-                      }
-                    ]
-                  },
 
-                  {
-                    "all_of": [
-                      { "test": "has_tag", "value": "_umbrail_veil_in" },
-                      { "test": "has_damage", "value": "projectile" }
-                    ]
-                  }
 
-                ]
-              }
-            },
-            "deals_damage": false
-          },
+
+
+
+
+
 
           { "cause": "all", "on_damage": { "filters": { "all_of": [ { "test": "has_tag", "value": "_dmg_reduce_value_0" } ] } }, "deals_damage": true, "damage_multiplier": 1.00 },
           { "cause": "all", "on_damage": { "filters": { "all_of": [ { "test": "has_tag", "value": "_dmg_reduce_value_1" } ] } }, "deals_damage": true, "damage_multiplier": 0.99 },
@@ -1299,9 +1295,6 @@
             },
             "add": {
               "component_groups": ["r4isen1920_originspe:power_tough"]
-            },
-            "remove": {
-              "component_groups": ["r4isen1920_originspe:health.20"]
             }
           },
           {
@@ -1312,9 +1305,6 @@
             },
             "remove": {
               "component_groups": ["r4isen1920_originspe:power_tough"]
-            },
-            "add": {
-              "component_groups": ["r4isen1920_originspe:health.20"]
             }
           },
           {
@@ -1324,19 +1314,37 @@
             },
             "add": {
               "component_groups": ["r4isen1920_originspe:power_longevity"]
-            },
-            "remove": {
-              "component_groups": ["r4isen1920_originspe:health.20"]
             }
           },
           {
             "filters": {
-              "test": "has_tag",
-              "operator": "not",
-              "value": "power_longevity"
+              "all_of": [{
+                  "test": "has_tag",
+                  "operator": "not",
+                  "value": "power_longevity"
+                }, {
+                  "test": "has_tag",
+                  "operator": "not",
+                  "value": "power_tough"
+                }
+              ]
             },
             "remove": {
               "component_groups": ["r4isen1920_originspe:power_longevity"]
+            }
+          },
+          {
+            "filters": {
+              "all_of": [{
+                  "test": "has_tag",
+                  "operator": "not",
+                  "value": "power_longevity"
+                }, {
+                  "test": "has_tag",
+                  "operator": "not",
+                  "value": "power_tough"
+                }
+              ]
             },
             "add": {
               "component_groups": ["r4isen1920_originspe:health.20"]

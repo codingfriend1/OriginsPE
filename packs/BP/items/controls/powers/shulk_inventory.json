@@ -29,8 +29,7 @@
       },
       "minecraft:use_animation": {
         "value": "bow"
-      },
-      "minecraft:render_offsets": "default"
+      }
     }
   }
 }

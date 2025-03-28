@@ -11,7 +11,7 @@ const COOLDOWN_TAG = "smash_cooldown";
 const LEAP_POWER = 25
 
 usepower.subscribe(POWER_CONTROL_ITEM_NAME, function({ player }) {
-  if (player.hasTag("power_smash")) {
+  if (player.hasTag("power_smash") && !player.hasTag("airborne")) {
     player.addTag("airborne");
 
     const dir = player.getViewDirection();
@@ -19,7 +19,7 @@ usepower.subscribe(POWER_CONTROL_ITEM_NAME, function({ player }) {
     const vertical = (LEAP_POWER / 4) * Math.min(Math.max(dir.y + 0.25, 0), 0.75) * 0.5;
 
     player.applyKnockback(dir.x, dir.z, horizontal, vertical);
-    world.playSound("firework.launch", player.location);
+    world.playSound("component.jump_to_block", player.location);
   }
 });
 
@@ -40,10 +40,7 @@ function checkHasLanded(player) {
     });
 
     player.dimension.spawnParticle('r4isen1920_originspe:air_burst', Vector3.add(player.location, new Vector3(0, 0.5, 0)));
-
-    player.playSound('random.explode', { volume: 0.5, pitch: 1.75 })
-    player.playSound('mob.irongolem.hit', { volume: 0.5, pitch: 1.75 })
-    
+    player.playSound('cauldron.explode', { volume: 1, pitch: 1 })    
   }
 }
 

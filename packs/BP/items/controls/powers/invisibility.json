@@ -29,8 +29,7 @@
       },
       "minecraft:use_animation": {
         "value": "drink"
-      },
-      "minecraft:render_offsets": "apple"
+      }
     }
   }
 }

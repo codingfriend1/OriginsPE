@@ -1,3 +1,3 @@
 function tough(player) {
-  return
+  return true;
 }

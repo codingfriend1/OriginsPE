@@ -1,5 +1,5 @@
 
-import { world, system } from "@minecraft/server";
+import { world, system, EquipmentSlot } from "@minecraft/server";
 
 import { openScreenPickerGUI, setupMenuItem } from "./gui.js";
 import { removeTags } from "../utils/tags.js";
@@ -283,7 +283,22 @@ export function resetPlayerAttributes(player) {
 
   player.clearDynamicProperties();
 
+  removeElytra(player);
+
   resetPlayerPowerControls(player)
+}
+
+export function removeElytra(player) {
+  const equippable = player.getComponent('equippable');
+  if (!equippable) return;
+
+  const chestItem = equippable.getEquipment(EquipmentSlot.Chest);
+  if (!chestItem) return;
+
+  const lore = chestItem.getLore();
+  if (Array.isArray(lore) && lore.includes('§r§6Elytrian§r')) {
+    equippable.setEquipment(EquipmentSlot.Chest, undefined);
+  }
 }
 
 export function resetPlayerPowerControls(player) {

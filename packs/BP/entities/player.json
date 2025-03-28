@@ -642,11 +642,14 @@
                   { "test": "has_tag", "value": "power_fall_immunity" },
                   { "test": "has_tag", "value": "power_cosmic_gift" },
                   { "test": "has_tag", "value": "power_nimble" }
-
                 ]
               }
             },
             "deals_damage": false
+          },
+          {
+            "cause": "fall",
+            "deals_damage": true
           },
 
           {

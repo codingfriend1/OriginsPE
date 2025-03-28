@@ -10,9 +10,9 @@
           {
             "name": "<",
             "commands": [
-              "/execute as @initiator if score \"ban_diviner\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_race_pickban_diviner",
-              "/execute as @initiator unless score \"ban_diviner\" index matches 1 if score \"c_diviner\" index matches 1.. run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_race_picklock_diviner",
-              "/execute as @initiator unless score \"ban_diviner\" index matches 1 unless score \"c_diviner\" index matches 1.. run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_race_pick_diviner"
+              "/execute as @initiator if score \"ban_rogue\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_race_pickban_rogue",
+              "/execute as @initiator unless score \"ban_rogue\" index matches 1 if score \"c_rogue\" index matches 1.. run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_race_picklock_rogue",
+              "/execute as @initiator unless score \"ban_rogue\" index matches 1 unless score \"c_rogue\" index matches 1.. run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_race_pick_rogue"
             ]
           },
           {

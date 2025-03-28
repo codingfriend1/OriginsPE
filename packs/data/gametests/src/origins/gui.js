@@ -6,6 +6,7 @@ import { removeTags } from "../utils/tags";
 import { toAllPlayers } from "./player";
 import { _SCOREBOARD } from "./resource_bar";
 import { getControlTags } from "./controls"
+import { setup } from "../utils/PubSub"
 
 
 /**
@@ -224,6 +225,8 @@ export function setupMenuItem(player) {
     }
   }
 
+  // player.triggerEvent('r4isen1920_originspe:setupMenuItem');
+  // setup.publish('r4isen1920_originspe:setupMenuItem');
 }
 
 toAllPlayers(setupMenuItem, TicksPerSecond * 2, TicksPerSecond * 10);

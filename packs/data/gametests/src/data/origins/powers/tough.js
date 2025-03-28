@@ -1,0 +1,3 @@
+function tough(player) {
+  return
+}

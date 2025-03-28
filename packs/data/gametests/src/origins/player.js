@@ -5,6 +5,7 @@ import { openScreenPickerGUI, setupMenuItem } from "./gui.js";
 import { removeTags } from "../utils/tags.js";
 import { ResourceBar } from "./resource_bar.js";
 import { getControlTags } from "./controls";
+import { setup } from "../utils/PubSub";
 
 /**
  * 
@@ -30,6 +31,14 @@ const ORIGINS = [
   'elf',
   'voidwalker',
   'diviner',
+
+
+  // Codingfriend1
+  'scout',
+  'attacker',
+  'defender',
+  'supporter',
+  'rogue',
 ]
 
 /**
@@ -52,6 +61,16 @@ const CLASSES = [
   'rogue',
   'warrior',
 ]
+
+// const keepOnDeathTypeIdExceptions = [
+//   'r4isen1920_originspe:origins_menu',
+//   'r4isen1920_originspe:origins_submenu',
+//   'r4isen1920_originspe:origins_power'
+// ]
+
+// const keepOnDeathLoreExceptions = [
+//   '§r§6Elytrian§r'
+// ]
 
 /**
  * 
@@ -193,6 +212,9 @@ export async function initModules(player) {
   loadPlayerEffects(player, 'emitter', EFFECTS.emitter);
 
   setupMenuItem(player);
+
+  player.triggerEvent('r4isen1920_originspe:setupMenuItem');
+  setup.publish('r4isen1920_originspe:setupMenuItem');
 }
 
 
@@ -346,3 +368,5 @@ system.afterEvents.scriptEventReceive.subscribe(event => {
   }
 
 }, { namespaces: [ 'r4isen1920_originspe' ] })
+
+

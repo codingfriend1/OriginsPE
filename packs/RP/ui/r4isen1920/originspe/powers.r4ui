@@ -36,7 +36,12 @@
             { "starborne@origin_common.text_label": { "text": "origins.race.starborne.name", "color": "$7_color_format" } },
             { "elf@origin_common.text_label": { "text": "origins.race.elf.name", "color": "$7_color_format" } },
             { "voidwalker@origin_common.text_label": { "text": "origins.race.voidwalker.name", "color": "$7_color_format" } },
-            { "diviner@origin_common.text_label": { "text": "origins.race.diviner.name", "color": "$7_color_format" } }
+            { "diviner@origin_common.text_label": { "text": "origins.race.diviner.name", "color": "$7_color_format" } },
+            { "scout@origin_common.text_label": { "text": "origins.race.scout.name", "color": "$7_color_format" } },
+            { "attacker@origin_common.text_label": { "text": "origins.race.attacker.name", "color": "$7_color_format" } },
+            { "defender@origin_common.text_label": { "text": "origins.race.defender.name", "color": "$7_color_format" } },
+            { "supporter@origin_common.text_label": { "text": "origins.race.supporter.name", "color": "$7_color_format" } },
+            { "rogue@origin_common.text_label": { "text": "origins.race.rogue.name", "color": "$7_color_format" } }
           ]
         }
       },
@@ -776,6 +781,246 @@
         "instability@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.instability.name",
           "$power_description": "origins.trait.instability.description"
+        }
+      }
+    ]
+  },
+
+  "scout": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    
+    "controls": [
+      {
+        "launch_into_air@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.launch_into_air.name",
+          "$power_description": "origins.trait.launch_into_air.description",
+          "$power_icon_index": "launch_into_air"
+        }
+      },
+      {
+        "elytra@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.elytra.name",
+          "$power_description": "origins.trait.elytra.description"
+        }
+      },
+      {
+        "lightweight@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.lightweight.name",
+          "$power_description": "origins.trait.lightweight.description"
+        }
+      },
+      {
+        "swift@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.swift.name",
+          "$power_description": "origins.trait.swift.description"
+        }
+      },
+      {
+        "essentials@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.essentials.name",
+          "$power_description": "origins.trait.essentials.description",
+          "$power_icon_index": "essentials"
+        }
+      }
+    ]
+  },
+  "attacker": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    
+    "controls": [
+      {
+        "throw_ender_pearl@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.throw_ender_pearl.name",
+          "$power_description": "origins.trait.throw_ender_pearl.description",
+          "$power_icon_index": "throw_ender_pearl"
+        }
+      },
+      {
+        "endless_quiver@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.endless_quiver.name",
+          "$power_description": "origins.trait.endless_quiver.description",
+          "$power_icon_index": "spacious_quiver"
+        }
+      },
+      {
+        "imbue@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.imbue.name",
+          "$power_description": "origins.trait.imbue.description"
+        }
+      },
+      {
+        "ferocious@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.ferocious.name",
+          "$power_description": "origins.trait.ferocious.description"
+        }
+      },
+      {
+        "fragile@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.fragile.name",
+          "$power_description": "origins.trait.fragile.description"
+        }
+      }
+    ]
+  },
+  "defender": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    
+    "controls": [
+      {
+        "smash@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.smash.name",
+          "$power_description": "origins.trait.smash.description",
+          "$power_icon_index": "smash"
+        }
+      },
+      {
+        "tough@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.tough.name",
+          "$power_description": "origins.trait.tough.description",
+          "$power_icon_index": "tough"
+        }
+      },
+      {
+        "unbreakable_skin@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.unbreakable_skin.name",
+          "$power_description": "origins.trait.unbreakable_skin.description",
+          "$power_icon_index": "unbreakable_skin"
+        }
+      },
+      {
+        "heavy@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.heavy.name",
+          "$power_description": "origins.trait.heavy.description",
+          "$power_icon_index": "heavy"
+        }
+      },
+      {
+        "sprint_jump@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.sprint_jump.name",
+          "$power_description": "origins.trait.sprint_jump.description",
+          "$power_icon_index": "sprint_jump"
+        }
+      }
+    ]
+  },
+  "supporter": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    
+    "controls": [
+      {
+        "empowering_aura@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.empowering_aura.name",
+          "$power_description": "origins.trait.empowering_aura.description",
+          "$power_icon_index": "stress"
+        }
+      },
+      {
+        "longevity@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.longevity.name",
+          "$power_description": "origins.trait.longevity.description",
+          "$power_icon_index": "longevity"
+        }
+      },
+      {
+        "swift@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.swift.name",
+          "$power_description": "origins.trait.swift.description",
+          "$power_icon_index": "swift"
+        }
+      },
+      {
+        "good_memory@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.good_memory.name",
+          "$power_description": "origins.trait.good_memory.description",
+          "$power_icon_index": "good_memory"
+        }
+      },
+      {
+        "hunger_resistant@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.hunger_resistant.name",
+          "$power_description": "origins.trait.hunger_resistant.description",
+          "$power_icon_index": "hunger_resistant"
+        }
+      },
+      {
+        "hunger_aura@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.hunger_aura.name",
+          "$power_description": "origins.trait.hunger_aura.description",
+          "$power_icon_index": "hunger_aura"
+        }
+      }
+    ]
+  },
+  "rogue": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    
+    "controls": [
+      {
+        "invisibility@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.invisibility.name",
+          "$power_description": "origins.trait.invisibility.description",
+          "$power_icon_index": "invisibility"
+        }
+      },
+      {
+        "imbue@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.imbue.name",
+          "$power_description": "origins.trait.imbue.description",
+          "$power_icon_index": "imbue"
+        }
+      },
+      {
+        "camouflage@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.camouflage.name",
+          "$power_description": "origins.trait.camouflage.description",
+          "$power_icon_index": "camouflage"
+        }
+      },
+      {
+        "sneaky@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.sneaky.name",
+          "$power_description": "origins.trait.sneaky.description",
+          "$power_icon_index": "sneaky"
+        }
+      },
+      {
+        "smaller@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.smaller.name",
+          "$power_description": "origins.trait.smaller.description",
+          "$power_icon_index": "smaller"
+        }
+      },
+      {
+        "light_armor@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.light_armor.name",
+          "$power_description": "origins.trait.light_armor.description",
+          "$power_icon_index": "light_armor"
+        }
+      },
+      {
+        "night_vision@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.night_vision.name",
+          "$power_description": "origins.trait.night_vision.description",
+          "$power_icon_index": "night_vision"
+        }
+      },
+      {
+        "debilitating_strikes@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.debilitating_strikes.name",
+          "$power_description": "origins.trait.debilitating_strikes.description",
+          "$power_icon_index": "debilitating_strikes"
+        }
+      },
+      {
+        "light_armor@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.light_armor.name",
+          "$power_description": "origins.trait.light_armor.description",
+          "$power_icon_index": "light_armor"
         }
       }
     ]

@@ -226,6 +226,15 @@
               "/execute if score \"ban_piglin\" index matches 0..1 run tag @s add indexed", "/execute as @s[tag=!indexed] run scoreboard players set \"ban_piglin\" index 0", "/tag @s remove indexed",
               "/execute if score \"ban_starborne\" index matches 0..1 run tag @s add indexed", "/execute as @s[tag=!indexed] run scoreboard players set \"ban_starborne\" index 0", "/tag @s remove indexed",
 
+
+              "/execute if score \"ban_scout\" index matches 0..1 run tag @s add indexed", "/execute as @s[tag=!indexed] run scoreboard players set \"ban_scout\" index 0", "/tag @s remove indexed",
+              "/execute if score \"ban_attacker\" index matches 0..1 run tag @s add indexed", "/execute as @s[tag=!indexed] run scoreboard players set \"ban_attacker\" index 0", "/tag @s remove indexed",
+              "/execute if score \"ban_defender\" index matches 0..1 run tag @s add indexed", "/execute as @s[tag=!indexed] run scoreboard players set \"ban_defender\" index 0", "/tag @s remove indexed",
+              "/execute if score \"ban_supporter\" index matches 0..1 run tag @s add indexed", "/execute as @s[tag=!indexed] run scoreboard players set \"ban_supporter\" index 0", "/tag @s remove indexed",
+              "/execute if score \"ban_rogue\" index matches 0..1 run tag @s add indexed", "/execute as @s[tag=!indexed] run scoreboard players set \"ban_rogue\" index 0", "/tag @s remove indexed",
+
+
+
               "/execute as @initiator if score \"ban_human\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_race_banned_human",
               "/execute as @initiator unless score \"ban_human\" index matches 1 if score \"banr\" index matches 15.. run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_race_unbanned_limit_human",
               "/execute as @initiator unless score \"ban_human\" index matches 1 unless score \"banr\" index matches 15.. if score \"toggle_unique\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_race_unbanned_locked_human",

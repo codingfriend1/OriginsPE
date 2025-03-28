@@ -49,7 +49,10 @@
 						}
 					},
 					{
-						"filter": "jsonte"
+						"filter": "jsonte",
+						"settings": {
+					    "samplesPath": "/Users/jonpaulmiles/.regolith/cache/bedrock-samples-1.19.80.23-preview.zip"
+					  }
 					},
 					{
 						"filter": "packer",
@@ -90,7 +93,10 @@
 						}
 					},
 					{
-						"filter": "jsonte"
+						"filter": "jsonte",
+						"settings": {
+					    "samplesPath": "/Users/jonpaulmiles/.regolith/cache/bedrock-samples-1.19.80.23-preview.zip"
+					  }
 					}
 				]
 			},

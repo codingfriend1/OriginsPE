@@ -1,5 +1,5 @@
 {
-  "format_version": "1.18.20",
+  "format_version": "1.21.0",
   "minecraft:entity": {
     "description": {
       "identifier": "minecraft:player",
@@ -113,6 +113,73 @@
 
     "component_groups": {
 
+      "r4isen1920_originspe:power_heavy": {
+        "minecraft:exhaustion_values": {
+          "heal": 12,
+          "jump": 0.1,
+          "sprint_jump": 0.4,
+          "mine": 0.01,
+          "attack": 0.2,
+          "damage": 0.2,
+          "walk": 0.0,
+          "sprint": 0.2,
+          "swim": 0.02
+        },
+        "minecraft:movement": { "value": 0.09 }
+      },
+
+      "r4isen1920_originspe:power_tough": {
+        "minecraft:health": { "max": 28 }
+      },
+
+      "r4isen1920_originspe:power_longevity": {
+        "minecraft:health": { "max": 24 }
+      },
+
+      "r4isen1920_originspe:power_swift": {
+        "minecraft:movement": { "value": 0.14 }
+      },
+
+      "r4isen1920_originspe:power_hunger_resistant": {
+        "minecraft:exhaustion_values": {
+          "walk": 0.08,
+          "sprint": 0.12,
+          "jump": 0.08,
+          "sprint_jump": 0.14,
+          "mine": 0.01,
+          "attack": 0.1,
+          "damage": 0.1,
+          "heal": 6
+        }
+      },
+
+      "r4isen1920_originspe:power_smaller": {
+        "minecraft:scale": { "value": 0.75 }
+      },
+
+      "r4isen1920_originspe:slow_target": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "slowness",
+              "duration": 40,
+              "amplifier": 1,
+              "display_on_screen_animation": true
+            }
+          ]
+        }
+      },
+
+      "r4isen1920_originspe:ping_for_hunger_aura": {
+        "minecraft:timer": {
+          "time": 100,
+          "looping": true,
+          "time_down_event": {
+            "event": "determine_hunger_resistance"
+          }
+        }
+      },
+
       /* OriginsPE */
 
       "r4isen1920_originspe:movement.0.05": {
@@ -121,10 +188,12 @@
       "r4isen1920_originspe:movement.0.1": {
         "minecraft:movement": { "value": 0.1 }
       },
+      "r4isen1920_originspe:movement.0.13": {
+        "minecraft:movement": { "value": 0.13 }
+      },
       "r4isen1920_originspe:movement.0.15": {
         "minecraft:movement": { "value": 0.15 }
       },
-
 
       "r4isen1920_originspe:health.1": { "minecraft:health": { "max": 1 } },
       "r4isen1920_originspe:health.2": { "minecraft:health": { "max": 2 } },
@@ -544,10 +613,21 @@
 
     "components": {
 
+      "minecraft:health": { "max": 20 },
+
       /* OriginsPE */
 
       "minecraft:damage_sensor": {
         "triggers": [
+          {
+            "on_damage": {
+              "all_of": [
+                { "test": "has_tag", "value": "power_debilitating_strikes" },
+                { "test": "is_family", "subject": "other", "value": "mob" }
+              ],
+              "event": "r4isen1920_originspe:apply_slow_to_target"
+            }
+          },
           {
             "cause": "all",
             "on_damage": {
@@ -566,13 +646,58 @@
             "on_damage": {
               "filters": {
                 "any_of": [
-                  { "test": "has_tag", "value": "power_natural_armor" }
+                  { "test": "has_tag", "value": "power_natural_armor" },
+                  { "test": "has_tag", "value": "power_tough" }
 
                 ]
               }
             },
             "deals_damage": true,
             "damage_multiplier": 0.80
+          },
+          {
+            "cause": "all",
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  { "test": "has_tag", "value": "fragile" },
+                  {
+                    "any_of": [
+                      { "test": "is_family", "subject": "other", "value": "mob" },
+                      { "test": "is_family", "subject": "other", "value": "monster" },
+                      { "test": "is_family", "subject": "other", "value": "hostile" }
+                    ]
+                  }
+                ]
+              }
+            },
+            "deals_damage": true,
+            "damage_multiplier": 1.2
+          },
+          {
+            "cause": "all",
+            "on_damage": {
+              "filters": {
+                "any_of": [
+                  { "test": "has_tag", "value": "power_lightweight" }
+
+                ]
+              }
+            },
+            "deals_damage": true,
+            "damage_multiplier": 1.10
+          },
+          {
+            "cause": "projectile",
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  { "test": "has_tag", "value": "power_unbreakable_skin" }
+                ]
+              }
+            },
+            "deals_damage": true,
+            "damage_multiplier": 0.7
           },
           {
             "cause": "all",
@@ -668,6 +793,20 @@
             "cause": "all",
             "on_damage": {
               "filters": {
+                "all_of": [
+                  { "test": "has_tag", "value": "power_lightweight" },
+                  { "test": "has_damage", "value": "fall" }
+                ]
+              }
+            },
+            "deals_damage": true,
+            "damage_multiplier": 0.50
+          },
+
+          {
+            "cause": "all",
+            "on_damage": {
+              "filters": {
                 "any_of": [
 
                   {
@@ -675,6 +814,7 @@
                       {
                         "any_of": [
                           { "test": "has_tag", "value": "power_strong_ankles" },
+                          { "test": "has_tag", "value": "power_smash" },
                           { "test": "has_tag", "value": "power_fall_immunity" },
                           { "test": "has_tag", "value": "power_cosmic_gift" },
                           { "test": "has_tag", "value": "power_nimble" }
@@ -1121,9 +1261,278 @@
       "minecraft:conditional_bandwidth_optimization": {
       },
       "minecraft:block_climber": {}
+
     },
 
     "events": {
+
+      "r4isen1920_originspe:setupMenuItem": {
+        "sequence": [
+          {
+            "add": {
+              "component_groups": ["r4isen1920_originspe:ping_for_hunger_aura"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "value": "power_heavy"
+            },
+            "add": {
+              "component_groups": ["r4isen1920_originspe:power_heavy"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "operator": "not",
+              "value": "power_heavy"
+            },
+            "remove": {
+              "component_groups": ["r4isen1920_originspe:power_heavy"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "value": "power_tough"
+            },
+            "add": {
+              "component_groups": ["r4isen1920_originspe:power_tough"]
+            },
+            "remove": {
+              "component_groups": ["r4isen1920_originspe:health.20"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "operator": "not",
+              "value": "power_tough"
+            },
+            "remove": {
+              "component_groups": ["r4isen1920_originspe:power_tough"]
+            },
+            "add": {
+              "component_groups": ["r4isen1920_originspe:health.20"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "value": "power_longevity"
+            },
+            "add": {
+              "component_groups": ["r4isen1920_originspe:power_longevity"]
+            },
+            "remove": {
+              "component_groups": ["r4isen1920_originspe:health.20"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "operator": "not",
+              "value": "power_longevity"
+            },
+            "remove": {
+              "component_groups": ["r4isen1920_originspe:power_longevity"]
+            },
+            "add": {
+              "component_groups": ["r4isen1920_originspe:health.20"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "value": "power_swift"
+            },
+            "add": {
+              "component_groups": ["r4isen1920_originspe:power_swift"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "operator": "not",
+              "value": "power_swift"
+            },
+            "remove": {
+              "component_groups": ["r4isen1920_originspe:power_swift"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "value": "power_debilitating_strikes"
+            },
+            "add": {
+              "component_groups": ["r4isen1920_originspe:power_debilitating_strikes"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "operator": "not",
+              "value": "power_debilitating_strikes"
+            },
+            "remove": {
+              "component_groups": ["r4isen1920_originspe:power_debilitating_strikes"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "value": "power_lightweight"
+            },
+            "add": {
+              "component_groups": ["r4isen1920_originspe:power_lightweight"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "operator": "not",
+              "value": "power_lightweight"
+            },
+            "remove": {
+              "component_groups": ["r4isen1920_originspe:power_lightweight"]
+            }
+          }
+        ]
+      },
+
+
+      "determine_hunger_resistance": {
+        "sequence": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "target_distance",
+                  "operator": "<=",
+                  "value": 64,
+                  "subject": "other"
+                },
+                {
+                  "test": "has_tag",
+                  "value": "power_hunger_aura",
+                  "subject": "other"
+                },
+                {
+                  "test": "has_tag",
+                  "operator": "!=",
+                  "value": "power_hunger_aura",
+                  "subject": "self"
+                }
+              ]
+            },
+            "add": {
+              "tags": ["power_hunger_resistant"]
+            }
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "operator": "!=",
+                  "value": "power_hunger_aura",
+                  "subject": "self"
+                },
+                {
+                  "all_of": [
+                    {
+                      "test": "target_distance",
+                      "operator": ">",
+                      "value": 64,
+                      "subject": "other"
+                    },
+                    {
+                      "test": "has_tag",
+                      "operator": "!=",
+                      "value": "power_hunger_aura",
+                      "subject": "other"
+                    }
+                  ]
+                }
+              ]
+            },
+            "remove": {
+              "tags": ["power_hunger_resistant"]
+            }
+          }
+        ]
+      },
+
+      "check_light_level": {
+        "sequence": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "target_distance",
+                  "operator": "<=",
+                  "value": 64,
+                  "subject": "other"
+                },
+                {
+                  "test": "has_tag",
+                  "value": "power_hunger_aura",
+                  "subject": "other"
+                },
+                {
+                  "test": "has_tag",
+                  "operator": "!=",
+                  "value": "power_hunger_aura",
+                  "subject": "self"
+                }
+              ]
+            },
+            "add": {
+              "tags": ["power_hunger_resistant"]
+            }
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "operator": "!=",
+                  "value": "power_hunger_aura",
+                  "subject": "self"
+                },
+                {
+                  "all_of": [
+                    {
+                      "test": "target_distance",
+                      "operator": ">",
+                      "value": 64,
+                      "subject": "other"
+                    },
+                    {
+                      "test": "has_tag",
+                      "operator": "!=",
+                      "value": "power_hunger_aura",
+                      "subject": "other"
+                    }
+                  ]
+                }
+              ]
+            },
+            "remove": {
+              "tags": ["power_hunger_resistant"]
+            }
+          }
+        ]
+      },
+
+
+      "r4isen1920_originspe:apply_slow_to_target": {
+        "add": {
+          "component_groups": ["r4isen1920_originspe:slow_target"]
+        }
+      },
 
       /* OriginsPE */
 
@@ -1132,6 +1541,9 @@
       },
       "r4isen1920_originspe:movement.0.1": {
         "add": { "component_groups": [ "r4isen1920_originspe:movement.0.1" ] }
+      },
+      "r4isen1920_originspe:movement.0.13": {
+        "add": { "component_groups": [ "r4isen1920_originspe:movement.0.13" ] }
       },
       "r4isen1920_originspe:movement.0.15": {
         "add": { "component_groups": [ "r4isen1920_originspe:movement.0.15" ] }

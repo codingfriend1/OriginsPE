@@ -57,6 +57,47 @@ execute if score "ban_diviner" index matches 0..1 run tag @s add indexed
 execute as @s[tag=!"indexed"] run scoreboard players set "ban_diviner" index 0
 tag @s remove indexed
 
+
+execute if score "ban_scout" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_scout" index 0
+tag @s remove indexed
+execute if score "ban_attacker" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_attacker" index 0
+tag @s remove indexed
+execute if score "ban_defender" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_defender" index 0
+tag @s remove indexed
+execute if score "ban_supporter" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_supporter" index 0
+tag @s remove indexed
+execute if score "ban_rogue" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_rogue" index 0
+tag @s remove indexed
+
+
+
+
+
+
+execute if score "ban_scout" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_scout" index 0
+tag @s remove indexed
+execute if score "ban_attacker" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_attacker" index 0
+tag @s remove indexed
+execute if score "ban_defender" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_defender" index 0
+tag @s remove indexed
+execute if score "ban_supporter" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_supporter" index 0
+tag @s remove indexed
+execute if score "ban_rogue" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_rogue" index 0
+tag @s remove indexed
+
+
+
+
 execute if score "ban_nitwit" index matches 0..1 run tag @s add indexed
 execute as @s[tag=!"indexed"] run scoreboard players set "ban_nitwit" index 0
 tag @s remove indexed

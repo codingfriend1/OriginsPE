@@ -28,6 +28,7 @@ function elytra(player) {
 
   const newElytra = new ItemStack('minecraft:elytra')
   newElytra.lockMode = ItemLockMode.slot
+  newElytra.keepOnDeath = true
   newElytra.setLore(['§r§6Elytrian§r'])
 
   player.getComponent('equippable').setEquipment(EquipmentSlot.Chest, newElytra)

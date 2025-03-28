@@ -47,6 +47,24 @@ origins.race.voidwalker.description=Born in the depths of a sinister realm, you 
 origins.race.diviner.name=Diviner
 origins.race.diviner.description=Diviners possesses the ability to tap into the mystical energies of the universe, wielding them to protect and aid other players in need.
 
+
+
+
+origins.race.scout.name=Scout
+origins.race.scout.description=Scouts charge ahead, swiftly exploring challenging terrian to prepare your team for what is ahead.
+origins.race.attacker.name=Attacker
+origins.race.attacker.description=Attackers focus on attacking the enemy and dealing high damage fast while relying on the Defender and Supporter to protect and aid them.
+origins.race.defender.name=Defender
+origins.race.defender.description=Defenders focus on protecting their teamates, providing a protective barrier, and rely on the Attacker and Supporter to deal damage and bring aid.
+origins.race.supporter.name=Supporter
+origins.race.supporter.description=Supporters focus on providing aid to their teammates, staying nearby, but rely on Attacker to deal damage.
+origins.race.rogue.name=Rogue
+origins.race.rogue.description=Rogues focus on stealth and outsmarting their enemies, helping their team quietly from the shadows.
+
+
+
+
+
 origins.class.random.name=Random
 origins.class.random.description=You'll be classified to one of the following classes listed below, only if it's available for use:
 origins.class.random.description_changed=You'll be assigned to a random available class.
@@ -137,21 +155,16 @@ origins.trait.weak_arms.name=Weak Arms
 origins.trait.weak_arms.description=When not under the effect of strength, you mine blocks slower and attack weaker.
 origins.trait.scare_creepers.name=Catlike Appearance
 origins.trait.scare_creepers.description=Creepers are scared of you and will only explode if you attack them first.
-origins.trait.launch_into_air.name=Gift of the Winds
-origins.trait.launch_into_air.description=Propel yourself high up into the air. Has a 30-second cooldown before each use.
-origins.trait.elytra.name=Winged
-origins.trait.elytra.description=You have Elytra wings without needing to equip any, and is never lost nor can be removed.
-origins.trait.light_armor.name=Need for Mobility
-origins.trait.light_armor.description=You become heavy when wearing armor made out of iron, diamond or netherite pieces.
+
+
+
 origins.trait.claustrophobia.name=Claustrophobia
 origins.trait.claustrophobia.description=Being somewhere with a low ceiling for too long will weaken you and make you slower.
 origins.trait.more_kinetic_damage.name=Brittle Bones
 origins.trait.more_kinetic_damage.description=You take more damage from falling and flying into blocks.
 origins.trait.aerial_combatant.name=Aerial Combatant
 origins.trait.aerial_combatant.description=You deal more damage as you glide with an Elytra.
-origins.trait.throw_ender_pearl.name=Teleportation
-origins.trait.throw_ender_pearl.description=Allows you to instantly teleport to the block you're looking at. The ability has a short cooldown between 0–15 seconds based on how far you travel. You cannot teleport into water or submerged spaces or when its raining in the overworld.
-origins.trait.throw_ender_pearl.failed=No room to teleport there!
+
 origins.trait.pumpkin_hate.name=Scared of Gourds
 origins.trait.pumpkin_hate.description=You are afraid of pumpkins. For a good reason. As such, if you possess any pumpkin item within your inventory, you will get the weakness status effect.
 origins.trait.familiar_face.name=Familiar Face
@@ -169,8 +182,6 @@ origins.trait.strong_arms.name=Strong Arms
 origins.trait.strong_arms.description=You are stronger and can break stone blocks without requiring any pickaxe.
 origins.trait.end_spawn.name=End Inhabitant
 origins.trait.end_spawn.description=Your journey begins in the End.
-origins.trait.camouflage.name=Camouflage
-origins.trait.camouflage.description=You blend in with the environment when you're sneaking, that hostile mobs wont naturally attack you - unless if you attack them first.
 origins.trait.fast_footed.name=Fast-footed
 origins.trait.fast_footed.description=Due to your shorter legs and low exhaustion, your movement speed is increased and your size is decreased.
 origins.trait.pounce.name=Pounce
@@ -237,14 +248,8 @@ origins.trait.courage.name=Courage
 origins.trait.courage.description=You are immune from weakness and wither status effects.
 origins.trait.lifeweaver.name=Lifeweaver
 origins.trait.lifeweaver.description=Immediately regenerates health based on the accumulated damage taken within 3 seconds upon receiving it. Then, grants absorption for 12 seconds that scales depending on the amount of damage received.
-origins.trait.endless_quiver.name=Endless Quiver
-origins.trait.endless_quiver.description=When wielding a bow in hand and you don't have any arrows in your inventory, automatically grants one for yourself.
-origins.trait.imbue.name=Imbue
-origins.trait.imbue.description=Enhances your projectiles to deal additional damage equivalent to 50% of your current health, plus 25% of their max health if the target is undead. This additional damage is treated as magic and will bypass armor.
 origins.trait.agility.name=Swift
 origins.trait.agility.description=Become nimble and swift, granting you increased movement speed, enabling you to traverse the terrain effortlessly.
-origins.trait.permeable.name=Permeable
-origins.trait.permeable.description=You take 10% more damage from any source.
 origins.trait.beelzebub.name=Beelzebub
 origins.trait.beelzebub.description=Melee attacks will deal additional damage based on your missing health. Then, charges one stack of [Beelzebub] on attack, up to three.
 origins.trait.soulburst.name=Soulburst
@@ -269,8 +274,7 @@ origins.trait.instability.name=Instability
 origins.trait.instability.description=For every unique status effect applied to you, your max health will be reduced by 1. When your health is equal to 1, this will not reduce any further.
 
 origins.perk.has=Class Perks:
-origins.perk.sneaky.name=Sneaky
-origins.perk.sneaky.description=Your nameplate is never always visible, even when you're not sneaking.
+
 origins.perk.stealth.name=In the Shadows
 origins.perk.stealth.description=When you have the invisibility effect applied, your next attacks deal more damage.
 origins.perk.less_bow_slowdown.name=Agility
@@ -432,3 +436,85 @@ action.hint.exit.console.r4isen1920_originspe:inventory_keep=Press :_input_key.i
 
 progressScreen.title.modifiedWorldWarning=Loading Origins and classes
 progressScreen.message.modifiedWorldWarning=Please wait while the game loads your Origin and class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+origins.trait.launch_into_air.name=Gift of the Winds
+origins.trait.launch_into_air.description=Propel yourself high up into the air. Has a 30-second cooldown before each use.
+origins.trait.elytra.name=Winged
+origins.trait.elytra.description=You have Elytra wings without needing to equip any, and is never lost nor can be removed.
+origins.trait.permeable.name=Permeable
+origins.trait.permeable.description=You take 10% more damage from any source.
+origins.trait.swift.name=Swift
+origins.trait.swift.description=Become nimble and swift, granting you increased movement speed, enabling you to traverse the terrain effortlessly.
+origins.trait.lightweight.name=Lightweight
+origins.trait.lightweight.description=You take 50% less fall damage but 20% more damage from other sources.
+origins.trait.essentials.name=Essentials
+origins.trait.essentials.description=You retain access to essential inventory, ensuring your hotbar is not lost upon death.
+
+origins.trait.throw_ender_pearl.name=Teleportation
+origins.trait.throw_ender_pearl.description=Allows you to instantly teleport to the block you're looking at. The ability has a short cooldown depending on how far you travel.
+origins.trait.throw_ender_pearl.failed=No room to teleport there!
+origins.trait.endless_quiver.name=Endless Quiver
+origins.trait.endless_quiver.description=When wielding a bow in hand and you don't have any arrows in your inventory, automatically grants one for yourself.
+origins.trait.imbue.name=Imbue
+origins.trait.imbue.description=Enhances your projectiles to deal additional damage equivalent to 50% of your current health, plus 25% of their max health if the target is undead. This additional damage is treated as magic and will bypass armor.
+origins.trait.ferocious.name=Ferocious
+origins.trait.ferocious.description=You deal 35% more melee damage, overwhelming opponents in close combat.
+origins.trait.fragile.name=Fragile
+origins.trait.fragile.description=You take 20% more damage from direct attacks. Though your offense is powerful, your defense is lacking.
+
+
+origins.trait.smash.name=Ground Slam
+origins.trait.smash.description=Leap into the air and slam down to the ground, damaging and knocking back enemies within range on impact.
+origins.trait.tough.name=Tough
+origins.trait.tough.description=You have four additional hearts and a larger hitbox, making you harder to bring down and you take 20% less damage from any source. 
+origins.trait.unbreakable_skin.name=Unbreakable Skin
+origins.trait.unbreakable_skin.description=You take 30% less from ranged projectiles.
+origins.trait.heavy.name=Heaviness
+origins.trait.heavy.description=Your large build reduces your movement speed by 5% and makes you hungrier when moving.
+origins.trait.strong_legs.name=Strong Legs
+origins.trait.strong_legs.description=Jumping while sprinting launches you high and far, and you are completely immune to fall damage.
+
+origins.trait.empowering_aura.name=Empowering Aura
+origins.trait.empowering_aura.description=Unleash a surge of energy that grants 4 seconds of invincibility to yourself and buffs nearby allies with speed, strength, resistance, regeneration, and a glowing aura.
+origins.trait.empowering_aura.cooldown=⚠ Aura on cooldown!
+origins.trait.longevity.name=Longevity
+origins.trait.longevity.description=You have 2 more hearts than normal.
+origins.trait.swift.name=Swift
+origins.trait.swift.description=Your movement speed is increased 40%
+origins.trait.good_memory.name=Good Memory
+origins.trait.good_memory.description=You remember your inventory. All items you carry are retained upon death.
+origins.trait.hunger_resistant.name=Hunger Resistance
+origins.trait.hunger_resistant.description=Your body burns energy more efficiently, reducing hunger loss from all sources by 20%.
+origins.trait.hunger_aura.name=Hunger Aura
+origins.trait.hunger_aura.description=You emit a passive aura that strengthens nearby allies, reducing their hunger loss rate by 20% if they within 64 blocks of you.
+
+
+origins.trait.invisibility.name=Invisibility
+origins.trait.invisibility.description=Become invisible for 20 seconds with a 12 second cooldown. Movement speed increases by 10% while cloaked. Cannot be used while hindered or under negative effects.
+origins.trait.invisibility.cooldown=⚠ Invisibility on cooldown!
+origins.trait.invisibility.hindered=⚠ Cannot use invisibility while hindered!
+origins.trait.camouflage.name=Camouflage
+origins.trait.camouflage.description=You blend in with the environment when you're sneaking, that hostile mobs wont naturally attack you - unless if you attack them first.
+origins.trait.sneaky.name=Sneaky
+origins.trait.sneaky.description=Your nameplate is never always visible, even when you're not sneaking.
+origins.trait.smaller.name=Smaller
+origins.trait.smaller.description=Your size is reduced, making you harder to target.
+origins.trait.light_armor.name=Need for Mobility
+origins.trait.light_armor.description=You become heavy when wearing armor made out of iron, diamond or netherite pieces.
+origins.trait.night_vision.name=Darkvision
+origins.trait.night_vision.description=You see clearly even in the darkest of places.
+origins.trait.debilitating_strikes.name=Debilitating Strikes
+origins.trait.debilitating_strikes.description=Enemies you hit are slowed by 30% for 2 seconds, making it harder for them to escape or retaliate.

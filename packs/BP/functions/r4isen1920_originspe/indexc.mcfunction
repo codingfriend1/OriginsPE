@@ -22,6 +22,17 @@ scoreboard players operation "banr" index += "ban_elf" index
 scoreboard players operation "banr" index += "ban_voidwalker" index
 scoreboard players operation "banr" index += "ban_diviner" index
 
+
+
+scoreboard players operation "banr" index += "ban_scout" index
+scoreboard players operation "banr" index += "ban_attacker" index
+scoreboard players operation "banr" index += "ban_defender" index
+scoreboard players operation "banr" index += "ban_supporter" index
+scoreboard players operation "banr" index += "ban_rogue" index
+
+
+
+
 scoreboard players operation "banc" index += "ban_nitwit" index
 scoreboard players operation "banc" index += "ban_archer" index
 scoreboard players operation "banc" index += "ban_beastmaster" index

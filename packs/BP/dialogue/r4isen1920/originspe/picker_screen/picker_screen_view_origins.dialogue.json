@@ -311,6 +311,102 @@
         ]
       },
 
+
+
+
+
+
+
+
+      {
+        "scene_tag": "gui_race_view_scout",
+        "npc_name": "origins.custom_dialogue",
+        "text": "vieworigin.scout",
+        "buttons": [
+          {
+            "name": "start",
+            "commands": [ 
+              "/execute as @initiator[tag=change_resign] if score \"toggle_announce\" index matches 1 run tellraw @a {\"rawtext\":[{\"text\":\"§e\"},{\"translate\":\"origins.change.announce.race\",\"with\":{\"rawtext\":[{\"selector\":\"@s\"},{\"translate\":\"origins.race.scout.name\"}]}}]}", 
+              "/execute as @initiator[tag=has_any_class] run scriptevent r4isen1920_originspe:gui on_close", 
+              "/execute as @initiator[tag=!has_any_class] run scriptevent r4isen1920_originspe:gui open_screen_picker_class",
+              "/execute as @initiator if score \"toggle_unique\" index matches 1.. run function indexs"
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_race_view_attacker",
+        "npc_name": "origins.custom_dialogue",
+        "text": "vieworigin.attacker",
+        "buttons": [
+          {
+            "name": "start",
+            "commands": [ 
+              "/execute as @initiator[tag=change_resign] if score \"toggle_announce\" index matches 1 run tellraw @a {\"rawtext\":[{\"text\":\"§e\"},{\"translate\":\"origins.change.announce.race\",\"with\":{\"rawtext\":[{\"selector\":\"@s\"},{\"translate\":\"origins.race.attacker.name\"}]}}]}", 
+              "/execute as @initiator[tag=has_any_class] run scriptevent r4isen1920_originspe:gui on_close", 
+              "/execute as @initiator[tag=!has_any_class] run scriptevent r4isen1920_originspe:gui open_screen_picker_class",
+              "/execute as @initiator if score \"toggle_unique\" index matches 1.. run function indexs"
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_race_view_defender",
+        "npc_name": "origins.custom_dialogue",
+        "text": "vieworigin.defender",
+        "buttons": [
+          {
+            "name": "start",
+            "commands": [ 
+              "/execute as @initiator[tag=change_resign] if score \"toggle_announce\" index matches 1 run tellraw @a {\"rawtext\":[{\"text\":\"§e\"},{\"translate\":\"origins.change.announce.race\",\"with\":{\"rawtext\":[{\"selector\":\"@s\"},{\"translate\":\"origins.race.defender.name\"}]}}]}", 
+              "/execute as @initiator[tag=has_any_class] run scriptevent r4isen1920_originspe:gui on_close", 
+              "/execute as @initiator[tag=!has_any_class] run scriptevent r4isen1920_originspe:gui open_screen_picker_class",
+              "/execute as @initiator if score \"toggle_unique\" index matches 1.. run function indexs"
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_race_view_supporter",
+        "npc_name": "origins.custom_dialogue",
+        "text": "vieworigin.supporter",
+        "buttons": [
+          {
+            "name": "start",
+            "commands": [ 
+              "/execute as @initiator[tag=change_resign] if score \"toggle_announce\" index matches 1 run tellraw @a {\"rawtext\":[{\"text\":\"§e\"},{\"translate\":\"origins.change.announce.race\",\"with\":{\"rawtext\":[{\"selector\":\"@s\"},{\"translate\":\"origins.race.supporter.name\"}]}}]}", 
+              "/execute as @initiator[tag=has_any_class] run scriptevent r4isen1920_originspe:gui on_close", 
+              "/execute as @initiator[tag=!has_any_class] run scriptevent r4isen1920_originspe:gui open_screen_picker_class",
+              "/execute as @initiator if score \"toggle_unique\" index matches 1.. run function indexs"
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_race_view_rogue",
+        "npc_name": "origins.custom_dialogue",
+        "text": "vieworigin.rogue",
+        "buttons": [
+          {
+            "name": "start",
+            "commands": [ 
+              "/execute as @initiator[tag=change_resign] if score \"toggle_announce\" index matches 1 run tellraw @a {\"rawtext\":[{\"text\":\"§e\"},{\"translate\":\"origins.change.announce.race\",\"with\":{\"rawtext\":[{\"selector\":\"@s\"},{\"translate\":\"origins.race.rogue.name\"}]}}]}", 
+              "/execute as @initiator[tag=has_any_class] run scriptevent r4isen1920_originspe:gui on_close", 
+              "/execute as @initiator[tag=!has_any_class] run scriptevent r4isen1920_originspe:gui open_screen_picker_class",
+              "/execute as @initiator if score \"toggle_unique\" index matches 1.. run function indexs"
+            ]
+          }
+        ]
+      },
+
+
+
+
+
+
+
+
+
       {
         "scene_tag": "gui_race_viewonly_human",
         "npc_name": "origins.custom_dialogue",
@@ -513,6 +609,67 @@
         "scene_tag": "gui_race_viewonly_diviner",
         "npc_name": "origins.custom_dialogue",
         "text": "vieworigin.diviner",
+        "buttons": [
+          {
+            "name": "return_start",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui open_options_general" ]
+          }
+        ]
+      },
+
+
+
+
+
+
+      {
+        "scene_tag": "gui_race_viewonly_scout",
+        "npc_name": "origins.custom_dialogue",
+        "text": "vieworigin.scout",
+        "buttons": [
+          {
+            "name": "return_start",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui open_options_general" ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_race_viewonly_attacker",
+        "npc_name": "origins.custom_dialogue",
+        "text": "vieworigin.attacker",
+        "buttons": [
+          {
+            "name": "return_start",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui open_options_general" ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_race_viewonly_defender",
+        "npc_name": "origins.custom_dialogue",
+        "text": "vieworigin.defender",
+        "buttons": [
+          {
+            "name": "return_start",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui open_options_general" ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_race_viewonly_supporter",
+        "npc_name": "origins.custom_dialogue",
+        "text": "vieworigin.supporter",
+        "buttons": [
+          {
+            "name": "return_start",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui open_options_general" ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_race_viewonly_rogue",
+        "npc_name": "origins.custom_dialogue",
+        "text": "vieworigin.rogue",
         "buttons": [
           {
             "name": "return_start",

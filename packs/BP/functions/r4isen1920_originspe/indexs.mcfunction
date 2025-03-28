@@ -74,6 +74,32 @@ execute if score "toggle_unique" index matches 1 run scoreboard players operatio
 scoreboard players reset @a[tag="race_diviner"] index
 
 
+
+scoreboard players set "c_scout" index 0
+execute if score "toggle_unique" index matches 1 run scoreboard players operation "c_scout" index += @a[tag="race_scout"] index
+scoreboard players reset @a[tag="race_scout"] index
+
+scoreboard players set "c_attacker" index 0
+execute if score "toggle_unique" index matches 1 run scoreboard players operation "c_attacker" index += @a[tag="race_attacker"] index
+scoreboard players reset @a[tag="race_attacker"] index
+
+scoreboard players set "c_defender" index 0
+execute if score "toggle_unique" index matches 1 run scoreboard players operation "c_defender" index += @a[tag="race_defender"] index
+scoreboard players reset @a[tag="race_defender"] index
+
+scoreboard players set "c_supporter" index 0
+execute if score "toggle_unique" index matches 1 run scoreboard players operation "c_supporter" index += @a[tag="race_supporter"] index
+scoreboard players reset @a[tag="race_supporter"] index
+
+scoreboard players set "c_rogue" index 0
+execute if score "toggle_unique" index matches 1 run scoreboard players operation "c_rogue" index += @a[tag="race_rogue"] index
+scoreboard players reset @a[tag="race_rogue"] index
+
+
+
+
+
+
 scoreboard players set "c_all" index 0
 scoreboard players set "c_temp" index 1
 
@@ -96,5 +122,12 @@ execute if score "c_starborne" index matches 1.. run scoreboard players operatio
 execute if score "c_elf" index matches 1.. run scoreboard players operation "c_all" index += "c_temp" index
 execute if score "c_voidwalker" index matches 1.. run scoreboard players operation "c_all" index += "c_temp" index
 execute if score "c_diviner" index matches 1.. run scoreboard players operation "c_all" index += "c_temp" index
+
+
+execute if score "c_scout" index matches 1.. run scoreboard players operation "c_all" index += "c_temp" index
+execute if score "c_attacker" index matches 1.. run scoreboard players operation "c_all" index += "c_temp" index
+execute if score "c_defender" index matches 1.. run scoreboard players operation "c_all" index += "c_temp" index
+execute if score "c_supporter" index matches 1.. run scoreboard players operation "c_all" index += "c_temp" index
+execute if score "c_rogue" index matches 1.. run scoreboard players operation "c_all" index += "c_temp" index
 
 scoreboard players reset "c_temp"

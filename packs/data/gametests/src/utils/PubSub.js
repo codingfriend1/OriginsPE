@@ -60,3 +60,5 @@ export class PubSub {
 
 export const usepower = new PubSub();
 export const releasePower = new PubSub();
+export const setup = new PubSub();
+export const playerEvents = new PubSub();

@@ -249,6 +249,85 @@
           "$visible_binding": "((#dialogtext = 'pickorigin.diviner') or (#dialogtext = 'vieworigin.diviner') or (#dialogtext = 'changeorigin.diviner') or (#dialogtext = 'banorigin.diviner'))"
         }
       },
+
+
+
+
+      
+
+
+      {
+        "race_scout@origin_common.origin_picker_window_template": {
+          "$being_icon_texture": "texture_path",
+          "$being_icon_texture_path": "textures/items/compass_item",
+          "$being_name_text": "origins.race.scout.name",
+          "$being_difficulty": "easy",
+          "$being_description": "origins.race.scout.description",
+          "$being_traits": "origin_powers.scout",
+
+          "$child_control": "origin_screen_picker_common.picker_window_panel_content",
+          "$visible_binding": "((#dialogtext = 'pickorigin.scout') or (#dialogtext = 'vieworigin.scout') or (#dialogtext = 'changeorigin.scout') or (#dialogtext = 'banorigin.scout'))"
+        }
+      },
+      {
+        "race_attacker@origin_common.origin_picker_window_template": {
+          "$being_icon_texture": "texture_path",
+          "$being_icon_texture_path": "textures/items/iron_sword",
+          "$being_name_text": "origins.race.attacker.name",
+          "$being_difficulty": "medium",
+          "$being_description": "origins.race.attacker.description",
+          "$being_traits": "origin_powers.attacker",
+
+          "$child_control": "origin_screen_picker_common.picker_window_panel_content",
+          "$visible_binding": "((#dialogtext = 'pickorigin.attacker') or (#dialogtext = 'vieworigin.attacker') or (#dialogtext = 'changeorigin.attacker') or (#dialogtext = 'banorigin.attacker'))"
+        }
+      },
+      {
+        "race_defender@origin_common.origin_picker_window_template": {
+          "$being_icon_texture": "texture_path",
+          "$being_icon_texture_path": "textures/items/iron_chestplate",
+          "$being_name_text": "origins.race.defender.name",
+          "$being_difficulty": "hard",
+          "$being_description": "origins.race.defender.description",
+          "$being_traits": "origin_powers.defender",
+
+          "$child_control": "origin_screen_picker_common.picker_window_panel_content",
+          "$visible_binding": "((#dialogtext = 'pickorigin.defender') or (#dialogtext = 'vieworigin.defender') or (#dialogtext = 'changeorigin.defender') or (#dialogtext = 'banorigin.defender'))"
+        }
+      },
+      {
+        "race_supporter@origin_common.origin_picker_window_template": {
+          "$being_icon_texture": "texture_path",
+          "$being_icon_texture_path": "textures/items/rabbit_stew",
+          "$being_name_text": "origins.race.supporter.name",
+          "$being_difficulty": "easy",
+          "$being_description": "origins.race.supporter.description",
+          "$being_traits": "origin_powers.supporter",
+
+          "$child_control": "origin_screen_picker_common.picker_window_panel_content",
+          "$visible_binding": "((#dialogtext = 'pickorigin.supporter') or (#dialogtext = 'vieworigin.supporter') or (#dialogtext = 'changeorigin.supporter') or (#dialogtext = 'banorigin.supporter'))"
+        }
+      },
+      {
+        "race_rogue@origin_common.origin_picker_window_template": {
+          "$being_icon_texture": "texture_path",
+          "$being_icon_texture_path": "textures/origins/gui/leather_cap",
+          "$being_name_text": "origins.race.rogue.name",
+          "$being_difficulty": "hard",
+          "$being_description": "origins.race.rogue.description",
+          "$being_traits": "origin_powers.rogue",
+
+          "$child_control": "origin_screen_picker_common.picker_window_panel_content",
+          "$visible_binding": "((#dialogtext = 'pickorigin.rogue') or (#dialogtext = 'vieworigin.rogue') or (#dialogtext = 'changeorigin.rogue') or (#dialogtext = 'banorigin.rogue'))"
+        }
+      },
+
+
+
+
+
+
+
       {
         "race_random@origin_common.origin_picker_window_template": {
           "$being_icon_texture": "random",

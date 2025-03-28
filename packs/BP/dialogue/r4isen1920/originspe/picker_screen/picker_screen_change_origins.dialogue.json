@@ -286,7 +286,93 @@
             "commands": [ "/execute as @initiator run clear @s[tag=!was_creative] r4isen1920_originspe:orb_of_origins 0 1", "/execute as @initiator run scriptevent r4isen1920_originspe:player become_race_unknown" ]
           }
         ]
+      },
+
+
+
+
+
+
+      {
+        "scene_tag": "gui_race_change_scout",
+        "npc_name": "origins.custom_dialogue",
+        "text": "changeorigin.scout",
+        "buttons": [
+          {
+            "name": "cancel",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" ]
+          },
+          {
+            "name": "continue_race",
+            "commands": [ "/execute as @initiator run clear @s[tag=!was_creative] r4isen1920_originspe:orb_of_origins 0 1", "/execute as @initiator run scriptevent r4isen1920_originspe:player become_race_unknown" ]
+          }
+        ]
+      },
+
+      {
+        "scene_tag": "gui_race_change_defender",
+        "npc_name": "origins.custom_dialogue",
+        "text": "changeorigin.defender",
+        "buttons": [
+          {
+            "name": "cancel",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" ]
+          },
+          {
+            "name": "continue_race",
+            "commands": [ "/execute as @initiator run clear @s[tag=!was_creative] r4isen1920_originspe:orb_of_origins 0 1", "/execute as @initiator run scriptevent r4isen1920_originspe:player become_race_unknown" ]
+          }
+        ]
+      },
+
+      {
+        "scene_tag": "gui_race_change_attacker",
+        "npc_name": "origins.custom_dialogue",
+        "text": "changeorigin.attacker",
+        "buttons": [
+          {
+            "name": "cancel",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" ]
+          },
+          {
+            "name": "continue_race",
+            "commands": [ "/execute as @initiator run clear @s[tag=!was_creative] r4isen1920_originspe:orb_of_origins 0 1", "/execute as @initiator run scriptevent r4isen1920_originspe:player become_race_unknown" ]
+          }
+        ]
+      },
+
+      {
+        "scene_tag": "gui_race_change_supporter",
+        "npc_name": "origins.custom_dialogue",
+        "text": "changeorigin.supporter",
+        "buttons": [
+          {
+            "name": "cancel",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" ]
+          },
+          {
+            "name": "continue_race",
+            "commands": [ "/execute as @initiator run clear @s[tag=!was_creative] r4isen1920_originspe:orb_of_origins 0 1", "/execute as @initiator run scriptevent r4isen1920_originspe:player become_race_unknown" ]
+          }
+        ]
+      },
+
+      {
+        "scene_tag": "gui_race_change_rogue",
+        "npc_name": "origins.custom_dialogue",
+        "text": "changeorigin.rogue",
+        "buttons": [
+          {
+            "name": "cancel",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" ]
+          },
+          {
+            "name": "continue_race",
+            "commands": [ "/execute as @initiator run clear @s[tag=!was_creative] r4isen1920_originspe:orb_of_origins 0 1", "/execute as @initiator run scriptevent r4isen1920_originspe:player become_race_unknown" ]
+          }
+        ]
       }
+
     ]
   }
 }

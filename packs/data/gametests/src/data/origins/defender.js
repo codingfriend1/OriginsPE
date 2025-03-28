@@ -3,8 +3,7 @@ export const defender = {
     'smash',
     'tough',
     'unbreakable_skin',
-    'heavy',
-    'sprint_jump'
+    'heavy'
   ],
   'controls': [
     'smash'

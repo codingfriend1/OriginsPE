@@ -6,7 +6,7 @@ export const rogue = {
     'sneaky',
     'smaller',
     'light_armor',
-    'night_vision',
+    'cat_vision',
     'debilitating_strikes'
   ],
   'controls': [

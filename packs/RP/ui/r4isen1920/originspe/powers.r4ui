@@ -1015,13 +1015,6 @@
           "$power_description": "origins.trait.debilitating_strikes.description",
           "$power_icon_index": "debilitating_strikes"
         }
-      },
-      {
-        "light_armor@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.trait.light_armor.name",
-          "$power_description": "origins.trait.light_armor.description",
-          "$power_icon_index": "light_armor"
-        }
       }
     ]
   },

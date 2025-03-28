@@ -224,9 +224,6 @@ export function setupMenuItem(player) {
       console.warn(`[OriginsPE] Error: ${e}`);
     }
   }
-
-  // player.triggerEvent('r4isen1920_originspe:setupMenuItem');
-  // setup.publish('r4isen1920_originspe:setupMenuItem');
 }
 
 toAllPlayers(setupMenuItem, TicksPerSecond * 2, TicksPerSecond * 10);

@@ -50,20 +50,20 @@ origins.race.diviner.description=Diviners possesses the ability to tap into the 
 
 
 
-origins.race.scout.name=Skybreaker
-origins.race.scout.description=Skybreakers are fearless pathfinders who launch into the skies, gliding across treacherous terrain and uncovering enemy positions before the battle begins. With unyielding momentum and high agility, they are the wind before the storm.
+origins.race.scout.name=Falconeer
+origins.race.scout.description=Falconeers are fearless pathfinders who launch into the skies, gliding across treacherous terrain and uncovering enemy positions before the battle begins. With unyielding momentum and high agility, they are the wind before the storm.
 
-origins.race.attacker.name=Bladewarden
-origins.race.attacker.description=Bladewardens strike with lethal speed and precision, teleporting through the battlefield and unleashing devastating volleys of ranged and melee attacks. Their job is simple—eliminate the threat before it reaches your allies.
+origins.race.attacker.name=Swordsman
+origins.race.attacker.description=Swordsmen strike with lethal speed and precision, teleporting through the battlefield and unleashing devastating volleys of ranged and melee attacks. Their job is simple—eliminate the threat before it reaches your allies.
 
-origins.race.defender.name=Earthshatter
-origins.race.defender.description=Earthshatters are titanic guardians who leap into danger, slamming down with force and shielding their allies with sheer resilience. With iron skin and unmatched fortitude, they are the wall that no foe crosses.
+origins.race.defender.name=Guardian
+origins.race.defender.description=Guardians are titans who leap into danger, slamming down with force and shielding their allies with sheer resilience. With iron skin and unmatched fortitude, they are the wall that no foe crosses.
 
-origins.race.supporter.name=Starcaller
-origins.race.supporter.description=Starcallers channel celestial energy to shield, empower, and sustain their allies. Their aura transforms the tide of battle—granting strength, invincibility, and hope to their team in the darkest moments.
+origins.race.supporter.name=Sage
+origins.race.supporter.description=Sages channel celestial energy to shield, empower, and sustain their allies. Their aura transforms the tide of battle—granting strength, invincibility, and hope to their team in the darkest moments.
 
-origins.race.rogue.name=Shadowmire
-origins.race.rogue.description=Shadowmires vanish in the blink of an eye, striking from unseen places and bending the battlefield in their favor. Masters of deception and sabotage, they thrive in chaos—crippling enemies and guiding victory from the shadows.
+origins.race.rogue.name=Nightblade
+origins.race.rogue.description=Nightblades vanish in the blink of an eye, striking from unseen places and bending the battlefield in their favor. Masters of deception and sabotage, they thrive in chaos—crippling enemies and guiding victory from the shadows.
 
 
 origins.class.random.name=Random

@@ -215,6 +215,16 @@ export async function initModules(player) {
   
   player.triggerEvent('r4isen1920_originspe:setupMenuItem');
   setup.publish('r4isen1920_originspe:setupMenuItem');
+
+  // world.afterEvents.entityHurt.subscribe((event) => {
+  //   const { damage, damageSource, hurtEntity } = event;
+
+  //   const damageCause = damageSource?.cause ?? "unknown";
+  //   const heartsLost = damage / 2; // 2 health = 1 heart
+  //   const percentOf10 = ((damage / 10) * 100); // 20 = full health (10 hearts)
+
+  //   console.warn(`[Damage Report] ${hurtEntity.nameTag || hurtEntity.typeId} took ${damage} damage: ${percentOf10}%`);
+  // });
 }
 
 

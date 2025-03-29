@@ -125,7 +125,7 @@
           "sprint": 0.2,
           "swim": 0.02
         },
-        "minecraft:movement": { "value": 0.095 }
+        "minecraft:movement": { "value": 0.08 }
       },
 
       "r4isen1920_originspe:power_tough": {
@@ -134,10 +134,6 @@
 
       "r4isen1920_originspe:power_longevity": {
         "minecraft:health": { "max": 24 }
-      },
-
-      "r4isen1920_originspe:power_swift": {
-        "minecraft:movement": { "value": 0.14 }
       },
 
       "r4isen1920_originspe:power_lightweight": {
@@ -185,6 +181,11 @@
       "r4isen1920_originspe:movement.0.13": {
         "minecraft:movement": { "value": 0.13 }
       },
+
+      "r4isen1920_originspe:power_swift": {
+        "minecraft:movement": { "value": 0.14 }
+      },
+
       "r4isen1920_originspe:movement.0.15": {
         "minecraft:movement": { "value": 0.15 }
       },
@@ -1261,6 +1262,14 @@
               "test": "has_tag",
               "value": "power_heavy"
             },
+            "remove": {
+              "component_groups": [
+                "r4isen1920_originspe:movement.0.1",
+                "r4isen1920_originspe:movement.0.13",
+                "r4isen1920_originspe:movement.0.15",
+                "r4isen1920_originspe:power_swift"
+              ]
+            },
             "add": {
               "component_groups": ["r4isen1920_originspe:power_heavy"]
             }
@@ -1273,6 +1282,9 @@
             },
             "remove": {
               "component_groups": ["r4isen1920_originspe:power_heavy"]
+            },
+            "add": {
+              "component_groups": ["r4isen1920_originspe:movement.0.1"]
             }
           },
           {
@@ -1342,6 +1354,13 @@
               "test": "has_tag",
               "value": "power_swift"
             },
+            "remove": {
+              "component_groups": [
+                "r4isen1920_originspe:movement.0.1",
+                "r4isen1920_originspe:movement.0.13",
+                "r4isen1920_originspe:movement.0.15"
+              ]
+            },
             "add": {
               "component_groups": ["r4isen1920_originspe:power_swift"]
             }
@@ -1354,6 +1373,9 @@
             },
             "remove": {
               "component_groups": ["r4isen1920_originspe:power_swift"]
+            },
+            "add": {
+              "component_groups": ["r4isen1920_originspe:movement.0.1"]
             }
           },
           {

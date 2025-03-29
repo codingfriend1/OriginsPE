@@ -47,8 +47,9 @@ function empowering_aura({ player, itemStack }) {
   player.dimension.spawnParticle('r4isen1920_originspe:air_burst', Vector3.add(player.location, new Vector3(0, 0.5, 0)));
 
   const nearbyPlayers = player.dimension.getPlayers({
+    location: player.location,
     maxDistance: AURA_RADIUS
-  }).forEach(boost);
+  }).forEach(target => boost(target));
 
   resetCooldown(player, INVINCIBILITY_DURATION_SECONDS + COOLDOWN);
 }

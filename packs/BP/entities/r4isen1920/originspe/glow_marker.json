@@ -1,0 +1,27 @@
+// glow_marker.json
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "r4isen1920_originspe:glow_marker",
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:timer": {
+        "time": 40, // 2 seconds = 40 ticks
+        "looping": false,
+        "time_down_event": {
+          "event": "despawn"
+        }
+      },
+      "minecraft:mark_variant": {}, // Make it invisible, or use particles
+      "minecraft:is_hidden_when_invisible": true
+    },
+    "events": {
+      "despawn": {
+        "remove": {}
+      }
+    }
+  }
+}

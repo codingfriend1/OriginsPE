@@ -475,7 +475,7 @@ origins.trait.heavy.name=Heaviness
 origins.trait.heavy.description=Massive power weighs heavy. Move 5% slower and exhaust twice as fast — but your might is unmatched.
 
 origins.trait.empowering_aura.name=Empowering Aura
-origins.trait.empowering_aura.description=Activate a radiant surge: Become invincible and bless all allies within 64 blocks with Speed, Strength, Resistance, and Regeneration for 4 seconds. 9-second cooldown.
+origins.trait.empowering_aura.description=Activate a radiant surge: Become invincible and bless all allies within 16 blocks with Speed, Strength, Resistance, and Regeneration for 4 seconds. 9-second cooldown.
 origins.trait.empowering_aura.cooldown=⚠ Aura on cooldown!
 origins.trait.longevity.name=Longevity
 origins.trait.longevity.description=Gain 2 extra hearts and outlast your enemies. Every breath is a second chance.
@@ -484,7 +484,7 @@ origins.trait.good_memory.description=Your inventory returns with you from the g
 origins.trait.hunger_resistant.name=Hunger Resistance
 origins.trait.hunger_resistant.description=Endure the wild. Reduce exhaustion by 20% from all activities and stay full longer.
 origins.trait.hunger_aura.name=Hunger Aura
-origins.trait.hunger_aura.description=Empower your allies: All players within 64 blocks gain Hunger Resistance just by being near you.
+origins.trait.hunger_aura.description=Empower your allies: All players within 16 blocks gain Hunger Resistance just by being near you.
 
 
 origins.trait.invisibility.name=Invisibility

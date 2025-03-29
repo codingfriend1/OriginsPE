@@ -12,7 +12,7 @@ const COOLDOWN = 9;
 const INVINCIBILITY_DURATION_TICKS = INVINCIBILITY_DURATION_SECONDS * TicksPerSecond;
 const COOLDOWN_TAG = "cooldown_1";
 let timer = null;
-const AURA_RADIUS = 64;
+const AURA_RADIUS = 16;
 const EFFECT_TAG = "aura_active";
 
 function resetCooldown(player, seconds) {
@@ -22,10 +22,10 @@ function resetCooldown(player, seconds) {
 function boost(player) {
   player.dimension.spawnParticle("minecraft:crit_particle", player.location);
   player.playSound("note.chime", { volume: 1, pitch: 2 });
-  player.addEffect("speed", INVINCIBILITY_DURATION_TICKS, { amplifier: 2, showParticles: true });
-  player.addEffect("strength", INVINCIBILITY_DURATION_TICKS, { amplifier: 2, showParticles: true });
-  player.addEffect("resistance", INVINCIBILITY_DURATION_TICKS, { amplifier: 2, showParticles: true });
-  player.addEffect("regeneration", INVINCIBILITY_DURATION_TICKS, { amplifier: 2 });
+  player.addEffect("speed", INVINCIBILITY_DURATION_TICKS, { amplifier: 1.4, showParticles: true });
+  player.addEffect("strength", INVINCIBILITY_DURATION_TICKS, { amplifier: 1.4, showParticles: true });
+  player.addEffect("resistance", INVINCIBILITY_DURATION_TICKS, { amplifier: 1.4, showParticles: true });
+  player.addEffect("regeneration", INVINCIBILITY_DURATION_TICKS, { amplifier: 1.4 });
 }
 
 function empowering_aura({ player, itemStack }) {
@@ -43,7 +43,7 @@ function empowering_aura({ player, itemStack }) {
   player.addTag(EFFECT_TAG);
 
   boost(player);
-  player.addEffect("resistance", INVINCIBILITY_DURATION_TICKS, { amplifier: 255, showParticles: true });  
+  player.addEffect("resistance", INVINCIBILITY_DURATION_TICKS, { amplifier: 10, showParticles: true });  
   player.dimension.spawnParticle('r4isen1920_originspe:air_burst', Vector3.add(player.location, new Vector3(0, 0.5, 0)));
 
   const nearbyPlayers = player.dimension.getPlayers({

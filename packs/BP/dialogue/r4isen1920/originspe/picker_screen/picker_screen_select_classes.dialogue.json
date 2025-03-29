@@ -10,8 +10,8 @@
           {
             "name": "<",
             "commands": [
-              "/execute as @initiator if score \"ban_warrior\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_warrior",
-              "/execute as @initiator unless score \"ban_warrior\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_warrior"
+              "/execute as @initiator if score \"ban_smith\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_smith",
+              "/execute as @initiator unless score \"ban_smith\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_smith"
             ]
           },
           {
@@ -38,8 +38,8 @@
             "commands": [
               "/scoreboard players set @initiator gui 1",
 
-              "/execute as @initiator if score \"banc\" index matches 11.. if score \"ban_warrior\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_warrior",
-              "/execute as @initiator if score \"banc\" index matches 11.. unless score \"ban_warrior\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_warrior",
+              "/execute as @initiator if score \"banc\" index matches 11.. if score \"ban_smith\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_smith",
+              "/execute as @initiator if score \"banc\" index matches 11.. unless score \"ban_smith\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_smith",
               "/execute as @initiator unless score \"banc\" index matches 11.. run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_random"
             ]
           },
@@ -386,6 +386,110 @@
           {
             "name": ">",
             "commands": [
+              "/execute as @initiator if score \"ban_caver\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_caver",
+              "/execute as @initiator unless score \"ban_caver\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_caver"
+            ]
+          }
+        ]
+      },
+
+
+
+
+      {
+        "scene_tag": "gui_class_pick_caver",
+        "npc_name": "origins.custom_dialogue",
+        "text": "pickclass.caver",
+        "buttons": [
+          {
+            "name": "<",
+            "commands": [
+              "/execute as @initiator if score \"ban_warrior\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_warrior",
+              "/execute as @initiator unless score \"ban_warrior\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_warrior"
+            ]
+          },
+          {
+            "name": "select",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:player become_class_caver" ]
+          },
+          {
+            "name": ">",
+            "commands": [
+              "/execute as @initiator if score \"ban_carpenter\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_carpenter",
+              "/execute as @initiator unless score \"ban_carpenter\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_carpenter"
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_pick_carpenter",
+        "npc_name": "origins.custom_dialogue",
+        "text": "pickclass.carpenter",
+        "buttons": [
+          {
+            "name": "<",
+            "commands": [
+              "/execute as @initiator if score \"ban_caver\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_caver",
+              "/execute as @initiator unless score \"ban_caver\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_caver"
+            ]
+          },
+          {
+            "name": "select",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:player become_class_carpenter" ]
+          },
+          {
+            "name": ">",
+            "commands": [
+              "/execute as @initiator if score \"ban_shepherd\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_shepherd",
+              "/execute as @initiator unless score \"ban_shepherd\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_shepherd"
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_pick_shepherd",
+        "npc_name": "origins.custom_dialogue",
+        "text": "pickclass.shepherd",
+        "buttons": [
+          {
+            "name": "<",
+            "commands": [
+              "/execute as @initiator if score \"ban_carpenter\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_carpenter",
+              "/execute as @initiator unless score \"ban_carpenter\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_carpenter"
+            ]
+          },
+          {
+            "name": "select",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:player become_class_shepherd" ]
+          },
+          {
+            "name": ">",
+            "commands": [
+              "/execute as @initiator if score \"ban_smith\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_smith",
+              "/execute as @initiator unless score \"ban_smith\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_smith"
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_pick_smith",
+        "npc_name": "origins.custom_dialogue",
+        "text": "pickclass.smith",
+        "buttons": [
+          {
+            "name": "<",
+            "commands": [
+              "/execute as @initiator if score \"ban_shepherd\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_shepherd",
+              "/execute as @initiator unless score \"ban_shepherd\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_shepherd"
+            ]
+          },
+          {
+            "name": "select",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:player become_class_smith" ]
+          },
+          {
+            "name": ">",
+            "commands": [
               "/execute as @initiator if score \"banc\" index matches 11.. if score \"ban_nitwit\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_nitwit",
               "/execute as @initiator if score \"banc\" index matches 11.. unless score \"ban_nitwit\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_nitwit",
               "/execute as @initiator unless score \"banc\" index matches 11.. run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_random"
@@ -393,6 +497,12 @@
           }
         ]
       },
+
+
+
+
+
+
 
 
       {
@@ -403,8 +513,8 @@
           {
             "name": "<",
             "commands": [
-              "/execute as @initiator if score \"banc\" index matches 11.. if score \"ban_warrior\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_warrior",
-              "/execute as @initiator if score \"banc\" index matches 11.. unless score \"ban_warrior\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_warrior",
+              "/execute as @initiator if score \"banc\" index matches 11.. if score \"ban_smith\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_smith",
+              "/execute as @initiator if score \"banc\" index matches 11.. unless score \"ban_smith\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_smith",
               "/execute as @initiator unless score \"banc\" index matches 11.. run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_random"
             ]
           },
@@ -742,6 +852,110 @@
           {
             "name": ">",
             "commands": [
+              "/execute as @initiator if score \"ban_caver\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_caver",
+              "/execute as @initiator unless score \"ban_caver\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_caver"
+            ]
+          }
+        ]
+      },
+
+
+
+      
+      {
+        "scene_tag": "gui_class_pickban_caver",
+        "npc_name": "origins.custom_dialogue",
+        "text": "pickclass.caver",
+        "buttons": [
+          {
+            "name": "<",
+            "commands": [
+              "/execute as @initiator if score \"ban_warrior\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_warrior",
+              "/execute as @initiator unless score \"ban_warrior\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_warrior"
+            ]
+          },
+          {
+            "name": "select_ban",
+            "commands": [ "/dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @initiator gui_class_pickban_caver" ]
+          },
+          {
+            "name": ">",
+            "commands": [
+              "/execute as @initiator if score \"ban_carpenter\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_carpenter",
+              "/execute as @initiator unless score \"ban_carpenter\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_carpenter"
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_pickban_carpenter",
+        "npc_name": "origins.custom_dialogue",
+        "text": "pickclass.carpenter",
+        "buttons": [
+          {
+            "name": "<",
+            "commands": [
+              "/execute as @initiator if score \"ban_caver\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_caver",
+              "/execute as @initiator unless score \"ban_caver\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_caver"
+            ]
+          },
+          {
+            "name": "select_ban",
+            "commands": [ "/dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @initiator gui_class_pickban_carpenter" ]
+          },
+          {
+            "name": ">",
+            "commands": [
+              "/execute as @initiator if score \"ban_shepherd\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_shepherd",
+              "/execute as @initiator unless score \"ban_shepherd\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_shepherd"
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_pickban_shepherd",
+        "npc_name": "origins.custom_dialogue",
+        "text": "pickclass.shepherd",
+        "buttons": [
+          {
+            "name": "<",
+            "commands": [
+              "/execute as @initiator if score \"ban_carpenter\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_carpenter",
+              "/execute as @initiator unless score \"ban_carpenter\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_carpenter"
+            ]
+          },
+          {
+            "name": "select_ban",
+            "commands": [ "/dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @initiator gui_class_pickban_shepherd" ]
+          },
+          {
+            "name": ">",
+            "commands": [
+              "/execute as @initiator if score \"ban_smith\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_smith",
+              "/execute as @initiator unless score \"ban_smith\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_smith"
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_pickban_smith",
+        "npc_name": "origins.custom_dialogue",
+        "text": "pickclass.smith",
+        "buttons": [
+          {
+            "name": "<",
+            "commands": [
+              "/execute as @initiator if score \"ban_shepherd\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_shepherd",
+              "/execute as @initiator unless score \"ban_shepherd\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_carpenter"
+            ]
+          },
+          {
+            "name": "select_ban",
+            "commands": [ "/dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @initiator gui_class_pickban_smith" ]
+          },
+          {
+            "name": ">",
+            "commands": [
               "/execute as @initiator if score \"banc\" index matches 11.. if score \"ban_nitwit\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pickban_nitwit",
               "/execute as @initiator if score \"banc\" index matches 11.. unless score \"ban_nitwit\" index matches 1 run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_nitwit",
               "/execute as @initiator unless score \"banc\" index matches 11.. run dialogue open @e[type=r4isen1920_originspe:dialogue_handler,c=1] @s gui_class_pick_random"
@@ -749,6 +963,7 @@
           }
         ]
       }
+
     ]
   }
 }

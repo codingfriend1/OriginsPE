@@ -20,21 +20,30 @@ const items = [
 
 ]
 
+// List of valid food-enhancing classes
+const validClasses = ['class_cook', 'class_shepherd']; // Add more as needed
+
+
 /**
  * 
  * @param { import('@minecraft/server').Player } player 
  */
 function more_saturated_food(player) {
-  const foodItemsInInventory = findItems(player).filter(item => items.includes(item?.item?.typeId))
+  const foodItemsInInventory = findItems(player).filter(item => items.includes(item?.item?.typeId));
   if (foodItemsInInventory.length === 0) return;
 
-  for (const item of foodItemsInInventory) {
-    const convertItem = new ItemStack(item.item.typeId.replace('r4isen1920_originspe:temp_', 'minecraft:'), item.item.amount)
-    if (player.hasTag('class_cook')) convertItem.setLore(['§r§6Good Meals§r'])
-    player.getComponent('inventory').container.setItem(item.slot, convertItem)
-  }
-  if (player.hasTag('class_cook')) player.playSound('random.cook')
+  // Check if the player has any valid class
+  const hasValidClass = validClasses.some(tag => player.hasTag(tag));
 
+  for (const item of foodItemsInInventory) {
+    const convertItem = new ItemStack(item.item.typeId.replace('r4isen1920_originspe:temp_', 'minecraft:'), item.item.amount);
+    
+    if (hasValidClass) convertItem.setLore(['§r§6Good Meals§r']);
+
+    player.getComponent('inventory').container.setItem(item.slot, convertItem);
+  }
+
+  if (hasValidClass) player.playSound('random.cook');
 }
 
 toAllPlayers(more_saturated_food, 15, TicksPerSecond * 15)

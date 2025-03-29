@@ -211,6 +211,66 @@
             "commands": [ "/execute as @initiator run clear @s[tag=!was_creative] r4isen1920_originspe:resignation_paper 0 1", "/execute as @initiator run scriptevent r4isen1920_originspe:player become_class_unknown" ]
           }
         ]
+      },
+      {
+        "scene_tag": "gui_class_change_caver",
+        "npc_name": "origins.custom_dialogue",
+        "text": "changeclass.caver",
+        "buttons": [
+          {
+            "name": "cancel",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" ]
+          },
+          {
+            "name": "continue_class",
+            "commands": [ "/execute as @initiator run clear @s[tag=!was_creative] r4isen1920_originspe:resignation_paper 0 1", "/execute as @initiator run scriptevent r4isen1920_originspe:player become_class_unknown" ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_change_carpenter",
+        "npc_name": "origins.custom_dialogue",
+        "text": "changeclass.carpenter",
+        "buttons": [
+          {
+            "name": "cancel",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" ]
+          },
+          {
+            "name": "continue_class",
+            "commands": [ "/execute as @initiator run clear @s[tag=!was_creative] r4isen1920_originspe:resignation_paper 0 1", "/execute as @initiator run scriptevent r4isen1920_originspe:player become_class_unknown" ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_change_shepherd",
+        "npc_name": "origins.custom_dialogue",
+        "text": "changeclass.shepherd",
+        "buttons": [
+          {
+            "name": "cancel",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" ]
+          },
+          {
+            "name": "continue_class",
+            "commands": [ "/execute as @initiator run clear @s[tag=!was_creative] r4isen1920_originspe:resignation_paper 0 1", "/execute as @initiator run scriptevent r4isen1920_originspe:player become_class_unknown" ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_change_smith",
+        "npc_name": "origins.custom_dialogue",
+        "text": "changeclass.smith",
+        "buttons": [
+          {
+            "name": "cancel",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" ]
+          },
+          {
+            "name": "continue_class",
+            "commands": [ "/execute as @initiator run clear @s[tag=!was_creative] r4isen1920_originspe:resignation_paper 0 1", "/execute as @initiator run scriptevent r4isen1920_originspe:player become_class_unknown" ]
+          }
+        ]
       }
     ]
   }

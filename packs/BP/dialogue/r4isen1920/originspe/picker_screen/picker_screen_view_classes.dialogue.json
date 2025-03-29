@@ -199,6 +199,69 @@
         ]
       },
 
+
+      {
+        "scene_tag": "gui_class_view_caver",
+        "npc_name": "origins.custom_dialogue",
+        "text": "viewclass.caver",
+        "buttons": [
+          {
+            "name": "start",
+            "commands": [ 
+              "/execute as @initiator[tag=\"change_resign\"] if score \"toggle_announce\" index matches 1 run tellraw @a {\"rawtext\":[{\"text\":\"§e\"},{\"translate\":\"origins.change.announce.class\",\"with\":{\"rawtext\":[{\"selector\":\"@s\"},{\"translate\":\"origins.class.caver.name\"}]}}]}", 
+              "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" 
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_view_carpenter",
+        "npc_name": "origins.custom_dialogue",
+        "text": "viewclass.carpenter",
+        "buttons": [
+          {
+            "name": "start",
+            "commands": [ 
+              "/execute as @initiator[tag=\"change_resign\"] if score \"toggle_announce\" index matches 1 run tellraw @a {\"rawtext\":[{\"text\":\"§e\"},{\"translate\":\"origins.change.announce.class\",\"with\":{\"rawtext\":[{\"selector\":\"@s\"},{\"translate\":\"origins.class.carpenter.name\"}]}}]}", 
+              "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" 
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_view_shepherd",
+        "npc_name": "origins.custom_dialogue",
+        "text": "viewclass.shepherd",
+        "buttons": [
+          {
+            "name": "start",
+            "commands": [ 
+              "/execute as @initiator[tag=\"change_resign\"] if score \"toggle_announce\" index matches 1 run tellraw @a {\"rawtext\":[{\"text\":\"§e\"},{\"translate\":\"origins.change.announce.class\",\"with\":{\"rawtext\":[{\"selector\":\"@s\"},{\"translate\":\"origins.class.shepherd.name\"}]}}]}", 
+              "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" 
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_view_smith",
+        "npc_name": "origins.custom_dialogue",
+        "text": "viewclass.smith",
+        "buttons": [
+          {
+            "name": "start",
+            "commands": [ 
+              "/execute as @initiator[tag=\"change_resign\"] if score \"toggle_announce\" index matches 1 run tellraw @a {\"rawtext\":[{\"text\":\"§e\"},{\"translate\":\"origins.change.announce.class\",\"with\":{\"rawtext\":[{\"selector\":\"@s\"},{\"translate\":\"origins.class.smith.name\"}]}}]}", 
+              "/execute as @initiator run scriptevent r4isen1920_originspe:gui on_close" 
+            ]
+          }
+        ]
+      },
+
+
+
+
+
+
       {
         "scene_tag": "gui_class_viewonly_nitwit",
         "npc_name": "origins.custom_dialogue",
@@ -352,7 +415,56 @@
             "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui open_options_general" ]
           }
         ]
+      },
+
+
+
+
+      {
+        "scene_tag": "gui_class_viewonly_caver",
+        "npc_name": "origins.custom_dialogue",
+        "text": "viewclass.caver",
+        "buttons": [
+          {
+            "name": "return_start",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui open_options_general" ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_viewonly_carpenter",
+        "npc_name": "origins.custom_dialogue",
+        "text": "viewclass.carpenter",
+        "buttons": [
+          {
+            "name": "return_start",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui open_options_general" ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_viewonly_shepherd",
+        "npc_name": "origins.custom_dialogue",
+        "text": "viewclass.shepherd",
+        "buttons": [
+          {
+            "name": "return_start",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui open_options_general" ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "gui_class_viewonly_smith",
+        "npc_name": "origins.custom_dialogue",
+        "text": "viewclass.smith",
+        "buttons": [
+          {
+            "name": "return_start",
+            "commands": [ "/execute as @initiator run scriptevent r4isen1920_originspe:gui open_options_general" ]
+          }
+        ]
       }
+
     ]
   }
 }

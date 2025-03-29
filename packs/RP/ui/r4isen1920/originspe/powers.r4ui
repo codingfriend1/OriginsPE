@@ -1027,7 +1027,13 @@
             { "miner@origin_common.text_label": { "text": "origins.class.miner.name", "color": "$7_color_format" } },
             { "rancher@origin_common.text_label": { "text": "origins.class.rancher.name", "color": "$7_color_format" } },
             { "rogue@origin_common.text_label": { "text": "origins.class.rogue.name", "color": "$7_color_format" } },
-            { "warrior@origin_common.text_label": { "text": "origins.class.warrior.name", "color": "$7_color_format" } }
+            { "warrior@origin_common.text_label": { "text": "origins.class.warrior.name", "color": "$7_color_format" } },
+
+
+            { "caver@origin_common.text_label": { "text": "origins.class.caver.name", "color": "$7_color_format" } },
+            { "carpenter@origin_common.text_label": { "text": "origins.class.carpenter.name", "color": "$7_color_format" } },
+            { "shepherd@origin_common.text_label": { "text": "origins.class.shepherd.name", "color": "$7_color_format" } },
+            { "smith@origin_common.text_label": { "text": "origins.class.smith.name", "color": "$7_color_format" } }
           ]
         }
       },
@@ -1304,6 +1310,173 @@
         "less_health_more_attack@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.perk.less_health_more_attack.name",
           "$power_description": "origins.perk.less_health_more_attack.description"
+        }
+      }
+    ]
+  },
+
+  "class_caver": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    
+    "controls": [
+      {
+        "ore_vein_miner@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.ore_vein_miner.name",
+          "$power_description": "origins.perk.ore_vein_miner.description"
+        }
+      },
+      {
+        "no_mining_exhaustion@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.no_mining_exhaustion.name",
+          "$power_description": "origins.perk.no_mining_exhaustion.description"
+        }
+      },
+      {
+        "fortunate_miner@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.fortunate_miner.name",
+          "$power_description": "origins.perk.fortunate_miner.description"
+        }
+      },
+      {
+        "cat_vision@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.cat_vision.name",
+          "$power_description": "origins.trait.cat_vision.description"
+        }
+      },
+      {
+        "fall_immunity@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.fall_immunity.name",
+          "$power_description": "origins.trait.fall_immunity.description"
+        }
+      }
+    ]
+  },
+  "class_carpenter": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    
+    "controls": [
+      {
+        "tree_felling@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.tree_felling.name",
+          "$power_description": "origins.perk.tree_felling.description"
+        }
+      },
+      {
+        "sapling_setblock@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.sapling_setblock.name",
+          "$power_description": "origins.perk.sapling_setblock.description"
+        }
+      },
+      {
+        "cheaper_trades@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.cheaper_trades.name",
+          "$power_description": "origins.perk.cheaper_trades.description"
+        }
+      },
+      {
+        "wandering_trader_spawn@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.wandering_trader_spawn.name",
+          "$power_description": "origins.perk.wandering_trader_spawn.description"
+        }
+      },
+      {
+        "fall_resistant@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.fall_resistant.name",
+          "$power_description": "origins.perk.fall_resistant.description"
+        }
+      },
+      {
+        "high_jumper@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.high_jumper.name",
+          "$power_description": "origins.perk.high_jumper.description"
+        }
+      }
+    ]
+  },
+  "class_shepherd": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    
+    "controls": [
+      {
+        "twin_breeding@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.twin_breeding.name",
+          "$power_description": "origins.perk.twin_breeding.description"
+        }
+      },
+      {
+        "more_animal_loot@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.more_animal_loot.name",
+          "$power_description": "origins.perk.more_animal_loot.description"
+        }
+      },
+      {
+        "tamed_animal_boost@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.tamed_animal_boost.name",
+          "$power_description": "origins.perk.tamed_animal_boost.description"
+        }
+      },
+      {
+        "effective_empathy@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.effective_empathy.name",
+          "$power_description": "origins.perk.effective_empathy.description"
+        }
+      },
+      {
+        "fast_crop_growth@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.fast_crop_growth.name",
+          "$power_description": "origins.perk.fast_crop_growth.description"
+        }
+      },
+      {
+        "more_crop_drops@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.more_crop_drops.name",
+          "$power_description": "origins.perk.more_crop_drops.description"
+        }
+      },
+      {
+        "more_saturated_food@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.more_saturated_food.name",
+          "$power_description": "origins.perk.more_saturated_food.description"
+        }
+      },
+      {
+        "better_stew@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.better_stew.name",
+          "$power_description": "origins.perk.better_stew.description"
+        }
+      }
+    ]
+  },
+  "class_smith": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    
+    "controls": [
+      {
+        "quality_equipment@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.quality_equipment.name",
+          "$power_description": "origins.perk.quality_equipment.description"
+        }
+      },
+      {
+        "efficient_repairs@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.efficient_repairs.name",
+          "$power_description": "origins.perk.efficient_repairs.description"
+        }
+      },
+      {
+        "longer_potions@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.longer_potions.name",
+          "$power_description": "origins.perk.longer_potions.description"
+        }
+      },
+      {
+        "powerful_potions@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.powerful_potions.name",
+          "$power_description": "origins.perk.powerful_potions.description"
         }
       }
     ]

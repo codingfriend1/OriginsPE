@@ -141,6 +141,22 @@ execute if score "ban_warrior" index matches 0..1 run tag @s add indexed
 execute as @s[tag=!"indexed"] run scoreboard players set "ban_warrior" index 0
 tag @s remove indexed
 
+
+execute if score "ban_caver" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_caver" index 0
+tag @s remove indexed
+execute if score "ban_carpenter" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_carpenter" index 0
+tag @s remove indexed
+execute if score "ban_shepherd" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_shepherd" index 0
+tag @s remove indexed
+execute if score "ban_smith" index matches 0..1 run tag @s add indexed
+execute as @s[tag=!"indexed"] run scoreboard players set "ban_smith" index 0
+tag @s remove indexed
+
+
+
 execute if score "toggle_orb" index matches 0..1 run tag @s add indexed
 execute as @s[tag=!"indexed"] run scoreboard players set "toggle_orb" index 1
 tag @s remove indexed

@@ -49,6 +49,11 @@ scoreboard players operation "banc" index += "ban_rogue" index
 scoreboard players operation "banc" index += "ban_warrior" index
 scoreboard players operation "banc" index += "ban_diviner" index
 
+scoreboard players operation "banc" index += "ban_caver" index
+scoreboard players operation "banc" index += "ban_carpenter" index
+scoreboard players operation "banc" index += "ban_shepherd" index
+scoreboard players operation "banc" index += "ban_smith" index
+
 execute if score "banr" index matches 19.. run scoreboard players set "ban_human" index 0
 execute if score "banc" index matches 13.. run scoreboard players set "ban_nitwit" index 0
 execute if score "banr" index matches 19.. run scoreboard players set "ban_human" index 18

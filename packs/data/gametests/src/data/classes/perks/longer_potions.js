@@ -18,6 +18,8 @@ export const potency = [
   'X'
 ]
 
+const validClasses = ['class_cleric', 'class_smith'];
+
 /**
  * 
  * Main runtime for this perk
@@ -27,35 +29,50 @@ export const potency = [
  * @param { Array<{ typeId: string, dataValue: number, effects: { name: string, duration: number, amplifier: number, isNegativeEffect: boolean }[], whenApplied: string[] }> } itemList 
  */
 export function main(player, potion_filter, itemList) {
-  const potionItemsInInventory = findItems(player).filter(item => items.some(i => (item?.item?.typeId?.includes(`temp_${i.typeId}`) && item?.item?.typeId?.includes(potion_filter))))
+  const potionItemsInInventory = findItems(player).filter(item => 
+    items.some(i => item?.item?.typeId?.includes(`temp_${i.typeId}`) && item?.item?.typeId?.includes(potion_filter))
+  );
   if (potionItemsInInventory.length === 0) return;
 
-  for (const item of potionItemsInInventory) {
-    const convertItem = new ItemStack(item.item.typeId.replace('r4isen1920_originspe:temp_', 'r4isen1920_originspe:cleric_'), item.item.amount)
+  // ✅ List of valid potion-enhancing classes
+  const hasValidClass = validClasses.some(tag => player.hasTag(tag));
 
-    const itemData = itemList.find(i => item.item.typeId.includes(i.typeId))
-    let setLore = []
+  for (const item of potionItemsInInventory) {
+    const convertItem = new ItemStack(item.item.typeId.replace('r4isen1920_originspe:temp_', 'r4isen1920_originspe:cleric_'), item.item.amount);
+
+    const itemData = itemList.find(i => item.item.typeId.includes(i.typeId));
+    let setLore = [];
+
     itemData.effects.forEach(effect => {
-      const effectName = (effect.isNegativeEffect ? '§c' : '§7') + effect.name.replace(/.+_of_|_/gm, ' ').toTitle()
-      const amplifier = potency[effect.amplifier] || effect.amplifier
-      const duration = Math.floor(effect.duration / 60) + ':' + ((effect.duration % 60).toString().padStart(2, '0'))
+      const effectName = (effect.isNegativeEffect ? '§c' : '§7') + effect.name.replace(/.+_of_|_/gm, ' ').toTitle();
+      const amplifier = potency[effect.amplifier] || effect.amplifier;
+      const duration = Math.floor(effect.duration / 60) + ':' + ((effect.duration % 60).toString().padStart(2, '0'));
 
       if (effect.amplifier === 0) setLore.push(`§r${effectName} (${duration})`);
       else if (effect.duration === 0) setLore.push(`§r${effectName} ${amplifier}`);
       else setLore.push(`§r${effectName} ${amplifier} (${duration})`);
-    })
-    if (itemData.whenApplied.length > 0) setLore.push('§r§7', '§r§5When Applied:', ...itemData.whenApplied)
-    setLore.push('§r§7', '§r§6Enhanced Potion§r')
-    convertItem.setLore(setLore)
+    });
 
-    const slotType = item.slot <= 8 ? 'hotbar' : 'inventory'
-    const potionType = item?.item?.typeId?.includes('splash') ? 'splash_potion' : (item?.item?.typeId?.includes('lingering') ? 'lingering_potion' : 'potion')
-    if (player.hasTag('class_cleric')) player.getComponent('inventory').container.setItem(item.slot, convertItem)
-    else player.runCommand(`replaceitem entity @s slot.${slotType} ${item.slot - (8 * (slotType === 'inventory'))} ${potionType} 1 ${itemData.dataValue}`)
+    if (itemData.whenApplied.length > 0) setLore.push('§r§7', '§r§5When Applied:', ...itemData.whenApplied);
+    setLore.push('§r§7', '§r§6Enhanced Potion§r');
+    convertItem.setLore(setLore);
+
+    const slotType = item.slot <= 8 ? 'hotbar' : 'inventory';
+    const potionType = item?.item?.typeId?.includes('splash') ? 'splash_potion' :
+                      (item?.item?.typeId?.includes('lingering') ? 'lingering_potion' : 'potion');
+
+    if (hasValidClass) {
+      player.getComponent('inventory').container.setItem(item.slot, convertItem);
+    } else {
+      player.runCommand(`replaceitem entity @s slot.${slotType} ${item.slot - (8 * (slotType === 'inventory'))} ${potionType} 1 ${itemData.dataValue}`);
+    }
   }
-  if (player.hasTag('class_cleric')) player.playSound('ui.enchant', { volume: 0.5, pitch: 1.75 })
 
+  if (hasValidClass) {
+    player.playSound('ui.enchant', { volume: 0.5, pitch: 1.75 });
+  }
 }
+
 
 var longer_potions = (player) => main(player, '_long', items)
 toAllPlayers(longer_potions, 15, TicksPerSecond * 15)

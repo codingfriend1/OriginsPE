@@ -41,6 +41,9 @@ const templateTypes = [
   ...templateArmorTypes
 ];
 
+const validClasses = ['class_blacksmith', 'class_smith'];
+
+
 /**
  * 
  * List of items
@@ -57,30 +60,44 @@ const items = [
  * @param { import('@minecraft/server').Player } player 
  */
 function quality_equipment(player) {
-  const unsetItemsInInventory = findItems(player).filter(item => items.includes(item?.item?.typeId) && !item?.item?.getDynamicProperty(is_quality_set_property))
+  const unsetItemsInInventory = findItems(player).filter(item =>
+    items.includes(item?.item?.typeId) &&
+    !item?.item?.getDynamicProperty(is_quality_set_property)
+  );
 
   if (unsetItemsInInventory.length === 0) return;
 
+  // ✅ List of valid classes that produce quality equipment
+  const hasValidClass = validClasses.some(tag => player.hasTag(tag));
+
   for (const item of unsetItemsInInventory) {
     const baseTypeId = item.item.typeId.replace('minecraft:', '');
-    const newItemTypeId = player.hasTag('class_blacksmith') ? `r4isen1920_originspe:blacksmith_${baseTypeId}` : `minecraft:${baseTypeId}`;
+    const newItemTypeId = hasValidClass
+      ? `r4isen1920_originspe:blacksmith_${baseTypeId}`
+      : `minecraft:${baseTypeId}`;
+
     const newItem = new ItemStack(newItemTypeId, item.item.amount);
 
     let setLore = [];
-    if (templateArmorTypes.some(type => baseTypeId.includes(type) && baseTypeId.includes('netherite'))) 
+    if (templateArmorTypes.some(type => baseTypeId.includes(type) && baseTypeId.includes('netherite'))) {
       setLore.push('§r§7', '§r§9+1 Knockback Resistance§r');
-    if (player.hasTag('class_blacksmith')) setLore.push('§r§6Quality Equipment§r');
+    }
+    if (hasValidClass) {
+      setLore.push('§r§6Quality Equipment§r');
+    }
     newItem.setLore(setLore);
 
-    // If this property is not set, tools made by non-blacksmith players may be converted to Quality Equiptment when it enters a blacksmith's inventory
-    newItem.setDynamicProperty(is_quality_set_property, true)
+    // Prevent reprocessing the item in the future
+    newItem.setDynamicProperty(is_quality_set_property, true);
 
     player.getComponent('inventory').container.setItem(item.slot, newItem);
-
   }
-  if (player.hasTag('class_blacksmith')) player.playSound('smithing_table.use', { volume: 0.75, pitch: 1.25 })
 
+  if (hasValidClass) {
+    player.playSound('smithing_table.use', { volume: 0.75, pitch: 1.25 });
+  }
 }
+
 
 toAllPlayers(quality_equipment, 15, TicksPerSecond * 15)
 

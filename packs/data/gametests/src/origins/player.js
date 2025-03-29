@@ -60,6 +60,11 @@ const CLASSES = [
   'rancher',
   'rogue',
   'warrior',
+
+  'caver',
+  'carpenter',
+  'shepherd',
+  'smith'
 ]
 
 // const keepOnDeathTypeIdExceptions = [

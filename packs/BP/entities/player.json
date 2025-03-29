@@ -175,6 +175,12 @@
         "minecraft:movement": { "value": 0.095 }
       },
 
+      "r4isen1920_originspe:perk_high_jumper": {
+        "minecraft:jump.static": {
+          "jump_power": 0.6
+        }
+      },
+
       "r4isen1920_originspe:movement.0.1": {
         "minecraft:movement": { "value": 0.1 }
       },
@@ -620,9 +626,20 @@
             "cause": "fall",
             "on_damage": {
               "filters": {
-                "all_of": [
-                  { "test": "has_tag", "value": "power_lightweight" }
-                ]
+                "all_of": [{
+                  "any_of": [
+                    { "test": "has_tag", "value": "power_lightweight" },
+                    { "test": "has_tag", "value": "perk_fall_resistant" }
+                  ],
+                  "all_of": [
+                    { "test": "has_tag", "operator": "not", "value": "power_smash" },
+                    { "test": "has_tag", "operator": "not", "value": "power_strong_ankles" },
+                    { "test": "has_tag", "operator": "not", "value": "power_fall_immunity" },
+                    { "test": "has_tag", "operator": "not", "value": "perk_fall_immunity" },
+                    { "test": "has_tag", "operator": "not", "value": "power_cosmic_gift" },
+                    { "test": "has_tag", "operator": "not", "value": "power_nimble" }
+                  ]
+                }]
               }
             },
             "deals_damage": true,
@@ -636,6 +653,7 @@
                   { "test": "has_tag", "value": "power_strong_ankles" },
                   { "test": "has_tag", "value": "power_smash" },
                   { "test": "has_tag", "value": "power_fall_immunity" },
+                  { "test": "has_tag", "value": "perk_fall_immunity" },
                   { "test": "has_tag", "value": "power_cosmic_gift" },
                   { "test": "has_tag", "value": "power_nimble" }
                 ]
@@ -1260,13 +1278,15 @@
                 "r4isen1920_originspe:power_longevity",
                 "r4isen1920_originspe:power_heavy",
                 "r4isen1920_originspe:power_swift",
-                "r4isen1920_originspe:power_lightweight"
+                "r4isen1920_originspe:power_lightweight",
+                "r4isen1920_originspe:perk_high_jumper"
               ]
             },
             "add": {
               "component_groups": [
                 "r4isen1920_originspe:ping_for_hunger_aura",
-                "r4isen1920_originspe:movement.0.1"
+                "r4isen1920_originspe:movement.0.1",
+                "r4isen1920_originspe:health.20"
               ]
             }
           },
@@ -1313,6 +1333,15 @@
             },
             "add": {
               "component_groups": ["r4isen1920_originspe:power_lightweight"]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_tag",
+              "value": "perk_high_jumper"
+            },
+            "add": {
+              "component_groups": ["r4isen1920_originspe:perk_high_jumper"]
             }
           }
         ]

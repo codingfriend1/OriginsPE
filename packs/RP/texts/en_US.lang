@@ -65,6 +65,18 @@ origins.race.supporter.description=Sages channel celestial energy to shield, emp
 origins.race.rogue.name=Nightblade
 origins.race.rogue.description=Nightblades vanish in the blink of an eye, striking from unseen places and bending the battlefield in their favor. Masters of deception and sabotage, they thrive in chaos—crippling enemies and guiding victory from the shadows.
 
+origins.class.caver.name=Caver  
+origins.class.caver.description=Cavers thrive underground, sensing ores, mining endlessly, and falling without fear. In the deep, they see what others miss.
+
+origins.class.carpenter.name=Carpenter  
+origins.class.carpenter.description=Carpenters leap higher, build faster, and trade smarter. With reach and resilience, they shape the world with ease.
+
+origins.class.shepherd.name=Shepherd  
+origins.class.shepherd.description=Shepherds grow and gather with care. Their presence feeds life, doubles harvests, and calls animals to their side.
+
+origins.class.smith.name=Craftsman  
+origins.class.smith.description=Craftsmen forge stronger gear, enchant better, and burn hotter. They turn raw materials into unmatched tools of power.
+
 
 origins.class.random.name=Random
 origins.class.random.description=You'll be classified to one of the following classes listed below, only if it's available for use:
@@ -315,12 +327,7 @@ origins.perk.no_sprint_exhaustion.name=Fit
 origins.perk.no_sprint_exhaustion.description=You do not lose hunger when sprinting.
 origins.perk.explorer_kit.name=Explorer Kit
 origins.perk.explorer_kit.description=You start the game with a compass, a clock and nine empty maps that will never drop on death.
-origins.perk.ore_vein_miner.name=Vein Mine
-origins.perk.ore_vein_miner.description=You are able to instantly mine ores and its neighboring ores when using a pickaxe.
-origins.perk.no_mining_exhaustion.name=Veteran Excavator
-origins.perk.no_mining_exhaustion.description=You do not lose hunger when mining.
-origins.perk.fortunate_miner.name=Blessed Miner
-origins.perk.fortunate_miner.description=You are blessed with Fortune +1 on whatever pickaxe you use. This blessing does not transfer to others.
+
 origins.perk.tree_felling.name=Tree Capitator
 origins.perk.tree_felling.description=You can cut down an entire tree when using an axe.
 origins.perk.sapling_setblock.name=Replanting
@@ -503,3 +510,20 @@ origins.trait.smaller.name=Smaller
 origins.trait.smaller.description=Your size is reduced 25%, making you harder to target.
 origins.trait.light_armor.name=Need for Mobility
 origins.trait.light_armor.description=Heavy armor slows you by 50%. You were made for speed, not slugging it out in steel.
+
+
+origins.perk.ore_vein_miner.name=Vein Mine
+origins.perk.ore_vein_miner.description=You are able to instantly mine ores and its neighboring ores when using a pickaxe.
+origins.perk.no_mining_exhaustion.name=Veteran Excavator
+origins.perk.no_mining_exhaustion.description=You do not lose hunger when mining.
+origins.perk.fortunate_miner.name=Blessed Miner
+origins.perk.fortunate_miner.description=You are blessed with Fortune +1 on whatever pickaxe you use. This blessing does not transfer to others.
+
+
+origins.perk.fall_resistant.name=Fallwise  
+origins.perk.fall_resistant.description=You’ve mastered the art of safe landings, reducing the force of a fall by 50% through instinct and training.
+origins.perk.high_jumper.name=Builder’s Step
+origins.perk.high_jumper.description=You're trained to scale structures with ease, jumping twice as high to reach ledges and frames.
+
+
+

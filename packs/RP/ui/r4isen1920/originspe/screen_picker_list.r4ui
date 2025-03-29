@@ -528,6 +528,61 @@
           "$visible_binding": "((#dialogtext = 'pickclass.warrior') or (#dialogtext = 'viewclass.warrior') or (#dialogtext = 'changeclass.warrior') or (#dialogtext = 'banclass.warrior'))"
         }
       },
+
+      {
+        "class_caver@origin_common.origin_picker_window_template": {
+          "$being_icon_texture": "texture_path",
+          "$being_icon_texture_path": "textures/items/iron_pickaxe",
+          "$being_name_text": "origins.class.caver.name",
+          "$being_difficulty": "decent",
+          "$being_description": "origins.class.caver.description",
+          "$being_traits": "origin_powers.class_caver",
+          
+          "$child_control": "origin_screen_picker_common.picker_window_panel_content",
+          "$visible_binding": "((#dialogtext = 'pickclass.caver') or (#dialogtext = 'viewclass.caver') or (#dialogtext = 'changeclass.caver') or (#dialogtext = 'banclass.caver'))"
+        }
+      },
+      {
+        "class_carpenter@origin_common.origin_picker_window_template": {
+          "$being_icon_texture": "texture_path",
+          "$being_icon_texture_path": "textures/items/emerald",
+          "$being_name_text": "origins.class.carpenter.name",
+          "$being_difficulty": "very",
+          "$being_description": "origins.class.carpenter.description",
+          "$being_traits": "origin_powers.class_carpenter",
+          
+          "$child_control": "origin_screen_picker_common.picker_window_panel_content",
+          "$visible_binding": "((#dialogtext = 'pickclass.carpenter') or (#dialogtext = 'viewclass.carpenter') or (#dialogtext = 'changeclass.carpenter') or (#dialogtext = 'banclass.carpenter'))"
+        }
+      },
+      {
+        "class_shepherd@origin_common.origin_picker_window_template": {
+          "$being_icon_texture": "texture_path",
+          "$being_icon_texture_path": "textures/items/lead",
+          "$being_name_text": "origins.class.shepherd.name",
+          "$being_difficulty": "decent",
+          "$being_description": "origins.class.shepherd.description",
+          "$being_traits": "origin_powers.class_shepherd",
+          
+          "$child_control": "origin_screen_picker_common.picker_window_panel_content",
+          "$visible_binding": "((#dialogtext = 'pickclass.shepherd') or (#dialogtext = 'viewclass.shepherd') or (#dialogtext = 'changeclass.shepherd') or (#dialogtext = 'banclass.shepherd'))"
+        }
+      },
+      {
+        "class_smith@origin_common.origin_picker_window_template": {
+          "$being_icon_texture": "texture_path",
+          "$being_icon_texture_path": "textures/items/iron_ingot",
+          "$being_name_text": "origins.class.smith.name",
+          "$being_difficulty": "decent",
+          "$being_description": "origins.class.smith.description",
+          "$being_traits": "origin_powers.class_smith",
+          
+          "$child_control": "origin_screen_picker_common.picker_window_panel_content",
+          "$visible_binding": "((#dialogtext = 'pickclass.smith') or (#dialogtext = 'viewclass.smith') or (#dialogtext = 'changeclass.smith') or (#dialogtext = 'banclass.smith'))"
+        }
+      },
+
+
       {
         "class_random@origin_common.origin_picker_window_template": {
           "$being_icon_texture": "random",

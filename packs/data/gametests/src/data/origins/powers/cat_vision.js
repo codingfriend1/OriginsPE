@@ -8,7 +8,7 @@ import { toAllPlayers } from "../../../origins/player";
  */
 function cat_vision(player) {
 
-  if (!player.hasTag('power_cat_vision')) return
+  if (!player.hasTag('power_cat_vision') && !player.hasTag('perk_cat_vision')) return
 
   player.triggerEvent('r4isen1920_originspe:light_level');
   const lightLevel = player.getProperty('r4isen1920_originspe:light_level');

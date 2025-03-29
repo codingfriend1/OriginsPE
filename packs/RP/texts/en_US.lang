@@ -458,9 +458,9 @@ origins.trait.throw_ender_pearl.failed=No room to teleport there!
 origins.trait.endless_quiver.name=Endless Quiver
 origins.trait.endless_quiver.description=Your arrows never run dry. Wield your bow with infinite ammo and relentless precision.
 origins.trait.marksman.name=Marksman
-origins.trait.marksman.description=Unleash primal fury. Gain Strength I and crush enemies in close quarters.
+origins.trait.marksman.description=Deal 30% more damage with ranged attacks. Your aim is death’s own messenger.
 origins.trait.ferocious.name=Ferocious
-origins.trait.ferocious.description=You deal 35% more melee damage, overwhelming opponents in close combat.
+origins.trait.ferocious.description=Unleash primal fury. Gain Strength I and crush enemies in close quarters.
 origins.trait.fragile.name=Fragile
 origins.trait.fragile.description=Power comes at a price — take 20% more damage from entity attacks. Be swift, not reckless.
 

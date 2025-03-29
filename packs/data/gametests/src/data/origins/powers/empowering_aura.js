@@ -6,11 +6,17 @@ const POWER_CONTROL_ITEM_NAME = 'r4isen1920_originspe:origins_power.empowering_a
 
 usepower.subscribe(POWER_CONTROL_ITEM_NAME, empowering_aura);
 
-const DURATION = 4 * TicksPerSecond; // 4 seconds (in ticks)
-const COOLDOWN = 9; // 9 seconds (in ticks)
+const INVINCIBILITY_DURATION_SECONDS = 4;
+const COOLDOWN = 9;
+const INVINCIBILITY_DURATION_TICKS = INVINCIBILITY_DURATION_SECONDS * TicksPerSecond;
+const COOLDOWN_TAG = "cooldown_1";
+let timer = null;
 const AURA_RADIUS = 64;
 const EFFECT_TAG = "aura_active";
-const COOLDOWN_TAG = "aura_cooldown";
+
+function resetCooldown(player, seconds) {
+  timer = new ResourceBar(1, 0, 100, seconds).push(player);
+}
 
 function empowering_aura({ player, itemStack }) {
 
@@ -18,35 +24,31 @@ function empowering_aura({ player, itemStack }) {
 
   if (player.hasTag(COOLDOWN_TAG)) {
     player.sendMessage({ translate: "origins.trait.empowering_aura.cooldown" });
+    if(!timer) resetCooldown(player, COOLDOWN);
+
     return;
   }
 
   // Begin aura effect
   player.addTag(EFFECT_TAG);
-  player.addTag(COOLDOWN_TAG);
-  new ResourceBar(1, 0, 100, COOLDOWN).push(player);
-
-  player.addEffect("resistance", DURATION, { amplifier: 255, showParticles: true }); // Invincible
-  player.addEffect("glowing", DURATION);
+  // Play sound
   player.playSound("note.chime", { volume: 1, pitch: 2 });
+
+  // Invincibility
+  player.addEffect("resistance", INVINCIBILITY_DURATION_TICKS, { amplifier: 255, showParticles: true });
+  player.addEffect("glowing", INVINCIBILITY_DURATION_TICKS);
 
   for (const target of world.getPlayers()) {
     if (target === player) continue;
     if (player.location.distanceTo(target.location) > AURA_RADIUS) continue;
 
     target.playSound("note.chime", { volume: 1, pitch: 2 });
-    target.addEffect("speed", DURATION, { amplifier: 1, showParticles: true });
-    target.addEffect("strength", DURATION, { amplifier: 2, showParticles: true });
-    target.addEffect("resistance", DURATION, { amplifier: 1, showParticles: true });
-    target.addEffect("regeneration", DURATION, { amplifier: 1 });
-    target.addEffect("glowing", DURATION);
+    target.addEffect("speed", INVINCIBILITY_DURATION_TICKS, { amplifier: 1, showParticles: true });
+    target.addEffect("strength", INVINCIBILITY_DURATION_TICKS, { amplifier: 2, showParticles: true });
+    target.addEffect("resistance", INVINCIBILITY_DURATION_TICKS, { amplifier: 1, showParticles: true });
+    target.addEffect("regeneration", INVINCIBILITY_DURATION_TICKS, { amplifier: 1 });
+    target.addEffect("glowing", INVINCIBILITY_DURATION_TICKS);
   }
 
-  system.runTimeout(() => {
-    player.removeTag(EFFECT_TAG);
-  }, DURATION);
-
-  system.runTimeout(() => {
-    player.removeTag(COOLDOWN_TAG);
-  }, DURATION);
+  resetCooldown(player, INVINCIBILITY_DURATION_SECONDS + COOLDOWN);
 }

@@ -1,13 +1,13 @@
 export const rogue = {
   'powers': [
     'invisibility',
-    'imbue',
+    'marksman',
+    'cat_vision',
     'camouflage',
     'sneaky',
+    'debilitating_strikes',
     'smaller',
-    'light_armor',
-    'cat_vision',
-    'debilitating_strikes'
+    'light_armor'
   ],
   'controls': [
     'invisibility'

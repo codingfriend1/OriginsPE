@@ -50,19 +50,20 @@ origins.race.diviner.description=Diviners possesses the ability to tap into the 
 
 
 
-origins.race.scout.name=Scout
-origins.race.scout.description=Scouts charge ahead, swiftly exploring challenging terrian to prepare your team for what is ahead.
-origins.race.attacker.name=Attacker
-origins.race.attacker.description=Attackers focus on attacking the enemy and dealing high damage fast while relying on the Defender and Supporter to protect and aid them.
-origins.race.defender.name=Defender
-origins.race.defender.description=Defenders focus on protecting their teamates, providing a protective barrier, and rely on the Attacker and Supporter to deal damage and bring aid.
-origins.race.supporter.name=Supporter
-origins.race.supporter.description=Supporters focus on providing aid to their teammates, staying nearby, but rely on Attacker to deal damage.
-origins.race.rogue.name=Rogue
-origins.race.rogue.description=Rogues focus on stealth and outsmarting their enemies, helping their team quietly from the shadows.
+origins.race.scout.name=Skybreaker
+origins.race.scout.description=Skybreakers are fearless pathfinders who launch into the skies, gliding across treacherous terrain and uncovering enemy positions before the battle begins. With unyielding momentum and high agility, they are the wind before the storm.
 
+origins.race.attacker.name=Bladewarden
+origins.race.attacker.description=Bladewardens strike with lethal speed and precision, teleporting through the battlefield and unleashing devastating volleys of ranged and melee attacks. Their job is simple—eliminate the threat before it reaches your allies.
 
+origins.race.defender.name=Earthshatter
+origins.race.defender.description=Earthshatters are titanic guardians who leap into danger, slamming down with force and shielding their allies with sheer resilience. With iron skin and unmatched fortitude, they are the wall that no foe crosses.
 
+origins.race.supporter.name=Starcaller
+origins.race.supporter.description=Starcallers channel celestial energy to shield, empower, and sustain their allies. Their aura transforms the tide of battle—granting strength, invincibility, and hope to their team in the darkest moments.
+
+origins.race.rogue.name=Shadowmire
+origins.race.rogue.description=Shadowmires vanish in the blink of an eye, striking from unseen places and bending the battlefield in their favor. Masters of deception and sabotage, they thrive in chaos—crippling enemies and guiding victory from the shadows.
 
 
 origins.class.random.name=Random
@@ -145,8 +146,7 @@ origins.trait.burns_in_daylight.name=Undead
 origins.trait.burns_in_daylight.description=You begin to burn in daylight if you are not invisible or in water. Headwear reduces sunlight damage by 50%.
 origins.trait.fall_immunity.name=Strong Ankles
 origins.trait.fall_immunity.description=You never take fall damage, no matter from which height you fall.
-origins.trait.sprint_jump.name=Acrobatics
-origins.trait.sprint_jump.description=You are able to jump higher by jumping while sprinting.
+
 origins.trait.nine_lives.name=Nine Lives
 origins.trait.nine_lives.description=You have 1 less heart of health than humans.
 origins.trait.weak_arms.name=Weak Arms
@@ -439,80 +439,67 @@ progressScreen.message.modifiedWorldWarning=Please wait while the game loads you
 
 
 
-
-
-
-
-
-
-
-
-
 origins.trait.launch_into_air.name=Gift of the Winds
-origins.trait.launch_into_air.description=Propel yourself high up into the air. Has a 30-second cooldown before each use.
+origins.trait.launch_into_air.description=Soar skyward with explosive force, launching yourself high into the air like a living cannonball. Has a 30-second cooldown.
 origins.trait.elytra.name=Winged
 origins.trait.elytra.description=You have Elytra wings without needing to equip any, and is never lost nor can be removed.
-origins.trait.permeable.name=Permeable
-origins.trait.permeable.description=You take 10% more damage from any source.
-origins.trait.swift.name=Swift
-origins.trait.swift.description=Become nimble and swift, granting you increased movement speed, enabling you to traverse the terrain effortlessly.
-origins.trait.lightweight.name=Lightweight
-origins.trait.lightweight.description=You take 50% less fall damage but 20% more damage from other sources.
 origins.trait.essentials.name=Essentials
 origins.trait.essentials.description=You retain access to essential inventory, ensuring your hotbar is not lost upon death.
+origins.trait.swift.name=Swift
+origins.trait.swift.description=Become nimble and swift, granting you increased movement speed, enabling you to traverse the terrain effortlessly.
+origins.trait.sprint_jump.name=Acrobatics
+origins.trait.sprint_jump.description=With powerful legs, leap 2 blocks high while sprinting — crush obstacles and evade danger with ease.
+origins.trait.lightweight.name=Lightweight
+origins.trait.lightweight.description=Fall like a feather: take 50% less fall damage, never tire from sprinting or jumping, but beware — other attacks hurt 10% more.
 
 origins.trait.throw_ender_pearl.name=Teleportation
 origins.trait.throw_ender_pearl.description=Allows you to instantly teleport to the block you're looking at. The ability has a short cooldown depending on how far you travel.
 origins.trait.throw_ender_pearl.failed=No room to teleport there!
 origins.trait.endless_quiver.name=Endless Quiver
-origins.trait.endless_quiver.description=When wielding a bow in hand and you don't have any arrows in your inventory, automatically grants one for yourself.
-origins.trait.imbue.name=Imbue
-origins.trait.imbue.description=Enhances your projectiles to deal additional damage equivalent to 50% of your current health, plus 25% of their max health if the target is undead. This additional damage is treated as magic and will bypass armor.
+origins.trait.endless_quiver.description=Your arrows never run dry. Wield your bow with infinite ammo and relentless precision.
+origins.trait.marksman.name=Marksman
+origins.trait.marksman.description=Unleash primal fury. Gain Strength I and crush enemies in close quarters.
 origins.trait.ferocious.name=Ferocious
 origins.trait.ferocious.description=You deal 35% more melee damage, overwhelming opponents in close combat.
 origins.trait.fragile.name=Fragile
-origins.trait.fragile.description=You take 20% more damage from direct attacks. Though your offense is powerful, your defense is lacking.
+origins.trait.fragile.description=Power comes at a price — take 20% more damage from entity attacks. Be swift, not reckless.
 
 
-origins.trait.smash.name=Ground Slam
-origins.trait.smash.description=Leap into the air and slam down to the ground, damaging and knocking back enemies within range on impact.
+origins.trait.smash.name=Smash
+origins.trait.smash.description=Leap sky-high and slam the earth with cataclysmic force, dealing 10 damage to all foes within 6 blocks. Grants fall damage immunity.
 origins.trait.tough.name=Tough
-origins.trait.tough.description=You have four additional hearts and a larger hitbox, making you harder to bring down and you take 20% less damage from any source. 
+origins.trait.tough.description=Grow 4 bonus hearts and gain 20% resistance to all forms of damage. You are the frontline.
 origins.trait.unbreakable_skin.name=Unbreakable Skin
-origins.trait.unbreakable_skin.description=You take 30% less from ranged projectiles.
+origins.trait.unbreakable_skin.description=Deflect the skies — take 30% less damage from projectiles. Arrows bounce off your iron resolve.
 origins.trait.heavy.name=Heaviness
-origins.trait.heavy.description=Your large build reduces your movement speed by 5% and makes you hungrier when moving.
-origins.trait.strong_legs.name=Strong Legs
-origins.trait.strong_legs.description=Jumping while sprinting launches you high and far, and you are completely immune to fall damage.
+origins.trait.heavy.description=Massive power weighs heavy. Move 5% slower and exhaust twice as fast — but your might is unmatched.
 
 origins.trait.empowering_aura.name=Empowering Aura
-origins.trait.empowering_aura.description=Unleash a surge of energy that grants 4 seconds of invincibility to yourself and buffs nearby allies with speed, strength, resistance, regeneration, and a glowing aura.
+origins.trait.empowering_aura.description=Activate a radiant surge: Become invincible and bless all allies within 64 blocks with Speed, Strength, Resistance, and Regeneration for 4 seconds. 9-second cooldown.
 origins.trait.empowering_aura.cooldown=⚠ Aura on cooldown!
 origins.trait.longevity.name=Longevity
-origins.trait.longevity.description=You have 2 more hearts than normal.
-origins.trait.swift.name=Swift
-origins.trait.swift.description=Your movement speed is increased 40%
+origins.trait.longevity.description=Gain 2 extra hearts and outlast your enemies. Every breath is a second chance.
 origins.trait.good_memory.name=Good Memory
-origins.trait.good_memory.description=You remember your inventory. All items you carry are retained upon death.
+origins.trait.good_memory.description=Your inventory returns with you from the grave. Death is merely a setback.
 origins.trait.hunger_resistant.name=Hunger Resistance
-origins.trait.hunger_resistant.description=Your body burns energy more efficiently, reducing hunger loss from all sources by 20%.
+origins.trait.hunger_resistant.description=Endure the wild. Reduce exhaustion by 20% from all activities and stay full longer.
 origins.trait.hunger_aura.name=Hunger Aura
-origins.trait.hunger_aura.description=You emit a passive aura that strengthens nearby allies, reducing their hunger loss rate by 20% if they within 64 blocks of you.
+origins.trait.hunger_aura.description=Empower your allies: All players within 64 blocks gain Hunger Resistance just by being near you.
 
 
 origins.trait.invisibility.name=Invisibility
-origins.trait.invisibility.description=Become invisible for 20 seconds with a 12 second cooldown. Movement speed increases by 10% while cloaked. Cannot be used while hindered or under negative effects.
+origins.trait.invisibility.description=Slip into the shadows. Vanish for 60 seconds with a 12-second cooldown. Perfect for ambushes and escapes.
 origins.trait.invisibility.cooldown=⚠ Invisibility on cooldown!
 origins.trait.invisibility.hindered=⚠ Cannot use invisibility while hindered!
+origins.trait.cat_vision.name=Nocturnal
+origins.trait.cat_vision.description=At places where the light level is low, you automatically get the strength and night vision status effects.
 origins.trait.camouflage.name=Camouflage
 origins.trait.camouflage.description=You blend in with the environment when you're sneaking, that hostile mobs wont naturally attack you - unless if you attack them first.
 origins.trait.sneaky.name=Sneaky
 origins.trait.sneaky.description=Your nameplate is never always visible, even when you're not sneaking.
-origins.trait.smaller.name=Smaller
-origins.trait.smaller.description=Your size is reduced, making you harder to target.
-origins.trait.light_armor.name=Need for Mobility
-origins.trait.light_armor.description=You become heavy when wearing armor made out of iron, diamond or netherite pieces.
-origins.trait.cat_vision.name=Nocturnal
-origins.trait.cat_vision.description=At places where the light level is low, you automatically get the strength and night vision status effects.
 origins.trait.debilitating_strikes.name=Debilitating Strikes
-origins.trait.debilitating_strikes.description=Enemies you hit are slowed by 30% for 2 seconds, making it harder for them to escape or retaliate.
+origins.trait.debilitating_strikes.description=Cripple your enemies. Any mob you hit is slowed for 4 seconds — they’ll never escape your wrath.
+origins.trait.smaller.name=Smaller
+origins.trait.smaller.description=Your size is reduced 25%, making you harder to target.
+origins.trait.light_armor.name=Need for Mobility
+origins.trait.light_armor.description=Heavy armor slows you by 50%. You were made for speed, not slugging it out in steel.

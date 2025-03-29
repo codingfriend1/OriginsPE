@@ -20,9 +20,30 @@
     "r4isen1920_originspe:origins_power.shooting_star": { "textures": [ "textures/origins/hud/controls/shooting_star" ] },
     "r4isen1920_originspe:origins_power.prescience": { "textures": [ "textures/origins/hud/controls/prescience" ] },
 
+    
+
+    "r4isen1920_originspe:origins_power.essentials": { "textures": [ "textures/origins/hud/controls/essentials" ] },
+    "r4isen1920_originspe:origins_power.swift": { "textures": [ "textures/origins/hud/passives/swift" ] },
+    "r4isen1920_originspe:origins_power.lightweight": { "textures": [ "textures/origins/hud/passives/lightweight" ] },
+    "r4isen1920_originspe:origins_power.marksman": { "textures": [ "textures/origins/hud/passives/marksman" ] },
+    "r4isen1920_originspe:origins_power.ferocious": { "textures": [ "textures/origins/hud/passives/ferocious" ] },
+    "r4isen1920_originspe:origins_power.fragile": { "textures": [ "textures/origins/hud/passives/fragile" ] },
+
     "r4isen1920_originspe:origins_power.smash": { "textures": [ "textures/origins/hud/controls/smash" ] },
+    "r4isen1920_originspe:origins_power.tough": { "textures": [ "textures/origins/hud/passives/tough" ] },
+    "r4isen1920_originspe:origins_power.unbreakable_skin": { "textures": [ "textures/origins/hud/passives/unbreakable_skin" ] },
+    "r4isen1920_originspe:origins_power.heavy": { "textures": [ "textures/origins/hud/passives/heavy" ] },
+
     "r4isen1920_originspe:origins_power.empowering_aura": { "textures": [ "textures/origins/hud/controls/empowering_aura" ] },
+    "r4isen1920_originspe:origins_power.longevity": { "textures": [ "textures/origins/hud/passives/longevity" ] },
+    "r4isen1920_originspe:origins_power.good_memory": { "textures": [ "textures/origins/hud/passives/good_memory" ] },
+    "r4isen1920_originspe:origins_power.hunger_resistant": { "textures": [ "textures/origins/hud/passives/hunger_resistant" ] },
+    "r4isen1920_originspe:origins_power.hunger_aura": { "textures": [ "textures/origins/hud/passives/hunger_aura" ] },
+
     "r4isen1920_originspe:origins_power.invisibility": { "textures": [ "textures/origins/hud/controls/invisibility" ] },
+    "r4isen1920_originspe:origins_power.cat_vision": { "textures": [ "textures/items/potion_bottle_nightVision" ] },
+    "r4isen1920_originspe:origins_power.debilitating_strikes": { "textures": [ "textures/origins/hud/passives/debilitating_strikes" ] },
+    "r4isen1920_originspe:origins_power.smaller": { "textures": [ "textures/origins/hud/passives/smaller" ] },
 
 
     "r4isen1920_originspe:wooden_axe": { "textures": [ "textures/items/wood_axe" ] },

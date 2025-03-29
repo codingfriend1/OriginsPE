@@ -125,7 +125,7 @@
           "sprint": 0.2,
           "swim": 0.02
         },
-        "minecraft:movement": { "value": 0.09 }
+        "minecraft:movement": { "value": 0.095 }
       },
 
       "r4isen1920_originspe:power_tough": {
@@ -138,6 +138,13 @@
 
       "r4isen1920_originspe:power_swift": {
         "minecraft:movement": { "value": 0.14 }
+      },
+
+      "r4isen1920_originspe:power_lightweight": {
+        "minecraft:exhaustion_values": {
+          "sprint_jump": 0.0,
+          "sprint": 0.0
+        }
       },
 
       "r4isen1920_originspe:power_hunger_resistant": {
@@ -155,19 +162,6 @@
 
       "r4isen1920_originspe:power_smaller": {
         "minecraft:scale": { "value": 0.75 }
-      },
-
-      "r4isen1920_originspe:slow_target": {
-        "minecraft:spell_effects": {
-          "add_effects": [
-            {
-              "effect": "slowness",
-              "duration": 40,
-              "amplifier": 1,
-              "display_on_screen_animation": true
-            }
-          ]
-        }
       },
 
       "r4isen1920_originspe:ping_for_hunger_aura": {
@@ -761,16 +755,6 @@
             },
             "deals_damage": true,
             "damage_multiplier": 1.1
-          },
-
-          {
-            "on_damage": {
-              "all_of": [
-                { "test": "has_tag", "value": "power_debilitating_strikes" },
-                { "test": "is_family", "subject": "other", "value": "mob" }
-              ],
-              "event": "r4isen1920_originspe:apply_slow_to_target"
-            }
           },
           
           {
@@ -1375,25 +1359,6 @@
           {
             "filters": {
               "test": "has_tag",
-              "value": "power_debilitating_strikes"
-            },
-            "add": {
-              "component_groups": ["r4isen1920_originspe:power_debilitating_strikes"]
-            }
-          },
-          {
-            "filters": {
-              "test": "has_tag",
-              "operator": "not",
-              "value": "power_debilitating_strikes"
-            },
-            "remove": {
-              "component_groups": ["r4isen1920_originspe:power_debilitating_strikes"]
-            }
-          },
-          {
-            "filters": {
-              "test": "has_tag",
               "value": "power_lightweight"
             },
             "add": {
@@ -1536,13 +1501,6 @@
             }
           }
         ]
-      },
-
-
-      "r4isen1920_originspe:apply_slow_to_target": {
-        "add": {
-          "component_groups": ["r4isen1920_originspe:slow_target"]
-        }
       },
 
       /* OriginsPE */

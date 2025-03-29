@@ -1,11 +1,11 @@
 export const supporter = {
   'powers': [
     'empowering_aura',
-    'longevity',
-    'swift',
     'good_memory',
+    'longevity',
     'hunger_resistant',
-    'hunger_aura'
+    'hunger_aura',
+    'swift'
   ],
   'controls': [
     'empowering_aura'

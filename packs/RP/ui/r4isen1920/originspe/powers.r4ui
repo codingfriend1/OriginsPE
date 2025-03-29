@@ -805,9 +805,9 @@
         }
       },
       {
-        "lightweight@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.trait.lightweight.name",
-          "$power_description": "origins.trait.lightweight.description"
+        "essentials@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.essentials.name",
+          "$power_description": "origins.trait.essentials.description"
         }
       },
       {
@@ -817,10 +817,15 @@
         }
       },
       {
-        "essentials@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.trait.essentials.name",
-          "$power_description": "origins.trait.essentials.description",
-          "$power_icon_index": "essentials"
+        "sprint_jump@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.sprint_jump.name",
+          "$power_description": "origins.trait.sprint_jump.description"
+        }
+      },
+      {
+        "lightweight@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.lightweight.name",
+          "$power_description": "origins.trait.lightweight.description"
         }
       }
     ]
@@ -845,9 +850,9 @@
         }
       },
       {
-        "imbue@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.trait.imbue.name",
-          "$power_description": "origins.trait.imbue.description"
+        "marksman@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.marksman.name",
+          "$power_description": "origins.trait.marksman.description"
         }
       },
       {
@@ -879,29 +884,19 @@
       {
         "tough@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.tough.name",
-          "$power_description": "origins.trait.tough.description",
-          "$power_icon_index": "tough"
+          "$power_description": "origins.trait.tough.description"
         }
       },
       {
         "unbreakable_skin@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.unbreakable_skin.name",
-          "$power_description": "origins.trait.unbreakable_skin.description",
-          "$power_icon_index": "unbreakable_skin"
+          "$power_description": "origins.trait.unbreakable_skin.description"
         }
       },
       {
         "heavy@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.heavy.name",
-          "$power_description": "origins.trait.heavy.description",
-          "$power_icon_index": "heavy"
-        }
-      },
-      {
-        "sprint_jump@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.trait.sprint_jump.name",
-          "$power_description": "origins.trait.sprint_jump.description",
-          "$power_icon_index": "sprint_jump"
+          "$power_description": "origins.trait.heavy.description"
         }
       }
     ]
@@ -915,42 +910,37 @@
         "empowering_aura@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.empowering_aura.name",
           "$power_description": "origins.trait.empowering_aura.description",
-          "$power_icon_index": "stress"
-        }
-      },
-      {
-        "longevity@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.trait.longevity.name",
-          "$power_description": "origins.trait.longevity.description",
-          "$power_icon_index": "longevity"
-        }
-      },
-      {
-        "swift@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.trait.swift.name",
-          "$power_description": "origins.trait.swift.description",
-          "$power_icon_index": "swift"
+          "$power_icon_index": "empowering_aura"
         }
       },
       {
         "good_memory@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.good_memory.name",
-          "$power_description": "origins.trait.good_memory.description",
-          "$power_icon_index": "good_memory"
+          "$power_description": "origins.trait.good_memory.description"
+        }
+      },
+      {
+        "longevity@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.longevity.name",
+          "$power_description": "origins.trait.longevity.description"
         }
       },
       {
         "hunger_resistant@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.hunger_resistant.name",
-          "$power_description": "origins.trait.hunger_resistant.description",
-          "$power_icon_index": "hunger_resistant"
+          "$power_description": "origins.trait.hunger_resistant.description"
         }
       },
       {
         "hunger_aura@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.hunger_aura.name",
-          "$power_description": "origins.trait.hunger_aura.description",
-          "$power_icon_index": "hunger_aura"
+          "$power_description": "origins.trait.hunger_aura.description"
+        }
+      },
+      {
+        "swift@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.swift.name",
+          "$power_description": "origins.trait.swift.description"
         }
       }
     ]
@@ -968,52 +958,45 @@
         }
       },
       {
-        "imbue@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.trait.imbue.name",
-          "$power_description": "origins.trait.imbue.description",
-          "$power_icon_index": "imbue"
+        "marksman@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.marksman.name",
+          "$power_description": "origins.trait.marksman.description"
+        }
+      },
+      {
+        "cat_vision@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.cat_vision.name",
+          "$power_description": "origins.trait.cat_vision.description"
         }
       },
       {
         "camouflage@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.camouflage.name",
-          "$power_description": "origins.trait.camouflage.description",
-          "$power_icon_index": "camouflage"
+          "$power_description": "origins.trait.camouflage.description"
         }
       },
       {
         "sneaky@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.sneaky.name",
-          "$power_description": "origins.trait.sneaky.description",
-          "$power_icon_index": "sneaky"
-        }
-      },
-      {
-        "smaller@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.trait.smaller.name",
-          "$power_description": "origins.trait.smaller.description",
-          "$power_icon_index": "smaller"
-        }
-      },
-      {
-        "light_armor@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.trait.light_armor.name",
-          "$power_description": "origins.trait.light_armor.description",
-          "$power_icon_index": "light_armor"
-        }
-      },
-      {
-        "night_vision@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.trait.night_vision.name",
-          "$power_description": "origins.trait.night_vision.description",
-          "$power_icon_index": "night_vision"
+          "$power_description": "origins.trait.sneaky.description"
         }
       },
       {
         "debilitating_strikes@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.debilitating_strikes.name",
-          "$power_description": "origins.trait.debilitating_strikes.description",
-          "$power_icon_index": "debilitating_strikes"
+          "$power_description": "origins.trait.debilitating_strikes.description"
+        }
+      },
+      {
+        "smaller@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.smaller.name",
+          "$power_description": "origins.trait.smaller.description"
+        }
+      },
+      {
+        "light_armor@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.light_armor.name",
+          "$power_description": "origins.trait.light_armor.description"
         }
       }
     ]

@@ -4,7 +4,7 @@ system.runInterval(() => {
   for (const player of world.getPlayers()) {
     if (player.hasTag("power_ferocious")) {
       player.addEffect("strength", TicksPerSecond * 3, {
-        amplifier: 0,           // Strength I
+        amplifier: 1,
         showParticles: false    // Hide particles
       });
     } else {

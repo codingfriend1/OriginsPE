@@ -14,7 +14,7 @@ system.runTimeout(() => {
       const { damageSource, hurtEntity, damage } = event;
       if (!damageSource.damagingEntity?.hasTag('power_debilitating_strikes')) return;
 
-      hurtEntity.addEffect("slow", effect_duration_ticks, { amplifier: 1, showParticles: true });
+      hurtEntity.addEffect("slowness", effect_duration_ticks, { amplifier: 2, showParticles: true });
       world.playSound('ender_eye.dead', hurtEntity.location);
       damageSource.damagingEntity.playSound('ender_eye.dead');
     }

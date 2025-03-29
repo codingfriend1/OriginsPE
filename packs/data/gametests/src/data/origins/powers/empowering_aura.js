@@ -1,5 +1,6 @@
 import { world, system, TicksPerSecond  } from "@minecraft/server";
 import { ResourceBar } from "../../../origins/resource_bar";
+import { Vector3 } from "../../../utils/Vec3";
 import { usepower } from "../../../utils/PubSub";
 
 const POWER_CONTROL_ITEM_NAME = 'r4isen1920_originspe:origins_power.empowering_aura';
@@ -31,12 +32,13 @@ function empowering_aura({ player, itemStack }) {
 
   // Begin aura effect
   player.addTag(EFFECT_TAG);
-  // Play sound
-  player.playSound("note.chime", { volume: 1, pitch: 2 });
 
   // Invincibility
   player.addEffect("resistance", INVINCIBILITY_DURATION_TICKS, { amplifier: 255, showParticles: true });
-  player.addEffect("glowing", INVINCIBILITY_DURATION_TICKS);
+  player.dimension.spawnParticle("minecraft:crit_particle", player.location);
+
+  player.runCommandAsync(`playsound random.orb @s`);
+  player.dimension.spawnParticle('r4isen1920_originspe:air_burst', Vector3.add(player.location, new Vector3(0, 0.5, 0)));
 
   for (const target of world.getPlayers()) {
     if (target === player) continue;
@@ -47,8 +49,17 @@ function empowering_aura({ player, itemStack }) {
     target.addEffect("strength", INVINCIBILITY_DURATION_TICKS, { amplifier: 2, showParticles: true });
     target.addEffect("resistance", INVINCIBILITY_DURATION_TICKS, { amplifier: 1, showParticles: true });
     target.addEffect("regeneration", INVINCIBILITY_DURATION_TICKS, { amplifier: 1 });
-    target.addEffect("glowing", INVINCIBILITY_DURATION_TICKS);
   }
 
   resetCooldown(player, INVINCIBILITY_DURATION_SECONDS + COOLDOWN);
+}
+
+function emitTrail(player, direction, distance = 64, step = 1) {
+  const start = Vector3.add(player.location, new Vector3(0, 1, 0)); // Start from above head
+  const end = Vector3.add(start, Vector3.multiply(direction, distance));
+
+  for (let t = 0; t <= 1; t += step / distance) {
+    const point = Vector3.lerp(start, end, t);
+    player.dimension.spawnParticle('r4isen1920_originspe:air_burst', point);
+  }
 }

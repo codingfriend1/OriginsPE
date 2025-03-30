@@ -1,0 +1,1 @@
+import "../../origins/powers/good_memory";

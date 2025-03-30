@@ -112,7 +112,7 @@ export function getRecentDeaths() {
 // Track player death info
 world.afterEvents.entityDie.subscribe((event) => {
   const entity = event.deadEntity;
-  if (entity?.typeId === "minecraft:player" && (entity?.hasTag('power_essentials') || entity?.hasTag('power_good_memory'))) {
+  if (entity?.typeId === "minecraft:player" && (entity?.hasTag('power_essentials') || entity?.hasTag('power_good_memory') || entity?.hasTag('perk_good_memory'))) {
     
     recentDeaths.set(entity.id, {
       time: system.currentTick,

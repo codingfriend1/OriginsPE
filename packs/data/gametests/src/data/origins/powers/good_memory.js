@@ -3,10 +3,8 @@ import { memorizeInventory, getRecentDeaths } from "../../../utils/remember-inve
 import { toAllPlayers } from "../../../origins/player";
 import { playerEvents } from "../../../utils/PubSub";
 
-const tag = "power_good_memory";
-
 function memorize(player) {
-  if (player?.hasTag(tag) && !getRecentDeaths().has(player.id)) {
+  if ((player?.hasTag("power_good_memory") || player?.hasTag("perk_good_memory")) && !getRecentDeaths().has(player.id)) {
     memorizeInventory(player, true);
   }
 }

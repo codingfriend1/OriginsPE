@@ -850,6 +850,12 @@
         }
       },
       {
+        "no_projectile_divergence@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.no_projectile_divergence.name",
+          "$power_description": "origins.perk.no_projectile_divergence.description"
+        }
+      },
+      {
         "marksman@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.marksman.name",
           "$power_description": "origins.trait.marksman.description"
@@ -1357,6 +1363,12 @@
     "orientation": "vertical",
     
     "controls": [
+      {
+        "good_memory@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.good_memory.name",
+          "$power_description": "origins.trait.good_memory.description"
+        }
+      },
       {
         "tree_felling@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.perk.tree_felling.name",

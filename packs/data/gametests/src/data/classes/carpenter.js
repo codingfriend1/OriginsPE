@@ -1,6 +1,7 @@
 
 export const carpenter = {
   'perks': [
+    'good_memory',
     'tree_felling',
     'replanting',
     'cheaper_trades',

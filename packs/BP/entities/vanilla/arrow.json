@@ -214,7 +214,13 @@
             "filters": {
               "all_of": [
                 { "test": "is_family", "subject": "other", "value": "player" },
-                { "test": "has_tag", "subject": "other", "value": "perk_no_projectile_divergence" }
+                { 
+                  "any_of": [
+                    { "test": "has_tag", "subject": "other", "value": "perk_no_projectile_divergence" },
+                    { "test": "has_tag", "subject": "other", "value": "power_no_projectile_divergence" }
+                  ]
+                }
+                
               ]
             },
             "add": {
@@ -235,7 +241,12 @@
             "filters": {
               "all_of": [
                 { "test": "is_family", "subject": "other", "value": "player" },
-                { "test": "has_tag", "subject": "other", "operator": "!=", "value": "perk_no_projectile_divergence" }
+                { 
+                  "any_of": [
+                    { "test": "has_tag", "subject": "other", "operator": "!=", "value": "perk_no_projectile_divergence" },
+                    { "test": "has_tag", "subject": "other", "operator": "!=", "value": "power_no_projectile_divergence" }
+                  ]
+                }
               ]
             },
             "add": {

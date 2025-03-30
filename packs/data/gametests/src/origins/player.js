@@ -6,6 +6,7 @@ import { removeTags } from "../utils/tags.js";
 import { ResourceBar } from "./resource_bar.js";
 import { getControlTags } from "./controls";
 import { setup } from "../utils/PubSub";
+import { resetKeepOnDeath } from "../utils/remember-inventory"
 
 /**
  * 
@@ -154,17 +155,15 @@ function setClass(player, param_class) {
  * @param { import('@minecraft/server').Player } player 
  */
 export async function initModules(player) {
-
   if (player.hasTag('load_failed')) return;
 
   const _IMPORT_ORIGIN = DEFAULT_IMPORT;
   const _IMPORT_CLASS = DEFAULT_IMPORT;
 
-  let ORIGIN_POWERS = [];
-  let CLASS_PERKS = [];
+  let POWERS = [];
+  let PERKS = [];
   let CONTROLS = [];
   let EFFECTS = {};
-
 
   const playerOrigin = player.getTags().find(tag => tag.startsWith('race_'))?.replace('race_', '') || 'human';
   const playerClass = player.getTags().find(tag => tag.startsWith('class_'))?.replace('class_', '') || 'nitwit';
@@ -173,53 +172,46 @@ export async function initModules(player) {
   removeTags(player, 'perk_');
   removeTags(player, 'control_');
 
-
   try {
-    await import(`../data/origins/${playerOrigin}.js`).then(mod => {
-      if (mod) {
-        ORIGIN_POWERS = [..._IMPORT_ORIGIN.powers, ...(mod[playerOrigin].powers || [])];
-        CONTROLS = [..._IMPORT_ORIGIN.controls, ...(mod[playerOrigin].controls || [])];
-        EFFECTS = { ..._IMPORT_ORIGIN.effects, ...mod[playerOrigin].effects };
-      } else player.addTag('load_failed');
-    })
+    const originModule = await import(`../data/origins/${playerOrigin}.js`);
+    const originData = originModule[playerOrigin];
+
+    POWERS.push(..._IMPORT_ORIGIN.powers, ...(originData.powers || []));
+    PERKS.push(..._IMPORT_ORIGIN.perks, ...(originData.perks || []));
+    CONTROLS.push(..._IMPORT_ORIGIN.controls, ...(originData.controls || []));
+    EFFECTS = { ..._IMPORT_ORIGIN.effects, ...originData.effects };
+
   } catch (e) {
-    console.warn(`[r4isen1920][OriginsPE] Failed to load Origin: '${playerOrigin}' for ${player.name}`);
-    console.warn(`[r4isen1920][OriginsPE] ${e}`);
+    console.warn(`[OriginsPE] Failed to load Origin: '${playerOrigin}' for ${player.name}`);
+    console.warn(e);
     player.addTag('load_failed');
   }
 
   try {
-    await import(`../data/classes/${playerClass}.js`).then(mod => {
-      if (mod) {
-        CLASS_PERKS = [..._IMPORT_CLASS.perks, ...(mod[playerClass].perks || [])];
-        CONTROLS.push(..._IMPORT_CLASS.controls, ...(mod[playerClass].controls || []));
-      } else player.addTag('load_failed');
-    })
+    const classModule = await import(`../data/classes/${playerClass}.js`);
+    const classData = classModule[playerClass];
+
+    POWERS.push(..._IMPORT_CLASS.powers, ...(classData.powers || []));
+    PERKS.push(..._IMPORT_CLASS.perks, ...(classData.perks || []));
+    CONTROLS.push(..._IMPORT_CLASS.controls, ...(classData.controls || []));
+
   } catch (e) {
-    console.warn(`[r4isen1920][OriginsPE] Failed to load Class: '${playerClass}' for ${player.name}`);
-    console.warn(`[r4isen1920][OriginsPE] ${e}`);
+    console.warn(`[OriginsPE] Failed to load Class: '${playerClass}' for ${player.name}`);
+    console.warn(e);
     player.addTag('load_failed');
   }
 
-
-  ORIGIN_POWERS.forEach(power => {
-    player.addTag(`power_${power}`)
-  })
-  CLASS_PERKS.forEach(perk => {
-    player.addTag(`perk_${perk}`)
-  })
-  CONTROLS.forEach(control => {
-    player.addTag(`control_${control}`)
-  })
+  POWERS.forEach(power => player.addTag(`power_${power}`));
+  PERKS.forEach(perk => player.addTag(`perk_${perk}`));
+  CONTROLS.forEach(control => player.addTag(`control_${control}`));
 
   loadPlayerEffects(player, 'model', EFFECTS.model);
   loadPlayerEffects(player, 'skin', EFFECTS.skin);
   loadPlayerEffects(player, 'emitter', EFFECTS.emitter);
 
   setupMenuItem(player);
-  
   player.triggerEvent('r4isen1920_originspe:setupMenuItem');
-  setup.publish('r4isen1920_originspe:setupMenuItem');
+  setup.publish('r4isen1920_originspe:setupMenuItem', player);
 
   // world.afterEvents.entityHurt.subscribe((event) => {
   //   const { damage, damageSource, hurtEntity } = event;
@@ -299,6 +291,7 @@ export function resetPlayerAttributes(player) {
   player.clearDynamicProperties();
 
   removeElytra(player);
+  resetKeepOnDeath(player);
 
   resetPlayerPowerControls(player)
 }

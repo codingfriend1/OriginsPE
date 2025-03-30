@@ -4,7 +4,7 @@ import { toAllPlayers } from "../../../origins/player";
 import { playerEvents } from "../../../utils/PubSub";
 
 function memorize(player) {
-  if ((player?.hasTag("power_good_memory") || player?.hasTag("perk_good_memory")) && !getRecentDeaths().has(player.id)) {
+  if ((player?.hasTag("power_good_memory")) && !getRecentDeaths().has(player.id)) {
     memorizeInventory(player, true);
   }
 }

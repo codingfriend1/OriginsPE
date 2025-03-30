@@ -1,5 +1,6 @@
 import { world, system, ItemStack, EntityComponentTypes, EnchantmentTypes } from "@minecraft/server";
-import { inventoryWatcher } from "./inventory_watcher";
+import { setup } from "./PubSub"; 
+import { toAllPlayers } from "../origins/player";
 
 export function favoredEnchantment({ perkName, enchantmentName, exclusiveTools, lore }) {
 
@@ -51,8 +52,6 @@ export function favoredEnchantment({ perkName, enchantmentName, exclusiveTools, 
 
         
         const wasPerked = itemStack.getDynamicProperty(isPerkEnchantedProperty);
-
-        console.log(wasPerked ? `${itemName} was previously favored`: `${itemName} was not a favored item.`);
 
         if (!wasPerked) return;
 
@@ -145,26 +144,22 @@ export function favoredEnchantment({ perkName, enchantmentName, exclusiveTools, 
         const match = currentEnchantments.find(e => e.type.id === enchantmentType.id);
         return match ? match.level : 0;
     }
-    
-    // When an item is added to the inventory:
-    inventoryWatcher.onItemAdded(favoredPerk);
-    
-    // When the user closes their resignation GUI:
-    system.afterEvents.scriptEventReceive.subscribe(event => {
-    
-      const { id, message, sourceEntity: player } = event;
-    
-      if (id !== 'r4isen1920_originspe:gui' || !player || message.length === 0 || !message.startsWith('on_close')) return
-    
-        const inventory = player.getComponent("inventory").container;
-    
-        for (let slot = 0; slot < inventory.size; slot++) {
-            
-            const itemStack = inventory.getItem(slot);
 
-            favoredPerk(player, { itemStack, slot });
-        }
+    function favorItems(player) {
+
+      const inventory = player?.getComponent("inventory").container;
+
+      if(!inventory) return false;
       
-    
-    }, { namespaces: [ 'r4isen1920_originspe' ] })
+      for (let slot = 0; slot < inventory.size; slot++) {
+          
+        const itemStack = inventory.getItem(slot);
+
+        favoredPerk(player, { itemStack, slot });
+      }
+    }
+
+    setup.subscribe("r4isen1920_originspe:setupMenuItem", favorItems)
+
+    toAllPlayers(favorItems, 20)
 }

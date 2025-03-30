@@ -3,8 +3,10 @@ export const caver = {
     'fortunate_miner',
     'ore_instinct',
     'ore_vein_miner',
-    'cat_vision',
-    'fall_immunity',
     'no_mining_exhaustion'
+  ],
+  'powers': [
+    'cat_vision',
+    'fall_immunity'
   ]
 }

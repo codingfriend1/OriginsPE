@@ -11,4 +11,4 @@ function memorize(player) {
   }
 }
 
-toAllPlayers(memorize, 30);
+toAllPlayers(memorize, 40);

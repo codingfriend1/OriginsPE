@@ -8,6 +8,29 @@ import {
 } from "@minecraft/server";
 import { playerEvents } from "./PubSub";
 
+const exceptions = [
+  'minecraft:filled_map',
+  'minecraft:map'
+];
+
+export function resetKeepOnDeath(player) {
+
+  const container = player?.getComponent("inventory")?.container;
+  if (!container) return;
+
+  for (let i = 0; i < container.size; i++) {
+    const item = container.getItem(i);
+    if (item?.keepOnDeath) {
+      item.keepOnDeath = false
+      container.setItem(i, item);
+    }
+  }
+}
+
+export function isMap(item) {
+  return exceptions.includes(item?.typeId) || !item.isStackable;
+}
+
 
 export function memorizeHotbar(player) {
   const container = player.getComponent("inventory")?.container;
@@ -15,21 +38,33 @@ export function memorizeHotbar(player) {
 
   const serialized = [];
 
+  for (let i = 9; i < container.size; i++) {
+    const item = container.getItem(i);
+
+    if (item?.keepOnDeath) {
+      item.keepOnDeath = false
+      container.setItem(i, item);
+    }
+  }
+
   for (let i = 0; i <= 8; i++) {
     const item = container.getItem(i);
     if (!item) continue;
 
-    const entry = {
-      slot: i,
-      typeId: item.typeId,
-      amount: item.amount,
-      damage: item.getComponent("minecraft:damage")?.damage,
-      enchantments: item.getComponent("minecraft:enchantments")?.enchantments?.map(e => ({ type: e.type.id, level: e.level })),
-      nameTag: item.nameTag,
-      lore: item.lore,
-    };
+    if(isMap(item) && !item.keepOnDeath) {
+      item.keepOnDeath = true
+      container.setItem(i, item);
+    } else if (!isMap(item)) {
+      const entry = {
+        slot: i,
+        typeId: item.typeId,
+        amount: item.amount,
+        nameTag: item.nameTag,
+        lore: item.lore,
+      };
 
-    serialized.push(entry);
+      serialized.push(entry);
+    }
   }
 
   player.setDynamicProperty("saved_inventory", JSON.stringify(serialized));
@@ -45,21 +80,26 @@ export function memorizeInventory(player) {
     const item = container.getItem(i);
     if (!item) continue;
 
-    const entry = {
-      slot: i,
-      typeId: item.typeId,
-      amount: item.amount,
-      damage: item.getComponent(ItemComponentTypes.Durability)?.damage,
-      enchantments: item.getComponent("minecraft:enchantments")?.enchantments?.map(e => ({ type: e.type.id, level: e.level })),
-      nameTag: item.nameTag,
-      lore: item.lore,
-    };
+    if(isMap(item) && !item.keepOnDeath) {
+      item.keepOnDeath = true
+      container.setItem(i, item);
+    } else if (!isMap(item)) {
+      const entry = {
+        slot: i,
+        typeId: item.typeId,
+        amount: item.amount,
+        nameTag: item.nameTag,
+        lore: item.lore,
+      };
 
-    serialized.push(entry);
+      serialized.push(entry);
+    }
   }
 
   player.setDynamicProperty("saved_inventory", JSON.stringify(serialized));
 }
+
+
 
 export function rememberInventory(player) {
   const data = player.getDynamicProperty("saved_inventory");
@@ -70,25 +110,9 @@ export function rememberInventory(player) {
 
   const items = JSON.parse(data);
 
-  // Clear first if needed
-  for (let i = 0; i < container.size; i++) container.setItem(i, undefined);
-
   for (const saved of items) {
     try {
       const item = new ItemStack(ItemTypes.get(saved.typeId), saved.amount);
-
-      if (saved.damage !== undefined) {
-        item.getComponent(ItemComponentTypes.Durability).damage = saved.damage;
-      }
-
-      if (saved.enchantments?.length) {
-        const enchComp = item.getComponent("minecraft:enchantments");
-        if (enchComp) {
-          for (const e of saved.enchantments) {
-            enchComp.enchantments.addEnchantment({ type: EnchantmentTypes.get(e.type), level: e.level });
-          }
-        }
-      }
 
       item.nameTag = saved.nameTag;
       item.lore = saved.lore;
@@ -112,7 +136,7 @@ export function getRecentDeaths() {
 // Track player death info
 world.afterEvents.entityDie.subscribe((event) => {
   const entity = event.deadEntity;
-  if (entity?.typeId === "minecraft:player" && (entity?.hasTag('power_essentials') || entity?.hasTag('power_good_memory') || entity?.hasTag('perk_good_memory'))) {
+  if (entity?.typeId === "minecraft:player" && (entity?.hasTag('power_essentials') || entity?.hasTag('power_good_memory'))) {
     
     recentDeaths.set(entity.id, {
       time: system.currentTick,

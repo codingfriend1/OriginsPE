@@ -119,6 +119,18 @@ export function favoredEnchantment({ perkName, enchantmentName, exclusiveTools, 
             return false
         }
     }
+
+    function getEnchantmentLevel(itemStack, enchantmentType) {
+        if (!itemStack || !enchantmentType) return 0;
+    
+        const enchantmentComponent = itemStack.getComponent("minecraft:enchantable");
+        if (!enchantmentComponent) return 0;
+    
+        const currentEnchantments = enchantmentComponent.getEnchantments();
+    
+        const match = currentEnchantments.find(e => e.type.id === enchantmentType.id);
+        return match ? match.level : 0;
+    }
     
     // 🔔 If a player picks up a fortunate pickaxe from a miner class, and this player doesn't have the fortunate_miner perk, the item will be unenchanted.
     function favoredPerk(player, { itemStack, slot }) {
@@ -131,18 +143,6 @@ export function favoredEnchantment({ perkName, enchantmentName, exclusiveTools, 
     
             removeSpecificEnchantment(player, slot, itemStack);
         }
-    }
-    
-    function getEnchantmentLevel(itemStack, enchantmentType) {
-        if (!itemStack || !enchantmentType) return 0;
-    
-        const enchantmentComponent = itemStack.getComponent("minecraft:enchantable");
-        if (!enchantmentComponent) return 0;
-    
-        const currentEnchantments = enchantmentComponent.getEnchantments();
-    
-        const match = currentEnchantments.find(e => e.type.id === enchantmentType.id);
-        return match ? match.level : 0;
     }
 
     function favorItems(player) {

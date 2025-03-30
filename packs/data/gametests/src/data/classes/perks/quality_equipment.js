@@ -1,5 +1,5 @@
 
-import { ItemStack, world, system, TicksPerSecond, EquipmentSlot } from "@minecraft/server";
+import { ItemStack, world, system, TicksPerSecond, EquipmentSlot, ItemComponentTypes, EnchantmentTypes } from "@minecraft/server";
 
 import { toAllPlayers } from "../../../origins/player";
 import { findItems } from "../../../utils/items";
@@ -78,6 +78,19 @@ function quality_equipment(player) {
 
     const newItem = new ItemStack(newItemTypeId, item.item.amount);
 
+    // 🎯 Add Fortune I to pickaxes
+    addEnchantments(newItem, "minecraft:fortune")
+
+    if (hasValidClass && baseTypeId.includes("pickaxe")) {
+      const enchComp = newItem.getComponent(ItemComponentTypes.Enchantable);
+      if (enchComp) {
+        enchComp.enchantments.addEnchantment({
+          type: EnchantmentTypes.get("minecraft:fortune"),
+          level: 1,
+        });
+      }
+    }
+
     let setLore = [];
     if (templateArmorTypes.some(type => baseTypeId.includes(type) && baseTypeId.includes('netherite'))) {
       setLore.push('§r§7', '§r§9+1 Knockback Resistance§r');
@@ -119,6 +132,29 @@ system.runTimeout(() => {
   });
 }, TicksPerSecond * 11);
 
+/**
+ * Adds one or more enchantments to an item stack if possible.
+ *
+ * Accepts input in the following formats:
+ * - A single string (e.g., "minecraft:fortune")
+ * - An array of strings (e.g., ["minecraft:fortune", "minecraft:efficiency"])
+ * - An object with a type and optional level (e.g., { type: "minecraft:fortune", level: 3 })
+ * - An array of such objects
+ *
+ * Any unspecified levels default to 1. Invalid or incompatible enchantments are skipped.
+ *
+ * @param {ItemStack} itemStack - The item to apply enchantments to.
+ * @param {string | Object | Array} informalEnchantments - Enchantment(s) to apply.
+ * @returns {Array} - An array of enchantments that were successfully added.
+ */
+function addEnchantments(itemStack, informalEnchantments = []) {
+  const enchantable = itemStack?.getComponent(ItemComponentTypes.Enchantable);
+  if (!enchantable) return [];
+
+  return (Array.isArray(informalEnchantments) ? informalEnchantments : [informalEnchantments])
+    .map(e => ({ type: EnchantmentTypes.get(typeof e === "string" ? e : e.type), level: e.level ?? 1 }))
+    .filter(e => e.type && enchantable.canAddEnchantment(e) && enchantable.addEnchantment(e));
+}
 
 /**
  * Checks if the broken item is a valid piece of quality equipment.
@@ -175,32 +211,17 @@ function calculateDurabilityLoss(durability) {
  * Finds the item in the inventory, updates durability, or removes it if it is broken.
  */
 function updateInventory(itemStack, durability, player, damageAmount) {
+
   const inventory = player.getComponent("inventory").container;
-  let itemSlot = -1;
-
-  for (let i = 0; i < inventory.size; i++) {
-     const currentItem = inventory.getItem(i);
-     if (currentItem && currentItem.typeId === itemStack.typeId) {
-       const currentDurability = currentItem.getComponent("durability");
-       
-       // ✅ Match the item based on its durability value
-       if (currentDurability && currentDurability.damage === durability.damage) {
-         itemSlot = i;
-         break;
-       }
-     }
-   }
-
-  if (itemSlot === -1) return;
 
   durability.damage += Math.min(damageAmount, durability.maxDurability - durability.damage);
 
   if (durability.damage >= durability.maxDurability) {
     // Item Broke
     player.playSound("random.break", { volume: 1.0, pitch: 1.0 });
-    inventory.setItem(itemSlot, undefined);
+    inventory.setItem(player.selectedSlotIndex, undefined);
   } else {
-    inventory.setItem(itemSlot, itemStack);
+    inventory.setItem(player.selectedSlotIndex, itemStack);
   }
 }
 

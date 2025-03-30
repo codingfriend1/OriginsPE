@@ -68,16 +68,6 @@ const CLASSES = [
   'smith'
 ]
 
-// const keepOnDeathTypeIdExceptions = [
-//   'r4isen1920_originspe:origins_menu',
-//   'r4isen1920_originspe:origins_submenu',
-//   'r4isen1920_originspe:origins_power'
-// ]
-
-// const keepOnDeathLoreExceptions = [
-//   '§r§6Elytrian§r'
-// ]
-
 /**
  * 
  * Default imports for Origins and Classes

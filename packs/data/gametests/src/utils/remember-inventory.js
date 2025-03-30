@@ -36,7 +36,7 @@ export function memorizeHotbar(player) {
   const container = player.getComponent("inventory")?.container;
   if (!container) return;
 
-  const serialized = [];
+  const memories = [];
 
   for (let i = 9; i < container.size; i++) {
     const item = container.getItem(i);
@@ -47,56 +47,44 @@ export function memorizeHotbar(player) {
     }
   }
 
-  for (let i = 0; i <= 8; i++) {
-    const item = container.getItem(i);
-    if (!item) continue;
-
-    if(isMap(item) && !item.keepOnDeath) {
-      item.keepOnDeath = true
-      container.setItem(i, item);
-    } else if (!isMap(item)) {
-      const entry = {
-        slot: i,
-        typeId: item.typeId,
-        amount: item.amount,
-        nameTag: item.nameTag,
-        lore: item.lore,
-      };
-
-      serialized.push(entry);
-    }
+  for (let slot = 0; slot <= 8; slot++) {
+    remember(slot, container, memories);
   }
 
-  player.setDynamicProperty("saved_inventory", JSON.stringify(serialized));
+  player.setDynamicProperty("saved_inventory", JSON.stringify(memories));
+}
+
+export function remember(slot, container, memories) {
+  const item = container.getItem(slot);
+  if (!item) return;
+
+  if(isMap(item) && !item.keepOnDeath) {
+    item.keepOnDeath = true
+    container.setItem(slot, item);
+  } else if (!isMap(item)) {
+    const entry = {
+      slot: slot,
+      typeId: item.typeId,
+      amount: item.amount,
+      nameTag: item.nameTag,
+      lore: item.lore,
+    };
+
+    memories.push(entry);
+  }
 }
 
 export function memorizeInventory(player) {
   const container = player.getComponent("inventory")?.container;
   if (!container) return;
 
-  const serialized = [];
+  const memories = [];
 
-  for (let i = 0; i < container.size; i++) {
-    const item = container.getItem(i);
-    if (!item) continue;
-
-    if(isMap(item) && !item.keepOnDeath) {
-      item.keepOnDeath = true
-      container.setItem(i, item);
-    } else if (!isMap(item)) {
-      const entry = {
-        slot: i,
-        typeId: item.typeId,
-        amount: item.amount,
-        nameTag: item.nameTag,
-        lore: item.lore,
-      };
-
-      serialized.push(entry);
-    }
+  for (let slot = 0; slot < container.size; slot++) {
+    remember(slot, container, memories);
   }
 
-  player.setDynamicProperty("saved_inventory", JSON.stringify(serialized));
+  player.setDynamicProperty("saved_inventory", JSON.stringify(memories));
 }
 
 

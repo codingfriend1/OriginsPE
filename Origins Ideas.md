@@ -52,8 +52,7 @@
 
 | Class           | Perk                       | Description                                                  |
 | --------------- | -------------------------- | ------------------------------------------------------------ |
-| **⛏ Caver**     | **Fortune+**               | You are blessed with Fortune +1 on whatever pickaxe you use. This blessing does not transfer to others. |
-|                 | **Prospector’s Intuition** | Years underground have honed your instincts. Valuable ores occasionally glimmer when you're near enough to sense them. |
+| **⛏ Caver**     | **Prospector’s Intuition** | Years underground have honed your instincts. Valuable ores occasionally glimmer when you're near enough to sense them. |
 |                 | **Vein Mine**              | You are able to instantly mine ores and its neighboring ores when using a pickaxe. |
 |                 | **Cat Vision**             | At places where the light level is low, you automatically get the strength and night vision status effects. |
 |                 | **Strong Ankles**          | You never take fall damage, no matter from which height you fall. |
@@ -73,6 +72,7 @@
 |                 | **Effective Empathy**      | Any potion effects you may have will also be applied to the mobs you've tamed. |
 |                 | **Good Meals**             | Foods you cook will grant additional saturation when eaten.  |
 |                 | **Rejuvenating Soup**      | Stews you make can grant regeneration effects.               |
-| **🔨 Craftsman** | **Great Craftsmanship**    | Any equipment you craft or smith will have increased durability, efficiency, and damage. |
+| **🔨 Craftsman** | **Great Craftsmanship**    | Any equipment you craft or smith will have increased durability, efficiency, damage, and maybe even Fortune I. |
 |                 | **Potent Brews**           | Any potion you brew will be more amplified when brewing it with glowstone. |
 |                 | **Efficient Repairs**      | High-quality equipments you have crafted are easily more repairable and can restore more durability points. |
+

@@ -1,5 +1,5 @@
 
-import { ItemStack, world, system, TicksPerSecond, EquipmentSlot, ItemComponentTypes, EnchantmentTypes } from "@minecraft/server";
+import { ItemStack, world, system, TicksPerSecond, EquipmentSlot, ItemComponentTypes, EnchantmentTypes, EntityComponentTypes, ItemTypes } from "@minecraft/server";
 
 import { toAllPlayers } from "../../../origins/player";
 import { findItems } from "../../../utils/items";
@@ -41,78 +41,122 @@ const templateTypes = [
   ...templateArmorTypes
 ];
 
-const validClasses = ['class_blacksmith', 'class_smith'];
+const validBlacksmithTags = ['class_blacksmith', 'class_smith'];
 
 
 /**
  * 
  * List of items
  */
-const items = [
+const forgedItems = [
 
   ...templateMaterials.flatMap(material => 
     templateTypes.map(type => `minecraft:${material}_${type}`)
   )
 ]
 
-/**
- * 
- * @param { import('@minecraft/server').Player } player 
- */
-function quality_equipment(player) {
-  const unsetItemsInInventory = findItems(player).filter(item =>
-    items.includes(item?.item?.typeId) &&
-    !item?.item?.getDynamicProperty(is_quality_set_property)
-  );
+function make_quality_equiptment(player) {
 
-  if (unsetItemsInInventory.length === 0) return;
+  const inventory = player?.getComponent(EntityComponentTypes.Inventory)?.container;
 
-  // ✅ List of valid classes that produce quality equipment
-  const hasValidClass = validClasses.some(tag => player.hasTag(tag));
+  if (!inventory) return false;
 
-  for (const item of unsetItemsInInventory) {
-    const baseTypeId = item.item.typeId.replace('minecraft:', '');
-    const newItemTypeId = hasValidClass
-      ? `r4isen1920_originspe:blacksmith_${baseTypeId}`
-      : `minecraft:${baseTypeId}`;
+  const isPlayerBlacksmith = validBlacksmithTags.some(tag => player.hasTag(tag));
 
-    const newItem = new ItemStack(newItemTypeId, item.item.amount);
+  for (let slot = 0; slot < inventory.size; slot++) {
 
-    // 🎯 Add Fortune I to pickaxes
-    addEnchantments(newItem, "minecraft:fortune")
+    const itemStack = inventory.getItem(slot);
 
-    if (hasValidClass && baseTypeId.includes("pickaxe")) {
-      const enchComp = newItem.getComponent(ItemComponentTypes.Enchantable);
-      if (enchComp) {
-        enchComp.enchantments.addEnchantment({
-          type: EnchantmentTypes.get("minecraft:fortune"),
-          level: 1,
-        });
-      }
+    if (!itemStack) continue;
+
+    if (!isForged(itemStack) || hasBeenEvaluated(itemStack)) continue;
+
+    if(isPlayerBlacksmith) {
+
+      const blacksmithTypeId = itemStack.typeId.replace('minecraft:', 'r4isen1920_originspe:blacksmith_');
+
+      const blacksmithItemStack = new cloneItemWithNewType(itemStack, blacksmithTypeId);
+
+      addEnchantments(blacksmithItemStack, "minecraft:fortune");
+
+      addLore(blacksmithItemStack);
+
+      itemStack.setDynamicProperty(is_quality_set_property, true);
+      inventory.setItem(slot, blacksmithItemStack);
+
+    } else {
+      itemStack.setDynamicProperty(is_quality_set_property, false);
+      inventory.setItem(slot, itemStack);
     }
-
-    let setLore = [];
-    if (templateArmorTypes.some(type => baseTypeId.includes(type) && baseTypeId.includes('netherite'))) {
-      setLore.push('§r§7', '§r§9+1 Knockback Resistance§r');
-    }
-    if (hasValidClass) {
-      setLore.push('§r§6Quality Equipment§r');
-    }
-    newItem.setLore(setLore);
-
-    // Prevent reprocessing the item in the future
-    newItem.setDynamicProperty(is_quality_set_property, true);
-
-    player.getComponent('inventory').container.setItem(item.slot, newItem);
-  }
-
-  if (hasValidClass) {
-    player.playSound('smithing_table.use', { volume: 0.75, pitch: 1.25 });
   }
 }
 
+function isForged(itemStack) {
+  return forgedItems.includes(itemStack?.typeId);
+}
 
-toAllPlayers(quality_equipment, 15, TicksPerSecond * 15)
+function hasBeenEvaluated(itemStack) {
+  return typeof itemStack?.getDynamicProperty(is_quality_set_property) === 'boolean'
+}
+
+function addLore(itemStack) {
+
+  let currentLore = itemStack?.getLore() || [];
+
+  const isNetheriteArmor = testNetheriteArmor(itemStack.typeId.replace('minecraft:', ''))
+
+  if(isNetheriteArmor) {
+    currentLore.push('§r§7', '§r§9+1 Knockback Resistance§r');
+  }
+
+  currentLore.push('§r§6Quality Equipment§r');
+
+  itemStack.setLore(currentLore);
+}
+
+export function cloneItemWithNewType(original, newTypeId) {
+  const newItem = new ItemStack(ItemTypes.get(newTypeId), original.amount);
+
+  // Copy name and lore
+  newItem.nameTag = original.nameTag;
+  newItem.lore = original.lore;
+  newItem.keepOnDeath = original.keepOnDeath;
+  newItem.lockMode = original.lockMode;
+
+  // Copy enchantments
+  const oldEnch = original.getComponent(ItemComponentTypes.Enchantable);
+  const newEnch = newItem.getComponent(ItemComponentTypes.Enchantable);
+  if (oldEnch && newEnch) {
+    for (const ench of oldEnch.getEnchantments()) {
+      if (newEnch.canAddEnchantment(ench)) {
+        newEnch.addEnchantment(ench);
+      }
+    }
+  }
+
+  // Copy durability
+  const oldDur = original.getComponent(ItemComponentTypes.Durability);
+  const newDur = newItem.getComponent(ItemComponentTypes.Durability);
+  if (oldDur && newDur) {
+    newDur.damage = oldDur.damage;
+  }
+
+  // Copy dynamic properties (if any)
+  const keys = original.getDynamicPropertyIds?.() ?? [];
+  for (const key of keys) {
+    const value = original.getDynamicProperty(key);
+    newItem.setDynamicProperty(key, value);
+  }
+
+  return newItem;
+}
+
+
+toAllPlayers(make_quality_equiptment, TicksPerSecond * 2, TicksPerSecond * 15)
+
+function testNetheriteArmor(baseTypeId) {
+  return templateArmorTypes.some(armor => baseTypeId.includes(armor) && baseTypeId.includes('netherite'))
+}
 
 
 /**

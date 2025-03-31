@@ -1382,9 +1382,9 @@
         }
       },
       {
-        "fall_resistant@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.perk.fall_resistant.name",
-          "$power_description": "origins.perk.fall_resistant.description"
+        "fall_immunity@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.perk.fall_immunity.name",
+          "$power_description": "origins.perk.fall_immunity.description"
         }
       },
       {

@@ -5,10 +5,10 @@ export const carpenter = {
     'replanting',
     'cheaper_trades',
     'wandering_trader_spawn',
-    'fall_resistant',
     'high_jumper'
   ],
   'powers': [
-    'good_memory'
+    'good_memory',
+    'fall_immunity'
   ]
 }

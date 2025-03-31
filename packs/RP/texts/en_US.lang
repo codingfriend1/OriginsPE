@@ -457,7 +457,7 @@ origins.trait.swift.description=Become nimble and swift, granting you increased 
 origins.trait.sprint_jump.name=Acrobatics
 origins.trait.sprint_jump.description=With powerful legs, leap 2 blocks high while sprinting — crush obstacles and evade danger with ease.
 origins.trait.lightweight.name=Lightweight
-origins.trait.lightweight.description=Fall like a feather: take 50% less fall damage, never tire from sprinting or jumping, but beware — other attacks hurt 10% more.
+origins.trait.lightweight.description=Fall like a feather: take no fall damage, never tire from sprinting or jumping, but beware — other attacks hurt 10% more.
 
 origins.trait.throw_ender_pearl.name=Teleportation
 origins.trait.throw_ender_pearl.description=Allows you to instantly teleport to the block you're looking at. The ability has a short cooldown depending on how far you travel.

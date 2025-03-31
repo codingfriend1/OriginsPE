@@ -13,7 +13,7 @@ const INVINCIBILITY_DURATION_TICKS = INVINCIBILITY_DURATION_SECONDS * TicksPerSe
 const COOLDOWN_TAG = "cooldown_1";
 let timer = null;
 const AURA_RADIUS = 16;
-const EFFECT_TAG = "aura_active";
+const EFFECT_TAG = "empowering_aura_active";
 
 function resetCooldown(player, seconds) {
   timer = new ResourceBar(1, 0, 100, seconds).push(player);
@@ -22,6 +22,7 @@ function resetCooldown(player, seconds) {
 function boost(player) {
   player.dimension.spawnParticle("minecraft:crit_particle", player.location);
   player.playSound("note.chime", { volume: 1, pitch: 2 });
+  player.addTag(EFFECT_TAG);
   player.addEffect("speed", INVINCIBILITY_DURATION_TICKS, { amplifier: 1.4, showParticles: true });
   player.addEffect("strength", INVINCIBILITY_DURATION_TICKS, { amplifier: 1.4, showParticles: true });
   player.addEffect("resistance", INVINCIBILITY_DURATION_TICKS, { amplifier: 1.4, showParticles: true });
@@ -50,7 +51,15 @@ function empowering_aura({ player, itemStack }) {
   const nearbyPlayers = player.dimension.getPlayers({
     location: player.location,
     maxDistance: AURA_RADIUS
-  }).forEach(target => boost(target));
+  })
+
+  nearbyPlayers.forEach(target => boost(target));
+
+  // 🔁 Remove the EFFECT_TAG after the invincibility duration
+    system.runTimeout(() => {
+      player.removeTag(EFFECT_TAG);
+      nearbyPlayers.forEach(target => target.removeTag(EFFECT_TAG));
+    }, INVINCIBILITY_DURATION_TICKS);
 
   resetCooldown(player, INVINCIBILITY_DURATION_SECONDS + COOLDOWN);
 }

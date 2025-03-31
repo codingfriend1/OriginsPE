@@ -11,7 +11,7 @@
 | **🎒 Essentials**           | ✅ You retain access to essential inventory, ensuring your hotbar is not lost upon death. |
 | **⚡ Swift**                | ✅ Become nimble and swift, granting you increased movement speed, enabling you to traverse the terrain effortlessly. |
 | **💥 Sprint Jump**          | ✅ With powerful legs, leap 2 blocks high while sprinting — crush obstacles and evade danger with ease. |
-| **🌬️ Lightweight**          | ✅ Fall like a feather: take 50% less fall damage, never tire from sprinting or jumping, but beware — other attacks hurt 10% more. |
+| **🌬️ Lightweight**          | ✅ Fall like a feather: take no fall damage, never tire from sprinting or jumping, but beware — other attacks hurt 10% more. |
 | **🌀 Teleport**             | ✅ Harness dimensional magic to teleport on command. Reposition instantly and surprise your enemies. |
 | **🎯 Endless Quiver**       | ✅ Your arrows never run dry. Wield your bow with infinite ammo and relentless precision. |
 | **🏹 Marksman**             | ✅ Deal 30% more damage with ranged attacks. Your aim is death’s own messenger. |
@@ -62,7 +62,7 @@
 |                 | **Replanting**             | There's a chance logs you break may be replanted with the same type of sapling. |
 |                 | **Great Deals**            | You get discounts when trading with villagers.               |
 |                 | **Charisma**               | Wandering Traders are more likely to visit when you are around. |
-|                 | **Fallwise**               | You’ve mastered the art of safe landings, reducing the force of a fall by 50% through instinct and training. |
+|                 | **Strong Ankles**          | You never take fall damage, no matter from which height you fall. |
 |                 | **Builder’s Step**         | You're trained to scale structures with ease, jumping twice as high to reach ledges and frames. |
 | **🌾 Shepherd**  | **Green Thumb**            | When planting crops, there is a chance it will immediately grow. |
 |                 | **Bountiful Harvest**      | When harvesting crops, you sometimes receive twice the yield. |

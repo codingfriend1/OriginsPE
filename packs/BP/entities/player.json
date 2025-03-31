@@ -176,8 +176,16 @@
       },
 
       "r4isen1920_originspe:perk_high_jumper": {
-        "minecraft:jump.static": {
-          "jump_power": 0.6
+        "minecraft:spell_effects": {
+          "add_effects": [
+            { "effect":"jump_boost","duration":604800, "amplifier": 1, "display_on_screen_animation":false, "visible": false, "show_particles": false }
+          ]
+        }
+      },
+
+      "r4isen1920_originspe:reset_perk_high_jumper": {
+        "minecraft:spell_effects": {
+          "remove_effects": ["jump_boost"]
         }
       },
 
@@ -628,10 +636,10 @@
               "filters": {
                 "all_of": [{
                   "any_of": [
-                    { "test": "has_tag", "value": "power_lightweight" },
                     { "test": "has_tag", "value": "perk_fall_resistant" }
                   ],
                   "all_of": [
+                    { "test": "has_tag", "value": "power_lightweight" },
                     { "test": "has_tag", "operator": "not", "value": "power_smash" },
                     { "test": "has_tag", "operator": "not", "value": "power_strong_ankles" },
                     { "test": "has_tag", "operator": "not", "value": "power_fall_immunity" },
@@ -650,6 +658,7 @@
             "on_damage": {
               "filters": {
                 "any_of": [
+                  { "test": "has_tag", "value": "power_lightweight" },
                   { "test": "has_tag", "value": "power_strong_ankles" },
                   { "test": "has_tag", "value": "power_smash" },
                   { "test": "has_tag", "value": "power_fall_immunity" },
@@ -1286,7 +1295,8 @@
               "component_groups": [
                 "r4isen1920_originspe:ping_for_hunger_aura",
                 "r4isen1920_originspe:movement.0.1",
-                "r4isen1920_originspe:health.20"
+                "r4isen1920_originspe:health.20",
+                "r4isen1920_originspe:reset_perk_high_jumper"
               ]
             }
           },

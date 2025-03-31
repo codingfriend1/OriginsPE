@@ -26,7 +26,7 @@ function boost(player) {
   player.addEffect("strength", INVINCIBILITY_DURATION_TICKS, { amplifier: 1.4, showParticles: true });
   player.addEffect("resistance", INVINCIBILITY_DURATION_TICKS, { amplifier: 1.4, showParticles: true });
   player.addEffect("regeneration", INVINCIBILITY_DURATION_TICKS, { amplifier: 1.4 });
-  player.addEffect("jump_boost", INVINCIBILITY_DURATION_TICKS, { amplifier: 1, showParticles: true }); // amplifier 1 = Jump Boost II
+  player.addEffect("jump_boost", INVINCIBILITY_DURATION_TICKS, { amplifier: 1.4, showParticles: true });
 }
 
 function empowering_aura({ player, itemStack }) {

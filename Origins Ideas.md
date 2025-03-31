@@ -6,35 +6,35 @@
 
 | Power                      | Description                                                  |
 | -------------------------- | ------------------------------------------------------------ |
-| **🚀 Gift of the Winds**    | Soar skyward with explosive force, launching yourself high into the air like a living cannonball. Has a 30-second cooldown. |
-| **🪽 Winged**               | You have Elytra wings without needing to equip any, and is never lost nor can be removed. Freedom is your birthright. |
-| **🎒 Essentials**           | You retain access to essential inventory, ensuring your hotbar is not lost upon death. |
-| **⚡ Swift**                | Become nimble and swift, granting you increased movement speed, enabling you to traverse the terrain effortlessly. |
-| **💥 Sprint Jump**          | With powerful legs, leap 2 blocks high while sprinting — crush obstacles and evade danger with ease. |
-| **🌬️ Lightweight**          | Fall like a feather: take 50% less fall damage, never tire from sprinting or jumping, but beware — other attacks hurt 10% more. |
-| **🌀 Teleport**             | Harness dimensional magic to teleport on command. Reposition instantly and surprise your enemies. |
-| **🎯 Endless Quiver**       | Your arrows never run dry. Wield your bow with infinite ammo and relentless precision. |
-| **🏹 Marksman**             | Deal 30% more damage with ranged attacks. Your aim is death’s own messenger. |
-| **🦍 Ferocious**            | Unleash primal fury. Gain Strength I and crush enemies in close quarters. |
-| **💔 Fragile**              | Power comes at a price — take 20% more damage from entity attacks. Be swift, not reckless. |
-| **☄️ Smash**                | Leap sky-high and slam the earth with cataclysmic force, dealing 10 damage to all foes within 6 blocks. Grants fall damage immunity. |
-| **🛡️ Tough**                | Grow 4 bonus hearts and gain 20% resistance to all forms of damage. You are the frontline. |
-| **🪨 Unbreakable Skin**     | Deflect the skies — take 30% less damage from projectiles. Arrows bounce off your iron resolve. |
-| **⚖️ Heavy**                | Massive power weighs heavy. Move 5% slower and exhaust twice as fast — but your might is unmatched. |
-| **🌟 Empowering Aura**      | Activate a radiant surge: Become invincible and bless all allies within 64 blocks with Speed, Strength, Resistance, and Regeneration for 4 seconds. 9-second cooldown. |
-| **🧠 Good Memory**          | Your inventory returns with you from the grave. Death is merely a setback. |
-| **💖 Longevity**            | Gain 2 extra hearts and outlast your enemies. Every breath is a second chance. |
+| **🚀 Gift of the Winds**    | ✅ Soar skyward with explosive force, launching yourself high into the air like a living cannonball. Has a 30-second cooldown. |
+| **🪽 Winged**               | ✅ You have Elytra wings without needing to equip any, and is never lost nor can be removed. Freedom is your birthright. |
+| **🎒 Essentials**           | ✅ You retain access to essential inventory, ensuring your hotbar is not lost upon death. |
+| **⚡ Swift**                | ✅ Become nimble and swift, granting you increased movement speed, enabling you to traverse the terrain effortlessly. |
+| **💥 Sprint Jump**          | ✅ With powerful legs, leap 2 blocks high while sprinting — crush obstacles and evade danger with ease. |
+| **🌬️ Lightweight**          | ✅ Fall like a feather: take 50% less fall damage, never tire from sprinting or jumping, but beware — other attacks hurt 10% more. |
+| **🌀 Teleport**             | ✅ Harness dimensional magic to teleport on command. Reposition instantly and surprise your enemies. |
+| **🎯 Endless Quiver**       | ✅ Your arrows never run dry. Wield your bow with infinite ammo and relentless precision. |
+| **🏹 Marksman**             | ✅ Deal 30% more damage with ranged attacks. Your aim is death’s own messenger. |
+| **🦍 Ferocious**            | ✅ Unleash primal fury. Gain Strength I and crush enemies in close quarters. |
+| **💔 Fragile**              | ✅ Power comes at a price — take 20% more damage from entity attacks. Be swift, not reckless. |
+| **☄️ Smash**                | ✅ Leap sky-high and slam the earth with cataclysmic force, dealing 10 damage to all foes within 6 blocks. Grants fall damage immunity. |
+| **🛡️ Tough**                | ✅ Grow 4 bonus hearts and gain 20% resistance to all forms of damage. You are the frontline. |
+| **🪨 Unbreakable Skin**     | ✅ Deflect the skies — take 30% less damage from projectiles. Arrows bounce off your iron resolve. |
+| **⚖️ Heavy**                | ✅ Massive power weighs heavy. Move 5% slower and exhaust twice as fast — but your might is unmatched. |
+| **🌟 Empowering Aura**      | ✅ Activate a radiant surge: Become invincible and bless all allies within 64 blocks with Speed, Strength, Resistance, Regeneration, and higher jumps for 4 seconds. 9-second cooldown. |
+| **🧠 Good Memory**          | ✅ Your inventory returns with you from the grave. Death is merely a setback. |
+| **💖 Longevity**            | ✅ Gain 2 extra hearts and outlast your enemies. Every breath is a second chance. |
 | **🍞 Hunger Resistant**     | Endure the wild. Reduce exhaustion from all activities and stay full longer. |
 | **🌾 Hunger Aura**          | Empower your allies: All players within 64 blocks gain Hunger Resistance just by being near you. |
-| **⚡ Swift**                | Move like the wind with a 40% speed boost — perfect for rapid assaults, dodging danger, or crossing vast lands. |
-| **🕶️ Invisibility**         | Slip into the shadows. Vanish for 60 seconds with a 12-second cooldown. Perfect for ambushes and escapes. |
-| **🏹 Marksman**             | Deal 30% more damage with ranged attacks. Your aim is death’s own messenger. |
-| **🗡️ Debilitating Strikes** | Cripple your enemies. Any mob you hit is slowed for 4 seconds — they’ll never escape your wrath. |
-| **🐱 Cat Vision**           | See clearly in the darkest places. Night is your domain.     |
-| **🧍‍♂️ Camouflage**          | You blend in with the environment when you're sneaking, that hostile mobs wont naturally attack you - unless if you attack them first. |
+| **⚡ Swift**                | ✅ Move like the wind with a 40% speed boost — perfect for rapid assaults, dodging danger, or crossing vast lands. |
+| **🕶️ Invisibility**         | ✅ Slip into the shadows and move swiftly. Vanish for 60 seconds with a 12-second cooldown. Perfect for ambushes and escapes. |
+| **🏹 Marksman**             | ✅ Deal 30% more damage with ranged attacks. Your aim is death’s own messenger. |
+| **🗡️ Debilitating Strikes** | ✅ Cripple your enemies. Any mob you hit is slowed for 4 seconds — they’ll never escape your wrath. |
+| **🐱 Cat Vision**           | ✅ See clearly in the darkest places. Night is your domain.   |
+| **🧍‍♂️ Camouflage**          | ✅ You blend in with the environment when you're sneaking, that hostile mobs wont naturally attack you - unless if you attack them first. |
 | **👁️ Sneaky**               | Your nameplate is never always visible, even when you're not sneaking. |
 | **🔎 Smaller**              | Your size is reduced 25%, making you harder to target.       |
-| **🪖 Need for Mobility**    | Heavy armor slows you by 50%. You were made for speed, not slugging it out in steel. |
+| **🪖 Need for Mobility**    | ✅ Heavy armor slows you by 50%. You were made for speed, not slugging it out in steel. |
 
 ## Origins
 

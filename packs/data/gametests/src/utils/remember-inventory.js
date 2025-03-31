@@ -61,17 +61,17 @@ export function remember(slot, container, memories) {
   if(isMap(item) && !item.keepOnDeath) {
     item.keepOnDeath = true
     container.setItem(slot, item);
-  } else if (!isMap(item)) {
-    const entry = {
-      slot: slot,
-      typeId: item.typeId,
-      amount: item.amount,
-      nameTag: item.nameTag,
-      lore: item.lore,
-    };
-
-    memories.push(entry);
   }
+
+  const entry = {
+    slot: slot,
+    typeId: item.typeId,
+    amount: item.amount,
+    nameTag: item.nameTag,
+    lore: item.lore,
+  };
+
+  memories.push(entry);
 }
 
 export function memorizeInventory(player) {
@@ -100,7 +100,10 @@ export function rememberInventory(player) {
 
   for (const saved of items) {
     try {
+
       const item = new ItemStack(ItemTypes.get(saved.typeId), saved.amount);
+
+      if(isMap(item)) continue;
 
       item.nameTag = saved.nameTag;
       item.lore = saved.lore;
@@ -154,27 +157,48 @@ world.afterEvents.playerSpawn.subscribe((event) => {
 world.afterEvents.entitySpawn.subscribe((event) => {
   const entity = event.entity;
 
-  // Only consider item entities
-  if (entity.typeId !== "minecraft:item" && event.cause !== 'Spawned') return;
+  // Only consider item entities spawned due to death
+  if (entity.typeId !== "minecraft:item" || event.cause !== 'Spawned') return;
 
-  // Delay by 1 tick to let entityDie populate recentDeaths
+  // Delay to allow entityDie to populate recentDeaths
   system.run(() => {
     const itemComp = entity.getComponent("item");
     const itemStack = itemComp?.itemStack;
-    const itemType = itemStack?.typeId ?? "unknown";
-    const itemAmount = itemStack?.amount ?? "?";
+    if (!itemStack) return;
 
     for (const [playerId, deathInfo] of recentDeaths.entries()) {
-      const ticksAgo = system.currentTick - deathInfo.time;
+      const player = [...world.getPlayers()].find(p => p.id === playerId);
+      if (!player) continue;
 
+      const ticksAgo = system.currentTick - deathInfo.time;
       const dx = entity.location.x - deathInfo.location.x;
       const dz = entity.location.z - deathInfo.location.z;
       const distanceSquared = dx * dx + dz * dz;
 
-      if (ticksAgo <= DEATH_TICKS_WINDOW && distanceSquared <= DEATH_RADIUS * DEATH_RADIUS) {
-        entity.kill(); // Remove dropped item
+      if (ticksAgo > DEATH_TICKS_WINDOW || distanceSquared > DEATH_RADIUS * DEATH_RADIUS) continue;
+
+      const onlyHotbar = player.hasTag('power_essentials') && !player.hasTag('power_good_memory');
+
+      if (!onlyHotbar) {
+        entity.kill();
         break;
       }
+
+      // If we're preserving only hotbar, compare against saved hotbar items
+      const data = player.getDynamicProperty("saved_inventory");
+      if (!data) continue;
+
+      const savedItems = JSON.parse(data);
+      const match = savedItems.find(saved => {
+        return saved.typeId === itemStack.typeId && saved.amount === itemStack.amount && saved.nameTag === itemStack.nameTag;
+      });
+
+      if (match) {
+        // Match found in hotbar, remove drop
+        entity.kill();
+      }
+
+      break;
     }
   });
 });

@@ -1251,12 +1251,6 @@
           "$power_name": "origins.perk.no_mining_exhaustion.name",
           "$power_description": "origins.perk.no_mining_exhaustion.description"
         }
-      },
-      {
-        "fortunate_miner@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.perk.fortunate_miner.name",
-          "$power_description": "origins.perk.fortunate_miner.description"
-        }
       }
     ]
   },
@@ -1337,13 +1331,7 @@
           "$power_name": "origins.perk.no_mining_exhaustion.name",
           "$power_description": "origins.perk.no_mining_exhaustion.description"
         }
-      },
-      {
-        "fortunate_miner@origin_powers.origin_powers_container_template": {
-          "$power_name": "origins.perk.fortunate_miner.name",
-          "$power_description": "origins.perk.fortunate_miner.description"
-        }
-      },
+      },s
       {
         "cat_vision@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.cat_vision.name",

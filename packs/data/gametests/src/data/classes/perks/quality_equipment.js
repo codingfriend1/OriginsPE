@@ -206,7 +206,7 @@ function addEnchantments(itemStack, informalEnchantments = []) {
 function isValidQualityEquipment(itemStack) {
   return (
     itemStack &&
-    items.some(i => itemStack.typeId.includes(i.replace("minecraft:", ""))) &&
+    forgedItems.some(i => itemStack.typeId.includes(i.replace("minecraft:", ""))) &&
     templateDiggableTypes.some(i => itemStack.typeId.includes(i)) &&
     itemStack.getLore()?.includes("§r§6Quality Equipment§r")
   );

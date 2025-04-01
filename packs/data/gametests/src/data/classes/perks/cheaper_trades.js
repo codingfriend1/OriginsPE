@@ -10,7 +10,7 @@ import { toAllPlayers } from "../../../origins/player";
 function cheaper_trades(player) {
   if (!player.hasTag('perk_cheaper_trades')) return;
 
-  player.addEffect('village_hero', TicksPerSecond * 12, { amplifier: 3, showParticles: false });
+  player.addEffect('village_hero', TicksPerSecond * 12, { amplifier: 2, showParticles: false });
 
 }
 

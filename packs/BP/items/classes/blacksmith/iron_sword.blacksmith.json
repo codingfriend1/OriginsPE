@@ -66,6 +66,12 @@
       },
       "minecraft:digger": {
         "destroy_speeds": [
+          {
+            "speed": 16,
+            "block": {
+              "tags": "query.all_tags('minecraft:is_sword_item_destructible')"
+            }
+          },
           { "block": "minecraft:web", "speed": 16 },
           { "block": "minecraft:bamboo", "speed": 16 },
           { "block": "minecraft:pumpkin", "speed": 6 },

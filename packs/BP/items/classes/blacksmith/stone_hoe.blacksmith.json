@@ -63,35 +63,12 @@
       "minecraft:digger": {
         "use_efficiency": true,
         "destroy_speeds": [
-          { "block": "minecraft:azalea_leaves", "speed": 10 },
-          { "block": "minecraft:azalea_leaves_flowered", "speed": 10 },
-          { "block": "minecraft:beetroot", "speed": 10 },
-          { "block": "minecraft:brown_mushroom", "speed": 10 },
-          { "block": "minecraft:carrots", "speed": 10 },
-          { "block": "minecraft:cave_vines_body_with_berries", "speed": 10 },
-          { "block": "minecraft:cave_vines_head_with_berries", "speed": 10 },
-          { "block": "minecraft:chorus_flower", "speed": 10 },
-          { "block": "minecraft:chorus_plant", "speed": 10 },
-          { "block": "minecraft:crimson_fungus", "speed": 10 },
-          { "block": "minecraft:hay_block", "speed": 10 },
-          { "block": "minecraft:kelp", "speed": 10 },
-          { "block": "minecraft:leaves", "speed": 10 },
-          { "block": "minecraft:leaves2", "speed": 10 },
-          { "block": "minecraft:moss_block", "speed": 10 },
-          { "block": "minecraft:nether_wart", "speed": 10 },
-          { "block": "minecraft:nether_wart_block", "speed": 10 },
-          { "block": "minecraft:potatoes", "speed": 10 },
-          { "block": "minecraft:red_mushroom", "speed": 10 },
-          { "block": "minecraft:reeds", "speed": 10 },
-          { "block": "minecraft:sculk_sensor", "speed": 10 },
-          { "block": "minecraft:sea_pickle", "speed": 10 },
-          { "block": "minecraft:shroomlight", "speed": 10 },
-          { "block": "minecraft:sponge", "speed": 10 },
-          { "block": "minecraft:sweet_berry_bush", "speed": 10 },
-          { "block": "minecraft:target", "speed": 10 },
-          { "block": "minecraft:warped_fungus", "speed": 10 },
-          { "block": "minecraft:warped_wart_block", "speed": 10 },
-          { "block": "minecraft:wheat", "speed": 10 }
+          {
+            "speed": 10,
+            "block": {
+              "tags": "query.all_tags('minecraft:is_hoe_item_destructible')"
+            }
+          }
         ]
       },
 

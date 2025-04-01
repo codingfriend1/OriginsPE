@@ -63,21 +63,12 @@
       "minecraft:digger": {
         "use_efficiency": true,
         "destroy_speeds": [
-          { "block": "minecraft:concretepowder", "speed": 20 },
-          { "block": "minecraft:clay", "speed": 20 },
-          { "block": "minecraft:snow", "speed": 20 },
-          { "block": "minecraft:podzol", "speed": 20 },
-          { "block": "minecraft:mycelium", "speed": 20 },
-          { "block": "minecraft:soul_soil", "speed": 20 },
-          { "block": "minecraft:soul_sand", "speed": 20 },
-          { "block": "minecraft:dirt_with_roots", "speed": 20 },
-          { "block": "minecraft:dirt", "speed": 20 },
-          { "block": "minecraft:sand", "speed": 20 },
-          { "block": "minecraft:grass", "speed": 20 },
-          { "block": "minecraft:gravel", "speed": 20 },
-          { "block": "minecraft:snow_layer", "speed": 20 },
-          { "block": "minecraft:snow", "speed": 20 },
-          { "block": "minecraft:powder_snow", "speed": 20 }
+          {
+            "speed": 20,
+            "block": {
+              "tags": "query.all_tags('minecraft:is_shovel_item_destructible')"
+            }
+          }
         ]
       },
 

@@ -46,3 +46,7 @@ This branch attempts to balance some of the Origins:
 - Remove bug where blacksmith could convert tools from other players into Quality Equiptment simply by placing it in their inventory.
 - Fixes issue where Enderian origin could teleport outside of their render distance causing errors and spontoneous teleportation when the chunk loaded. Prevents Enderian from teleporting into bodies of water.
 - Updates Enderian origin to allow progressively quicker teleports the shorter the distance down to instantaneous. Teleporting can now be activated by double clicking or pressing the use item button (double right-click or double left bumper on controller).
+
+## New Origins and Classes
+
+- Adds the Falconeer, Swordsman, Guardian, Sage, and Nightblade Origins with new sets of powers. Also adds new classes: Miner, Carpenter, Shepherd, and Craftsman. See "[Origins Ideas](./Origins%20Ideas.md)" for details.

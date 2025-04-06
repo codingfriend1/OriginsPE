@@ -1,0 +1,533 @@
+
+pack.name=Tämä lisäosa lisää useita alkuperää ja luokkia, joilla on passiiviset kyvyt peliin, jossa valitset seikkailun alkaessa. Luonut R4isen1920.
+
+
+origins.welcome_message=(Vieritä alas nähdäksesi Changelogin)
+
+
+origins.race.random.name=Sinut osoitetaan johonkin seuraavista alkuperistä, jotka on lueteltu alla, vain jos se on käytettävissä käytettävissä:
+origins.race.random.description=Sinut osoitetaan satunnaiseen käytettävissä olevaan alkuperään.
+origins.race.random.description_changed=Ihmisen
+origins.race.human.name=Tavallinen ihminen. Tavallinen Minecraft -kokemuksesi odottaa.
+origins.race.human.description=Naarmuta
+origins.race.merling.name=Nämä valtameren luonnolliset asukkaat eivät ole tottuneet olemaan veden ulkopuolella liian kauan.
+origins.race.merling.description=Hämähäkki
+origins.race.arachnid.name=Heidän kiipeilykykynsä ja kykynsä vangita vihollisensa hämähäkkiverkkoon tekevät Arachnid -täydellisistä metsästäjistä.
+origins.race.arachnid.description=Blezeborn
+origins.race.blazeborn.name=Blazen myöhäiset jälkeläiset, Blazeborn, ovat luonnollisesti immuuneja hehetyksen vaaroille.
+origins.race.blazeborn.description=Lintu
+origins.race.avian.name=Lintukilpailu on menettänyt kykynsä lentää kauan sitten. Nyt nämä rauhalliset olennot voidaan nähdä liukuvan paikasta toiseen.
+origins.race.avian.description=Fantomi
+origins.race.phantom.name=Puoli-inhimillisinä ja puolipuhdisteina jälkeläisinä nämä olennot voivat vaihtaa fantomin ja normaalin muodon välillä.
+origins.race.phantom.description=Kissan
+origins.race.feline.name=Kissan kaltaisella ulkonäöltään kissan pelkäävät hiipivät. Kissojen osaamisen myötä he laskeutuvat aina turvallisesti jaloilleen.
+origins.race.feline.description=Elostrian
+origins.race.elytrian.name=Usein lentävät tuulessa, elytrialaiset ovat epämiellyttäviä, kun heillä ei ole tarpeeksi tilaa päänsä yläpuolella.
+origins.race.elytrian.description=Enderian
+origins.race.enderian.name=Ender Dragonin poikina ja tyttärinä syntyneet enderialaiset kykenevät teleportoimaan, mutta ovat alttiita vedelle.
+origins.race.enderian.description=Hölynpöly
+origins.race.shulk.name=Shulkeriin liittyvät shulkin rungot on varustettu suojakuoren kaltaisella iholla.
+origins.race.shulk.description=Kettu
+origins.race.kitsune.name=Ketut ovat, vaikka ne ovat heikkoja elinvoiman kannalta, mutta hyödyntävät luontaisia ​​henkisiä kykyjään piilottaakseen ja vahvistaakseen voimaansa.
+origins.race.kitsune.description=Slimecican
+origins.race.slimecican.name=Osa ihmistä, osa lima. Erittäin epämiellyttävä koskettaa paljaat kädet.
+origins.race.slimecican.description=Tähti-
+origins.race.starborne.name=Syntyessäsi tähtiä, olet väkivallaton, tähti-pakkomielle, salaperäinen ja mahdollisesti voimakas henkilö, joka putosi tähdet tähän tuskin maailmaan, jossa elämme.
+origins.race.starborne.description=Tuskallinen
+origins.race.inchling.name=Pienimmän heimon jälkeläiset, nämä olennot ovat yhtä ketterät kuin niiden koko.
+origins.race.inchling.description=Mehiläinen
+origins.race.bee.name=Mehiläiset ovat viileitä. He lentävät, nauttivat kukista ja kuolevat.
+origins.race.bee.description=Piika
+origins.race.piglin.name=Netherin hallitseva rotu, nämä humanoidiset olennot käyttävät pelkkää brawnia ja ylpeilee kullastaan.
+origins.race.piglin.description=Haltaa
+origins.race.elf.name=Tyylikkät ja ketterät olennot, joilla on syvä yhteys luontoon, taitavat jousiammunta, jonka yli he ovat hioneet suuren elinajansa ansiosta.
+origins.race.elf.description=Tyhjyys
+origins.race.voidwalker.name=Syntynyt synkkän valtakunnan syvyyksissä, olet hankkinut kyvyn manipuloida ja valjastaa tummia energioita sisäpuolelta vahingoittaakseen muita.
+origins.race.voidwalker.description=Divisinta
+origins.race.diviner.name=Divinersillä on kyky hyödyntää maailmankaikkeuden mystisiä energioita, jotka käyttävät heitä suojelemaan ja auttamaan muita apua tarvitsevia pelaajia.
+
+
+
+
+
+origins.race.scout.name=Falconeers ovat pelottomia polkuja, jotka käynnistyvät taivaalle, liukuvat petollisen maaston yli ja paljastavat vihollisen asemat ennen taistelun alkamista. Kiertoisella vauhdilla ja korkealla ketteryydellä ne ovat tuuli myrskyn edessä.
+
+
+origins.race.attacker.name=Miekkamiehet lakkovat tappavalla nopeudella ja tarkkuudella, teleportoimalla taistelukentän läpi ja vapauttavat tuhoisat volleit etäisyyden ja lähitaistelujen hyökkäykset. Heidän työnsä on yksinkertainen - katkaisee uhka ennen kuin se saavuttaa liittolaisesi.
+
+
+origins.race.defender.name=Guardians on titaanit, jotka hyppäävät vaaraan, lyövät voimaa ja suojaavat liittolaisiaan pelkästään joustavuudella. Raudan iholla ja vertaansa vailla olevalla linnoituksella ne ovat seinä, jota ei ristit.
+
+
+origins.race.supporter.name=Sages kanavoi taivaallista energiaa suojaamaan, valtuuttamaan ja ylläpitämään liittolaisiaan. Heidän auransa muuttaa taistelun vuorovesi - vahvuutta, voittamattomuutta ja toivoa joukkueelleen pimeimmissä hetkissä.
+
+
+origins.race.rogue.name=Nightblades katoaa silmänräpäyksessä, lyömällä näkymättömistä paikoista ja taivuttaen taistelukentän heidän puolestaan. Petoksen ja sabotaasin mestarit, he menestyvät kaaoksessa - kirjoittamalla vihollisia ja ohjaavat voittoa varjoista.
+
+
+origins.class.caver.name=Cavers kukoistaa maan alla, tunnistaa malmit, louhien loputtomasti ja putoaa ilman pelkoa. Syvässä he näkevät mitä muut kaipaavat.
+
+
+origins.class.carpenter.name=Puusepät hyppäävät korkeammalle, rakentavat nopeammin ja kauppaa älykkäämmin. Reach ja joustavuudella ne muotoilevat maailman helposti.
+
+
+origins.class.shepherd.name=Paimenet kasvavat ja keräävät huolellisesti. Heidän läsnäolonsa ruokkii elämää, kaksinkertaistaa sadonkorjuun ja kutsuu eläimiä heidän puolelleen.
+origins.class.shepherd.description=Käsityöläinen
+
+
+
+
+
+origins.class.random.name=Sinut osoitetaan satunnaiseen käytettävissä olevaan luokkaan.
+origins.class.random.description=Nitwit
+origins.class.random.description_changed=Nitwits ei ole todella hyvä missään. Jatkat ilman lisäominaisuuksia.
+origins.class.nitwit.name=Soturi
+origins.class.nitwit.description=Näillä kunniallisilla taistelijoilla on suuri rohkeus ottaa viholliset alas.
+origins.class.warrior.name=Jousimies
+origins.class.warrior.description=Yksi laukaus, yksi tappaa. Pystyy poistamaan kohteet suurella etäisyydellä.
+origins.class.archer.name=Vilpillinen
+origins.class.archer.description=Yleensä varkaiden ja ryöstöjen tiedetään, että roistot ovat taitavia väijytys- ja varkainhyökkäyksiä.
+origins.class.rogue.name=Petomies
+origins.class.rogue.description=Beastmasters ovat yksinäisiä ihmisiä, jotka pitävät eläinten yritystä.
+origins.class.beastmaster.name=Seppä
+origins.class.beastmaster.description=Kaikkien arvostettujen ystävien ystävät, seppä pystyy luomaan parempia työkaluja, aseita ja panssaria.
+origins.class.blacksmith.name=Pappi
+origins.class.blacksmith.description=He ovat oppineet kanavoimaan maailmassa läsnäolon taikuutta ja käyttämään sitä heidän edukseen.
+origins.class.cleric.name=Kokki
+origins.class.cleric.description=Ei ole ketään parempaa valmistaa ruokaa kuin kokki.
+origins.class.cook.name=Viljelijä
+origins.class.cook.description=Viljelijöiden on tiedetty tarjoavan kaikille ruokaa niin kauan kuin kukaan voi muistaa.
+origins.class.farmer.name=Kauppias
+origins.class.farmer.description=Etsitkö aina ylimääräistä smaragdia, kauppiaat ovat taitavia kauppiaita.
+origins.class.merchant.name=Karjatilallinen
+origins.class.merchant.description=Ranchers pystyy keräämään monia hyödyllisiä resursseja hyödyntämällä eläimiä.
+origins.class.rancher.name=Kaivosmies
+origins.class.rancher.description=Kaivostyöläiset ovat taitavimpia kaivamaan maan aarteita.
+origins.class.miner.name=Metsuri
+origins.class.miner.description=Puiden tulee varota, kun puutavarat ovat lähellä.
+origins.class.lumberjack.name=Tutkija
+origins.class.lumberjack.description=Tutkijat löytävät tiensä helposti vaikeimmasta maastosta ja löytävät piilotetut maamerkit.
+
+origins.class.explorer.description=Alkuperäpiirteet:
+
+origins.trait.has=Voit hengittää vedenalaisen, mutta ei maalla. Tilavaikutukset, kuten veden hengitys, voivat kuitenkin auttaa sinua yrityksissäsi.
+origins.trait.water_breathing.name=Aqua Affinity
+origins.trait.water_breathing.description=Voit rikkoa lohkoja vedenalaiseksi, kuten muut tekevät maalla, ja pystyä näkemään täydellisesti vedenalaisen.
+origins.trait.aqua_affinity.name=Meren asukas
+origins.trait.aqua_affinity.description=Vedenalaiset väkijoukot eivät luonnollisesti vahingoita sinua eikä hyökkää sinua, ellei hyökkää heitä ensin.
+origins.trait.sea_creature.name=Kuin vesi
+origins.trait.sea_creature.description=Pysy luonnollisesti vedessä ja upotat hiipimällä aina kun haluat.
+origins.trait.like_water.name=Ocean -lahja
+origins.trait.like_water.description=Olet haavoittumaton vaurioista, joita tridentit ovat käsittäneet.
+origins.trait.no_trident_damage.name=Hauras
+origins.trait.no_trident_damage.description=Sinulla on 3 vähemmän terveyden sydäntä kuin ihmisillä.
+origins.trait.fragile.name=Hihna
+origins.trait.fragile.description=Kun osut viholliselle lähitaisteluun, he juuttuvat väliaikaisesti hämähäkin ja hidastuu edelleen ja myrkyttää kohteen. On 13 sekunnin jäähdytys.
+origins.trait.webbing.name=Verkkokokoon
+origins.trait.webbing.description=Niin kauan kuin seisot hämähäkin, lieventät mitään vaurioita.
+origins.trait.master_of_webs.name=Kiipeily
+origins.trait.master_of_webs.description=Voit kiivetä kaikki kiinteät lohkot, joita katsot nopeasti, pitämällä hyppypainiketta. Pudotus, kun kiipeily lieventävät vähentymisvahinkoja.
+origins.trait.climbing.name=Lihansyöjä
+origins.trait.climbing.description=Ruokavaliosi on rajoitettu lihaan, etkä voi syödä tai olla vuorovaikutuksessa vihannesten tarvikkeiden kanssa.
+origins.trait.carnivore.name=Läpäisemätön
+origins.trait.carnivore.description=Aina kun otat magma-, tuli- tai laavavaurioita, menettämäsi terveys palautetaan välittömästi ja lisää väliaikaisesti aiheuttamasi vahingot.
+origins.trait.fire_immunity.name=Asukas
+origins.trait.fire_immunity.description=Luonnollinen kute on heheässä.
+origins.trait.nether_spawn.name=Kisko
+origins.trait.nether_spawn.description=Kun olet tulessa, kaikki lyömäsi väkijoukot ja sen ympärillä olevat väkijoukot sytytetään ja asetetaan tuleen. Tämä voidaan laukaista vain kerran 3 sekunnissa.
+origins.trait.burning_wrath.name=Kuumaverinen
+origins.trait.burning_wrath.description=Kuuman kehosi takia myrkky palaa, mikä tekee sinusta immuuni myrkky- ja nälän tilan vaikutuksiin.
+origins.trait.hotblooded.name=Vesikauhu
+origins.trait.hotblooded.description=Saat vaurioita ajan myötä, kun olet yhteydessä veteen.
+origins.trait.water_vulnerability.name=Takatuuli
+origins.trait.water_vulnerability.description=Olet hiukan nopeampi jalka kuin muut, samalla kun pystyt myös sprintiin tehokkaammin.
+origins.trait.tailwind.name=Höyhensarja
+origins.trait.tailwind.description=Pudotat yhtä varovasti maahan kuin sulka.
+origins.trait.slow_falling.name=Kasvissyöjä
+origins.trait.slow_falling.description=Ruokavaliosi on rajoitettu vihanneksiin, etkä voi syödä tai olla vuorovaikutuksessa lihan tarvikkeiden kanssa.
+origins.trait.vegetarian.name=Raikasta ilmaa
+origins.trait.vegetarian.description=Nukuessasi sängyn on oltava vähintään 70 korttelin korkeudessa, joten voit hengittää raitista ilmaa.
+origins.trait.fresh_air.name=Sinun täytyy nukkua vähintään 70 lohkon korkeudessa
+origins.trait.fresh_air.description=Harhauttaa
+origins.trait.fresh_air.sleep_fail=Käytä kykykohdetta kääntyä katsojatilaan. Poistut tästä tilasta, kun seisot paikallaan.
+origins.trait.phantomize.name=Henkinen ruumis
+origins.trait.phantomize.description=Spectator -tilassa ollessasi olet näkymätön muilta ja voit kulkea lohkojen läpi, etkä pysty vuorovaikutuksessa minkään muun kanssa.
+origins.trait.invisibility.name=Kumota
+origins.trait.invisibility.description=Alat polttaa päivänvalossa, jos et ole näkymätön tai vedessä. Päät vähentävät auringonvalon vaurioita 50%.
+origins.trait.burns_in_daylight.name=Vahvat nilkat
+origins.trait.burns_in_daylight.description=Et koskaan ota syksyn vaurioita riippumatta siitä, mistä korkeudesta putoat.
+
+origins.trait.fall_immunity.description=Yhdeksän elämää
+
+origins.trait.nine_lives.name=Heikkovarsi
+origins.trait.nine_lives.description=Kun et ole voiman vaikutuksen alaisena, kaivot lohkot hitaammin ja hyökkäät heikommaksi.
+origins.trait.weak_arms.name=Kissankaltainen ulkonäkö
+origins.trait.weak_arms.description=Creepers pelkää sinua ja räjähtää vain, jos hyökkäät heitä ensin.
+
+
+
+
+
+origins.trait.claustrophobia.name=Hauras luut
+origins.trait.claustrophobia.description=Otat enemmän vahinkoa putoamisesta ja lentämisestä lohkoihin.
+origins.trait.more_kinetic_damage.name=Ilmakuormitus
+origins.trait.more_kinetic_damage.description=Käsittelet enemmän vahinkoja liukuessasi elytralla.
+
+origins.trait.aerial_combatant.description=Pelkäävät kurkkuja
+
+origins.trait.pumpkin_hate.name=Tutut kasvot
+origins.trait.pumpkin_hate.description=Hirviöt ja muut Endermanit eivät hyökkää sinua, vaikka katsot suoraan niitä käyttämättä veistettyä kurpitsaa, ellet hyökkää heitä ensin.
+origins.trait.familiar_face.name=Kotelo
+origins.trait.familiar_face.description=Laukaise kyky vaihtaa toiseen varastotilaan. Antaa sinun tallentaa enemmän esineitä 9 ylimääräisellä lähtö- ja saapumisajalla, jotka pidetään jopa kuolemassa.
+origins.trait.shulk_inventory.name=Shulk -varasto
+origins.trait.shulk_inventory.description=Tukeva iho
+origins.trait.shulk_inventory.label=Jopa käyttämättä panssaria, iho tarjoaa luonnollista suojaa, mikä saa 20% vähemmän vaurioita mistä tahansa lähteestä.
+origins.trait.natural_armor.name=Suuri ruokahalu
+origins.trait.natural_armor.description=Pääset helposti uupuneen, vähentäen enemmän nälkää kuin normaalia.
+origins.trait.more_exhaustion.name=Hankala
+origins.trait.more_exhaustion.description=Tapa, jolla kädet muodostuvat, eivät tarjoa keinoa pitää kilpi pystyssä. Yrittäminen estää kilpiä rikkoo sen välittömästi riippumatta siihen sovellettavista lumouksista.
+origins.trait.no_shield.name=Vahvat aseet
+origins.trait.no_shield.description=Olet vahvempi ja voit rikkoa kivilohkoja ilman, että vaaditaan mitään picraxea.
+origins.trait.strong_arms.name=Asukas
+origins.trait.strong_arms.description=Matkasi alkaa lopulta.
+origins.trait.end_spawn.name=Nopea jalkainen
+origins.trait.end_spawn.description=Lyhyempien jalkojesi ja alhaisen uupumuksen vuoksi liikkeenopeutesi kasvaa ja koko on pienentynyt.
+origins.trait.fast_footed.name=Pistää
+origins.trait.fast_footed.description=Lataa kyky esine pitämällä sitä ja hyppää katsomaasi suuntaan. Mitä enemmän varaus, sitä suurempi etäisyys on.
+origins.trait.pounce.name=Berry Craver
+origins.trait.pounce.description=Makea marjat palauttavat enemmän nälkäpisteitä syödessään ja myöntäisivät joskus uudistamisvaikutuksia. Et myöskään ole vaurioitunut marja -pensaista.
+origins.trait.berry_craver.name=Pienempi sydän
+origins.trait.berry_craver.description=Koko pienemmän koon takia sydämesi on pienempi, mikä johtaa maksimaalisen terveyden alenemiseen 4 sydämellä.
+origins.trait.smaller_heart.name=Nopea aineenvaihdunta
+origins.trait.smaller_heart.description=Nopeudella ja pienemmällä vatsalla saat enemmän nälkäistä kuin tavallisesti.
+origins.trait.fast_metabolism.name=Pomppiva elin
+origins.trait.fast_metabolism.description=Pyrkivät suuren osan syksyvaurioista pomppivan, mutta tahmean rungon takia.
+origins.trait.bouncy_body.name=Superhyppy
+origins.trait.bouncy_body.description=Limaperintösi antaa sinulle parannuksen, jolloin voit hypätä korkeammalle. Koputtaa takaisin ja vahingoittaa lähellä olevia väkijoukkoja laskeutuessa. Tämä passiivinen kyky voidaan laukaista vain kerran 3 sekunnissa.
+origins.trait.high_jump.name=Tahmea
+origins.trait.high_jump.description=Jokainen yksikkö, joka hyökkää sinua lähitaisteluun, hidastuu ja vähentää sinulle aiheutuvia vaurioita 10 prosentilla. Näytät myös vihreältä ja limaiselta.
+origins.trait.sticky.name=Pirstoutuminen
+origins.trait.sticky.description=Kutistut koostasi osaan terveyden putoamisen ja maksimaalisen terveyspisteesi. 
+origins.trait.fragmentation.name=Palautus
+origins.trait.fragmentation.description=Voit kuluttaa ja syödä limapalloja palauttaaksesi kadonneen osan itsestäsi.
+origins.trait.slime_ball_consume.name=Korostaa
+origins.trait.slime_ball_consume.description=Tämä kertyy koko sinua hitaasti. Kun se on täynnä, räjähtää väkivaltaisesti - vahingoittamalla kaikkea sinua ympäröivää. Kaikki kykysi jäähtyvät kuitenkin nopeammin, jos [stressi] on 70%.
+origins.trait.stress.name=Mietiskellä
+origins.trait.stress.description=Vähennä hiipimällä kertynyt [stressi] niin kauan kuin sinulla on täysi terveys.
+origins.trait.meditate.name=Kosminen lahja
+origins.trait.meditate.description=Tähtiborborit ovat taivaan siunattu olento. Vähemmän painovoima vaikuttaa, pystyt hyppäämään korkeammalle ja laskeutumaan takaisin maahan armosta - ottamatta mitään syksyvaurioita.
+origins.trait.cosmic_gift.name=Hyperhyppy
+origins.trait.cosmic_gift.description=Työskentele kohti tiettyä suuntaa, jota katsot, ja käynnistät yksiköt, jotka olit ilmassa. On lyhyt jäähdytys ennen jokaista käyttöä.
+origins.trait.hyper_leap.name=Tähdenlento
+origins.trait.hyper_leap.description=Ampuu tähtiprofiilia kohti katsomasi suuntaa, vahingoittaen väkijoukkoja iskuihin. On jäähdytys ennen jokaista käyttöä.
+origins.trait.shooting_star.name=Väkivallaton
+origins.trait.shooting_star.description=Starbornesilla on mahdollisuus tulla väliaikaisesti liikkumaan aina, kun toinen kokonaisuus vahingoittaa heitä. Tässä tilassa visioasi on myös väliaikaisesti estetty.
+origins.trait.no_hitting.name=Kylmä tyhjiö
+origins.trait.no_hitting.description=Tähtiborborit ovat tottuneet valtavan kosmoksen kylmyyteen, jolloin otetaan kaksinkertainen palovaurio - lämpö, ​​johon he eivät ole tottuneet.
+origins.trait.burning.name=Ketterä
+origins.trait.burning.description=Inchlings on immuuni piikkeille ja nopeuteen perustuville vaurioille.
+origins.trait.nimble.name=Hyper-aktiivinen
+origins.trait.nimble.description=Voit kuluttaa sokeria, vaikka olisit täynnä, myöntämällä väliaikaisen liikkeen nopeuden lisäämisen.
+origins.trait.hyper_active.name=Pieni apetiitti
+origins.trait.hyper_active.description=Sokerin kulutus riittää tarpeisiisi, koska se antaa sinulle pitkäaikaisia ​​kylläisyysvaikutuksia. Vaatii vähemmän ruokaa jatkamaan.
+origins.trait.small_apetite.name=Purema-
+origins.trait.small_apetite.description=Olet monta kertaa pienempi ja sinulla on 5 vähemmän sydäntä verrattuna tavanomaiseen ihmiseen.
+origins.trait.bite_sized.name=Varo myrkyllistä
+origins.trait.bite_sized.description=Kun käsittelet kriittisiä vahinkoja, aiheuttavat kohtalokkaan myrkkyn kohteeseen, joka kestää 7 sekuntia. Sitten vähentää [Stinger] -laskua yhdellä. Tämä kyky ei laukaise kokonaisuuksia, joilla on jo vaikutus.
+origins.trait.poisonous.name=Kuolemantapaus
+origins.trait.poisonous.description=Käsittelet 50% enemmän vaurioita kohteille, jotka vahingoitat kuolemaan johtaneita myrkkyjä.
+origins.trait.poison_bonus_damage.name=Stingers
+origins.trait.poison_bonus_damage.description=Kannat jopa 7 stingeriä kerrallaan, ja sitä käytetään joka kerta, kun aiheutat myrkkyvaurioita. Kun kaikkia stingerejä on käytetty, olet sitoutunut menehtymään ja kuolemaan.
+origins.trait.sacrifice_stinger.name=Siitepöly
+origins.trait.sacrifice_stinger.description=Päivän aikana voit seistä millä tahansa kukilla ja hiipiä palauttaaksesi minkä tahansa [stinger], jonka olet ehkä menettänyt. Tämä kuitenkin rikkoo kukan.
+origins.trait.bloom.name=Päivä-
+origins.trait.bloom.description=Työskentelet parhaiten aurinkoisena päivänä, joten olet heikentynyt ja liikut hitaasti yöllä tai jos se alkaa sataa päivän aikana.
+origins.trait.nighttime.name=Lyhyt elinikä
+origins.trait.nighttime.description=Mehiläisillä on 3 vähemmän sydäntä kuin ihmisillä.
+origins.trait.lifespan.name=Nektariruokavalio
+origins.trait.lifespan.description=Et voi syödä normaalia ruokaa ja pystyä kuluttamaan vain kukkia.
+origins.trait.nectar_diet.name=Ylpeys
+origins.trait.nectar_diet.description=Mitä enemmän kultaesineitä kuljetat varastossa, kuluneet tai pidettäessä, sitä vähemmän vaurioita saat mistä tahansa lähteestä. Voit lieventää jopa 90% tällä tavalla saatuista vaurioista.
+origins.trait.pride.name=Tulivoima
+origins.trait.pride.description=Lähitaisteluhyökkäys aiheuttaa lisävaurioita, jotka vastaavat 10 prosenttia jakamistasi vaurioista. Lisää lisävahinkoja, joita on käsitelty 10 prosentilla lähellä olevia yksiköitä kohden 6 lohkossa.
+origins.trait.increased_attack_per_entity.name=Mässäily
+origins.trait.increased_attack_per_entity.description=Saat tavallista vielä nälkäisempiä täydentäessäsi terveyttä.
+origins.trait.gluttony.name=Rohkeus
+origins.trait.gluttony.description=Olet immuuni heikkoudesta ja kuihtuneista tilavaikutuksista.
+origins.trait.courage.name=Elämänkuija
+origins.trait.courage.description=Regeneroivat välittömästi terveyden, joka perustuu 3 sekunnin kuluessa saatuihin kertyneisiin vaurioihin. Sitten myöntää imeytymisen 12 sekunnin ajan, joka asteikoi saadut vaurioiden määrän riippuen.
+origins.trait.lifeweaver.name=Nimeä
+origins.trait.lifeweaver.description=Tule ketteräksi ja nopeaksi antamalla sinulle lisääntyneen liikkeenopeuden, jotta voit kulkea maastoa vaivattomasti.
+origins.trait.agility.name=Beelzebub
+origins.trait.agility.description=Melee -hyökkäykset aiheuttavat lisävahinkoja puuttuvan terveyden perusteella. Sitten lataa yhden pino [Beelzebub] -hyökkäyksestä, jopa kolme.
+origins.trait.beelzebub.name=Sielusburssi
+origins.trait.beelzebub.description=Kun [Beelzebub] saavuttaa kolme pinoa, kuluttaa kaiken sen ja tekee lisävaurioita pinojen hankkimisen kokonaisvahinkojen perusteella.
+origins.trait.soulburst.name=Sateenvarainen
+origins.trait.soulburst.description=Pyydä itseäsi pimeään energiaan sprintingessä, ylimääräisen nopeuden myöntämisessä ja ammusvaurioiden välttämisestä.
+origins.trait.umbral_veil.name=Synkkä aura
+origins.trait.umbral_veil.description=Läheiset passiiviset väkijoukot pelkäävät läsnäolosi ja pakenevat sinusta.
+origins.trait.sinister_aura.name=Elämän tyhjentäminen
+origins.trait.sinister_aura.description=Aina kun teet vahinkoa, terveyttäsi vähenee kohteen puuttuva terveys, jopa 50% maksimisesta terveydestäsi. Kun terveytesi on yhtä suuri kuin yksi, tämä ei vähennä enää.
+origins.trait.life_drain.name=Esikäsittely
+origins.trait.life_drain.description=Rei'itä kyvyllä, joka on valittu toiselle pelaajalle. Valettujen jälkeen lisää sekä sinun että toisen pelaajan enimmäisterveyttä 50–60% molemmista terveydestäsi.
+origins.trait.prescience.name=Oraakkeli
+origins.trait.prescience.description=Kun [Prescience] on, kaikki ottamasi vahingot ja parantaminen räjäytetään toiselle pelaajalle.
+origins.trait.oracle.name=Aegis
+origins.trait.oracle.description=Suoraan ulkoiset vauriot ohjaavat 50% hyökkääjän vaurioista.
+origins.trait.aegis.name=Jumalallinen aura
+origins.trait.aegis.description=[Prescience]: n vaikutuksen alla olevat pelaajat hehkuuvat ja ne voidaan nähdä seinien kautta. Tämä hehku jatkuu kuitenkin aina.
+origins.trait.divine_aura.name=Hauraus
+origins.trait.divine_aura.description=Mitä vähemmän terveyttä sinulla on, sitä alttiimpi olet kaikista vaurioista.
+origins.trait.fragility.name=Epävakaus
+origins.trait.fragility.description=Jokaiselle sinulle sovellettavalle ainutlaatuiselle tilavaikutukselle maksimi terveys vähenee yhdellä. Kun terveytesi on yhtä suuri kuin 1, tämä ei vähennä enää.
+
+origins.trait.instability.description=Luokan etuisuudet:
+
+origins.perk.has=Varjoissa
+
+origins.perk.stealth.name=Ketteryys
+origins.perk.stealth.description=Voit liikkua nopeammin jalka kuin muut piirtäen keulaa tai ristikkääsi.
+origins.perk.less_bow_slowdown.name=Tarkkuus
+origins.perk.less_bow_slowdown.description=Kaikki ampumasi nuolet kulkevat suorassa linjassa, joihin ei ole painovoima.
+origins.perk.no_projectile_divergence.name=Kilpi
+origins.perk.no_projectile_divergence.description=Saat lisäsuojaa, kun estät itsesi kilpillä.
+origins.perk.less_shield_slowdown.name=Viha verenhimo
+origins.perk.less_shield_slowdown.description=Saat voimaa, joka lisää, mitä alhaisempi nykyinen terveytesi on.
+origins.perk.less_health_more_attack.name=Eläimistön ystävät
+origins.perk.less_health_more_attack.description=Eläimet, joita kesyat, saavat pysyvän harrastamisen heidän terveyteensä.
+origins.perk.tamed_animal_boost.name=Tehokas empatia
+origins.perk.tamed_animal_boost.description=Mahdolliset juomavaikutukset, joita sinulla voi olla, sovelletaan myös kesytetyihin väkijoukkoihin.
+origins.perk.effective_empathy.name=Hyvät ateriat
+origins.perk.effective_empathy.description=Keittämäsi ruoat myöntävät ylimääräisen kylläisyyden syödessään.
+origins.perk.more_saturated_food.name=Virkistävä keitto
+origins.perk.more_saturated_food.description=Tehtät voivat myöntää uudistamisvaikutuksia.
+origins.perk.better_stew.name=Taitava panimo
+origins.perk.better_stew.description=Laajentamalla juomavaikutusten pituutta Redstone -käyttämällä, mitä tahansa hautamasi juoma pidennetään edelleen.
+origins.perk.longer_potions.name=Voimakkaat panimot
+origins.perk.longer_potions.description=Jokainen hautaamasi juoma vahvistetaan enemmän, kun panostat sitä hehkukivillä.
+origins.perk.powerful_potions.name=Suuri käsityö
+origins.perk.powerful_potions.description=Kaikilla laitteilla tai Smithillä on lisääntynyt kestävyys, tehokkuus, vahingot ja ehkä jopa Fortune I.
+origins.perk.quality_equipment.name=Tehokkaat korjaukset
+origins.perk.quality_equipment.description=Korkealaatuiset laitteet ovat helposti korjattavissa ja voivat palauttaa enemmän kestävyyspisteitä.
+origins.perk.efficient_repairs.name=Vihreä peukalo
+origins.perk.efficient_repairs.description=Istuttaessa viljelykasveja on mahdollista, että se kasvaa heti.
+origins.perk.fast_crop_growth.name=Runsas sato
+origins.perk.fast_crop_growth.description=Sadonkorjuu sadonkorjuu, saat joskus kaksinkertaisen saannon.
+origins.perk.more_crop_drops.name=Lisää syntymiä
+origins.perk.more_crop_drops.description=Ollessasi kasvatetuilla eläimillä on mahdollisuus tuottaa useita vauvoja.
+origins.perk.twin_breeding.name=Poisto
+origins.perk.twin_breeding.description=Voit joskus saada enemmän materiaalia väkijoukkojen tappamisesta.
+origins.perk.more_animal_loot.name=Suuria tarjouksia
+origins.perk.more_animal_loot.description=Saat alennuksia kauppaa kyläläisten kanssa.
+origins.perk.cheaper_trades.name=Karisma
+origins.perk.cheaper_trades.description=Vaeltavat kauppiaat käyvät todennäköisemmin, kun olet lähellä.
+origins.perk.wandering_trader_spawn.name=Sopia
+origins.perk.wandering_trader_spawn.description=Et menetä nälkää sprintissä.
+origins.perk.no_sprint_exhaustion.name=Explorer Kit
+origins.perk.no_sprint_exhaustion.description=Aloitat pelin kompassilla, kellolla ja yhdeksällä tyhjällä kartalla, jotka eivät koskaan pudota kuolemaan.
+
+origins.perk.explorer_kit.description=Puiden pääkaupunki
+
+origins.perk.tree_felling.name=Uudelleenistutus
+origins.perk.tree_felling.description=Sarjastamasi on mahdollisuuden lokit, jotka voidaan istuttaa uudelleen saman tyyppisellä taimella.
+
+origins.perk.sapling_setblock.description=ORB OFFILD
+
+origins.item.orb_of_origins.name=§7 [Vaihda valikko] §R
+origins.item.resignation_paper.name=§7 [lisää vaihtoehtoja] §R
+origins.item.origins_menu.name=§Z
+
+origins.item.origins_menu_padding.name=Valitse alkuperä.
+
+origins.gui.title.choose_origin=Olet valinnut tämän alkuperän.
+origins.gui.title.choose_class=Olet valinnut tämän luokan.
+origins.gui.title.view_origin=Tämä on alkuperäsi.
+origins.gui.title.view_class=Tämä on luokkasi.
+origins.gui.title.change_origin=Säädä mieltymyksiisi.
+origins.gui.title.change_class=Valitse kielto.
+origins.gui.title.options=Valitse kieltää luokat.
+origins.gui.title.ban_origin=Tämä alkuperä on kielletty
+origins.gui.title.ban_class=Tätä alkuperää käytetään jo
+origins.gui.subtitle.banned=Ei pelin vaikutusta
+origins.gui.subtitle.locked=Pelin vaikutus vaihtelee
+origins.gui.impact.none=Matala pelin vaikutus
+origins.gui.impact.random=Kohtalainen pelin vaikutus
+origins.gui.impact.low=Korkea pelin vaikutus
+origins.gui.impact.medium=Ei ylimääräisiä etuja
+origins.gui.impact.high=Perk vaihtelee
+origins.gui.useful.none=Kunnolliset etuisuudet
+origins.gui.useful.random=Kapea
+origins.gui.useful.fair=Peliä muuttavat etuisuudet
+origins.gui.useful.medium=Kuluttaa 1 §E [Orb of Origins] §R
+origins.gui.useful.very=Kustannukset 1 §E [eroamispaperi] §R
+origins.gui.change.race=Alkuperä on poistettu käytöstä
+origins.gui.change.class=Eroamispaperi on poistettu käytöstä
+origins.gui.change.blocked.orb=Kun tämä painike on korostettu, se tarkoittaa, että tämä alkuperä on tällä hetkellä kielletty
+origins.gui.change.blocked.paper=Kun tämä painike on korostettu, se tarkoittaa, että tämä luokka on tällä hetkellä kielletty
+origins.gui.manage.ban_race=Et voi kieltää niitä kaikkia, jätä yksi käytettäväksi
+origins.gui.manage.ban_class=Et voi kieltää tätä alkuperää, koska §EUnique Selection§F on käytössä
+origins.gui.manage.ban_limit=Muuttaa
+origins.gui.manage.ban_locked=Erota
+origins.gui.button.continue.change=Kieltää
+origins.gui.button.continue.resign=§L§cban§r
+origins.gui.button.manage.ban=Valita
+origins.gui.button.manage.unban=Lähellä
+origins.gui.button.select=Jatkaa
+origins.gui.button.cancel=Takaisin
+origins.gui.button.start=Mennään
+origins.gui.button.return=Älä näytä uudestaan
+
+origins.gui.button.ignore_welcome_screen=Yleiset vaihtoehdot
+
+origins.gui.options.general_root=Käyttö estetty!
+origins.gui.options.admin_root=Nämä vaihtoehdot vaativat erityisen luvan ennen kuin siihen pääsee!
+origins.gui.options.admin_denied.name=Suorita seuraava komento antaaksesi jollekin luvan käyttää näitä vaihtoehtoja:
+origins.gui.options.admin_denied.description1=Näytä alkuperäni
+origins.gui.options.admin_denied.description2=Näyttää tietoa valitsemastasi alkuperästä.
+origins.gui.options.view_origin.name=Katso luokkani
+origins.gui.options.view_origin.description=Näyttää tiedot valitsemastasi luokasta.
+origins.gui.options.view_class.name=Jouto
+origins.gui.options.view_class.description=Anna alkuperän joutokäynnin hiukkasten säteillä hahmostasi. (Oletus: päällä)
+origins.gui.options.toggle_particle.name=Nollata pelaaja
+origins.gui.options.toggle_particle.description=Nollaa yhteisösi käyttäytymiskomponentit toivottavasti korjaamaan alkuperän tai luokan ongelmat. Tätä vaihtoehtoa voidaan käyttää vain kerran, kunnes tulet uudelleen.
+origins.gui.options.reset_player.name=Kieltovalinta
+origins.gui.options.reset_player.description=Hallitse kiellettyä alkuperää ja luokkia. Ainakin yksi valinta on pidettävä kiinni.
+origins.gui.options.ban.root.name=Kieltää alkuperän
+origins.gui.options.ban.root.description=Valitse alkuperä, jotta ne estävät niitä koskaan valinnasta. (Oletus: Ei mitään)
+origins.gui.options.ban.origins.name=Kieltokurssit
+origins.gui.options.ban.origins.description=Valitse luokat estääksesi niitä koskaan valittu. (Oletus: Ei mitään)
+origins.gui.options.ban.classes.name=Karkottaa valinta
+origins.gui.options.ban.classes.description=Pakota kaikki online -pelaajat muuttamaan alkuperää ja luokkaa, jos se on juuri kielletty.
+origins.gui.options.ban.evict.name=Lisäpelaajat
+origins.gui.options.ban.evict.description=Hallitse lisävaihtoehtoja, jotka muuttavat lisäosan käyttäytymistä ja vaikuttaa pelaajiin.
+origins.gui.options.toggle.root.name=Ainutlaatuinen valinta
+origins.gui.options.toggle.root.description=Salli vain yksi alkuperä pelaajaa kohti. Huomaa, että tämä ei pakota pelaajia muuttamaan alkuperäänsä, jos se on jo valittu, valitse §E [Alusta kaikki] §F -vaihtoehto tehdä niin. (Oletus: POIS)
+origins.gui.options.toggle.unique.name=ORB OFFILD
+origins.gui.options.toggle.unique.description=Anna pelaajien muuttaa alkuperänsä käyttämällä §E [Orb of Origins] §F -kohtaa. (Oletus: päällä)
+origins.gui.options.toggle.orb.name=Erotuspaperi
+origins.gui.options.toggle.orb.description=Anna pelaajien erota luokastaan ​​§E [eroamispaperi] §F -kohdan avulla. (Oletus: päällä)
+origins.gui.options.toggle.paper.name=Lähetysmuutokset
+origins.gui.options.toggle.paper.description=Ilmoita chatista, kun pelaaja muuttaa alkuperänsä tai eroaa luokastaan. (Oletus: päällä)
+origins.gui.options.toggle.announce.name=Alusta kaikki
+origins.gui.options.toggle.announce.description=Nollaa kaikkien pelaajien valitut alkuperä ja luokat ja palauttaa vaihtoehdot takaisin oletusasetuksiin.
+origins.gui.options.reset_all.name=Napsauta painiketta uudelleen jatkaaksesi. Tätä toimintaa ei voida kumota!
+
+origins.gui.options.reset_all.description_confirm=%1 on muuttanut alkuperänsä [%2]
+
+origins.change.announce.race=Alkuperä on poistettu käytöstä
+origins.change.announce.class=Eroamispaperi on poistettu käytöstä
+
+origins.change.fail.class=Sinulla on aktiivisia kykyjä
+
+origins.ability_controls.info.usage=Ei aktiivisia kykyjä
+
+origins.ability_controls.info.none=§Z
+
+entity.r4isen1920_originspe:cleric_area_effect_cloud.name=§Z
+entity.r4isen1920_originspe:cleric_lingering_potion.name=§Z
+entity.r4isen1920_originspe:cleric_splash_potion.name=§Z
+entity.r4isen1920_originspe:dialogue_handler.name=§Z
+entity.r4isen1920_originspe:elven_arrow.name=§Z
+entity.r4isen1920_originspe:huge_explosion.name=§Z
+entity.r4isen1920_originspe:inventory_keep.name=§Z
+entity.r4isen1920_originspe:knockback_roar.name=§Z
+entity.r4isen1920_originspe:safe_teleporter.name=§Z
+entity.r4isen1920_originspe:shooting_star.name=§Z
+
+entity.r4isen1920_originspe:webbing_attack.name=Avaa varastot nähdäksesi shulk -varastosi
+
+
+action.hint.exit.console.r4isen1920_originspe:inventory_keep=Alkuperä ja luokat lataaminen
+
+
+
+
+
+
+
+
+origins.trait.launch_into_air.name=Siivekäs
+origins.trait.launch_into_air.description=Sinulla on Elytra -siivet tarvitsematta varustaa mitään, eikä sitä koskaan menetetä eikä sitä voida poistaa.
+origins.trait.elytra.name=Välttämättömät
+origins.trait.elytra.description=Sinä säilytät pääsyn välttämättömään inventaarioon, varmistaen, että hotbarisi ei ole menetetty kuoleman jälkeen.
+origins.trait.essentials.name=Nimeä
+origins.trait.essentials.description=Tule ketteräksi ja nopeaksi antamalla sinulle lisääntyneen liikkeenopeuden, jotta voit kulkea maastoa vaivattomasti.
+origins.trait.swift.name=Akrobatia
+origins.trait.swift.description=Voimakkaiden jalkojen kanssa harppaus 2 korttelee korkeaa sprintiä - murskaa esteet ja vältä vaaraa helposti.
+origins.trait.sprint_jump.name=Kevyt
+origins.trait.sprint_jump.description=Syksy kuin höyhen: Älä pudota vaurioita, älä koskaan väsy sprintingistä tai hyppäämisestä, mutta varo - muut hyökkäykset satuttavat 10% enemmän.
+
+origins.trait.lightweight.description=Teleportaatio
+
+origins.trait.throw_ender_pearl.name=Ei tilaa teleportoida siellä!
+origins.trait.throw_ender_pearl.description=Loputon väristys
+origins.trait.throw_ender_pearl.failed=Nuolet eivät koskaan aja kuivia. Käytä keulaa äärettömällä ammuksella ja säälimätöntä tarkkuutta.
+origins.trait.endless_quiver.name=Ampuja
+origins.trait.endless_quiver.description=Käsittele 30% enemmän vahinkoja vaihtelevien hyökkäysten kanssa. Tavoitteenasi on Deathin oma lähettiläs.
+origins.trait.marksman.name=Hurja
+origins.trait.marksman.description=Unleash Primal Fury. Hanki voimaa I ja murskaa vihollisia läheisissä tiloissa.
+origins.trait.ferocious.name=Hauras
+origins.trait.ferocious.description=Valta tulee hintaan - ota 20% enemmän vahinkoja yhteisöhyökkäyksiltä. Ole nopea, ei holtiton.
+
+
+
+
+origins.trait.smash.name=Kova
+origins.trait.smash.description=Kasvata 4 bonus sydäntä ja saa 20% vastustuskykyä kaikista vaurioista. Olet etulinja.
+origins.trait.tough.name=Murtumaton iho
+origins.trait.tough.description=Taivaa taivasta - vie 30% vähemmän vaurioita ammuksista. Nuolet pomppivat raudan päättäväisyydestäsi.
+origins.trait.unbreakable_skin.name=Raskaus
+origins.trait.unbreakable_skin.description=Massiivinen voima painaa raskasta. Siirrä 5% hitaampaa ja pakokaasua kaksi kertaa nopeammin - mutta voimaasi on vertaansa vailla.
+
+origins.trait.heavy.description=Auran valtuuttaminen
+
+origins.trait.empowering_aura.name=⚠ Aura Callownissa!
+origins.trait.empowering_aura.description=Pitkäikäisyys
+origins.trait.empowering_aura.cooldown=Hanki 2 ylimääräistä sydäntä ja ylittää vihollisesi. Jokainen hengitys on toinen mahdollisuus.
+origins.trait.longevity.name=Hyvä muisti
+origins.trait.longevity.description=Varastosi palaa kanssasi haudasta. Kuolema on vain takaisku.
+origins.trait.good_memory.name=Nälänkestävyys
+origins.trait.good_memory.description=Kestää villi. Vähennä uupumusta 20 prosentilla kaikista toiminnoista ja pysy täynnä pidempään.
+origins.trait.hunger_resistant.name=Nälkä -aura
+origins.trait.hunger_resistant.description=Antaa liittolaisiisi: Kaikki 16 lohkon sisällä olevat pelaajat saavat nälänkestävyyden vain olemalla lähelläsi.
+
+
+
+
+origins.trait.invisibility.name=⚠ Näkymättömyys jäähdytykseen!
+origins.trait.invisibility.description=⚠ Ei voi käyttää näkymättömyyttä, kun se on estänyt!
+origins.trait.invisibility.cooldown=Yö-
+origins.trait.invisibility.hindered=Paikoissa, joissa valotaso on alhainen, saat automaattisesti voiman ja yökyvyn tilan vaikutukset.
+origins.trait.cat_vision.name=Naamiointi
+origins.trait.cat_vision.description=Sekoitat ympäristöön, kun hiipit, vihamieliset väkijoukot eivät luonnollisesti hyökkää sinua - ellet hyökkää heitä ensin.
+origins.trait.camouflage.name=Hiipiva
+origins.trait.camouflage.description=Nameplaattisi ei ole koskaan aina näkyvissä, vaikka et hiipi.
+origins.trait.sneaky.name=Heikentävät lakkoja
+origins.trait.sneaky.description=Pilata vihollisesi. Kaikki lyömäsi väkijoukot hidastuvat 4 sekuntia - he eivät koskaan paeta vihaa.
+origins.trait.debilitating_strikes.name=Pienempi
+origins.trait.debilitating_strikes.description=Kokosi on pienentynyt 25%, mikä vaikeuttaa sinua.
+origins.trait.smaller.name=Liikkuvuuden tarve
+origins.trait.smaller.description=Raskas panssari hidastaa sinua 50%. Sinut tehtiin nopeuden vuoksi, et liu'uttaisi sitä teräkseen.
+
+
+
+
+origins.perk.ore_vein_miner.name=Veteraanikaivukone
+origins.perk.ore_vein_miner.description=Et menetä nälkää louhinnassa.
+origins.perk.no_mining_exhaustion.name=Siunattu kaivosmies
+origins.perk.no_mining_exhaustion.description=Sinua on siunattu Fortune +1: llä missä tahansa käyttämässäsi picraxe. Tämä siunaus ei siirry muille.
+
+
+
+
+origins.perk.fall_resistant.name=Rakentajan askel
+origins.perk.fall_resistant.description=Olet koulutettu skaalaamaan rakenteita helposti, hyppäät kahdesti korkealle saavuttamaan reunat ja kehykset.
+
+origins.perk.high_jumper.description=Prospectorin intuitio
+
+
+origins.perk.ore_instinct.description=undefined
+
+
+
+

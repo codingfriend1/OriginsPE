@@ -1,0 +1,533 @@
+
+pack.name=Questo componente aggiuntivo aggiunge diverse origini e classi con abilità passive al gioco, in cui scegli all'inizio della tua avventura. Creato da R4isen1920.
+
+
+origins.welcome_message=(Scorri verso il basso per vedere Changelog)
+
+
+origins.race.random.name=Sarai assegnato a una delle seguenti origini elencate di seguito, solo se è disponibile per l'uso:
+origins.race.random.description=Sarai assegnato a un'origine disponibile casuale.
+origins.race.random.description_changed=Umano
+origins.race.human.name=Un umano regolare. La tua ordinaria esperienza di Minecraft attende.
+origins.race.human.description=Merling
+origins.race.merling.name=Questi abitanti naturali dell'oceano non sono abituati a stare fuori dall'acqua per troppo tempo.
+origins.race.merling.description=Aracnide
+origins.race.arachnid.name=Le loro capacità di arrampicata e la capacità di intrappolare i loro nemici in Spiderweb rendono i cacciatori perfetti aracnidi.
+origins.race.arachnid.description=Blazeborn
+origins.race.blazeborn.name=Discendenti tardivi dell'incendio, i Blazeborn sono naturalmente immune ai pericoli del Nether.
+origins.race.blazeborn.description=Avian
+origins.race.avian.name=La gara aviaria ha perso la capacità di volare molto tempo fa. Ora queste creature pacifiche possono essere viste scivolare da un posto all'altro.
+origins.race.avian.description=Fantasma
+origins.race.phantom.name=Come prole mezzo umano e mezzo fantasma, queste creature possono passare da una forma fantasma e una forma normale.
+origins.race.phantom.description=Felino
+origins.race.feline.name=Con il loro aspetto simile a un gatto, gli spaventi felini si rallentano. Con la destrezza dei gatti, atterrano sempre in sicurezza.
+origins.race.feline.description=Elitrico
+origins.race.elytrian.name=Spesso volando nei venti, gli elitrici sono a disagio quando non hanno abbastanza spazio sopra la loro testa.
+origins.race.elytrian.description=Enderian
+origins.race.enderian.name=Nati come figli e figlie del drago Ender, gli enderiani sono in grado di teletrasportare ma sono vulnerabili all'acqua.
+origins.race.enderian.description=Shulk
+origins.race.shulk.name=In relazione a shulkers, i corpi dello shulk sono equipaggiati con una pelle protettiva a forma di conchiglia.
+origins.race.shulk.description=Volpe
+origins.race.kitsune.name=Le volpi sono, sebbene deboli in termini di vitalità, utilizzano le loro innate capacità spirituali per nascondere e rafforzare il loro potere.
+origins.race.kitsune.description=Slimican
+origins.race.slimecican.name=In parte umana, parte di melma. Molto spiacevole toccare a mani nude.
+origins.race.slimecican.description=Starborne
+origins.race.starborne.name=Essendo nato dalle stelle, sei una persona nonviolenta, ossessionata da stelle, misteriosa e potenzialmente potente che è caduta dalle stelle in questo mondo a blocchi in cui viviamo.
+origins.race.starborne.description=Inching
+origins.race.inchling.name=Discendenti della tribù più piccola, queste creature sono agili come le loro dimensioni.
+origins.race.inchling.description=Ape
+origins.race.bee.name=Le api sono fantastiche. Volano, si godono i fiori e muoiono.
+origins.race.bee.description=Piglin
+origins.race.piglin.name=Razza dominante del Nether, queste creature umanoidi usano il loro vaso e vanta il loro oro.
+origins.race.piglin.description=Elfo
+origins.race.elf.name=Esseri eleganti e agili con una profonda connessione con la natura, abili in tiro con l'arco, su cui si sono perfezionati grazie alla loro grande durata della vita.
+origins.race.elf.description=Voidwalker
+origins.race.voidwalker.name=Nato nelle profondità di un regno sinistro, hai acquisito la capacità di manipolare e sfruttare le energie oscure dall'interno per danneggiare gli altri.
+origins.race.voidwalker.description=Divino
+origins.race.diviner.name=I divinatori possiedono la capacità di attingere alle energie mistiche dell'universo, brandendole per proteggere e aiutare altri giocatori bisognosi.
+
+
+
+
+
+origins.race.scout.name=I Falconeers sono pathfinders senza paura che si lanciano nei cieli, scivolano su terreni insidiosi e scoprono posizioni nemiche prima dell'inizio della battaglia. Con slancio inflessibile e alta agilità, sono il vento prima della tempesta.
+
+
+origins.race.attacker.name=Gli spade colpiscono con velocità e precisione letali, teletrasportate attraverso il campo di battaglia e scatenando le raffiche devastanti degli attacchi a distanza e in mischia. Il loro lavoro è semplice: eliminare la minaccia prima che raggiunga i tuoi alleati.
+
+
+origins.race.defender.name=I tutori sono titani che saltano in pericolo, sbattono con la forza e proteggono i loro alleati con pura resilienza. Con la pelle di ferro e la forza senza pari, sono il muro che nessun nemico si incrocia.
+
+
+origins.race.supporter.name=I saggi canalizzano l'energia celeste per proteggere, potenziare e sostenere i loro alleati. La loro aura trasforma la marea della battaglia: forza, invincibilità e speranza alla loro squadra nei momenti più buie.
+
+
+origins.race.rogue.name=Nightblades svaniscono in un batter d'occhio, colpendo da luoghi invisibili e piegando il campo di battaglia a loro favore. Maestri di inganno e sabotaggio, prosperano nel caos, scendendo i nemici e guidano la vittoria dalle ombre.
+
+
+origins.class.caver.name=Le caver prosperano sottoterra, percependo i minerali, mining all'infinito e cadendo senza paura. Nel profondo, vedono cosa manca agli altri.
+
+
+origins.class.carpenter.name=I carpentieri saltano più in alto, costruiscono più velocemente e commerciali più intelligenti. Con portata e resilienza, modellano il mondo con facilità.
+
+
+origins.class.shepherd.name=I pastori crescono e si radunano con cura. La loro presenza nutre la vita, raddoppia i raccolti e chiama animali al loro fianco.
+origins.class.shepherd.description=Artigiano
+
+
+
+
+
+origins.class.random.name=Sarai assegnato a una classe disponibile casuale.
+origins.class.random.description=Nitwit
+origins.class.random.description_changed=I nitwits non sono davvero bravi in ​​nulla. Continuerai senza tratti aggiuntivi.
+origins.class.nitwit.name=Guerriero
+origins.class.nitwit.description=Questi onorevoli combattenti hanno il grande coraggio di abbattere i loro nemici.
+origins.class.warrior.name=Arciere
+origins.class.warrior.description=Un colpo, un'uccisione. Capace di abbattere gli obiettivi su una grande distanza.
+origins.class.archer.name=Briccone
+origins.class.archer.description=Di solito noti per essere ladri e ladri, i ladri sono competenti in agguati e attacchi invisibili.
+origins.class.rogue.name=BEASTMASTER
+origins.class.rogue.description=Le bestie sono persone solitarie che preferiscono la compagnia di animali.
+origins.class.beastmaster.name=Fabbro
+origins.class.beastmaster.description=Valizzati amici di chiunque, i fabbri sono in grado di creare strumenti, armi e armature migliori.
+origins.class.blacksmith.name=Chierico
+origins.class.blacksmith.description=Hanno imparato come incanalare la magia presente nel mondo e usarlo a loro vantaggio.
+origins.class.cleric.name=Cucinare
+origins.class.cleric.description=Non c'è nessuno meglio per preparare il tuo cibo diverso da un cuoco.
+origins.class.cook.name=Contadino
+origins.class.cook.description=Gli agricoltori sono stati conosciuti per fornire a tutti il ​​cibo per tutto il tempo che chiunque può ricordare.
+origins.class.farmer.name=Commerciante
+origins.class.farmer.description=Sempre alla ricerca di uno smeraldo aggiuntivo, i commercianti sono commercianti competenti.
+origins.class.merchant.name=Allevatore
+origins.class.merchant.description=Sfruttando al meglio gli animali, gli allevatori sono in grado di raccogliere molte risorse utili.
+origins.class.rancher.name=Minatore
+origins.class.rancher.description=I minatori sono i più competenti per scavare i tesori della Terra.
+origins.class.miner.name=Lumberjack
+origins.class.miner.description=Gli alberi dovrebbero stare attenti quando sono in giro i boscaioli.
+origins.class.lumberjack.name=Esploratore
+origins.class.lumberjack.description=Gli esploratori si fanno strada facilmente attraverso il terreno più difficile e scoprono punti di riferimento nascosti.
+
+origins.class.explorer.description=Tratti di origine:
+
+origins.trait.has=Puoi respirare sott'acqua, ma non a terra. Gli effetti di stato come la respirazione dell'acqua, tuttavia, possono aiutarti nelle tue iniziative.
+origins.trait.water_breathing.name=Aqua affinità
+origins.trait.water_breathing.description=Puoi rompere blocchi sott'acqua come altri su terra ed essere in grado di vedere perfettamente sott'acqua.
+origins.trait.aqua_affinity.name=Sea abitante
+origins.trait.aqua_affinity.description=I mob sottomarini non danneggiano naturalmente né ti attaccheranno, a meno che non li attacchi per primo.
+origins.trait.sea_creature.name=Come l'acqua
+origins.trait.sea_creature.description=Resta naturalmente a galla sull'acqua e affondite intrufolando ogni volta che vuoi.
+origins.trait.like_water.name=Dono dell'oceano
+origins.trait.like_water.description=Sei invulnerabile da danni inflitti dai trumenti.
+origins.trait.no_trident_damage.name=Fragile
+origins.trait.no_trident_damage.description=Hai 3 cuori in meno di salute rispetto agli umani.
+origins.trait.fragile.name=Cinghia
+origins.trait.fragile.description=Quando colpisci un nemico in mischia, vengono temporaneamente bloccati in una ragnatela e rallentano ulteriormente e avvelena il bersaglio. Ha un tempo di recupero di 13 secondi.
+origins.trait.webbing.name=Web bozzolo
+origins.trait.webbing.description=Finché ti trovi in ​​una ragnatela, mitighi eventuali danni.
+origins.trait.master_of_webs.name=Arrampicata
+origins.trait.master_of_webs.description=Sei in grado di scalare qualsiasi blocco solido che guardi rapidamente tenendo premuto il pulsante di salto. Cadendo durante l'arrampicata mitiga il danno di caduta.
+origins.trait.climbing.name=Carnivoro
+origins.trait.climbing.description=La tua dieta è limitata alla carne e non sarai in grado di mangiare né interagire con i materiali di consumo di verdure.
+origins.trait.carnivore.name=Impermeabile
+origins.trait.carnivore.description=Ogni volta che prendi il magma, il fuoco o il danno di lava, la salute che hai perso verrà immediatamente ripristinata e aumenta temporaneamente il danno che infliggi.
+origins.trait.fire_immunity.name=Nether abitante
+origins.trait.fire_immunity.description=La tua spawn naturale sarà nel Nether.
+origins.trait.nether_spawn.name=Ember
+origins.trait.nether_spawn.description=Quando sei in fiamme, qualsiasi folla che colpisci e i mob intorno a esso verrà acceso e verrà dato fuoco. Questo può essere attivato solo una volta ogni 3 secondi.
+origins.trait.burning_wrath.name=Hotblooded
+origins.trait.burning_wrath.description=A causa del tuo corpo caldo, i veleni bruciano, rendendoti immune agli effetti dello stato del veleno e della fame.
+origins.trait.hotblooded.name=Idrofobia
+origins.trait.hotblooded.description=Ricevi danni nel tempo mentre sei in contatto con l'acqua.
+origins.trait.water_vulnerability.name=Vento di coda
+origins.trait.water_vulnerability.description=Sei un po 'più veloce a piedi di altri, pur essendo in grado di correre in modo più efficiente.
+origins.trait.tailwind.name=Peso di piuma
+origins.trait.tailwind.description=Cadi delicatamente a terra come farebbe una piuma.
+origins.trait.slow_falling.name=Vegetariano
+origins.trait.slow_falling.description=La tua dieta è limitata alle verdure e non sarai in grado di mangiare né interagire con i materiali di consumo di carne.
+origins.trait.vegetarian.name=Aria fresca
+origins.trait.vegetarian.description=Quando dorme, il tuo letto deve essere ad un'altitudine di almeno 70 blocchi, in modo da poter respirare aria fresca.
+origins.trait.fresh_air.name=Devi dormire ad un'altitudine di almeno 70 blocchi
+origins.trait.fresh_air.description=Fantasticità
+origins.trait.fresh_air.sleep_fail=Utilizzare l'elemento abilità per trasformarsi in modalità Spettatore. Esci da questo stato quando rimani fermo.
+origins.trait.phantomize.name=Corpo spirituale
+origins.trait.phantomize.description=Mentre in modalità Spettatore, sei invisibile dagli altri e puoi attraversare i blocchi e non sarai in grado di interagire con qualcos'altro.
+origins.trait.invisibility.name=Non morti
+origins.trait.invisibility.description=Inizi a bruciare alla luce del giorno se non sei invisibile o in acqua. Il copricapo riduce i danni alla luce solare del 50%.
+origins.trait.burns_in_daylight.name=Caviglie forti
+origins.trait.burns_in_daylight.description=Non subi mai danni da caduta, non importa da quale altezza cadi.
+
+origins.trait.fall_immunity.description=Nove vite
+
+origins.trait.nine_lives.name=Braccia deboli
+origins.trait.nine_lives.description=Quando non è sotto l'effetto della forza, il mio si blocca più lentamente e attacchi più debole.
+origins.trait.weak_arms.name=Aspetto da gatto
+origins.trait.weak_arms.description=I creeper hanno paura di te e esploderanno solo se li attacchi prima.
+
+
+
+
+
+origins.trait.claustrophobia.name=Ossa fragili
+origins.trait.claustrophobia.description=Prendi più danni dalla caduta e vola in blocchi.
+origins.trait.more_kinetic_damage.name=Combattente aereo
+origins.trait.more_kinetic_damage.description=Fai più danni mentre scivola con un'elitra.
+
+origins.trait.aerial_combatant.description=Spaventato dalle zucche
+
+origins.trait.pumpkin_hate.name=Faccia familiare
+origins.trait.pumpkin_hate.description=Monsters e altri enderman non ti attaccheranno anche se li guardi direttamente senza indossare una zucca intagliata, a meno che non li attacchi prima.
+origins.trait.familiar_face.name=Accaparratore
+origins.trait.familiar_face.description=Attiva la possibilità di passare a uno spazio di inventario diverso. Permettendoti di archiviare più articoli con 9 slot aggiuntivi che vengono mantenuti anche alla morte.
+origins.trait.shulk_inventory.name=Inventario di Shulk
+origins.trait.shulk_inventory.description=Pelle robusta
+origins.trait.shulk_inventory.label=Anche senza indossare un'armatura, la pelle fornisce una protezione naturale ricevendo così il 20% in meno di danni da qualsiasi fonte.
+origins.trait.natural_armor.name=Grande appetito
+origins.trait.natural_armor.description=Ti viene facilmente esaurito, esaurimento più fame del normale.
+origins.trait.more_exhaustion.name=Ingombrante
+origins.trait.more_exhaustion.description=Il modo in cui si formano le mani non fornisce alcun modo di tenere uno scudo in posizione verticale. Il tentativo di bloccare con uno scudo lo spezzerà immediatamente indipendentemente dagli incantesimi applicati ad esso.
+origins.trait.no_shield.name=Braccia forti
+origins.trait.no_shield.description=Sei più forte e puoi rompere i blocchi di pietra senza richiedere alcun piccone.
+origins.trait.strong_arms.name=Fine abitante
+origins.trait.strong_arms.description=Il tuo viaggio inizia alla fine.
+origins.trait.end_spawn.name=Rapido
+origins.trait.end_spawn.description=A causa delle gambe più corte e della bassa stanchezza, la velocità di movimento è aumentata e le dimensioni sono ridotte.
+origins.trait.fast_footed.name=Balzo
+origins.trait.fast_footed.description=Carica l'oggetto di abilità tenendolo e salta nella direzione che stai guardando. Più è la carica, maggiore sarà la distanza.
+origins.trait.pounce.name=Berry Craver
+origins.trait.pounce.description=Le bacche dolci ripristina più punti di fame quando vengono mangiate e talvolta concede effetti di rigenerazione. Inoltre, non sei danneggiato dai cespugli di bacche.
+origins.trait.berry_craver.name=Cuore più piccolo
+origins.trait.berry_craver.description=A causa delle dimensioni complessive più piccole, il tuo cuore è più piccolo, con conseguente riduzione della salute massima di 4 cuori.
+origins.trait.smaller_heart.name=Metabolismo veloce
+origins.trait.smaller_heart.description=Con la tua velocità e uno stomaco più piccolo, hai più fame del solito.
+origins.trait.fast_metabolism.name=Corpo rimbalzante
+origins.trait.fast_metabolism.description=Mitighi una grande porzione di danni da caduta a causa del tuo corpo rimbalzante ma appiccicoso.
+origins.trait.bouncy_body.name=Super Jump
+origins.trait.bouncy_body.description=Il tuo patrimonio di melma ti dà un salto migliorato, permettendoti di saltare più in alto. Busting Back e infliggere danni ai mob vicini all'atterraggio. Questa abilità passiva può essere attivata solo una volta ogni 3 secondi.
+origins.trait.high_jump.name=Appiccicoso
+origins.trait.high_jump.description=Qualsiasi entità che ti attacca in mischia viene rallentata e riduce il danno inflitto a te del 10%. Sembri anche verde e viscido.
+origins.trait.sticky.name=Frammentazione
+origins.trait.sticky.description=Ti restringi verso una parte delle tue dimensioni quando la tua salute cade, nonché i tuoi punti di salute massimi. 
+origins.trait.fragmentation.name=Recupero
+origins.trait.fragmentation.description=Puoi consumare e mangiare palle di melma per recuperare una parte persa di te stesso.
+origins.trait.slime_ball_consume.name=Stress
+origins.trait.slime_ball_consume.description=Questo si accumula attraverso di te a un ritmo lento. Una volta riempito, esploderai violentemente: danneggiare tutto ciò che ti circonda. Tuttavia, tutte le tue abilità si raffredda più velocemente se il tuo [stress] è al 70%.
+origins.trait.stress.name=Meditare
+origins.trait.stress.description=Diminuire lo [stress] accumulato da sgattaiolo, per tutto il tempo in cui sei in piena salute.
+origins.trait.meditate.name=Regalo cosmico
+origins.trait.meditate.description=Starbornes sono esseri benedetti dai cieli. Colpito da meno gravità, sei in grado di saltare più in alto e scendere a terra con grazia - non subendo danni da caduta.
+origins.trait.cosmic_gift.name=Hyper Leap
+origins.trait.cosmic_gift.description=Spieti verso una certa direzione in cui stai guardando e lanciando entità in cui ti trovavi in ​​aria. Ha un breve tempo di recupero prima di ogni utilizzo.
+origins.trait.hyper_leap.name=Stella cadente
+origins.trait.hyper_leap.description=Accendi un proiettile stellare verso la direzione che stai guardando, danneggiando i mob sull'impatto. Ha un tempo di recupero prima di ogni utilizzo.
+origins.trait.shooting_star.name=Nonviolent
+origins.trait.shooting_star.description=Starbornes ha la possibilità di essere temporaneamente immobilizzati ogni volta che sono danneggiati da un'altra entità. In questo stato, la tua visione è anche temporaneamente ostacolata.
+origins.trait.no_hitting.name=Vuoto freddo
+origins.trait.no_hitting.description=Le starbornes sono abituate alla freddezza del vasto cosmo, quindi assumendo il doppio del danno al fuoco - calore a cui non sono abituati.
+origins.trait.burning.name=Agile
+origins.trait.burning.description=I pozzi sono immuni alle spine e ai danni basati sulla velocità.
+origins.trait.nimble.name=Iperattivo
+origins.trait.nimble.description=Sei in grado di consumare zucchero anche se sei pieno, concedendo una spinta temporanea della velocità di movimento.
+origins.trait.hyper_active.name=Piccolo apetite
+origins.trait.hyper_active.description=Il consumo di zucchero è sufficiente per le tue esigenze, in quanto ti dà effetti di saturazione di lunga durata. Richiedere meno cibo per andare avanti.
+origins.trait.small_apetite.name=Size
+origins.trait.small_apetite.description=Sei molte volte più piccolo e hai 5 cuori in meno rispetto a quello di un normale umano.
+origins.trait.bite_sized.name=Velenoso
+origins.trait.bite_sized.description=Quando infliggi danni da critico, infligge veleno fatale al bersaglio che dura 7 secondi. Quindi, riduce il conteggio [Stinger] di uno. Questa capacità non attiverà entità che hanno già l'effetto.
+origins.trait.poisonous.name=Fatalità
+origins.trait.poisonous.description=Fai infliggere il 50% in più di danni ai bersagli che hai fatto male afflitto da veleno fatale.
+origins.trait.poison_bonus_damage.name=Pungiglioni
+origins.trait.poison_bonus_damage.description=Porzi fino a 7 pungiglioni alla volta e viene utilizzato ogni volta che si infliggi danni al veleno. Una volta esauriti tutti i pungiglioni, sei tenuto a muore e morire.
+origins.trait.sacrifice_stinger.name=Pollinea
+origins.trait.sacrifice_stinger.description=Durante il giorno, puoi stare su qualsiasi fiore e intrufolarsi per recuperare qualsiasi [Stinger] che potresti aver perso. Tuttavia, questo spezzerà il fiore.
+origins.trait.bloom.name=Diurno
+origins.trait.bloom.description=Lavori meglio in una giornata di sole, quindi sei indebolito e ti muovi lentamente di notte o se inizia a piovere durante il giorno.
+origins.trait.nighttime.name=Short Lifespan
+origins.trait.nighttime.description=Le api hanno 3 cuori in meno rispetto agli umani.
+origins.trait.lifespan.name=Dieta nettare
+origins.trait.lifespan.description=Non puoi mangiare cibo normale ed essere in grado di consumare solo fiori.
+origins.trait.nectar_diet.name=Orgoglio
+origins.trait.nectar_diet.description=Più oggetti d'oro porti nel tuo inventario, indossato o trattenuto, meno danni riceverai da qualsiasi fonte. È possibile mitigare fino al 90% dei danni ricevuti in questo modo.
+origins.trait.pride.name=Vannando potenza di fuoco
+origins.trait.pride.description=Il tuo attacco in mischia infligge ulteriori danni equivalenti al 10% del danno che hai inflitto. Aumenta ulteriormente il danno aggiuntivo inflitto del 10% per entità vicine presenti entro 6 blocchi.
+origins.trait.increased_attack_per_entity.name=Goloso
+origins.trait.increased_attack_per_entity.description=Hai ancora più fame del solito quando si riempie la salute.
+origins.trait.gluttony.name=Coraggio
+origins.trait.gluttony.description=Sei immune dagli effetti di debolezza e dello stato appassito.
+origins.trait.courage.name=Lifeweaver
+origins.trait.courage.description=Rigenera immediatamente la salute in base al danno accumulato assunto entro 3 secondi dopo averlo ricevuto. Quindi, l'assorbimento delle sovvenzioni per 12 secondi che si ridimensiona a seconda della quantità di danno ricevuto.
+origins.trait.lifeweaver.name=Swift
+origins.trait.lifeweaver.description=Diventa agile e rapido, concedendoti una maggiore velocità di movimento, permettendoti di attraversare il terreno senza sforzo.
+origins.trait.agility.name=Beelzebub
+origins.trait.agility.description=Gli attacchi in mischia infliggono danni aggiuntivi in ​​base alla salute mancante. Quindi, carica uno stack di [Beelzebub] in attacco, fino a tre.
+origins.trait.beelzebub.name=Soulburst
+origins.trait.beelzebub.description=Quando [BeelzeBub] raggiunge tre stack, lo consuma tutto e infligge danni aggiuntivi in ​​base al danno totale inflitto durante l'acquisizione degli stack.
+origins.trait.soulburst.name=Velo umbrale
+origins.trait.soulburst.description=Avvolta te stesso in un'energia oscura durante lo sprint, concedendo ulteriore velocità ed evitando eventuali danni da proiettile.
+origins.trait.umbral_veil.name=Aura sinistra
+origins.trait.umbral_veil.description=I mob passivi nelle vicinanze sono spaventati dalla tua presenza e scapperanno da te.
+origins.trait.sinister_aura.name=Scarico della vita
+origins.trait.sinister_aura.description=Ogni volta che infliggi danni, la tua salute viene ridotta dalla salute mancante dell'obiettivo, fino al 50% della tua salute massima. Quando la tua salute è uguale a 1, ciò non si ridurrà ulteriormente.
+origins.trait.life_drain.name=Prescienza
+origins.trait.life_drain.description=Punta con l'abilità selezionata per lanciare su un altro giocatore. Al momento del cast, aumenta sia tu e la massima salute dell'altro giocatore del 50% al 60% di entrambe le tue salute combinate.
+origins.trait.prescience.name=Oracolo
+origins.trait.prescience.description=Quando sotto [prescienza], qualsiasi danno che subisci e guarigione ricevuta verrà fatto saltare all'altro giocatore.
+origins.trait.oracle.name=Egida
+origins.trait.oracle.description=Qualsiasi danno esterno assunto direttamente devia il 50% del danno all'attaccante.
+origins.trait.aegis.name=Aura divina
+origins.trait.aegis.description=I giocatori sotto l'effetto di [prescienza] brillano e possono essere visti attraverso i muri. Tuttavia, questo bagliore persiste sempre su di te.
+origins.trait.divine_aura.name=Fragilità
+origins.trait.divine_aura.description=Meno salute hai, più vieni da qualsiasi danno.
+origins.trait.fragility.name=Instabilità
+origins.trait.fragility.description=Per ogni effetto di stato unico applicato a te, la tua salute massima sarà ridotta di 1. Quando la tua salute è uguale a 1, ciò non si ridurrà ulteriormente.
+
+origins.trait.instability.description=Veri di classe:
+
+origins.perk.has=Nelle ombre
+
+origins.perk.stealth.name=Agilità
+origins.perk.stealth.description=Puoi muoverti più velocemente a piedi di altri mentre disegni l'arco o la balestra.
+origins.perk.less_bow_slowdown.name=Precisione
+origins.perk.less_bow_slowdown.description=Tutte le frecce che sparano viaggiano in linea retta, colpite da nessuna gravità.
+origins.perk.no_projectile_divergence.name=SHIELD GIET
+origins.perk.no_projectile_divergence.description=Ottieni ulteriore protezione quando ti blocchi con uno scudo.
+origins.perk.less_shield_slowdown.name=Wrath Bloodlust
+origins.perk.less_shield_slowdown.description=Acquisire forza che aumenta più in basso è la salute attuale.
+origins.perk.less_health_more_attack.name=Amici di fauna
+origins.perk.less_health_more_attack.description=Gli animali che hai addomesticato ricevono un appassionato permanente alla loro salute.
+origins.perk.tamed_animal_boost.name=Empatia efficace
+origins.perk.tamed_animal_boost.description=Eventuali effetti di pozione che potresti avere verranno applicati anche ai mob che hai addominato.
+origins.perk.effective_empathy.name=Buoni pasti
+origins.perk.effective_empathy.description=Gli alimenti che cucini concederanno ulteriore saturazione quando mangiati.
+origins.perk.more_saturated_food.name=Zuppa ringiovanente
+origins.perk.more_saturated_food.description=Gli stufati che fai possono concedere effetti di rigenerazione.
+origins.perk.better_stew.name=Brewing competente
+origins.perk.better_stew.description=Estendendo la durata degli effetti della pozione usando Redstone, qualsiasi pozione che prepara sarà ulteriormente estesa.
+origins.perk.longer_potions.name=Potenti birre
+origins.perk.longer_potions.description=Qualsiasi pozione che fai sarà più amplificata quando la prepara con Glowstone.
+origins.perk.powerful_potions.name=Grande artigianato
+origins.perk.powerful_potions.description=Qualsiasi attrezzatura che crea o Smith avrà una maggiore durata, efficienza, danni e forse anche fortuna I.
+origins.perk.quality_equipment.name=Riparazioni efficienti
+origins.perk.quality_equipment.description=Le attrezzature di alta qualità che hai realizzato sono facilmente più riparabili e possono ripristinare più punti di durata.
+origins.perk.efficient_repairs.name=Pollice verde
+origins.perk.efficient_repairs.description=Quando si piangono colture, c'è la possibilità che crescerà immediatamente.
+origins.perk.fast_crop_growth.name=Raccolta abbondante
+origins.perk.fast_crop_growth.description=Durante la raccolta delle colture, a volte ricevi il doppio della resa.
+origins.perk.more_crop_drops.name=Più nascite
+origins.perk.more_crop_drops.description=Gli animali allevati quando sei in giro hanno la possibilità di produrre più bambini.
+origins.perk.twin_breeding.name=Scavenging
+origins.perk.twin_breeding.description=A volte sei in grado di ricevere più materiale dall'uccisione di mob.
+origins.perk.more_animal_loot.name=Grandi affari
+origins.perk.more_animal_loot.description=Ottieni sconti quando si negozia con gli abitanti del villaggio.
+origins.perk.cheaper_trades.name=Carisma
+origins.perk.cheaper_trades.description=I trader che vagano hanno maggiori probabilità di visitare quando sei in giro.
+origins.perk.wandering_trader_spawn.name=Adatto
+origins.perk.wandering_trader_spawn.description=Non perdi la fame durante lo scatto.
+origins.perk.no_sprint_exhaustion.name=Kit Explorer
+origins.perk.no_sprint_exhaustion.description=Inizi il gioco con una bussola, un orologio e nove mappe vuote che non cadranno mai alla morte.
+
+origins.perk.explorer_kit.description=Capitatore di alberi
+
+origins.perk.tree_felling.name=Reimpianto
+origins.perk.tree_felling.description=C'è un registro casuale che si infrange può essere ripiantato con lo stesso tipo di alberello.
+
+origins.perk.sapling_setblock.description=Sfera di origini
+
+origins.item.orb_of_origins.name=§7 [menu a levetta] §r
+origins.item.resignation_paper.name=§7 [Altre opzioni] §r
+origins.item.origins_menu.name=§Z
+
+origins.item.origins_menu_padding.name=Scegli la tua origine.
+
+origins.gui.title.choose_origin=Hai scelto questa origine.
+origins.gui.title.choose_class=Hai selezionato questa classe.
+origins.gui.title.view_origin=Questa è la tua origine.
+origins.gui.title.view_class=Questa è la tua classe.
+origins.gui.title.change_origin=Adatta alle tue preferenze.
+origins.gui.title.change_class=Seleziona Origini per vietare.
+origins.gui.title.options=Seleziona le classi da vietare.
+origins.gui.title.ban_origin=Questa origine è vietata
+origins.gui.title.ban_class=Questa origine è già in uso
+origins.gui.subtitle.banned=Nessun impatto di gioco
+origins.gui.subtitle.locked=L'impatto del gameplay varia
+origins.gui.impact.none=Basso impatto di gioco
+origins.gui.impact.random=Impatto del gameplay moderato
+origins.gui.impact.low=Alto impatto di gioco
+origins.gui.impact.medium=Nessun vantaggio aggiuntivo
+origins.gui.impact.high=Il vantaggio varia
+origins.gui.useful.none=Vantaggi decenti
+origins.gui.useful.random=Vantaggi di nicchia
+origins.gui.useful.fair=Vantaggi che cambiano il gioco
+origins.gui.useful.medium=Consuma 1 §e [sfera di origini] §r
+origins.gui.useful.very=Costi 1 §E [documento di dimissioni] §r
+origins.gui.change.race=La sfera di origine è stata disabilitata
+origins.gui.change.class=Il documento di dimissione è stato disabilitato
+origins.gui.change.blocked.orb=Quando questo pulsante è evidenziato, significa che questa origine è attualmente vietata
+origins.gui.change.blocked.paper=Quando questo pulsante è evidenziato, significa che questa classe è attualmente vietata
+origins.gui.manage.ban_race=Non puoi vietarli tutti, per favore lascia che uno sia utilizzabile
+origins.gui.manage.ban_class=Non è possibile vietare questa origine poiché è abilitata la selezione §eunique
+origins.gui.manage.ban_limit=Modifica
+origins.gui.manage.ban_locked=Dimettersi
+origins.gui.button.continue.change=Divieto
+origins.gui.button.continue.resign=§L§cban§r
+origins.gui.button.manage.ban=Selezionare
+origins.gui.button.manage.unban=Vicino
+origins.gui.button.select=Continuare
+origins.gui.button.cancel=Indietro
+origins.gui.button.start=Andiamo
+origins.gui.button.return=Non mostrare più
+
+origins.gui.button.ignore_welcome_screen=Opzioni generali
+
+origins.gui.options.general_root=Accesso negato!
+origins.gui.options.admin_root=Queste opzioni richiedono un permesso speciale prima che sia possibile accedere!
+origins.gui.options.admin_denied.name=Esegui il seguente comando per dare a qualcuno l'autorizzazione per accedere a queste opzioni:
+origins.gui.options.admin_denied.description1=Visualizza la mia origine
+origins.gui.options.admin_denied.description2=Mostra informazioni sull'origine che hai scelto.
+origins.gui.options.view_origin.name=Visualizza la mia classe
+origins.gui.options.view_origin.description=Mostra informazioni sulla classe che hai selezionato.
+origins.gui.options.view_class.name=Particelle oziose
+origins.gui.options.view_class.description=Consenti alle particelle di inattività della tua origine di emettere dal tuo personaggio. (impostazione predefinita: on)
+origins.gui.options.toggle_particle.name=Ripristina il giocatore
+origins.gui.options.toggle_particle.description=Resetta i componenti comportamentali della tua entità per sperare di risolvere i problemi con la tua origine o classe. Questa opzione può essere utilizzata solo una volta fino a quando non si è riconosciuto.
+origins.gui.options.reset_player.name=Selezione di divieto
+origins.gui.options.reset_player.description=Gestisci origini e lezioni vietate. Almeno una selezione deve essere mantenuta senza taglio.
+origins.gui.options.ban.root.name=Divieto le origini
+origins.gui.options.ban.root.description=Seleziona le origini per impedire che vengano mai scelte. (impostazione predefinita: nessuno)
+origins.gui.options.ban.origins.name=Lezioni di divieto
+origins.gui.options.ban.origins.description=Seleziona le classi per impedire che vengano mai selezionate. (impostazione predefinita: nessuno)
+origins.gui.options.ban.classes.name=Evitare la selezione
+origins.gui.options.ban.classes.description=Forza tutti i giocatori online a cambiare origine e classe se è stato appena bandito.
+origins.gui.options.ban.evict.name=Gamerule aggiuntiva
+origins.gui.options.ban.evict.description=Gestisci opzioni aggiuntive che cambiano il modo in cui il componente aggiuntivo si comporta e colpisce i giocatori.
+origins.gui.options.toggle.root.name=Selezione unica
+origins.gui.options.toggle.root.description=Consentire solo un'origine per giocatore. Si noti che ciò non costringerà i giocatori a cambiare la loro origine se già selezionato, selezionare l'opzione §E [Inizializza tutto] §F per farlo. (impostazione predefinita: spento)
+origins.gui.options.toggle.unique.name=Sfera di origini
+origins.gui.options.toggle.unique.description=Consentire ai giocatori di cambiare la loro origine usando l'articolo §E [Orb of Origins] §F. (impostazione predefinita: on)
+origins.gui.options.toggle.orb.name=Dresse di dimissioni
+origins.gui.options.toggle.orb.description=Consentire ai giocatori di dimettersi dalla loro classe usando l'articolo §E [dimissioni] §F. (impostazione predefinita: on)
+origins.gui.options.toggle.paper.name=Cambiamenti di trasmissione
+origins.gui.options.toggle.paper.description=Annuncia nella chat quando un giocatore cambia origine o si dimette dalla loro classe. (impostazione predefinita: on)
+origins.gui.options.toggle.announce.name=Inizializza tutto
+origins.gui.options.toggle.announce.description=Reset di tutte le origini e le classi selezionate del giocatore e ripristina le opzioni alle impostazioni predefinite.
+origins.gui.options.reset_all.name=Fare di nuovo clic sul pulsante per continuare. Questa azione non può essere annullata!
+
+origins.gui.options.reset_all.description_confirm=%1 ha cambiato la propria origine in [%2]
+
+origins.change.announce.race=La sfera delle origini è stata disabilitata
+origins.change.announce.class=Il documento di dimissione è stato disabilitato
+
+origins.change.fail.class=Hai abilità attive
+
+origins.ability_controls.info.usage=Nessuna capacità attiva
+
+origins.ability_controls.info.none=§Z
+
+entity.r4isen1920_originspe:cleric_area_effect_cloud.name=§Z
+entity.r4isen1920_originspe:cleric_lingering_potion.name=§Z
+entity.r4isen1920_originspe:cleric_splash_potion.name=§Z
+entity.r4isen1920_originspe:dialogue_handler.name=§Z
+entity.r4isen1920_originspe:elven_arrow.name=§Z
+entity.r4isen1920_originspe:huge_explosion.name=§Z
+entity.r4isen1920_originspe:inventory_keep.name=§Z
+entity.r4isen1920_originspe:knockback_roar.name=§Z
+entity.r4isen1920_originspe:safe_teleporter.name=§Z
+entity.r4isen1920_originspe:shooting_star.name=§Z
+
+entity.r4isen1920_originspe:webbing_attack.name=Apri l'inventario per visualizzare il tuo inventario di Shulk
+
+
+action.hint.exit.console.r4isen1920_originspe:inventory_keep=Caricamento di origini e classi
+
+
+
+
+
+
+
+
+origins.trait.launch_into_air.name=Alato
+origins.trait.launch_into_air.description=Hai ali di Elitra senza dover equipaggiare qualsiasi e non è mai perso né può essere rimosso.
+origins.trait.elytra.name=Essenziale
+origins.trait.elytra.description=Mantieni l'accesso all'inventario essenziale, garantendo che il tuo hotbar non si perdesse alla morte.
+origins.trait.essentials.name=Swift
+origins.trait.essentials.description=Diventa agile e rapido, concedendoti una maggiore velocità di movimento, permettendoti di attraversare il terreno senza sforzo.
+origins.trait.swift.name=Acrobazie
+origins.trait.swift.description=Con gambe potenti, salto 2 blocchi alti durante lo sprint: schiacciano gli ostacoli ed evadere con facilità il pericolo.
+origins.trait.sprint_jump.name=Leggero
+origins.trait.sprint_jump.description=Fall Like una piuma: non fare danni da caduta, non stancarne mai di sprint o salto, ma attenzione: altri attacchi fanno male al 10% in più.
+
+origins.trait.lightweight.description=Teletrasporto
+
+origins.trait.throw_ender_pearl.name=Niente spazio per teletrasportarsi lì!
+origins.trait.throw_ender_pearl.description=Frequenza infinita
+origins.trait.throw_ender_pearl.failed=Le tue frecce non si esauriscono mai. Gerry il tuo arco con munizioni infinite e precisione implacabile.
+origins.trait.endless_quiver.name=Marksman
+origins.trait.endless_quiver.description=Infligge il 30% in più di danni con attacchi a distanza. Il tuo obiettivo è il messaggero della morte.
+origins.trait.marksman.name=Feroce
+origins.trait.marksman.description=Scatene la furia primordiale. Acquisire forza I e schiacciare i nemici in quartieri da vicino.
+origins.trait.ferocious.name=Fragile
+origins.trait.ferocious.description=Il potere ha un prezzo: subisci il 20% in più di danni dagli attacchi di entità. Sii rapido, non sconsiderato.
+
+
+
+
+origins.trait.smash.name=Difficile
+origins.trait.smash.description=Colti 4 cuori bonus e guadagna la resistenza del 20% a tutte le forme di danno. Sei la prima linea.
+origins.trait.tough.name=Pelle infrangibile
+origins.trait.tough.description=Deflitti i cieli: subisci il 30% in meno di danni dai proiettili. Le frecce rimbalzano dalla risoluzione del ferro.
+origins.trait.unbreakable_skin.name=Pesantezza
+origins.trait.unbreakable_skin.description=L'enorme potenza pesa pesantemente. Sposta il 5% più lento e scarico due volte più velocemente, ma la tua potenza non ha eguali.
+
+origins.trait.heavy.description=Potenziare l'aura
+
+origins.trait.empowering_aura.name=⚠ Aura nel tempo di recupero!
+origins.trait.empowering_aura.description=Longevità
+origins.trait.empowering_aura.cooldown=Ottieni 2 cuori in più e sopravvivi ai tuoi nemici. Ogni respiro è una seconda possibilità.
+origins.trait.longevity.name=Buona memoria
+origins.trait.longevity.description=Il tuo inventario torna con te dalla tomba. La morte è semplicemente una battuta d'arresto.
+origins.trait.good_memory.name=Resistenza alla fame
+origins.trait.good_memory.description=Sopportare il selvaggio. Ridurre l'esaurimento del 20% da tutte le attività e rimanere pieno.
+origins.trait.hunger_resistant.name=Hunger Aura
+origins.trait.hunger_resistant.description=Autorizza i tuoi alleati: tutti i giocatori entro 16 blocchi ottengono resistenza alla fame solo essendo vicino a te.
+
+
+
+
+origins.trait.invisibility.name=⚠ Invisibilità su Cooldown!
+origins.trait.invisibility.description=⚠ Non può usare l'invisibilità mentre è ostacolato!
+origins.trait.invisibility.cooldown=Notturno
+origins.trait.invisibility.hindered=Nei luoghi in cui il livello di luce è basso, ottieni automaticamente gli effetti di stato di forza e visione notturna.
+origins.trait.cat_vision.name=Camuffare
+origins.trait.cat_vision.description=Ti mescoli con l'ambiente quando sei intrufolato, che i mob ostili non ti attaccano naturalmente, a meno che se non li attacchi per primo.
+origins.trait.camouflage.name=Subdolo
+origins.trait.camouflage.description=La tua targhetta non è mai sempre visibile, anche quando non sei intrufolato.
+origins.trait.sneaky.name=Colpi debilitanti
+origins.trait.sneaky.description=Paralizza i tuoi nemici. Qualsiasi folla che colpisci viene rallentata per 4 secondi: non sfuggiranno mai alla tua ira.
+origins.trait.debilitating_strikes.name=Più piccolo
+origins.trait.debilitating_strikes.description=La tua dimensione è ridotta del 25%, rendendoti più difficile da puntare.
+origins.trait.smaller.name=Bisogno di mobilità
+origins.trait.smaller.description=L'armatura pesante ti rallenta del 50%. Sei stato fatto per la velocità, non per averlo infilato in acciaio.
+
+
+
+
+origins.perk.ore_vein_miner.name=Veterano escavatore
+origins.perk.ore_vein_miner.description=Non perdi la fame durante il mining.
+origins.perk.no_mining_exhaustion.name=Minatore benedetto
+origins.perk.no_mining_exhaustion.description=Sei benedetto con la fortuna +1 su qualunque piccone tu usi. Questa benedizione non si trasferisce agli altri.
+
+
+
+
+origins.perk.fall_resistant.name=Il passo del costruttore
+origins.perk.fall_resistant.description=Sei addestrato a ridimensionare le strutture con facilità, saltando il doppio per raggiungere le sporgenze e le cornici.
+
+origins.perk.high_jumper.description=Intuizione del prospettore
+
+
+origins.perk.ore_instinct.description=undefined
+
+
+
+

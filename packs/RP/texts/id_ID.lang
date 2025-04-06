@@ -1,0 +1,533 @@
+
+pack.name=Add-on ini menambah beberapa asal dan kelas dengan kemampuan pasif pada permainan, di mana Anda memilih pada awal petualangan Anda. Dibuat oleh r4isen1920.
+
+
+origins.welcome_message=(Gulir ke bawah untuk melihat Changelog)
+
+
+origins.race.random.name=Anda akan ditugaskan ke salah satu asal berikut yang tercantum di bawah ini, hanya jika tersedia untuk digunakan:
+origins.race.random.description=Anda akan ditugaskan ke asal yang tersedia secara acak.
+origins.race.random.description_changed=Manusia
+origins.race.human.name=Manusia biasa. Pengalaman Minecraft biasa Anda menunggu.
+origins.race.human.description=Merling
+origins.race.merling.name=Penduduk laut alami ini tidak terbiasa keluar dari air terlalu lama.
+origins.race.merling.description=Arachnid
+origins.race.arachnid.name=Kemampuan pendakian mereka dan kemampuan untuk menjebak musuh mereka di Spiderweb membuat para pemburu sempurna Arachnid.
+origins.race.arachnid.description=Blazeborn
+origins.race.blazeborn.name=Keturunan dari kobaran api yang terlambat, Blazeborn secara alami kebal terhadap bahaya Nether.
+origins.race.blazeborn.description=Avian
+origins.race.avian.name=Perlombaan burung telah kehilangan kemampuan mereka untuk terbang sejak lama. Sekarang makhluk -makhluk damai ini dapat terlihat meluncur dari satu tempat ke tempat lain.
+origins.race.avian.description=Hantu
+origins.race.phantom.name=Sebagai keturunan setengah manusia dan setengah phantom, makhluk-makhluk ini dapat beralih antara hantu dan bentuk normal.
+origins.race.phantom.description=Licik
+origins.race.feline.name=Dengan penampilan seperti kucing, menakut-nakuti kucing merayap. Dengan ketangkasan kucing, mereka selalu mendarat dengan aman di kaki mereka.
+origins.race.feline.description=Elytrian
+origins.race.elytrian.name=Seringkali terbang di sekitar angin, Elytrian tidak nyaman ketika mereka tidak memiliki cukup ruang di atas kepala mereka.
+origins.race.elytrian.description=Enderian
+origins.race.enderian.name=Terlahir sebagai putra dan putri dari Ender Dragon, Enderian mampu berteleportasi tetapi rentan terhadap air.
+origins.race.enderian.description=Shulk
+origins.race.shulk.name=Terkait dengan shulkers, tubuh shulk dilengkapi dengan kulit seperti pelindung.
+origins.race.shulk.description=Rubah
+origins.race.kitsune.name=Rubah, meskipun lemah dalam hal vitalitas, memanfaatkan kemampuan spiritual bawaan mereka untuk menyembunyikan dan memperkuat kekuatan mereka.
+origins.race.kitsune.description=Slimecican
+origins.race.slimecican.name=Sebagian manusia, sebagian lendir. Sangat tidak menyenangkan untuk disentuh dengan tangan telanjang Anda.
+origins.race.slimecican.description=Starborne
+origins.race.starborne.name=Dilahirkan dari bintang-bintang, Anda adalah orang tanpa kekerasan, terobsesi dengan bintang, misterius, dan berpotensi kuat yang jatuh dari bintang-bintang ke dunia bloki yang kita tinggali ini.
+origins.race.starborne.description=Inchling
+origins.race.inchling.name=Keturunan suku terkecil, makhluk -makhluk ini sama gesitnya dengan ukurannya.
+origins.race.inchling.description=Lebah
+origins.race.bee.name=Lebah itu keren. Mereka terbang, menikmati bunga, dan mati.
+origins.race.bee.description=Piglin
+origins.race.piglin.name=Ras dominan dari Nether, makhluk humanoid ini menggunakan kekuatan mereka yang paling luas dan menawarkan emas mereka.
+origins.race.piglin.description=Elven
+origins.race.elf.name=Makhluk yang elegan dan gesit dengan hubungan yang mendalam dengan alam, terampil dalam memanah, di mana mereka telah mengasah berkat umur mereka yang luar biasa.
+origins.race.elf.description=Voidwalker
+origins.race.voidwalker.name=Terlahir di kedalaman ranah jahat, Anda telah memperoleh kemampuan untuk memanipulasi dan memanfaatkan energi gelap dari dalam untuk menyakiti orang lain.
+origins.race.voidwalker.description=Peramal
+origins.race.diviner.name=Diviners memiliki kemampuan untuk memanfaatkan energi mistis alam semesta, menggunakan mereka untuk melindungi dan membantu pemain lain yang membutuhkan.
+
+
+
+
+
+origins.race.scout.name=Falconeers adalah orang -orang yang tak kenal takut yang meluncurkan ke langit, meluncur melintasi medan berbahaya dan mengungkap posisi musuh sebelum pertempuran dimulai. Dengan momentum yang keras dan kelincahan tinggi, mereka adalah angin sebelum badai.
+
+
+origins.race.attacker.name=Pedang pemogokan dengan kecepatan dan presisi yang mematikan, teleportasi melalui medan perang dan melepaskan voli yang menghancurkan dari serangan jarak jauh dan jarak dekat. Pekerjaan mereka sederhana - menghilangkan ancaman sebelum mencapai sekutu Anda.
+
+
+origins.race.defender.name=Wali adalah Titans yang melompat ke dalam bahaya, membanting dengan kekuatan dan melindungi sekutu mereka dengan ketahanan semata. Dengan kulit zat besi dan ketabahan yang tak tertandingi, mereka adalah dinding yang tidak ada silang musuh.
+
+
+origins.race.supporter.name=Sages menyalurkan energi surgawi untuk melindungi, memberdayakan, dan mempertahankan sekutu mereka. Aura mereka mengubah gelombang pertempuran - kekuatan yang tidak dapat dikalahkan, dan berharap untuk tim mereka di saat -saat paling gelap.
+
+
+origins.race.rogue.name=Nightblades lenyap dalam sekejap mata, menyerang dari tempat -tempat yang tidak terlihat dan menekuk medan perang yang menguntungkan mereka. Para penguasa penipuan dan sabotase, mereka berkembang dalam kekacauan - meremehkan musuh dan membimbing kemenangan dari bayang -bayang.
+
+
+origins.class.caver.name=Cavers berkembang di bawah tanah, merasakan bijih, menambang tanpa henti, dan jatuh tanpa rasa takut. Di dalam, mereka melihat apa yang dilewatkan orang lain.
+
+
+origins.class.carpenter.name=Carpenters melompat lebih tinggi, membangun lebih cepat, dan perdagangan lebih pintar. Dengan jangkauan dan ketahanan, mereka membentuk dunia dengan mudah.
+
+
+origins.class.shepherd.name=Gembala tumbuh dan berkumpul dengan hati -hati. Kehadiran mereka memberi makan kehidupan, memanen ganda, dan memanggil hewan ke pihak mereka.
+origins.class.shepherd.description=Tukang
+
+
+
+
+
+origins.class.random.name=Anda akan ditugaskan ke kelas yang tersedia secara acak.
+origins.class.random.description=Nitwit
+origins.class.random.description_changed=Nitwits tidak terlalu pandai dalam hal apa pun. Anda akan melanjutkan tanpa sifat tambahan.
+origins.class.nitwit.name=Prajurit
+origins.class.nitwit.description=Pejuang terhormat ini memiliki keberanian besar untuk mengalahkan musuh mereka.
+origins.class.warrior.name=Pemanah
+origins.class.warrior.description=Satu tembakan, satu pembunuhan. Mampu mencatat target dalam jarak yang sangat jauh.
+origins.class.archer.name=Penipu
+origins.class.archer.description=Biasanya dikenal sebagai pencuri dan perampok, bajingan mahir dalam penyergapan dan serangan siluman.
+origins.class.rogue.name=Beastmaster
+origins.class.rogue.description=Beastmasters adalah orang -orang soliter yang lebih suka ditemani hewan.
+origins.class.beastmaster.name=Pandai besi
+origins.class.beastmaster.description=Teman -teman yang berharga dari siapa pun, pandai besi dapat membuat alat, senjata, dan baju besi yang lebih baik.
+origins.class.blacksmith.name=Ulama
+origins.class.blacksmith.description=Mereka telah belajar bagaimana menyalurkan sihir yang ada di dunia dan menggunakannya untuk keuntungan mereka.
+origins.class.cleric.name=Memasak
+origins.class.cleric.description=Tidak ada yang lebih baik menyiapkan makanan Anda selain juru masak.
+origins.class.cook.name=Petani
+origins.class.cook.description=Petani telah diketahui memberi semua orang makanan selama yang bisa diingat oleh siapa pun.
+origins.class.farmer.name=Pedagang
+origins.class.farmer.description=Selalu mencari zamrud tambahan, pedagang adalah pedagang yang mahir.
+origins.class.merchant.name=Pengusaha peternakan
+origins.class.merchant.description=Memanfaatkan hewan, peternak dapat mengumpulkan banyak sumber daya yang berguna.
+origins.class.rancher.name=Buruh tambang
+origins.class.rancher.description=Penambang adalah yang paling mahir dalam menggali harta bumi.
+origins.class.miner.name=Penebang
+origins.class.miner.description=Pohon harus waspada saat penebang pohon ada di sekitar.
+origins.class.lumberjack.name=Penjelajah
+origins.class.lumberjack.description=Penjelajah menemukan jalan mereka melalui medan yang paling sulit dengan mudah dan menemukan landmark tersembunyi.
+
+origins.class.explorer.description=Ciri Asal:
+
+origins.trait.has=Anda dapat bernafas di bawah air, tetapi tidak di darat. Efek status seperti pernapasan air, bagaimanapun, dapat membantu Anda dalam usaha Anda.
+origins.trait.water_breathing.name=Afinitas aqua
+origins.trait.water_breathing.description=Anda dapat memecahkan blok di bawah air seperti yang dilakukan orang lain di darat, dan dapat melihat dengan sempurna di bawah air.
+origins.trait.aqua_affinity.name=Penghuni laut
+origins.trait.aqua_affinity.description=Massa bawah air tidak akan membahayakan secara alami atau menyerang Anda, kecuali jika Anda menyerang mereka terlebih dahulu.
+origins.trait.sea_creature.name=Seperti air
+origins.trait.sea_creature.description=Anda secara alami tetap mengapung di atas air, dan tenggelam dengan menyelinap kapan pun Anda mau.
+origins.trait.like_water.name=Hadiah Samudra
+origins.trait.like_water.description=Anda kebal dari kerusakan yang ditangani oleh Tridents.
+origins.trait.no_trident_damage.name=Rentan
+origins.trait.no_trident_damage.description=Anda memiliki 3 lebih sedikit hati kesehatan daripada manusia.
+origins.trait.fragile.name=Anyaman
+origins.trait.fragile.description=Ketika Anda menabrak musuh dalam jarak dekat, mereka sementara terjebak dalam sarang laba -laba, dan semakin memperlambat dan meracuni target. Memiliki cooldown 13 detik.
+origins.trait.webbing.name=Kepompong web
+origins.trait.webbing.description=Selama Anda berdiri di sarang laba -laba, Anda mengurangi kerusakan yang diambil.
+origins.trait.master_of_webs.name=Pendakian
+origins.trait.master_of_webs.description=Anda dapat memanjat blok padat yang Anda lihat dengan cepat dengan menahan tombol lompat. Jatuh saat memanjat mitigasi jatuh kerusakan yang diterima.
+origins.trait.climbing.name=Karnivora
+origins.trait.climbing.description=Diet Anda terbatas pada daging, dan Anda tidak akan bisa makan atau berinteraksi dengan bahan habis pakai sayuran.
+origins.trait.carnivore.name=Tahan
+origins.trait.carnivore.description=Setiap kali Anda mengambil kerusakan magma, kebakaran, atau lava, kesehatan yang hilang akan segera dipulihkan, dan sementara meningkatkan kerusakan yang Anda timbulkan.
+origins.trait.fire_immunity.name=Penghuni bawah
+origins.trait.fire_immunity.description=Spawn alami Anda akan berada di bawah.
+origins.trait.nether_spawn.name=Bara
+origins.trait.nether_spawn.description=Saat Anda terbakar, gerombolan apa pun yang Anda pukul dan gerombolan di sekitarnya akan dinyalakan dan dibakar. Ini hanya dapat dipicu setiap 3 detik sekali.
+origins.trait.burning_wrath.name=Hotblooded
+origins.trait.burning_wrath.description=Karena tubuh Anda yang panas, racun terbakar, membuat Anda kebal terhadap efek racun dan status kelaparan.
+origins.trait.hotblooded.name=Penyakit anjing gila
+origins.trait.hotblooded.description=Anda menerima kerusakan dari waktu ke waktu saat bersentuhan dengan air.
+origins.trait.water_vulnerability.name=Tailwind
+origins.trait.water_vulnerability.description=Anda sedikit lebih cepat dengan berjalan kaki daripada yang lain, sementara juga bisa berlari lebih efisien.
+origins.trait.tailwind.name=Kelas bulu
+origins.trait.tailwind.description=Anda jatuh ke tanah seperti bulu.
+origins.trait.slow_falling.name=Vegetarian
+origins.trait.slow_falling.description=Diet Anda terbatas pada sayuran, dan Anda tidak akan bisa makan atau berinteraksi dengan bahan habis pakai daging.
+origins.trait.vegetarian.name=Udara segar
+origins.trait.vegetarian.description=Saat tidur, tempat tidur Anda harus berada di ketinggian setidaknya 70 blok, sehingga Anda dapat menghirup udara segar.
+origins.trait.fresh_air.name=Anda perlu tidur di ketinggian setidaknya 70 blok
+origins.trait.fresh_air.description=Fantomisasi
+origins.trait.fresh_air.sleep_fail=Gunakan item kemampuan untuk berubah menjadi mode penonton. Anda keluar dari keadaan ini saat Anda berdiri diam.
+origins.trait.phantomize.name=Tubuh spiritual
+origins.trait.phantomize.description=Saat dalam mode penonton, Anda tidak terlihat dari orang lain dan dapat melintasi blok, dan Anda tidak akan dapat berinteraksi dengan hal lain.
+origins.trait.invisibility.name=Mayat hidup
+origins.trait.invisibility.description=Anda mulai terbakar di siang hari jika Anda tidak terlihat atau dalam air. Headwear mengurangi kerusakan sinar matahari sebesar 50%.
+origins.trait.burns_in_daylight.name=Pergelangan kaki yang kuat
+origins.trait.burns_in_daylight.description=Anda tidak pernah mengalami kerusakan, tidak peduli dari ketinggian mana Anda jatuh.
+
+origins.trait.fall_immunity.description=Sembilan nyawa
+
+origins.trait.nine_lives.name=Lengan lemah
+origins.trait.nine_lives.description=Ketika tidak di bawah efek kekuatan, Anda menambang blok lebih lambat dan menyerang lebih lemah.
+origins.trait.weak_arms.name=Penampilan seperti kucing
+origins.trait.weak_arms.description=Creepers takut pada Anda dan hanya akan meledak jika Anda menyerangnya terlebih dahulu.
+
+
+
+
+
+origins.trait.claustrophobia.name=Tulang rapuh
+origins.trait.claustrophobia.description=Anda mengambil lebih banyak kerusakan karena jatuh dan terbang ke blok.
+origins.trait.more_kinetic_damage.name=Pejuang udara
+origins.trait.more_kinetic_damage.description=Anda menangani lebih banyak kerusakan saat Anda meluncur dengan elytra.
+
+origins.trait.aerial_combatant.description=Takut labu
+
+origins.trait.pumpkin_hate.name=Wajah yang akrab
+origins.trait.pumpkin_hate.description=Monster dan Endermans lainnya tidak akan menyerang Anda bahkan jika Anda melihat langsung ke mereka tanpa mengenakan labu berukir, kecuali jika Anda menyerang mereka terlebih dahulu.
+origins.trait.familiar_face.name=Penimbun
+origins.trait.familiar_face.description=Memicu kemampuan untuk beralih ke ruang inventaris yang berbeda. Memungkinkan Anda untuk menyimpan lebih banyak item dengan 9 slot tambahan yang disimpan bahkan pada saat mati.
+origins.trait.shulk_inventory.name=Inventaris Shulk
+origins.trait.shulk_inventory.description=Kulit yang kokoh
+origins.trait.shulk_inventory.label=Bahkan tanpa mengenakan baju besi, kulit Anda memberikan perlindungan alami sehingga menerima kerusakan 20% lebih sedikit dari sumber apa pun.
+origins.trait.natural_armor.name=Nafsu makan besar
+origins.trait.natural_armor.description=Anda mudah kelelahan, menghabiskan lebih banyak kelaparan dari biasanya.
+origins.trait.more_exhaustion.name=Berat
+origins.trait.more_exhaustion.description=Cara tangan Anda terbentuk tidak memberikan cara untuk memegang perisai tegak. Mencoba memblokir dengan perisai akan segera memecahnya terlepas dari pesona yang diterapkan padanya.
+origins.trait.no_shield.name=Lengan yang kuat
+origins.trait.no_shield.description=Anda lebih kuat dan dapat memecahkan balok batu tanpa memerlukan pickxe apa pun.
+origins.trait.strong_arms.name=Penghuni akhir
+origins.trait.strong_arms.description=Perjalanan Anda dimulai pada akhirnya.
+origins.trait.end_spawn.name=Kaki cepat
+origins.trait.end_spawn.description=Karena kaki Anda yang lebih pendek dan kelelahan rendah, kecepatan gerakan Anda meningkat dan ukuran Anda berkurang.
+origins.trait.fast_footed.name=Menerkam
+origins.trait.fast_footed.description=Isi daya item kemampuan dengan menahannya dan melompat ke arah yang Anda lihat. Semakin banyak muatannya, semakin besar jaraknya.
+origins.trait.pounce.name=Berry Craver
+origins.trait.pounce.description=Berry manis mengembalikan lebih banyak poin kelaparan saat dimakan, dan terkadang akan memberikan efek regenerasi. Anda juga tidak rusak akibat semak berry.
+origins.trait.berry_craver.name=Hati yang lebih kecil
+origins.trait.berry_craver.description=Karena ukuran Anda yang lebih kecil secara keseluruhan, jantung Anda lebih kecil, mengakibatkan kesehatan maksimum Anda diturunkan oleh 4 hati.
+origins.trait.smaller_heart.name=Metabolisme cepat
+origins.trait.smaller_heart.description=Dengan kecepatan Anda, dan perut yang lebih kecil, Anda menjadi lebih lapar dari biasanya.
+origins.trait.fast_metabolism.name=Tubuh goyang
+origins.trait.fast_metabolism.description=Anda mengurangi sebagian besar kerusakan jatuh karena tubuh Anda yang melenting namun lengket.
+origins.trait.bouncy_body.name=Super Jump
+origins.trait.bouncy_body.description=Warisan lendir Anda memberi Anda lompatan yang lebih baik, memungkinkan Anda untuk melompat lebih tinggi. Mengetuk kembali dan memberikan kerusakan pada gerombolan di dekatnya saat mendarat. Kemampuan pasif ini hanya dapat menjadi pemicu setiap 3 detik.
+origins.trait.high_jump.name=Lengket
+origins.trait.high_jump.description=Entitas apa pun yang menyerang Anda dalam jarak dekat melambat, dan mengurangi kerusakan yang ditimbulkan kepada Anda sebesar 10%. Anda juga terlihat hijau dan berlendir.
+origins.trait.sticky.name=Fragmentasi
+origins.trait.sticky.description=Anda menyusut ke sebagian ukuran Anda saat kesehatan Anda jatuh, serta titik kesehatan maksimum Anda. 
+origins.trait.fragmentation.name=Pemulihan
+origins.trait.fragmentation.description=Anda dapat mengonsumsi dan makan bola lendir untuk memulihkan bagian diri Anda yang hilang.
+origins.trait.slime_ball_consume.name=Menekankan
+origins.trait.slime_ball_consume.description=Ini menumpuk di seluruh Anda pada tingkat yang lambat. Setelah terisi, Anda akan meledak dengan keras - merusak semua yang mengelilingi Anda. Namun, semua kemampuan Anda mendingin lebih cepat jika [stres] Anda berada di 70%.
+origins.trait.stress.name=Merenungkan
+origins.trait.stress.description=Mengurangi [stres] yang diakumulasikan dengan menyelinap, selama Anda berada di kesehatan penuh.
+origins.trait.meditate.name=Hadiah Kosmik
+origins.trait.meditate.description=Starbornes adalah makhluk yang diberkati oleh langit. Dipengaruhi oleh lebih sedikit gravitasi, Anda dapat melompat lebih tinggi dan turun kembali ke tanah dengan anggun - tidak membuat kerusakan apa pun.
+origins.trait.cosmic_gift.name=Lompatan Hyper
+origins.trait.cosmic_gift.description=Dorong ke arah tertentu yang Anda lihat, dan meluncurkan entitas tempat Anda berada di udara. Memiliki cooldown pendek sebelum setiap digunakan.
+origins.trait.hyper_leap.name=Bintang jatuh
+origins.trait.hyper_leap.description=Menembakkan proyektil bintang ke arah yang Anda lihat, merusak massa saat benturan. Memiliki cooldown sebelum setiap digunakan.
+origins.trait.shooting_star.name=Non -kekerasan
+origins.trait.shooting_star.description=Starbornes memiliki kesempatan untuk menjadi tidak bergerak sementara setiap kali mereka dirugikan oleh entitas lain. Dalam keadaan ini, visi Anda juga terhambat untuk sementara.
+origins.trait.no_hitting.name=Kekosongan dingin
+origins.trait.no_hitting.description=Starbornes terbiasa dengan dinginnya kosmos yang luas, oleh karena itu mengambil dua kali kerusakan api - panas yang tidak biasa terjadi.
+origins.trait.burning.name=Gesit
+origins.trait.burning.description=Inchlings kebal terhadap duri dan kerusakan berbasis kecepatan.
+origins.trait.nimble.name=Hiper-aktif
+origins.trait.nimble.description=Anda dapat mengonsumsi gula bahkan jika Anda penuh, memberikan peningkatan kecepatan gerakan sementara.
+origins.trait.hyper_active.name=Apetit kecil
+origins.trait.hyper_active.description=Mengonsumsi gula sudah cukup untuk kebutuhan Anda, karena memberikan efek saturasi yang tahan lama bagi Anda. Membutuhkan lebih sedikit makanan untuk terus berjalan.
+origins.trait.small_apetite.name=Ukuran gigitan
+origins.trait.small_apetite.description=Anda berkali -kali lebih kecil dan memiliki 5 hati lebih sedikit dibandingkan dengan manusia biasa.
+origins.trait.bite_sized.name=Beracun
+origins.trait.bite_sized.description=Ketika Anda menangani kerusakan kritis, menimbulkan racun yang fatal pada target yang berlangsung 7 detik. Kemudian, mengurangi jumlah [Stinger] dengan satu. Kemampuan ini tidak akan memicu entitas yang sudah memiliki efek.
+origins.trait.poisonous.name=Kematian
+origins.trait.poisonous.description=Anda menangani 50% lebih banyak kerusakan pada target yang Anda sakiti dengan racun yang fatal.
+origins.trait.poison_bonus_damage.name=Penyengat
+origins.trait.poison_bonus_damage.description=Anda membawa hingga 7 penyengat sekaligus, dan digunakan setiap kali Anda menimbulkan kerusakan racun. Setelah semua penyenguhan habis, Anda pasti akan binasa dan mati.
+origins.trait.sacrifice_stinger.name=Pollenate
+origins.trait.sacrifice_stinger.description=Pada siang hari, Anda dapat berdiri di atas bunga apa pun dan menyelinap untuk memulihkan [Stinger] yang mungkin hilang. Namun, ini akan mematahkan bunga.
+origins.trait.bloom.name=Harian
+origins.trait.bloom.description=Anda bekerja paling baik di hari yang cerah, sehingga Anda dilemahkan dan bergerak lambat di malam hari atau jika mulai hujan di siang hari.
+origins.trait.nighttime.name=Umur pendek
+origins.trait.nighttime.description=Lebah memiliki 3 lebih sedikit hati daripada manusia.
+origins.trait.lifespan.name=Diet nektar
+origins.trait.lifespan.description=Anda tidak bisa makan makanan normal, dan hanya bisa mengkonsumsi bunga.
+origins.trait.nectar_diet.name=Kebanggaan
+origins.trait.nectar_diet.description=Semakin banyak barang emas yang Anda bawa dalam inventaris Anda, usang, atau diadakan, semakin sedikit kerusakan yang akan Anda terima dari sumber apa pun. Anda dapat mengurangi hingga 90% dari kerusakan yang diterima dengan cara ini.
+origins.trait.pride.name=Membanggakan daya tembak
+origins.trait.pride.description=Serangan jarak dekat Anda menimbulkan kerusakan tambahan yang setara dengan 10% dari kerusakan yang Anda tangani. Lebih lanjut meningkatkan kerusakan tambahan yang ditimbulkan 10% per entitas terdekat yang ada dalam 6 blok.
+origins.trait.increased_attack_per_entity.name=Kerakusan
+origins.trait.increased_attack_per_entity.description=Anda menjadi lebih lapar dari biasanya saat mengisi kembali kesehatan.
+origins.trait.gluttony.name=Keberanian
+origins.trait.gluttony.description=Anda kebal dari kelemahan dan efek status wither.
+origins.trait.courage.name=LifeWeaver
+origins.trait.courage.description=Segera regenerasi kesehatan berdasarkan akumulasi kerusakan yang diambil dalam waktu 3 detik setelah menerimanya. Kemudian, hibah penyerapan selama 12 detik bahwa skala tergantung pada jumlah kerusakan yang diterima.
+origins.trait.lifeweaver.name=Cepat
+origins.trait.lifeweaver.description=Menjadi gesit dan cepat, memberi Anda peningkatan kecepatan gerakan, memungkinkan Anda untuk melintasi medan dengan mudah.
+origins.trait.agility.name=Beelzebub
+origins.trait.agility.description=Serangan jarak dekat akan memberikan kerusakan tambahan berdasarkan kesehatan Anda yang hilang. Kemudian, menagih satu tumpukan [Beelzebub] pada serangan, hingga tiga.
+origins.trait.beelzebub.name=Soulburst
+origins.trait.beelzebub.description=Ketika [Beelzebub] mencapai tiga tumpukan, mengkonsumsi semuanya, dan memberikan kerusakan tambahan berdasarkan total kerusakan yang ditangani saat memperoleh tumpukan.
+origins.trait.soulburst.name=Jilbab Umbral
+origins.trait.soulburst.description=Melunakkan diri dalam energi gelap saat berlari, memberikan kecepatan tambahan dan menghindari kerusakan proyektil.
+origins.trait.umbral_veil.name=Aura yang menyeramkan
+origins.trait.umbral_veil.description=Massa pasif di dekatnya takut dengan kehadiran Anda, dan akan melarikan diri dari Anda.
+origins.trait.sinister_aura.name=Kehidupan menguras
+origins.trait.sinister_aura.description=Setiap kali Anda menangani kerusakan, kesehatan Anda dikurangi oleh kesehatan target yang hilang, hingga 50% dari kesehatan maksimal Anda. Ketika kesehatan Anda sama dengan 1, ini tidak akan mengurangi lebih jauh.
+origins.trait.life_drain.name=Hal mengetahui sebelumnya
+origins.trait.life_drain.description=Pukul dengan kemampuan yang dipilih untuk dilemparkan ke pemain lain. Atas pemeran, meningkatkan Anda dan Max Health pemain lain sebesar 50% hingga 60% dari kedua kesehatan Anda digabungkan.
+origins.trait.prescience.name=Peramal
+origins.trait.prescience.description=Ketika di bawah [Prescience], kerusakan apa pun yang Anda ambil dan penyembuhan yang diterima akan diledakkan ke pemain lain.
+origins.trait.oracle.name=Perlindungan
+origins.trait.oracle.description=Setiap kerusakan eksternal yang diambil secara langsung akan membelokkan 50% dari kerusakan kembali ke penyerang.
+origins.trait.aegis.name=Aura Ilahi
+origins.trait.aegis.description=Pemain di bawah efek [Prescience] akan bersinar, dan dapat dilihat melalui dinding. Namun, cahaya ini akan selalu bertahan pada Anda.
+origins.trait.divine_aura.name=Kerapuhan
+origins.trait.divine_aura.description=Semakin sedikit kesehatan yang Anda miliki, semakin rentan Anda dari kerusakan.
+origins.trait.fragility.name=Ketidakstabilan
+origins.trait.fragility.description=Untuk setiap efek status unik yang diterapkan pada Anda, kesehatan maksimal Anda akan dikurangi dengan 1. Ketika kesehatan Anda sama dengan 1, ini tidak akan mengurangi lebih jauh.
+
+origins.trait.instability.description=Tunjangan Kelas:
+
+origins.perk.has=Dalam bayang -bayang
+
+origins.perk.stealth.name=Kelincahan
+origins.perk.stealth.description=Anda dapat bergerak lebih cepat dengan berjalan kaki daripada yang lain saat menggambar busur atau panah.
+origins.perk.less_bow_slowdown.name=Presisi
+origins.perk.less_bow_slowdown.description=Semua panah yang Anda tembak perjalanan dalam garis lurus, tidak dipengaruhi oleh gravitasi.
+origins.perk.no_projectile_divergence.name=Wield Shield
+origins.perk.no_projectile_divergence.description=Anda mendapatkan perlindungan tambahan saat memblokir diri Anda dengan perisai.
+origins.perk.less_shield_slowdown.name=Bloodlust murka
+origins.perk.less_shield_slowdown.description=Anda mendapatkan kekuatan yang meningkatkan semakin rendah kesehatan Anda saat ini.
+origins.perk.less_health_more_attack.name=Teman fauna
+origins.perk.less_health_more_attack.description=Hewan yang Anda jinak menerima buff permanen untuk kesehatan mereka.
+origins.perk.tamed_animal_boost.name=Empati yang efektif
+origins.perk.tamed_animal_boost.description=Efek ramuan apa pun yang mungkin Anda miliki juga akan diterapkan pada gerombolan yang Anda jinakkan.
+origins.perk.effective_empathy.name=Makanan enak
+origins.perk.effective_empathy.description=Makanan yang Anda masak akan memberikan saturasi tambahan saat dimakan.
+origins.perk.more_saturated_food.name=Sup meremajakan
+origins.perk.more_saturated_food.description=Semur yang Anda buat dapat memberikan efek regenerasi.
+origins.perk.better_stew.name=Pembuatan bir yang mahir
+origins.perk.better_stew.description=Dengan memperluas panjang efek ramuan menggunakan Redstone, ramuan apa pun yang Anda buat akan diperpanjang lebih lanjut.
+origins.perk.longer_potions.name=Brews yang kuat
+origins.perk.longer_potions.description=Ramuan apa pun yang Anda buat akan lebih diperkuat saat menyeduhnya dengan Glowstone.
+origins.perk.powerful_potions.name=Keahlian yang bagus
+origins.perk.powerful_potions.description=Peralatan apa pun yang Anda kerajinan atau Smith akan memiliki daya tahan, efisiensi, kerusakan, dan bahkan Fortune I.
+origins.perk.quality_equipment.name=Perbaikan yang efisien
+origins.perk.quality_equipment.description=Peralatan berkualitas tinggi yang telah Anda buat dengan mudah lebih dapat diperbaiki dan dapat mengembalikan lebih banyak titik daya tahan.
+origins.perk.efficient_repairs.name=Jempol hijau
+origins.perk.efficient_repairs.description=Saat menanam tanaman, ada kemungkinan itu akan segera tumbuh.
+origins.perk.fast_crop_growth.name=Harvest Bountiful
+origins.perk.fast_crop_growth.description=Saat memanen tanaman, Anda terkadang menerima hasil dua kali lipat.
+origins.perk.more_crop_drops.name=Lebih banyak kelahiran
+origins.perk.more_crop_drops.description=Hewan yang dibiakkan ketika Anda berada di sekitar memiliki kesempatan untuk menghasilkan banyak bayi.
+origins.perk.twin_breeding.name=Memulung
+origins.perk.twin_breeding.description=Anda kadang -kadang dapat menerima lebih banyak materi dari membunuh massa.
+origins.perk.more_animal_loot.name=Penawaran hebat
+origins.perk.more_animal_loot.description=Anda mendapatkan diskon saat berdagang dengan penduduk desa.
+origins.perk.cheaper_trades.name=Karisma
+origins.perk.cheaper_trades.description=Pedagang yang berkeliaran lebih cenderung berkunjung saat Anda ada.
+origins.perk.wandering_trader_spawn.name=Bugar
+origins.perk.wandering_trader_spawn.description=Anda tidak kehilangan kelaparan saat berlari.
+origins.perk.no_sprint_exhaustion.name=Kit Explorer
+origins.perk.no_sprint_exhaustion.description=Anda memulai permainan dengan kompas, jam dan sembilan peta kosong yang tidak akan pernah jatuh pada saat kematian.
+
+origins.perk.explorer_kit.description=Kapitator Pohon
+
+origins.perk.tree_felling.name=Penanaman kembali
+origins.perk.tree_felling.description=Ada banyak log yang Anda hancurkan dapat ditanamkan kembali dengan jenis pohon muda yang sama.
+
+origins.perk.sapling_setblock.description=Orb of Origins
+
+origins.item.orb_of_origins.name=§7 [menu sakelar] §r
+origins.item.resignation_paper.name=§7 [lebih banyak opsi] §r
+origins.item.origins_menu.name=§Z
+
+origins.item.origins_menu_padding.name=Pilih asal Anda.
+
+origins.gui.title.choose_origin=Anda telah memilih asal ini.
+origins.gui.title.choose_class=Anda telah memilih kelas ini.
+origins.gui.title.view_origin=Ini adalah asal Anda.
+origins.gui.title.view_class=Ini kelasmu.
+origins.gui.title.change_origin=Sesuaikan dengan preferensi Anda.
+origins.gui.title.change_class=Pilih Origins to Ban.
+origins.gui.title.options=Pilih kelas untuk dilarang.
+origins.gui.title.ban_origin=Asal ini dilarang
+origins.gui.title.ban_class=Asal ini sudah digunakan
+origins.gui.subtitle.banned=Tidak ada dampak gameplay
+origins.gui.subtitle.locked=Dampak gameplay bervariasi
+origins.gui.impact.none=Dampak gameplay yang rendah
+origins.gui.impact.random=Dampak gameplay sedang
+origins.gui.impact.low=Dampak gameplay yang tinggi
+origins.gui.impact.medium=Tidak ada fasilitas tambahan
+origins.gui.impact.high=Perk bervariasi
+origins.gui.useful.none=Tunjangan yang layak
+origins.gui.useful.random=Tunjangan ceruk
+origins.gui.useful.fair=Perks yang mengubah permainan
+origins.gui.useful.medium=Mengkonsumsi 1 §E [Orb of Origins] §r
+origins.gui.useful.very=Biaya 1 §E [kertas pengunduran diri] §r
+origins.gui.change.race=Orb of Origin telah dinonaktifkan
+origins.gui.change.class=Kertas pengunduran diri telah dinonaktifkan
+origins.gui.change.blocked.orb=Saat tombol ini disorot, itu berarti asal usul ini saat ini dilarang
+origins.gui.change.blocked.paper=Saat tombol ini disorot, itu berarti kelas ini saat ini dilarang
+origins.gui.manage.ban_race=Anda tidak boleh melarang semuanya, silakan pergi agar dapat digunakan
+origins.gui.manage.ban_class=Anda tidak boleh melarang asal ini sebagai §eunique selection§f diaktifkan
+origins.gui.manage.ban_limit=Mengubah
+origins.gui.manage.ban_locked=Berhenti
+origins.gui.button.continue.change=Melarang
+origins.gui.button.continue.resign=§L§cban§r
+origins.gui.button.manage.ban=Memilih
+origins.gui.button.manage.unban=Menutup
+origins.gui.button.select=Melanjutkan
+origins.gui.button.cancel=Kembali
+origins.gui.button.start=Ayo pergi
+origins.gui.button.return=Jangan tunjukkan lagi
+
+origins.gui.button.ignore_welcome_screen=Opsi Umum
+
+origins.gui.options.general_root=Akses ditolak!
+origins.gui.options.admin_root=Opsi -opsi ini memerlukan izin khusus sebelum dapat diakses!
+origins.gui.options.admin_denied.name=Jalankan perintah berikut untuk memberi seseorang izin untuk mengakses opsi ini:
+origins.gui.options.admin_denied.description1=Lihat asal saya
+origins.gui.options.admin_denied.description2=Menampilkan informasi tentang asal yang Anda pilih.
+origins.gui.options.view_origin.name=Lihat kelas saya
+origins.gui.options.view_origin.description=Menampilkan informasi tentang kelas yang telah Anda pilih.
+origins.gui.options.view_class.name=Partikel idle
+origins.gui.options.view_class.description=Biarkan partikel idle asal Anda memancarkan dari karakter Anda. (default: aktif)
+origins.gui.options.toggle_particle.name=Reset Pemain
+origins.gui.options.toggle_particle.description=Menentukan kembali komponen perilaku entitas Anda untuk mudah -mudahan memperbaiki masalah dengan asal atau kelas Anda. Opsi ini hanya dapat digunakan sekali sampai Anda bergabung kembali.
+origins.gui.options.reset_player.name=Pilihan Larangan
+origins.gui.options.reset_player.description=Kelola asal dan kelas yang dilarang. Setidaknya satu pilihan harus disimpan tidak diungkapkan.
+origins.gui.options.ban.root.name=Larangan asal
+origins.gui.options.ban.root.description=Pilih asal untuk mencegah mereka dari pernah dipilih. (default: tidak ada)
+origins.gui.options.ban.origins.name=Kelas larangan
+origins.gui.options.ban.origins.description=Pilih kelas untuk mencegah mereka terpilih. (default: tidak ada)
+origins.gui.options.ban.classes.name=Penggusuran seleksi
+origins.gui.options.ban.classes.description=Paksa semua pemain online untuk mengubah asal dan kelas mereka jika baru saja dilarang.
+origins.gui.options.ban.evict.name=Gamerul tambahan
+origins.gui.options.ban.evict.description=Kelola opsi tambahan yang mengubah cara add-on berperilaku dan mempengaruhi para pemain.
+origins.gui.options.toggle.root.name=Pilihan unik
+origins.gui.options.toggle.root.description=Hanya izinkan satu asal per pemain. Perhatikan bahwa ini tidak akan memaksa pemain untuk mengubah asal mereka jika sudah dipilih, silakan pilih §E [inisialisasi semuanya] §F opsi untuk melakukannya. (default: off)
+origins.gui.options.toggle.unique.name=Orb of Origins
+origins.gui.options.toggle.unique.description=Izinkan pemain untuk mengubah asal mereka menggunakan §e [Orb of Origins] §f item. (default: aktif)
+origins.gui.options.toggle.orb.name=Kertas pengunduran diri
+origins.gui.options.toggle.orb.description=Izinkan pemain untuk mengundurkan diri dari kelas mereka menggunakan item §E [Makalah pengunduran diri] §F. (default: aktif)
+origins.gui.options.toggle.paper.name=Perubahan siaran
+origins.gui.options.toggle.paper.description=Mengumumkan dalam obrolan ketika seorang pemain mengubah asal mereka atau mengundurkan diri dari kelas mereka. (default: aktif)
+origins.gui.options.toggle.announce.name=Inisialisasi semuanya
+origins.gui.options.toggle.announce.description=MESET UNTUK SEMUA PEMITING DAN KELAS yang Dipilih, dan mengembalikan opsi kembali ke pengaturan default.
+origins.gui.options.reset_all.name=Klik tombol lagi untuk melanjutkan. Tindakan ini tidak bisa dibatalkan!
+
+origins.gui.options.reset_all.description_confirm=%1 telah mengubah asal mereka menjadi [%2]
+
+origins.change.announce.race=Orb of Origins telah dinonaktifkan
+origins.change.announce.class=Kertas pengunduran diri telah dinonaktifkan
+
+origins.change.fail.class=Anda memiliki kemampuan aktif
+
+origins.ability_controls.info.usage=Tidak ada kemampuan aktif
+
+origins.ability_controls.info.none=§Z
+
+entity.r4isen1920_originspe:cleric_area_effect_cloud.name=§Z
+entity.r4isen1920_originspe:cleric_lingering_potion.name=§Z
+entity.r4isen1920_originspe:cleric_splash_potion.name=§Z
+entity.r4isen1920_originspe:dialogue_handler.name=§Z
+entity.r4isen1920_originspe:elven_arrow.name=§Z
+entity.r4isen1920_originspe:huge_explosion.name=§Z
+entity.r4isen1920_originspe:inventory_keep.name=§Z
+entity.r4isen1920_originspe:knockback_roar.name=§Z
+entity.r4isen1920_originspe:safe_teleporter.name=§Z
+entity.r4isen1920_originspe:shooting_star.name=§Z
+
+entity.r4isen1920_originspe:webbing_attack.name=Buka inventaris untuk melihat inventaris Shulk Anda
+
+
+action.hint.exit.console.r4isen1920_originspe:inventory_keep=Memuat Asal dan Kelas
+
+
+
+
+
+
+
+
+origins.trait.launch_into_air.name=Bersayap
+origins.trait.launch_into_air.description=Anda memiliki sayap elytra tanpa perlu melengkapi apa pun, dan tidak pernah hilang atau tidak dapat dihapus.
+origins.trait.elytra.name=Hal -hal penting
+origins.trait.elytra.description=Anda mempertahankan akses ke inventaris penting, memastikan hotbar Anda tidak hilang setelah mati.
+origins.trait.essentials.name=Cepat
+origins.trait.essentials.description=Menjadi gesit dan cepat, memberi Anda peningkatan kecepatan gerakan, memungkinkan Anda untuk melintasi medan dengan mudah.
+origins.trait.swift.name=Akrobatik
+origins.trait.swift.description=Dengan kaki yang kuat, melompati 2 blok tinggi saat berlari - hancur rintangan dan menghindari bahaya dengan mudah.
+origins.trait.sprint_jump.name=Ringan
+origins.trait.sprint_jump.description=Jatuh seperti bulu: Jangan ambil kerusakan, jangan pernah bosan dengan sprint atau melompat, tetapi waspadalah - serangan lain sakit 10% lebih.
+
+origins.trait.lightweight.description=Teleportasi
+
+origins.trait.throw_ender_pearl.name=Tidak ada ruang untuk berteleportasi di sana!
+origins.trait.throw_ender_pearl.description=Quiver yang tak ada habisnya
+origins.trait.throw_ender_pearl.failed=Panah Anda tidak pernah kering. Memegang busur Anda dengan amunisi yang tak terbatas dan ketepatan tanpa henti.
+origins.trait.endless_quiver.name=Penembak jitu
+origins.trait.endless_quiver.description=Berurusan 30% lebih banyak kerusakan dengan serangan jarak jauh. Tujuan Anda adalah utusan kematian sendiri.
+origins.trait.marksman.name=Ganas
+origins.trait.marksman.description=Lepaskan Fury Primal. Dapatkan kekuatan I dan hancurkan musuh dalam jarak dekat.
+origins.trait.ferocious.name=Rentan
+origins.trait.ferocious.description=Daya datang dengan harga - ambil 20% lebih banyak kerusakan akibat serangan entitas. Jadilah cepat, tidak sembrono.
+
+
+
+
+origins.trait.smash.name=Keras
+origins.trait.smash.description=Tumbuhkan 4 hati bonus dan dapatkan 20% resistensi untuk semua bentuk kerusakan. Anda adalah garis depan.
+origins.trait.tough.name=Kulit yang tidak bisa dipecahkan
+origins.trait.tough.description=Berikan langit - ambil kerusakan 30% lebih sedikit dari proyektil. Panah memantul dari tekad besi Anda.
+origins.trait.unbreakable_skin.name=Berat
+origins.trait.unbreakable_skin.description=Daya besar beratnya berat. Pindahkan 5% lebih lambat dan knalpot dua kali lebih cepat - tetapi kekuatan Anda tidak tertandingi.
+
+origins.trait.heavy.description=Memberdayakan aura
+
+origins.trait.empowering_aura.name=⚠ Aura di cooldown!
+origins.trait.empowering_aura.description=Umur panjang
+origins.trait.empowering_aura.cooldown=Dapatkan 2 hati tambahan dan lebih lama dari musuh Anda. Setiap napas adalah kesempatan kedua.
+origins.trait.longevity.name=Memori yang bagus
+origins.trait.longevity.description=Inventaris Anda kembali dengan Anda dari kuburan. Kematian hanyalah kemunduran.
+origins.trait.good_memory.name=Perlawanan kelaparan
+origins.trait.good_memory.description=Bertahan liar. Kurangi kelelahan hingga 20% dari semua kegiatan dan tetap lebih lama.
+origins.trait.hunger_resistant.name=Aura Kelaparan
+origins.trait.hunger_resistant.description=Memberdayakan Sekutu Anda: Semua pemain dalam 16 blok mendapatkan perlawanan kelaparan hanya dengan berada di dekat Anda.
+
+
+
+
+origins.trait.invisibility.name=⚠ tembus pandang di cooldown!
+origins.trait.invisibility.description=⚠ Tidak dapat menggunakan tembus pandang saat terhalang!
+origins.trait.invisibility.cooldown=Nokturnal
+origins.trait.invisibility.hindered=Di tempat -tempat di mana level cahaya rendah, Anda secara otomatis mendapatkan efek status kekuatan dan penglihatan malam.
+origins.trait.cat_vision.name=Kamuflase
+origins.trait.cat_vision.description=Anda berbaur dengan lingkungan ketika Anda menyelinap, gerombolan yang bermusuhan itu tidak akan menyerang Anda - kecuali jika Anda menyerang mereka terlebih dahulu.
+origins.trait.camouflage.name=Licik
+origins.trait.camouflage.description=Papan nama Anda tidak pernah selalu terlihat, bahkan ketika Anda tidak menyelinap.
+origins.trait.sneaky.name=Serangan yang melemahkan
+origins.trait.sneaky.description=Melumpuhkan musuhmu. Massa apa pun yang Anda tekan diperlambat selama 4 detik - mereka tidak akan pernah lepas dari murka Anda.
+origins.trait.debilitating_strikes.name=Lebih kecil
+origins.trait.debilitating_strikes.description=Ukuran Anda berkurang 25%, membuat Anda lebih sulit untuk ditargetkan.
+origins.trait.smaller.name=Kebutuhan untuk mobilitas
+origins.trait.smaller.description=Armor berat memperlambat Anda hingga 50%. Anda dibuat untuk kecepatan, tidak slugging keluar dalam baja.
+
+
+
+
+origins.perk.ore_vein_miner.name=Ekskavator Veteran
+origins.perk.ore_vein_miner.description=Anda tidak kehilangan kelaparan saat menambang.
+origins.perk.no_mining_exhaustion.name=Penambang yang diberkati
+origins.perk.no_mining_exhaustion.description=Anda diberkati dengan Fortune +1 pada pickxe apa pun yang Anda gunakan. Berkat ini tidak ditransfer ke orang lain.
+
+
+
+
+origins.perk.fall_resistant.name=Langkah Pembangun
+origins.perk.fall_resistant.description=Anda dilatih untuk skala struktur dengan mudah, melompat dua kali lebih tinggi untuk mencapai tepian dan bingkai.
+
+origins.perk.high_jumper.description=Intuisi Prospector
+
+
+origins.perk.ore_instinct.description=undefined
+
+
+
+

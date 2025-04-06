@@ -1,0 +1,533 @@
+
+pack.name=Bu eklenti, maceranızın başlangıcını seçtiğiniz oyuna pasif yeteneklere sahip çeşitli kökenler ve sınıflar ekler. R4ISEN1920 tarafından oluşturuldu.
+
+
+origins.welcome_message=(ChangeLog'u görmek için aşağı kaydırın)
+
+
+origins.race.random.name=Aşağıda listelenen aşağıdaki kökenlerden birine atanacaksınız, yalnızca kullanılabilirse:
+origins.race.random.description=Rastgele mevcut bir kökene atanacaksınız.
+origins.race.random.description_changed=İnsan
+origins.race.human.name=Düzenli bir insan. Sıradan Minecraft deneyiminiz bekliyor.
+origins.race.human.description=Mercan
+origins.race.merling.name=Okyanusun bu doğal sakinleri çok uzun süre sudan çıkmaya alışkın değildir.
+origins.race.merling.description=Araknid
+origins.race.arachnid.name=Tırmanma yetenekleri ve Spiderweb'de düşmanlarını tuzağa düşürme yeteneği, Arachnid'i mükemmel avcıları yapar.
+origins.race.arachnid.description=Yanık
+origins.race.blazeborn.name=Yangının geç torunları, Blazeborn doğal olarak Nether'in tehlikelerine karşı bağışıktır.
+origins.race.blazeborn.description=Kuş
+origins.race.avian.name=Kuş ırkı uzun zaman önce uçma yeteneklerini kaybetti. Şimdi bu barışçıl yaratıklar bir yerden diğerine kayarken görülebilir.
+origins.race.avian.description=Fantom
+origins.race.phantom.name=Yarı insan ve yarı-phantom yavruları olarak, bu yaratıklar bir fantom ve normal bir form arasında geçiş yapabilir.
+origins.race.phantom.description=Kedi
+origins.race.feline.name=Kedi benzeri görünümleriyle, kedi korkutucu sürüngenler. Kedilerin el becerisiyle, her zaman güvenle ayaklarına inerler.
+origins.race.feline.description=Elytrian
+origins.race.elytrian.name=Genellikle rüzgarlarda uçan Elytrians, başlarının üstünde yeterli alan olmadığında rahatsız olurlar.
+origins.race.elytrian.description=Enderian
+origins.race.enderian.name=Ender Dragon'un oğulları ve kızları olarak doğan Enderians, ışınlanabilir ancak suya karşı savunmasızdır.
+origins.race.enderian.description=Shulk
+origins.race.shulk.name=Shulkers ile ilgili olarak, Shulk'un bedenleri koruyucu bir kabuk benzeri ciltle donatılmıştır.
+origins.race.shulk.description=Tilki
+origins.race.kitsune.name=Tilkiler, canlılık açısından zayıf olsa da, güçlerini gizlemek ve güçlendirmek için doğuştan gelen manevi yeteneklerini kullanırlar.
+origins.race.kitsune.description=Slimecan
+origins.race.slimecican.name=Parçalı insan, kısmen balçık. Çıplak ellerinizle dokunmak çok tatsız.
+origins.race.slimecican.description=Yıldızlı
+origins.race.starborne.name=Yıldızlardan doğduğunuzda, şiddet içermeyen, yıldız takıntılı, gizemli ve potansiyel olarak güçlü bir insansınız.
+origins.race.starborne.description=İnç
+origins.race.inchling.name=En küçük kabilenin torunları olan bu yaratıklar, boyutları kadar çeviktir.
+origins.race.inchling.description=Arı
+origins.race.bee.name=Arılar serin. Uçurlar, çiçeklerin tadını çıkarırlar ve ölürler.
+origins.race.bee.description=Domuz çantası
+origins.race.piglin.name=Nether'in baskın ırkı olan bu insansı yaratıklar, şeffaf kaslarını kullanır ve altınlarına sahiptir.
+origins.race.piglin.description=Elf
+origins.race.elf.name=Doğa ile derin bir bağlantısı olan zarif ve çevik varlıklar, okçuluk konusunda yetenekli, büyük yaşamları sayesinde honladıkları.
+origins.race.elf.description=Voidwalker
+origins.race.voidwalker.name=Uğursuz bir alemin derinliklerinde doğan, karanlık enerjileri başkalarına zarar vermek için manipüle etme ve kullanma yeteneğini edindiniz.
+origins.race.voidwalker.description=Divan
+origins.race.diviner.name=Diviners, evrenin mistik enerjilerine dokunma yeteneğine sahiptir ve ihtiyaç duyan diğer oyuncuları korumak ve yardım etmek için onları kullanırlar.
+
+
+
+
+
+origins.race.scout.name=Falconeers, gökyüzüne fırlatan, hain arazide kayan ve savaş başlamadan önce düşman pozisyonlarını ortaya çıkaran korkusuz yol buluculardır. İnatçı momentum ve yüksek çeviklik ile fırtınadan önceki rüzgardır.
+
+
+origins.race.attacker.name=Kılıççılar ölümcül hız ve hassasiyetle grev, savaş alanında ışınlanıyor ve menzilli ve yakın dövüş saldırılarının yıkıcı voleybollarını açığa çıkarıyor. İşleri basit - tehdidi müttefiklerinize ulaşmadan erteleyin.
+
+
+origins.race.defender.name=Guardians, tehlikeye atlayan, güçle çarpan ve müttefiklerini tamamen esneklik ile koruyan titanlardır. Demir cilt ve eşsiz bir fortitude ile, hiçbir düşmanın geçmediği duvardır.
+
+
+origins.race.supporter.name=Bilgeler göksel enerjiyi müttefiklerini korumak, güçlendirmek ve sürdürmek için kanalize eder. Auraları savaşın gelgitini dönüştürür - en karanlık anlarda ekibine güç, yenilmezlik ve umutlar.
+
+
+origins.race.rogue.name=Nightblades, görünmeyen yerlerden çarparak ve savaş alanını lehine bükerek göz açıp kapayıncaya kadar kaybolur. Aldatma ve sabotaj ustaları, kaos içinde gelişirler - düşmanları parçalamak ve gölgelerden zaferi yönlendirmek.
+
+
+origins.class.caver.name=Mağaralar yeraltında gelişir, cevherleri algılar, sonsuz madencilik ve korkmadan düşer. Derinlerde, başkalarının neyi özlediğini görüyorlar.
+
+
+origins.class.carpenter.name=Marangozlar daha yüksek sıçradı, daha hızlı inşa ediyor ve daha akıllıca ticaret yapıyor. Erişim ve esneklik ile dünyayı kolaylıkla şekillendirirler.
+
+
+origins.class.shepherd.name=Çobanlar büyür ve özenle toplanır. Onların varlığı hayatı besler, iki katına çıkarır ve hayvanları yanlarına çağırır.
+origins.class.shepherd.description=Zanaatkar
+
+
+
+
+
+origins.class.random.name=Rastgele mevcut bir sınıfa atanacaksınız.
+origins.class.random.description=Ivır zıvır
+origins.class.random.description_changed=Nitwits hiçbir şeyde gerçekten iyi değil. Ek özellik olmadan devam edeceksiniz.
+origins.class.nitwit.name=Savaşçı
+origins.class.nitwit.description=Bu onurlu savaşçılar düşmanlarını düşürmek için büyük cesarete sahipler.
+origins.class.warrior.name=Okçu
+origins.class.warrior.description=Bir atış, bir öldürme. Hedefleri büyük bir mesafeden düşürebilir.
+origins.class.archer.name=Haydut
+origins.class.archer.description=Genellikle hırsızlar ve soyguncular olduğu bilinen haydutlar pusu ve gizli saldırılarda yetkindir.
+origins.class.rogue.name=Beastmaster
+origins.class.rogue.description=Beastmasters, hayvanların şirketini tercih eden yalnız insanlardır.
+origins.class.beastmaster.name=Demirci
+origins.class.beastmaster.description=Herkesin değerli arkadaşları olan demirci, daha iyi araçlar, silahlar ve zırhlar yaratabilir.
+origins.class.blacksmith.name=Din adamı
+origins.class.blacksmith.description=Dünyadaki mevcut büyüyü nasıl kanalize edeceklerini ve bunu kendi yararlarına kullanacaklarını öğrendiler.
+origins.class.cleric.name=Aşçı
+origins.class.cleric.description=Yemeğinizi bir aşçı dışında hazırlamak için daha iyi kimse yoktur.
+origins.class.cook.name=Çiftçi
+origins.class.cook.description=Çiftçilerin herkese hatırlayabileceği sürece herkese yiyecek sağladıkları bilinmektedir.
+origins.class.farmer.name=Tüccar
+origins.class.farmer.description=Her zaman ek bir zümrüt arayan tüccarlar yetkin tüccarlar.
+origins.class.merchant.name=Çiftçi
+origins.class.merchant.description=Hayvanlardan en iyi şekilde yararlanan çiftçiler, birçok yararlı kaynak toplayabilir.
+origins.class.rancher.name=Madenci
+origins.class.rancher.description=Madenciler, dünyanın hazinelerini kazmada en yetkin olanlardır.
+origins.class.miner.name=Izgara
+origins.class.miner.description=Ağaçlar odunların etrafında ne zaman olduğunu dikkat etmelidir.
+origins.class.lumberjack.name=Kaşif
+origins.class.lumberjack.description=Kaşifler en zor arazide kolayca yollarını bulurlar ve gizli yer işaretlerini keşfederler.
+
+origins.class.explorer.description=Menşe Özellikleri:
+
+origins.trait.has=Su altında nefes alabilirsiniz, ancak karada değil. Bununla birlikte, su solunumu gibi durum etkileri girişimlerinizde size yardımcı olabilir.
+origins.trait.water_breathing.name=Aqua yakınlığı
+origins.trait.water_breathing.description=Diğerlerinin karada olduğu gibi su altında blokları kırabilir ve su altında mükemmel bir şekilde görebilirsiniz.
+origins.trait.aqua_affinity.name=Deniz sakinleri
+origins.trait.aqua_affinity.description=Sualtı çeteleri, önce onlara saldırırsanız doğal olarak zarar görmez veya size saldırmaz.
+origins.trait.sea_creature.name=Su gibi
+origins.trait.sea_creature.description=Doğal olarak su üzerinde ayakta kalırsınız ve istediğiniz zaman gizlice girerek batarsınız.
+origins.trait.like_water.name=Okyanus Hediyesi
+origins.trait.like_water.description=Tridents tarafından verilen hasarlardan dokunmazsınız.
+origins.trait.no_trident_damage.name=Kırılgan
+origins.trait.no_trident_damage.description=İnsanlardan 3 daha az sağlık kalbiniz var.
+origins.trait.fragile.name=Dokuma
+origins.trait.fragile.description=Yakın dövüşte bir düşmana çarptığınızda, geçici olarak bir örümcek ağına sıkışırlar ve hedefi daha yavaşlatır ve zehirler. 13 saniyelik bir bekleme süresi var.
+origins.trait.webbing.name=Web kozası
+origins.trait.webbing.description=Bir örümcek ağında durduğunuz sürece, alınan hasarı hafifletirsiniz.
+origins.trait.master_of_webs.name=Tırmanma
+origins.trait.master_of_webs.description=Atlama düğmesini tutarak hızlı bir şekilde baktığınız sağlam bloklara tırmanabilirsiniz. Tırmanma sırasında düşme, düşen düşme hasarını azaltır.
+origins.trait.climbing.name=Etobur
+origins.trait.climbing.description=Diyetiniz etle sınırlıdır ve sebze sarf malzemeleri yiyemeyecek veya etkileşime giremezsiniz.
+origins.trait.carnivore.name=Geçimsiz
+origins.trait.carnivore.description=Ne zaman magma, ateş veya lav hasarı aldığınızda, kaybettiğiniz sağlık hemen geri yüklenecek ve verdiğiniz hasarı geçici olarak artıracaktır.
+origins.trait.fire_immunity.name=Nether sakinleri
+origins.trait.fire_immunity.description=Doğal yumurtlamanız Nether'de olacak.
+origins.trait.nether_spawn.name=Kor
+origins.trait.nether_spawn.description=Yanımda olduğunuzda, vurduğunuz çeteler ve etrafındaki çeteler ateşlenecek ve ateşe verilecektir. Bu sadece her 3 saniyede bir tetiklenebilir.
+origins.trait.burning_wrath.name=Hotbrooded
+origins.trait.burning_wrath.description=Sıcak vücudunuz nedeniyle zehirler yanar, sizi zehir ve açlık statü etkilerine karşı bağışık hale getirir.
+origins.trait.hotblooded.name=Hidrofobi
+origins.trait.hotblooded.description=Su ile temas halindeyken zaman içinde hasar alırsınız.
+origins.trait.water_vulnerability.name=Kuyruk rüzgarı
+origins.trait.water_vulnerability.description=Daha verimli bir şekilde sprint yapabilmek için diğerlerinden biraz daha hızlısınız.
+origins.trait.tailwind.name=Tüy siklet
+origins.trait.tailwind.description=Bir tüy gibi nazikçe yere düşüyorsunuz.
+origins.trait.slow_falling.name=Vejetaryen
+origins.trait.slow_falling.description=Diyetiniz sebzelerle sınırlıdır ve et sarf malzemeleri yiyemeyecek veya etkileşime giremezsiniz.
+origins.trait.vegetarian.name=Temiz hava
+origins.trait.vegetarian.description=Uyurken, yatağınızın en az 70 blok yükseklikte olması gerekir, böylece temiz hava nefes alabilirsiniz.
+origins.trait.fresh_air.name=En az 70 blok yükseklikte uyumanız gerekiyor
+origins.trait.fresh_air.description=Fantomize etmek
+origins.trait.fresh_air.sleep_fail=Seyirci moduna dönüşmek için yetenek öğesini kullanın. Hareketsiz durduğunuzda bu durumdan çıkıyorsunuz.
+origins.trait.phantomize.name=Manevi beden
+origins.trait.phantomize.description=Seyirci modundayken, başkalarından görünmezsiniz ve bloklardan geçebilirsiniz ve başka bir şeyle etkileşime giremezsiniz.
+origins.trait.invisibility.name=Ölümsüz
+origins.trait.invisibility.description=Görünmez veya su değilseniz gün ışığında yanmaya başlarsınız. Müdürler güneş ışığı hasarını%50 azaltır.
+origins.trait.burns_in_daylight.name=Güçlü ayak bilekleri
+origins.trait.burns_in_daylight.description=Hangi yüksekliğe düşerseniz de, asla düşme hasarı almazsınız.
+
+origins.trait.fall_immunity.description=Dokuz Yaşam
+
+origins.trait.nine_lives.name=Zayıf kollar
+origins.trait.nine_lives.description=Güç etkisi altında olmadığında, daha yavaş blokları ve zayıflamaya başlarsınız.
+origins.trait.weak_arms.name=Kedi gibi görünüm
+origins.trait.weak_arms.description=Sürüngenler sizden korkar ve sadece önce onlara saldırırsanız patlar.
+
+
+
+
+
+origins.trait.claustrophobia.name=Kırılgan kemikler
+origins.trait.claustrophobia.description=Düşmekten ve bloklara uçmaktan daha fazla hasar alırsınız.
+origins.trait.more_kinetic_damage.name=Havadan savaşan
+origins.trait.more_kinetic_damage.description=Bir elytra ile süzülürken daha fazla hasar verirsiniz.
+
+origins.trait.aerial_combatant.description=Kabaktan korkmuş
+
+origins.trait.pumpkin_hate.name=Tanıdık yüz
+origins.trait.pumpkin_hate.description=Canavarlar ve diğer Endermanlar, önce onlara saldırmadığınız sürece oyulmuş bir balkabağı giymeden doğrudan onlara baksanız bile size saldırmayacaklar.
+origins.trait.familiar_face.name=Stokçu
+origins.trait.familiar_face.description=Farklı bir envanter alanına geçme yeteneğini tetikleyin. Ölümde bile tutulan 9 ek yuvaya sahip daha fazla ürün depolamanıza izin verir.
+origins.trait.shulk_inventory.name=Shulk envanter
+origins.trait.shulk_inventory.description=Sağlam cilt
+origins.trait.shulk_inventory.label=Zırh giymeden bile, cildiniz doğal koruma sağlar, böylece herhangi bir kaynaktan% 20 daha az hasar alır.
+origins.trait.natural_armor.name=Büyük iştah
+origins.trait.natural_armor.description=Kolayca tükenirsiniz, normalden daha fazla açlık tüketirsiniz.
+origins.trait.more_exhaustion.name=Hantal
+origins.trait.more_exhaustion.description=Ellerinizin oluşma şekli, bir kalkanı dik tutmanın hiçbir yolunu sağlamaz. Bir kalkanla engellemeye çalışmak, kendisine uygulanan büyülerden bağımsız olarak onu hemen kıracaktır.
+origins.trait.no_shield.name=Güçlü kollar
+origins.trait.no_shield.description=Daha güçlüsünüz ve herhangi bir kazma gerektirmeden taş blokları kırabilirsiniz.
+origins.trait.strong_arms.name=Son sakin
+origins.trait.strong_arms.description=Yolculuğunuz sonunda başlıyor.
+origins.trait.end_spawn.name=Hızlı
+origins.trait.end_spawn.description=Kısa bacaklarınız ve düşük tükenme nedeniyle hareket hızınız artar ve boyutunuz azalır.
+origins.trait.fast_footed.name=Pençe
+origins.trait.fast_footed.description=Yetenek öğesini tutarak şarj edin ve baktığınız yöne atlayın. Şarj ne kadar fazla olursa, mesafe o kadar büyük olur.
+origins.trait.pounce.name=Berry Craver
+origins.trait.pounce.description=Tatlı meyveler yenildiğinde daha fazla açlık noktasını geri yükler ve bazen yenilenme etkileri verir. Berry çalılarından da zarar görmüyorsunuz.
+origins.trait.berry_craver.name=Daha küçük kalp
+origins.trait.berry_craver.description=Genel olarak daha küçük boyutunuz nedeniyle, kalbiniz daha küçüktür, bu da maksimum sağlığınızın 4 kalp tarafından düşürülmesine neden olur.
+origins.trait.smaller_heart.name=Hızlı metabolizma
+origins.trait.smaller_heart.description=Hızınız ve daha küçük bir mide ile normalden daha aç olursunuz.
+origins.trait.fast_metabolism.name=Kabarık gövde
+origins.trait.fast_metabolism.description=Kabarık ama yapışkan vücudunuz nedeniyle düşme hasarının büyük bir kısmını hafifletirsiniz.
+origins.trait.bouncy_body.name=Süper Atlama
+origins.trait.bouncy_body.description=Sümük mirasınız size daha yükseğe atlamanızı sağlayan gelişmiş bir sıçrama sağlar. Geri devirmek ve iniş üzerine yakındaki çetelere zarar vermek. Bu pasif yetenek sadece her 3 saniyede bir tetiklenebilir.
+origins.trait.high_jump.name=Yapışkan
+origins.trait.high_jump.description=Yakın dövüşte size saldıran herhangi bir varlık yavaşlar ve size verilen hasarı%10 azaltır. Ayrıca yeşil ve sümüksü görünüyorsunuz.
+origins.trait.sticky.name=Parçalanma
+origins.trait.sticky.description=Sağlığınız düştükçe ve maksimum sağlık noktalarınıza düştükçe boyutunuzun bir kısmına küçülüyorsunuz. 
+origins.trait.fragmentation.name=İyileşmek
+origins.trait.fragmentation.description=Kendinizin kayıp bir kısmını kurtarmak için balçık topları tüketebilir ve yiyebilirsiniz.
+origins.trait.slime_ball_consume.name=Stres
+origins.trait.slime_ball_consume.description=Bu yavaş bir oranda birikir. Doldurulduktan sonra, şiddetli bir şekilde patlayacaksınız - sizi çevreleyen her şeye zarar vereceksiniz. Bununla birlikte, [stresiniz]%70 ise, tüm yetenekleriniz daha hızlı soğur.
+origins.trait.stress.name=Meditasyon yapmak
+origins.trait.stress.description=Tam sağlıkta olduğunuz sürece, sinsice biriken [stresi] azaltın.
+origins.trait.meditate.name=Kozmik hediye
+origins.trait.meditate.description=Starbornes gökyüzü tarafından kutsanmış varlıklardır. Daha az yerçekiminden etkilenen, daha yükseğe atlayabilir ve zarafetle yere geri dönebilirsiniz - hiçbir düşme hasarı alamazsınız.
+origins.trait.cosmic_gift.name=Hiper sıçrama
+origins.trait.cosmic_gift.description=Baktığınız belirli bir yöne doğru itin ve havada olduğunuz varlıkları başlatın. Her kullanımdan önce kısa bir bekleme süresi vardır.
+origins.trait.hyper_leap.name=Atış yıldızı
+origins.trait.hyper_leap.description=Bir yıldız mermisini baktığınız yöne doğru ateşler, çetelere çarpar. Her kullanımdan önce bir bekleme süresi vardır.
+origins.trait.shooting_star.name=Şiddetsiz
+origins.trait.shooting_star.description=Starbornes, başka bir varlık tarafından zarar gördüklerinde geçici olarak hareketsiz olma şansına sahiptir. Bu durumda, vizyonunuz da geçici olarak engellenir.
+origins.trait.no_hitting.name=Soğuk vakum
+origins.trait.no_hitting.description=Starbornes, geniş kozmosun soğukluğuna kullanılır, bu nedenle iki katı yangın hasarını alır - alışık olmadıkları ısı.
+origins.trait.burning.name=Çevik
+origins.trait.burning.description=İnçler dikenlere ve hız bazlı hasara karşı bağışıktır.
+origins.trait.nimble.name=Hiper-aktif
+origins.trait.nimble.description=Dolu olsanız bile şeker tüketebilir ve geçici bir hareket hızı artışı sağlarsınız.
+origins.trait.hyper_active.name=Küçük apetit
+origins.trait.hyper_active.description=Şeker tüketmek, size uzun ömürlü doygunluk etkileri verdiği için ihtiyaçlarınız için yeterlidir. Devam etmek için daha az yiyecek istemek.
+origins.trait.small_apetite.name=Isırık büyüklüğünde
+origins.trait.small_apetite.description=Birçok kez daha küçük ve normal bir insanınkine kıyasla 5 kalbiniz var.
+origins.trait.bite_sized.name=Zehirli
+origins.trait.bite_sized.description=Kritik hasar verdiğinizde, 7 saniye süren hedefe ölümcül zehir verir. Ardından, [stinger] sayısını bir tane azaltır. Bu yetenek zaten etkisi olan varlıkları tetiklemeyecektir.
+origins.trait.poisonous.name=Ölüm
+origins.trait.poisonous.description=Ölümcül zehirden etkilenen zarar verdiğiniz hedeflere% 50 daha fazla zarar veriyorsunuz.
+origins.trait.poison_bonus_damage.name=Bataklık
+origins.trait.poison_bonus_damage.description=Bir seferde en fazla 7 Stinger taşırsınız ve zehir hasarı her seferinde kullanılır. Tüm Stingers bittiğinde, yok olmak ve ölmek zorundasınız.
+origins.trait.sacrifice_stinger.name=Polenat
+origins.trait.sacrifice_stinger.description=Gün boyunca, herhangi bir çiçeğin üzerinde durabilir ve kaybetmiş olabileceğiniz herhangi bir [stinger] 'i kurtarmak için gizlice girebilirsiniz. Ancak, bu çiçeği kıracaktır.
+origins.trait.bloom.name=Günlük
+origins.trait.bloom.description=Güneşli bir günde en iyi şekilde çalışıyorsunuz, böylece zayıflarsınız ve geceleri yavaş hareket edersiniz veya gündüz yağmur yağmaya başlarsa.
+origins.trait.nighttime.name=Kısa ömür
+origins.trait.nighttime.description=Arıların insanlardan 3 daha az kalbi vardır.
+origins.trait.lifespan.name=Nektar diyeti
+origins.trait.lifespan.description=Normal yiyecek yiyemezsiniz ve sadece çiçek tüketebilirsiniz.
+origins.trait.nectar_diet.name=Gurur
+origins.trait.nectar_diet.description=Envanterinizde daha fazla altın eşya, giyilir veya tutulursanız, herhangi bir kaynaktan daha az hasar alacaksınız. Bu şekilde alınan hasarın% 90'ına kadar hafifletebilirsiniz.
+origins.trait.pride.name=Ateş gücüne sahip olmak
+origins.trait.pride.description=Yakın dövüş saldırınız, verdiğiniz hasarın% 10'una eşdeğer ek hasar verir. Ayrıca, 6 blok içinde bulunan yakındaki varlıklar başına% 10 oranında verilen ek hasarı arttırır.
+origins.trait.increased_attack_per_entity.name=Oburluk
+origins.trait.increased_attack_per_entity.description=Sağlığı yenilerken normalden daha aç olursunuz.
+origins.trait.gluttony.name=Cesaret
+origins.trait.gluttony.description=Zayıflıktan ve statü etkilerinden etkilenmezsiniz.
+origins.trait.courage.name=Lifeweaver
+origins.trait.courage.description=Hemen sağladıktan sonra 3 saniye içinde alınan birikmiş hasara dayanarak sağlığı yeniden oluşturur. Daha sonra, alınan hasar miktarına bağlı olarak ölçeklenen 12 saniye için emilim verir.
+origins.trait.lifeweaver.name=Süratli
+origins.trait.lifeweaver.description=Çevik ve hızlı olun, artan hareket hızı verir, araziyi zahmetsizce geçmenizi sağlar.
+origins.trait.agility.name=Beelzebub
+origins.trait.agility.description=Yakın dövüş saldırıları eksik sağlığınıza göre ek hasar verecektir. Ardından, üçe kadar saldırıya bir yığın [Beelzebub] ücretlendirir.
+origins.trait.beelzebub.name=Soulburst
+origins.trait.beelzebub.description=[Beelzebub] üç yığın ulaştığında, hepsini tüketir ve yığınları alırken verilen toplam hasara dayalı ek hasar verir.
+origins.trait.soulburst.name=Ümit peçe
+origins.trait.soulburst.description=Sprint yaparken, ek hız verirken ve herhangi bir mermi hasarından kaçınırken kendinizi karanlık bir enerjide örtün.
+origins.trait.umbral_veil.name=Uğursuz aura
+origins.trait.umbral_veil.description=Yakındaki pasif çeteler varlığınızdan korkar ve sizden kaçacaktır.
+origins.trait.sinister_aura.name=Yaşam Drenajı
+origins.trait.sinister_aura.description=Hasar verdiğinizde, sağlığınız hedefin eksik sağlığı ile, maksimum sağlığınızın% 50'sine kadar azalır. Sağlığınız 1'e eşit olduğunda, bu daha fazla azalmayacaktır.
+origins.trait.life_drain.name=Önsezi
+origins.trait.life_drain.description=Başka bir oyuncuya dökmek için seçilen yeteneği ile yumruklayın. Oyuncu kadrosunda, hem sizi hem de diğer oyuncunun Max Sağlığını her iki sağlığınızın% 50 ila% 60'ını artırır.
+origins.trait.prescience.name=Kehanet
+origins.trait.prescience.description=[Prescience] altındayken, aldığınız ve iyileştirdiğiniz herhangi bir hasar diğer oyuncuya patlatılacaktır.
+origins.trait.oracle.name=Hantal
+origins.trait.oracle.description=Doğrudan alınan harici hasarlar, hasarın% 50'sini saldırgana geri döndürecektir.
+origins.trait.aegis.name=İlahi aura
+origins.trait.aegis.description=[Prescience] etkisi altındaki oyuncular parlayacak ve duvarlardan görülebilir. Ancak, bu parıltı her zaman size devam edecektir.
+origins.trait.divine_aura.name=Kırılganlık
+origins.trait.divine_aura.description=Sağlığınız ne kadar az olursa, herhangi bir hasardan o kadar duyarlı olursunuz.
+origins.trait.fragility.name=Kararsızlık
+origins.trait.fragility.description=Size uygulanan her benzersiz durum etkisi için, maksimum sağlığınız 1 oranında azalacaktır. Sağlığınız 1'e eşit olduğunda, bu daha fazla azalmayacaktır.
+
+origins.trait.instability.description=Sınıf avantajları:
+
+origins.perk.has=Gölgede
+
+origins.perk.stealth.name=Çeviklik
+origins.perk.stealth.description=Yay veya tatar yayı çekerken diğerlerinden daha hızlı hareket edebilirsiniz.
+origins.perk.less_bow_slowdown.name=Kesinlik
+origins.perk.less_bow_slowdown.description=Çektiğiniz tüm oklar, yerçekiminden etkilenen düz bir çizgide seyahat eder.
+origins.perk.no_projectile_divergence.name=Kalkan kullanma
+origins.perk.no_projectile_divergence.description=Kendinizi bir kalkanla engellerken ek koruma elde edersiniz.
+origins.perk.less_shield_slowdown.name=Gazap kanlı
+origins.perk.less_shield_slowdown.description=Mevcut sağlığınızın ne kadar düşük olduğu güç kazanırsınız.
+origins.perk.less_health_more_attack.name=Fauna arkadaşları
+origins.perk.less_health_more_attack.description=Evcilleştirdiğiniz hayvanlar sağlıklarına kalıcı bir tutkun alırlar.
+origins.perk.tamed_animal_boost.name=Etkili empati
+origins.perk.tamed_animal_boost.description=Sahip olabileceğiniz herhangi bir iksir etkisi, evcilleştirdiğiniz çetelere de uygulanacaktır.
+origins.perk.effective_empathy.name=İyi Yemekler
+origins.perk.effective_empathy.description=Pişirdiğiniz yiyecekler yenildiğinde ek doygunluk verecektir.
+origins.perk.more_saturated_food.name=Gençleştirici çorba
+origins.perk.more_saturated_food.description=Yaptığınız güveçler yenilenme etkileri verebilir.
+origins.perk.better_stew.name=Yetkin demleme
+origins.perk.better_stew.description=Redstone kullanarak iksir etkilerinin uzunluğunu uzatarak, demlendiğiniz herhangi bir iksir daha da genişletilecektir.
+origins.perk.longer_potions.name=Güçlü Demeler
+origins.perk.longer_potions.description=Glowstone ile demlenirken demlendiğiniz herhangi bir iksir daha güçlendirilecektir.
+origins.perk.powerful_potions.name=Büyük İşçilik
+origins.perk.powerful_potions.description=Yaptığınız veya Smith'te herhangi bir ekipman, dayanıklılık, verimlilik, hasar ve hatta Fortune I.
+origins.perk.quality_equipment.name=Verimli onarım
+origins.perk.quality_equipment.description=Yaptığınız yüksek kaliteli ekipmanlar kolayca daha fazla onarılabilir ve daha fazla dayanıklılık noktasını geri yükleyebilir.
+origins.perk.efficient_repairs.name=Yeşil baş parmağı
+origins.perk.efficient_repairs.description=Bitkiler dikerken, hemen büyüme şansı vardır.
+origins.perk.fast_crop_growth.name=Bol hasat
+origins.perk.fast_crop_growth.description=Bitkileri hasat ederken, bazen verimin iki katı alırsınız.
+origins.perk.more_crop_drops.name=Daha Fazla Doğum
+origins.perk.more_crop_drops.description=Etrafta olduğunuzda yetiştirilen hayvanlar birden fazla bebek üretme şansına sahipler.
+origins.perk.twin_breeding.name=Atma
+origins.perk.twin_breeding.description=Bazen öldürmekten daha fazla malzeme alabilirsiniz.
+origins.perk.more_animal_loot.name=Büyük Fırsatlar
+origins.perk.more_animal_loot.description=Köylülerle işlem yaparken indirim alırsınız.
+origins.perk.cheaper_trades.name=Karizma
+origins.perk.cheaper_trades.description=Gezici tüccarların etraftayken ziyaret etme olasılığı daha yüksektir.
+origins.perk.wandering_trader_spawn.name=Yerleştirmek
+origins.perk.wandering_trader_spawn.description=Sprint yaparken açlığı kaybetmezsiniz.
+origins.perk.no_sprint_exhaustion.name=Explorer kiti
+origins.perk.no_sprint_exhaustion.description=Oyuna asla ölüme düşmeyecek bir pusula, saat ve dokuz boş harita ile başlıyorsunuz.
+
+origins.perk.explorer_kit.description=Ağaç başkenti
+
+origins.perk.tree_felling.name=Tekrarlama
+origins.perk.tree_felling.description=Aynı tür fidan ile yeniden dikilebileceğiniz bir şans günlükleri var.
+
+origins.perk.sapling_setblock.description=Köken küresi
+
+origins.item.orb_of_origins.name=§7 [geçiş menüsü] §R
+origins.item.resignation_paper.name=§7 [daha fazla seçenek] §R
+origins.item.origins_menu.name=§Z
+
+origins.item.origins_menu_padding.name=Kökeninizi seçin.
+
+origins.gui.title.choose_origin=Bu kökenini seçtiniz.
+origins.gui.title.choose_class=Bu sınıfı seçtiniz.
+origins.gui.title.view_origin=Bu senin kökenin.
+origins.gui.title.view_class=Bu senin sınıfın.
+origins.gui.title.change_origin=Tercihlerinize göre ayarlayın.
+origins.gui.title.change_class=Yasak için kökenleri seçin.
+origins.gui.title.options=Yasaklamak için sınıfları seçin.
+origins.gui.title.ban_origin=Bu köken yasaklandı
+origins.gui.title.ban_class=Bu köken zaten kullanılıyor
+origins.gui.subtitle.banned=Oyun Etkisi Yok
+origins.gui.subtitle.locked=Oyun Etkisi Değişir
+origins.gui.impact.none=Düşük oyun etkisi
+origins.gui.impact.random=Orta derecede oyun etkisi
+origins.gui.impact.low=Yüksek oyun etkisi
+origins.gui.impact.medium=Ek avantaj yok
+origins.gui.impact.high=Perk değişir
+origins.gui.useful.none=İyi avantajlar
+origins.gui.useful.random=Niş avantajlar
+origins.gui.useful.fair=Oyunu değiştiren avantajlar
+origins.gui.useful.medium=1 §e [Origin Orb] §r tüketir
+origins.gui.useful.very=Maliyet 1 §e [istifa belgesi] §r
+origins.gui.change.race=Menşe küresi devre dışı bırakıldı
+origins.gui.change.class=İstifa belgesi devre dışı bırakıldı
+origins.gui.change.blocked.orb=Bu düğme vurgulandığında, bu orijin şu anda yasaklandığı anlamına gelir
+origins.gui.change.blocked.paper=Bu düğme vurgulandığında, bu sınıfın şu anda yasaklandığı anlamına gelir
+origins.gui.manage.ban_race=Hepsini yasaklayamayabilirsiniz, lütfen birinin kullanılabilir olması için bırakın
+origins.gui.manage.ban_class=§Eunique Selection§f etkinleştirildiği gibi bu kökeni yasaklayamazsınız
+origins.gui.manage.ban_limit=Değiştirmek
+origins.gui.manage.ban_locked=İstifa etmek
+origins.gui.button.continue.change=Yasaklamak
+origins.gui.button.continue.resign=§L§cban§r
+origins.gui.button.manage.ban=Seçme
+origins.gui.button.manage.unban=Kapalı
+origins.gui.button.select=Devam etmek
+origins.gui.button.cancel=Geri
+origins.gui.button.start=Hadi gidelim
+origins.gui.button.return=Bir daha gösterme
+
+origins.gui.button.ignore_welcome_screen=Genel Seçenekler
+
+origins.gui.options.general_root=Erişim engellendi!
+origins.gui.options.admin_root=Bu seçenekler erişilebilmeden önce özel bir izin gerektirir!
+origins.gui.options.admin_denied.name=Birine bu seçeneklere erişme izni vermek için aşağıdaki komutu çalıştırın:
+origins.gui.options.admin_denied.description1=Kökemi Görüntüle
+origins.gui.options.admin_denied.description2=Seçtiğiniz menşe hakkında bilgi gösterir.
+origins.gui.options.view_origin.name=Sınıfımı görüntüle
+origins.gui.options.view_origin.description=Seçtiğiniz sınıf hakkında bilgi gösterir.
+origins.gui.options.view_class.name=Boş partiküller
+origins.gui.options.view_class.description=Kökeninizin boş parçacıklarınızın karakterinizden yayılmasına izin verin. (varsayılan: açık)
+origins.gui.options.toggle_particle.name=Oynatıcıyı sıfırla
+origins.gui.options.toggle_particle.description=İncelenen sorunları menşe veya sınıfınızla ilgili olarak çözmek için varlığınızın davranış bileşenlerini sıfırlar. Bu seçenek yalnızca bir kez tekrar bir kez kullanılabilir.
+origins.gui.options.reset_player.name=Yasak Seçimi
+origins.gui.options.reset_player.description=Yasaklı kökenleri ve sınıfları yönetin. En az bir seçim yasaklanmalıdır.
+origins.gui.options.ban.root.name=Yasak Kökenleri
+origins.gui.options.ban.root.description=Hiç seçilmelerini önlemek için kökenleri seçin. (varsayılan: yok)
+origins.gui.options.ban.origins.name=Yasak Sınıfları
+origins.gui.options.ban.origins.description=Seçilmelerini önlemek için sınıfları seçin. (varsayılan: yok)
+origins.gui.options.ban.classes.name=Tahliye Seçimi
+origins.gui.options.ban.classes.description=Sadece yasaklanmışsa tüm çevrimiçi oyuncuları kökenlerini ve sınıflarını değiştirmeye zorlayın.
+origins.gui.options.ban.evict.name=Eklenti Gamerules
+origins.gui.options.ban.evict.description=Eklentinin nasıl davrandığını ve oyuncuları etkilediğini değiştiren ek seçenekleri yönetin.
+origins.gui.options.toggle.root.name=Benzersiz seçim
+origins.gui.options.toggle.root.description=Oyuncu başına sadece bir orijin izin verin. Bunun, oyuncuları daha önce seçildiyse kökenlerini değiştirmeye zorlamayacağını unutmayın, lütfen bunu yapmak için §e [her şeyi başlat] §f seçeneğini seçin. (varsayılan: kapalı)
+origins.gui.options.toggle.unique.name=Köken küresi
+origins.gui.options.toggle.unique.description=Oyuncuların §e [Origins ORB] §f öğesini kullanarak kökenlerini değiştirmelerine izin verin. (varsayılan: açık)
+origins.gui.options.toggle.orb.name=İstifa belgesi
+origins.gui.options.toggle.orb.description=§E [istifa kağıdı] §f öğesini kullanarak oyuncuların sınıflarından istifa etmesine izin verin. (varsayılan: açık)
+origins.gui.options.toggle.paper.name=Yayın değişiklikleri
+origins.gui.options.toggle.paper.description=Bir oyuncu kökenini değiştirdiğinde veya sınıflarından istifa ettiğinde sohbette duyurun. (varsayılan: açık)
+origins.gui.options.toggle.announce.name=Her şeyi başlat
+origins.gui.options.toggle.announce.description=Oynatıcılığın seçilen tüm kökenlerini ve sınıflarını sıfırlar ve seçenekleri varsayılan ayarlara geri yükler.
+origins.gui.options.reset_all.name=Devam etmek için tekrar düğmeyi tıklayın. Bu eylem geri alınamaz!
+
+origins.gui.options.reset_all.description_confirm=%1 kökenlerini [%2] olarak değiştirdi
+
+origins.change.announce.race=Origins küresi devre dışı bırakıldı
+origins.change.announce.class=İstifa belgesi devre dışı bırakıldı
+
+origins.change.fail.class=Aktif yetenekleriniz var
+
+origins.ability_controls.info.usage=Aktif yetenek yok
+
+origins.ability_controls.info.none=§Z
+
+entity.r4isen1920_originspe:cleric_area_effect_cloud.name=§Z
+entity.r4isen1920_originspe:cleric_lingering_potion.name=§Z
+entity.r4isen1920_originspe:cleric_splash_potion.name=§Z
+entity.r4isen1920_originspe:dialogue_handler.name=§Z
+entity.r4isen1920_originspe:elven_arrow.name=§Z
+entity.r4isen1920_originspe:huge_explosion.name=§Z
+entity.r4isen1920_originspe:inventory_keep.name=§Z
+entity.r4isen1920_originspe:knockback_roar.name=§Z
+entity.r4isen1920_originspe:safe_teleporter.name=§Z
+entity.r4isen1920_originspe:shooting_star.name=§Z
+
+entity.r4isen1920_originspe:webbing_attack.name=Shulk envanterinizi görüntülemek için envanteri açın
+
+
+action.hint.exit.console.r4isen1920_originspe:inventory_keep=Yükleme kökenleri ve sınıflar
+
+
+
+
+
+
+
+
+origins.trait.launch_into_air.name=Kanatlı
+origins.trait.launch_into_air.description=Herhangi bir donatmanıza gerek kalmadan elytra kanatlarınız var ve asla kaybolmaz veya kaldırılamaz.
+origins.trait.elytra.name=Temeller
+origins.trait.elytra.description=Temel envantere erişimi korur ve hotbarınızın ölümden sonra kaybolmamasını sağlarsınız.
+origins.trait.essentials.name=Süratli
+origins.trait.essentials.description=Çevik ve hızlı olun, artan hareket hızı verir, araziyi zahmetsizce geçmenizi sağlar.
+origins.trait.swift.name=Akrobasi
+origins.trait.swift.description=Güçlü bacaklarla, sprint yaparken 2 blok yüksekliğe atlayın - engelleri ezin ve kolaylıkla tehlikeden kaçın.
+origins.trait.sprint_jump.name=Hafif
+origins.trait.sprint_jump.description=Tüy gibi Düşün: Düşme hasarı alın, asla sprint veya atlamaktan yorulmayın, ancak dikkat edin - diğer saldırılar% 10 daha fazla acı çekmez.
+
+origins.trait.lightweight.description=Işınlanma
+
+origins.trait.throw_ender_pearl.name=Orada ışınlanmak için yer yok!
+origins.trait.throw_ender_pearl.description=Sonsuz titreme
+origins.trait.throw_ender_pearl.failed=Oklarınız asla kuru olmaz. Yayınızı sonsuz cephane ve amansız hassasiyetle kullanın.
+origins.trait.endless_quiver.name=Nişancı
+origins.trait.endless_quiver.description=Menzilli saldırılarla% 30 daha fazla hasar veriyor. Amacınız Ölümün Kendi Elçisidir.
+origins.trait.marksman.name=Vahşi
+origins.trait.marksman.description=Primal Fury'i serbest bırakın. Güç i ve yakın mahallelerde düşmanları ezin.
+origins.trait.ferocious.name=Kırılgan
+origins.trait.ferocious.description=Güç bir bedeli geliyor - varlık saldırılarından% 20 daha fazla hasar alıyor. Hızlı olun, pervasız değil.
+
+
+
+
+origins.trait.smash.name=Zorlu
+origins.trait.smash.description=4 bonus kalp yetiştirin ve tüm hasar biçimlerine karşı% 20 direnç kazanın. Sen cephesin.
+origins.trait.tough.name=Kırılmaz cilt
+origins.trait.tough.description=Gökyüzünü saptırın - mermilerden% 30 daha az hasar alın. Oklar demir çözümünüzden sıçradı.
+origins.trait.unbreakable_skin.name=Ağırlık
+origins.trait.unbreakable_skin.description=Büyük güç ağırdır. % 5 daha yavaş hareket et ve egzozdan iki kat daha hızlı hareket edin - ancak gücünüz eşsizdir.
+
+origins.trait.heavy.description=Aura güçlendirmek
+
+origins.trait.empowering_aura.name=⚠ bekleme süresinde aura!
+origins.trait.empowering_aura.description=Uzun ömür
+origins.trait.empowering_aura.cooldown=2 ekstra kalp kazanın ve düşmanlarınızı geride bırakın. Her nefes ikinci bir şans.
+origins.trait.longevity.name=İyi Hafıza
+origins.trait.longevity.description=Envanteriniz mezardan sizinle geri döner. Ölüm sadece bir aksiliktir.
+origins.trait.good_memory.name=Açlık direnci
+origins.trait.good_memory.description=Vahşi doğaya katlanın. Tüm aktivitelerden tükenmeyi% 20 azaltın ve daha uzun süre kalın.
+origins.trait.hunger_resistant.name=Açlık aurası
+origins.trait.hunger_resistant.description=Müttefiklerinizi güçlendirin: 16 blok içindeki tüm oyuncular sadece yanınıza gelerek açlık direnci kazanır.
+
+
+
+
+origins.trait.invisibility.name=⚠ bekleme süresinde görünmezlik!
+origins.trait.invisibility.description=⚠ Engellenirken görünmezliği kullanamıyorum!
+origins.trait.invisibility.cooldown=Geceleyin
+origins.trait.invisibility.hindered=Işık seviyesinin düşük olduğu yerlerde, otomatik olarak mukavemet ve gece görüşü durum etkilerini elde edersiniz.
+origins.trait.cat_vision.name=Kamuflaj
+origins.trait.cat_vision.description=Sinsi olurken çevre ile karışıyorsunuz, bu düşman çeteler doğal olarak size saldırmayacak - önce onlara saldırırsanız.
+origins.trait.camouflage.name=Sinsi
+origins.trait.camouflage.description=Sneaping olmasanız bile, isim plakanız asla her zaman görünür değildir.
+origins.trait.sneaky.name=Yağma Grevler
+origins.trait.sneaky.description=Düşmanlarınızı sakatlayın. Vurduğunuz herhangi bir çete 4 saniye yavaşlar - asla gazabınızdan kaçmayacaklar.
+origins.trait.debilitating_strikes.name=Daha küçük
+origins.trait.debilitating_strikes.description=Bedeniniz%25 azalır, bu da sizi hedeflemenizi zorlaştırır.
+origins.trait.smaller.name=Hareketlilik ihtiyacı
+origins.trait.smaller.description=Ağır zırh sizi%50 yavaşlatır. Hız için yapıldınız, çelikten sülüklemediniz.
+
+
+
+
+origins.perk.ore_vein_miner.name=Deneyimli ekskavatör
+origins.perk.ore_vein_miner.description=Madencilik sırasında açlığı kaybetmezsiniz.
+origins.perk.no_mining_exhaustion.name=Mübarek Madenci
+origins.perk.no_mining_exhaustion.description=Kullandığınız her türlü kazıkta Fortune +1 ile kutsanmışsınızdır. Bu nimet başkalarına aktarılmaz.
+
+
+
+
+origins.perk.fall_resistant.name=İnşaatçının Adımı
+origins.perk.fall_resistant.description=Yapıları kolaylıkla ölçeklendirmek için eğitildiniz, çıkıntılara ve çerçevelere ulaşmak için iki kat daha yüksek atlamışsınız.
+
+origins.perk.high_jumper.description=Prospector’un sezgisi
+
+
+origins.perk.ore_instinct.description=undefined
+
+
+
+

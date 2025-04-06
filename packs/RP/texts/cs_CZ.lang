@@ -1,0 +1,533 @@
+
+pack.name=Tento doplněk přidává do hry několik původů a tříd s pasivními schopnostmi, ve které se vyberete na začátku svého dobrodružství. Vytvořeno R4isen1920.
+
+
+origins.welcome_message=(Přejděte dolů a podívejte se na ChangeLog)
+
+
+origins.race.random.name=Budete přiřazeni k jednomu z následujících níže uvedených původů, pouze pokud je k dispozici pro použití:
+origins.race.random.description=Budete přiřazeni náhodnému dostupnému původu.
+origins.race.random.description_changed=Člověk
+origins.race.human.name=Běžný člověk. Vaše obyčejná zážitek z minecraft čeká.
+origins.race.human.description=Merling
+origins.race.merling.name=Tito přírodní obyvatelé oceánu nejsou zvyklí být příliš dlouho z vody.
+origins.race.merling.description=Arachnid
+origins.race.arachnid.name=Jejich horolezecké schopnosti a schopnost zachytit své nepřátele v Spiderwebu způsobují, že Arachnid Perfektní lovci.
+origins.race.arachnid.description=Blazeborn
+origins.race.blazeborn.name=Pozdní potomci Blaze jsou Blazeborn přirozeně imunní vůči nebezpečí Nether.
+origins.race.blazeborn.description=Avian
+origins.race.avian.name=Ptačí rasa ztratila schopnost létat už dávno. Nyní jsou tyto mírové stvoření vidět, jak klouzají z jednoho místa na druhé.
+origins.race.avian.description=Přízrak
+origins.race.phantom.name=Jako napůl lidský a půlfantomový potomstvo mohou tato stvoření přepínat mezi fantomem a normální formou.
+origins.race.phantom.description=Kočkovitý
+origins.race.feline.name=S jejich kočičím vzhledem, kočičí vyděsení popínavé popínavé. S obratností koček vždy přistávají bezpečně na nohou.
+origins.race.feline.description=Elytrian
+origins.race.elytrian.name=Elytrians často létají ve větru, jsou nepříjemní, když nemají nad hlavou dostatek místa.
+origins.race.elytrian.description=Enderian
+origins.race.enderian.name=Enderians, narozený jako synové a dcery Endera Dragon, jsou schopni teleportovat, ale jsou zranitelní vůči vodě.
+origins.race.enderian.description=Shulk
+origins.race.shulk.name=Těla Shulku související s Shulkers jsou vybavena ochrannou pokožkou podobnou skořápce.
+origins.race.shulk.description=Liška
+origins.race.kitsune.name=Lišky jsou, i když slabé, pokud jde o vitalitu, využívají své vrozené duchovní schopnosti, aby skrývali a posílili svou moc.
+origins.race.kitsune.description=Slimecican
+origins.race.slimecican.name=Část člověka, část slizu. Velmi nepříjemné se dotknout holých rukou.
+origins.race.slimecican.description=Starborne
+origins.race.starborne.name=Narozením z hvězd jste nenásilný, hvězdný, záhadný a potenciálně mocný člověk, který padl z hvězd do tohoto blokového světa, ve kterém žijeme.
+origins.race.starborne.description=Pacting
+origins.race.inchling.name=Potomci nejmenšího kmene jsou tato stvoření stejně hbitá jako jejich velikost.
+origins.race.inchling.description=Včela
+origins.race.bee.name=Včely jsou v pohodě. Létají, užívají si květiny a umírají.
+origins.race.bee.description=Piglin
+origins.race.piglin.name=Dominantní rasa na Nether, tato humanoidní stvoření používají své naprosté břicho a mohou se pochlubit jejich zlatem.
+origins.race.piglin.description=Elven
+origins.race.elf.name=Elegantní a agilní bytosti s hlubokým spojením s přírodou, kvalifikovaným v lukostřelbě, nad nimiž se díky své velké životnosti honili.
+origins.race.elf.description=Voidwalker
+origins.race.voidwalker.name=Narození v hlubinách zlověstné říše jste získali schopnost manipulovat a využít tmavé energie zevnitř, aby poškodili ostatní.
+origins.race.voidwalker.description=Věštec
+origins.race.diviner.name=Větříci mají schopnost proniknout do mystických energií vesmíru a ovládat je, aby chránili a pomáhali ostatním hráčům v nouzi.
+
+
+
+
+
+origins.race.scout.name=Falconeers jsou nebojácní cesty, kteří se vydávají do nebe, klouzají přes zrádný terén a před začátkem bitvy odhalují nepřátelské pozice. S neústupnou hybností a vysokou obratností jsou to vítr před bouří.
+
+
+origins.race.attacker.name=Swordsmen udeří smrtící rychlostí a přesností, teleportuje přes bojiště a uvolní devastující volely útoků na dálku a na blízko. Jejich práce je jednoduchá - vyvolejte hrozbu dříve, než se dostane k vašim spojenci.
+
+
+origins.race.defender.name=Strážci jsou Titani, kteří skočí do nebezpečí, silou zabouchli a chrání své spojence s naprostou odolností. S železnou kůží a bezkonkurenční statečností jsou to zeď, kterou žádný nepřítel kříží.
+
+
+origins.race.supporter.name=Sages nasměruje nebeskou energii, aby chránila, zmocnila a udržovalo své spojence. Jejich aura transformuje příliv bitvy - grantující sílu, neporazitelnost a naději na jejich tým v nejtemnějších okamžicích.
+
+
+origins.race.rogue.name=Nightblades zmizí v mrknutí oka, udeří z neviditelných míst a ohýbáte bojiště v jejich prospěch. Masters of Deception and Sabotage, prospívají v chaosu - špínající nepřátele a vedení vítězství ze stínů.
+
+
+origins.class.caver.name=Jeskyně se daří podzemí, snímá rudy, nekonečně těžbu a padající bez strachu. V hloubce vidí, co ostatní chybí.
+
+
+origins.class.carpenter.name=Carpenters skočí výš, staví rychleji a chytřeji obchoduji. S dosahem a odolností tvarují svět s lehkostí.
+
+
+origins.class.shepherd.name=Pastýři rostou a opatrně se shromažďují. Jejich přítomnost živí život, zdvojnásobí sklizeň a volá zvířata na jejich stranu.
+origins.class.shepherd.description=Řemeslník
+
+
+
+
+
+origins.class.random.name=Budete přiřazeni k náhodné dostupné třídě.
+origins.class.random.description=Nitwit
+origins.class.random.description_changed=Nitwits není v ničem opravdu dobrý. Budete pokračovat bez dalších rysů.
+origins.class.nitwit.name=Bojovník
+origins.class.nitwit.description=Tito čestní bojovníci mají velkou odvahu sundat své nepřátele.
+origins.class.warrior.name=Lukostřelec
+origins.class.warrior.description=Jeden výstřel, jeden zabit. Schopný přenést cíle přes velkou vzdálenost.
+origins.class.archer.name=Darebák
+origins.class.archer.description=Obvykle je známo, že jsou zloději a lupiči, podvodníci jsou zdatní v zálozeni a utajení.
+origins.class.rogue.name=Beastmaster
+origins.class.rogue.description=Beastmasters jsou osamělí lidé, kteří dávají přednost společnosti zvířat.
+origins.class.beastmaster.name=Kovář
+origins.class.beastmaster.description=Hlavní přátelé kohokoli, kováři jsou schopni vytvářet lepší nástroje, zbraně a brnění.
+origins.class.blacksmith.name=Cleric
+origins.class.blacksmith.description=Naučili se, jak nasměrovat magii přítomnosti na světě a využít jej ve svůj prospěch.
+origins.class.cleric.name=Vařit
+origins.class.cleric.description=Není nikdo lepší připravit své jídlo jiné než kuchaře.
+origins.class.cook.name=Zemědělec
+origins.class.cook.description=Je známo, že zemědělci poskytují každému jídlu, dokud si někdo pamatuje.
+origins.class.farmer.name=Obchodník
+origins.class.farmer.description=Obchodníci vždy hledají další smaragdové, zdatní obchodníci.
+origins.class.merchant.name=Farmář
+origins.class.merchant.description=Využití zvířat, rančeři, jsou schopni shromáždit mnoho užitečných zdrojů.
+origins.class.rancher.name=Horník
+origins.class.rancher.description=Horníci jsou nejznámější při vykopávání pokladů Země.
+origins.class.miner.name=Dřevorubec
+origins.class.miner.description=Stromy by se měly dávat pozor, když jsou kolem řeziv.
+origins.class.lumberjack.name=Badatel
+origins.class.lumberjack.description=Průzkumníci snadno procházejí nejobtížnějším terénem a objevují skryté památky.
+
+origins.class.explorer.description=Původní rysy:
+
+origins.trait.has=Můžete dýchat pod vodou, ale ne na zemi. Stavové účinky, jako je dýchání vody, vám však mohou pomoci ve vašich podnicích.
+origins.trait.water_breathing.name=Aqua afinita
+origins.trait.water_breathing.description=Můžete rozbít bloky pod vodou jako ostatní na zemi a být schopni vidět dokonale pod vodou.
+origins.trait.aqua_affinity.name=Mořský obyvatel
+origins.trait.aqua_affinity.description=Podvodní davy na vás přirozeně ublíží ani zaútočí, pokud na ně nejdříve zaútočíte.
+origins.trait.sea_creature.name=Jako voda
+origins.trait.sea_creature.description=Přirozeně zůstanete nad vodou a potopíte se vplížením, kdykoli chcete.
+origins.trait.like_water.name=Dárek oceánu
+origins.trait.like_water.description=Jste nezranitelní z poškození způsobeného Tridents.
+origins.trait.no_trident_damage.name=Křehký
+origins.trait.no_trident_damage.description=Máte 3 méně srdcí zdraví než lidé.
+origins.trait.fragile.name=Popruh
+origins.trait.fragile.description=Když zasáhnete nepřítele v Melee, dočasně uvíznou v pavučinu a dále zpomalí cíl. Má 13sekundové cooldown.
+origins.trait.webbing.name=Web Cocoon
+origins.trait.webbing.description=Dokud stojíte v pavučinu, zmírníte jakékoli poškození.
+origins.trait.master_of_webs.name=Horolezectví
+origins.trait.master_of_webs.description=Můžete rychle vylézt na jakýkoli pevný blok, na který se podíváte přidržením tlačítka skoku. Sledování při lezení o zmírnění přijatelného poškození pádu.
+origins.trait.climbing.name=Masožravec
+origins.trait.climbing.description=Vaše strava je omezena na maso a nebudete moci jíst ani interagovat s zeleninovými spotřebními materiály.
+origins.trait.carnivore.name=Nepropustný
+origins.trait.carnivore.description=Kdykoli vezmete magma, oheň nebo lávovou poškození, zdraví, které jste ztratili, bude okamžitě obnoveno a dočasně zvýší poškození, které způsobí, které způsobí.
+origins.trait.fire_immunity.name=Nether obyvatel
+origins.trait.fire_immunity.description=Váš přirozený tření bude v Nether.
+origins.trait.nether_spawn.name=Ember
+origins.trait.nether_spawn.description=Když jste v plamenech, jakýkoli dav, který jste zasáhli, a davy kolem něj budou zapáleny a budou zapáleny. To lze spustit pouze jednou za 3 sekundy.
+origins.trait.burning_wrath.name=Hotblooded
+origins.trait.burning_wrath.description=Vzhledem k vašemu horkému tělu spálí jedu, což vás činí imunní vůči účicím statusu o jedu a hladu.
+origins.trait.hotblooded.name=Hydrofobie
+origins.trait.hotblooded.description=V průběhu času dostáváte poškození v kontaktu s vodou.
+origins.trait.water_vulnerability.name=Tailwind
+origins.trait.water_vulnerability.description=Jste o něco rychlejší pěšky než ostatní, a zároveň můžete efektivněji sprintovat.
+origins.trait.tailwind.name=Peří váha
+origins.trait.tailwind.description=Spadnete tak jemně na zem jako peří.
+origins.trait.slow_falling.name=Vegetariánský
+origins.trait.slow_falling.description=Vaše strava je omezena na zeleninu a nebudete moci jíst ani interagovat s spotřebním materiálem na maso.
+origins.trait.vegetarian.name=Čerstvý vzduch
+origins.trait.vegetarian.description=Při spánku musí být vaše postel v nadmořské výšce nejméně 70 bloků, takže můžete dýchat čerstvý vzduch.
+origins.trait.fresh_air.name=Musíte spát v nadmořské výšce nejméně 70 bloků
+origins.trait.fresh_air.description=Fantomize
+origins.trait.fresh_air.sleep_fail=Pomocí položky schopnosti se proměňte v režim diváka. Pokud stojíte v klidu, opustíte tento stav.
+origins.trait.phantomize.name=Duchovní tělo
+origins.trait.phantomize.description=Zatímco v režimu diváka, jste neviditelní od ostatních a můžete procházet bloky a nebudete schopni komunikovat s čímkoli jiným.
+origins.trait.invisibility.name=Nemrtvý
+origins.trait.invisibility.description=Začnete hořet za denního světla, pokud nejste neviditelní nebo ve vodě. Headwear snižuje poškození slunečního světla o 50%.
+origins.trait.burns_in_daylight.name=Silné kotníky
+origins.trait.burns_in_daylight.description=Nikdy neuděláte poškození pádu, bez ohledu na to, z jaké výšky padnete.
+
+origins.trait.fall_immunity.description=Devět životů
+
+origins.trait.nine_lives.name=Slabé zbraně
+origins.trait.nine_lives.description=Když není pod účinkem síly, těšíte pomaleji a zaútočíte na slabší.
+origins.trait.weak_arms.name=Kočičí vzhled
+origins.trait.weak_arms.description=Popíráky se vás bojí a explodují, pouze pokud na ně zaútočíte jako první.
+
+
+
+
+
+origins.trait.claustrophobia.name=Křehké kosti
+origins.trait.claustrophobia.description=Pád a létání do bloků berete větší škody.
+origins.trait.more_kinetic_damage.name=Letecký bojovník
+origins.trait.more_kinetic_damage.description=Při klouzání s Elytrou způsobíte větší poškození.
+
+origins.trait.aerial_combatant.description=Bojí se tykví
+
+origins.trait.pumpkin_hate.name=Známá tvář
+origins.trait.pumpkin_hate.description=Monstra a další enderoni na vás nebudou zaútočit, i když se na ně díváte přímo, aniž byste nosili vyřezávanou dýni, pokud na ně nejprve nezaútočíte.
+origins.trait.familiar_face.name=Křeček
+origins.trait.familiar_face.description=Spusťte schopnost přepnout na jiný prostor pro zásoby. Umožňuje vám ukládat více položek s 9 dalšími sloty, které jsou udržovány i po smrti.
+origins.trait.shulk_inventory.name=Shulk Inventory
+origins.trait.shulk_inventory.description=Robustní kůže
+origins.trait.shulk_inventory.label=Dokonce i bez nošení brnění poskytuje vaše pokožka přirozená ochrana, čímž dostává o 20% menší poškození z jakéhokoli zdroje.
+origins.trait.natural_armor.name=Velká chuť k jídlu
+origins.trait.natural_armor.description=Snadno se vyčerpáte a vyčerpáváte více hladu než obvykle.
+origins.trait.more_exhaustion.name=Nepraktický
+origins.trait.more_exhaustion.description=Způsob, jakým jsou vaše ruce vytvořeny, neposkytuje žádný způsob, jak držet štít vzpřímeně. Pokus o zablokování štítem jej okamžitě rozbije bez ohledu na to, že se na něj použije kouzla.
+origins.trait.no_shield.name=Silné zbraně
+origins.trait.no_shield.description=Jste silnější a můžete rozbít kamenné bloky, aniž byste vyžadovali jakýkoli pickaxe.
+origins.trait.strong_arms.name=Koncový obyvatel
+origins.trait.strong_arms.description=Vaše cesta začíná nakonec.
+origins.trait.end_spawn.name=Rychle
+origins.trait.end_spawn.description=Vzhledem k kratším nohám a nízkému vyčerpání se zvyšuje rychlost pohybu a vaše velikost se zmenšuje.
+origins.trait.fast_footed.name=Vrhnout se
+origins.trait.fast_footed.description=Nabijte položku schopnosti tím, že ji držíte a přeskočte do směru, na který se díváte. Čím více je poplatek, tím větší bude vzdálenost.
+origins.trait.pounce.name=Berry Craver
+origins.trait.pounce.description=Sladké bobule obnovují při konzumaci více hladových bodů a někdy by přijaly regenerační účinky. Také nejste poškozeni z křoví Berry.
+origins.trait.berry_craver.name=Menší srdce
+origins.trait.berry_craver.description=Vzhledem k vaší celkové menší velikosti je vaše srdce menší, což má za následek, že se vaše maximální zdraví sníží o 4 srdce.
+origins.trait.smaller_heart.name=Rychlý metabolismus
+origins.trait.smaller_heart.description=S rychlostí a menším žaludkem máte hlad než obvykle.
+origins.trait.fast_metabolism.name=Skákací tělo
+origins.trait.fast_metabolism.description=Zmírňujete velkou část poškození podzimu kvůli vašemu skákacímu, ale lepivému tělu.
+origins.trait.bouncy_body.name=Super skok
+origins.trait.bouncy_body.description=Vaše slizové dědictví vám dává vylepšený skok, což vám umožní skočit výš. Po přistání klepe a způsobí poškození davů v okolí. Tato pasivní schopnost může být spouštěna pouze jednou za 3 sekundy.
+origins.trait.high_jump.name=Lepkavý
+origins.trait.high_jump.description=Jakákoli entita, která na vás útočí v Melee, se zpomaluje a snižuje škodu způsobené o 10%. Vypadáte také zeleně a slizký.
+origins.trait.sticky.name=Fragmentace
+origins.trait.sticky.description=Když vaše zdraví klesá, a také vaše maximální zdravotní body. 
+origins.trait.fragmentation.name=Zotavení
+origins.trait.fragmentation.description=Můžete konzumovat a jíst slizové koule, abyste získali ztracenou část sebe.
+origins.trait.slime_ball_consume.name=Stres
+origins.trait.slime_ball_consume.description=To se hromadí kolem vás pomalu. Jakmile je naplněna, budete násilně explodovat - poškozujete vše, co vás obklopuje. Pokud je váš [stres] na 70%rychleji, ale všechny vaše schopnosti se ochladí rychleji.
+origins.trait.stress.name=Přemýšlet
+origins.trait.stress.description=Snižte [stres] akumulovaný plížením, pokud jste na plném zdraví.
+origins.trait.meditate.name=Kosmický dárek
+origins.trait.meditate.description=Starbornes jsou bytostí požehnané nebem. Postiženi menší gravitací jste schopni skočit výš a sestoupit zpět na zem s milostí - vůbec nezpůsobí poškození pádu.
+origins.trait.cosmic_gift.name=Hyper Leap
+origins.trait.cosmic_gift.description=Pohybujte se k určitému směru, na který se díváte, a zahajují entity, ve kterých jste byli do vzduchu. Má krátký cooldown před každým použitím.
+origins.trait.hyper_leap.name=Střelba hvězda
+origins.trait.hyper_leap.description=Vypálí hvězdnou projektil směrem k směru, na který se díváte, a poškozuje davy na dopad. Má cooldown před každým použitím.
+origins.trait.shooting_star.name=Nenásilný
+origins.trait.shooting_star.description=Starbornes mají šanci být dočasně imobilizováni, kdykoli je poškozen jinou entitou. V tomto stavu je vaše vize také dočasně bráněna.
+origins.trait.no_hitting.name=Studené vakuum
+origins.trait.no_hitting.description=Starbornes jsou zvyklí na chlad obrovského vesmíru, a proto berou dvojnásobné poškození požáru - teplo, na které nejsou zvyklí.
+origins.trait.burning.name=Hbitý
+origins.trait.burning.description=Inchlings jsou imunní vůči škodám založeným na trzích a rychlosti.
+origins.trait.nimble.name=Hyperaktivní
+origins.trait.nimble.description=Jste schopni konzumovat cukr, i když jste plný, udělujete dočasnou zvýšení rychlosti pohybu.
+origins.trait.hyper_active.name=Malý apetit
+origins.trait.hyper_active.description=Konzumace cukru je dostatečná pro vaše potřeby, protože vám dává dlouhodobé saturační účinky. Vyžaduje méně jídla, aby pokračovalo.
+origins.trait.small_apetite.name=Kousnutí velikosti
+origins.trait.small_apetite.description=Jste mnohokrát menší a máte o 5 méně srdcí ve srovnání s pravidelným člověkem.
+origins.trait.bite_sized.name=Jedovatý
+origins.trait.bite_sized.description=Když způsobíte kritické poškození, způsobí fatální jed cíli, který trvá 7 sekund. Poté snižuje [Stinger] počet o jeden. Tato schopnost nespustí u entit, které již mají účinek.
+origins.trait.poisonous.name=Osudovost
+origins.trait.poisonous.description=Uvádíte o 50% více poškození cílů, které jste ublížili postiženým fatálním jedem.
+origins.trait.poison_bonus_damage.name=Stingers
+origins.trait.poison_bonus_damage.description=Nosíte až 7 žihadel najednou a používá se pokaždé, když způsobíte poškození jedu. Jakmile jsou všechny žihače použity, jste povinni zahynout a zemřít.
+origins.trait.sacrifice_stinger.name=Pylán
+origins.trait.sacrifice_stinger.description=Během dne můžete stát na jakékoli květině a plížit se, abyste získali jakýkoli [Stinger], který jste možná ztratili. To však zlomí květinu.
+origins.trait.bloom.name=Denní
+origins.trait.bloom.description=Pracujete nejlépe za slunečný den, takže jste oslabeni a pohybujete se pomalu v noci nebo pokud začne během dne pršet.
+origins.trait.nighttime.name=Krátká životnost
+origins.trait.nighttime.description=Včely mají 3 méně srdcí než lidé.
+origins.trait.lifespan.name=Dieta nektaru
+origins.trait.lifespan.description=Nemůžete jíst normální jídlo a můžete konzumovat pouze květiny.
+origins.trait.nectar_diet.name=Hrdost
+origins.trait.nectar_diet.description=Čím více zlatých předmětů nesete ve svém inventáři, opotřebované nebo držené, tím menší škody dostanete z jakéhokoli zdroje. Můžete zmírnit až 90% poškození, které přijalo tímto způsobem.
+origins.trait.pride.name=Chlubí se palebnou sílu
+origins.trait.pride.description=Váš útok na melee způsobuje další poškození ekvivalentní 10% poškození, které jste způsobili. Dále zvyšuje dodatečné poškození způsobené o 10% na okolní subjekty přítomné v rámci 6 bloků.
+origins.trait.increased_attack_per_entity.name=Žravost
+origins.trait.increased_attack_per_entity.description=Při doplňování zdraví máte ještě hlad než obvykle.
+origins.trait.gluttony.name=Odvaha
+origins.trait.gluttony.description=Jste imunní vůči slabosti a účinky statusu.
+origins.trait.courage.name=Lifeweaver
+origins.trait.courage.description=Okamžitě regeneruje zdraví na základě nahromaděného poškození způsobeného do 3 sekund po jeho obdržení. Poté uděluje absorpci po dobu 12 sekund, která se mění v závislosti na množství přijaté poškození.
+origins.trait.lifeweaver.name=Rychlý
+origins.trait.lifeweaver.description=Staňte se hbitý a rychlý a udělejte vám zvýšenou rychlost pohybu a umožňují vám bez námahy procházet terén.
+origins.trait.agility.name=Belzebub
+origins.trait.agility.description=Na základě vašeho chybějícího zdraví způsobí další škody. Poté účtuje jeden hromadu [Beelzebub] při útoku až tři.
+origins.trait.beelzebub.name=Soulburst
+origins.trait.beelzebub.description=Když [BeelzeBub] dosáhne tří hromádek, spotřebovává vše a způsobí další poškození na základě celkového poškození způsobeného při získávání zásobníků.
+origins.trait.soulburst.name=Umbrální závoj
+origins.trait.soulburst.description=Při sprintingu se zachraní v temné energii, udělujete další rychlost a vyhýbáte se poškození projektilem.
+origins.trait.umbral_veil.name=Zlověstná aura
+origins.trait.umbral_veil.description=Pasivní davy v okolí se bojí vaší přítomnosti a uteče od vás.
+origins.trait.sinister_aura.name=Odtok života
+origins.trait.sinister_aura.description=Kdykoli způsobíte poškození, vaše zdraví je sníženo o chybějící zdraví cíle, až 50% vašeho maximálního zdraví. Pokud se vaše zdraví rovná 1, nebude to dále snižovat.
+origins.trait.life_drain.name=Předzvěst
+origins.trait.life_drain.description=Punch se schopností vybranou k odhození na jiného hráče. Po obsazení zvyšuje maximální zdraví vás i druhého hráče o 50% až 60% obou vašich zdraví dohromady.
+origins.trait.prescience.name=Věštec
+origins.trait.prescience.description=Pokud jsou pod [předvolebou], bude jakákoli škoda, kterou přijmete a uzdravíte, bude vystřelena druhému hráči.
+origins.trait.oracle.name=Aegis
+origins.trait.oracle.description=Jakékoli vnější poškození přímé poškození vychýlí 50% poškození zpět útočníkovi.
+origins.trait.aegis.name=Božská aura
+origins.trait.aegis.description=Hráči pod účinkem [Prescience] budou zářit a lze je vidět skrz zdi. Tato záře však na vás bude vždy přetrvávat.
+origins.trait.divine_aura.name=Křehkost
+origins.trait.divine_aura.description=Čím méně zdraví máte, tím náchylnější jste z jakéhokoli poškození.
+origins.trait.fragility.name=Nestabilita
+origins.trait.fragility.description=Za každý jedinečný status, který se na vás vztahuje, se vaše maximální zdraví sníží o 1. Pokud se vaše zdraví rovná 1, to dále nesníží.
+
+origins.trait.instability.description=Třídní výhody:
+
+origins.perk.has=Ve stínu
+
+origins.perk.stealth.name=Agility
+origins.perk.stealth.description=Při kreslení luku nebo kuše se můžete pohybovat rychleji než ostatní.
+origins.perk.less_bow_slowdown.name=Přesnost
+origins.perk.less_bow_slowdown.description=Všechny šipky, které střílíte, cestují v přímce, postižené bez gravitace.
+origins.perk.no_projectile_divergence.name=SHIELD WIELD
+origins.perk.no_projectile_divergence.description=Při blokování štítu získáte další ochranu.
+origins.perk.less_shield_slowdown.name=Wrath Bloodlust
+origins.perk.less_shield_slowdown.description=Získáte sílu, která zvyšuje nižší vaše současné zdraví.
+origins.perk.less_health_more_attack.name=Přátelé fauny
+origins.perk.less_health_more_attack.description=Zvířata, kterou zkrotíte, dostávají k jejich zdraví trvalý buff.
+origins.perk.tamed_animal_boost.name=Efektivní empatie
+origins.perk.tamed_animal_boost.description=Jakékoli účinky lektvaru, které můžete mít, budou také aplikovány na davy, které jste zkrotili.
+origins.perk.effective_empathy.name=Dobrá jídla
+origins.perk.effective_empathy.description=Potraviny, které vaříte, udělí další nasycení při konzumaci.
+origins.perk.more_saturated_food.name=Omlazující polévka
+origins.perk.more_saturated_food.description=Dušené maso, které uděláte, mohou udělit regenerační účinky.
+origins.perk.better_stew.name=Zkušený vaření
+origins.perk.better_stew.description=Prodloužením délky efektů lektvaru pomocí Redstone bude dále prodloužen jakýkoli lektvar, který vaří.
+origins.perk.longer_potions.name=Silné vaření
+origins.perk.longer_potions.description=Jakýkoli lektvar, který vaří, bude při vaření s Glowstoneem více zesílen.
+origins.perk.powerful_potions.name=Skvělé řemeslné zpracování
+origins.perk.powerful_potions.description=Jakékoli vybavení, které řešíte nebo Smith, bude mít zvýšenou trvanlivost, efektivitu, poškození a možná i jmění I.
+origins.perk.quality_equipment.name=Efektivní opravy
+origins.perk.quality_equipment.description=Vysoce kvalitní vybavení, která jste vytvořili, jsou snadno opravitelnější a mohou obnovit více bodů odolnosti.
+origins.perk.efficient_repairs.name=Zelený palec
+origins.perk.efficient_repairs.description=Při výsadbě plodin existuje šance, že okamžitě poroste.
+origins.perk.fast_crop_growth.name=Bountiful Harvest
+origins.perk.fast_crop_growth.description=Při sklizni plodin obdržíte někdy dvakrát výnos.
+origins.perk.more_crop_drops.name=Více narození
+origins.perk.more_crop_drops.description=Zvířata chovaná, když jste kolem, mají šanci vyrobit více dětí.
+origins.perk.twin_breeding.name=Vyčištění
+origins.perk.twin_breeding.description=Můžete někdy obdržet více materiálu z zabíjení davů.
+origins.perk.more_animal_loot.name=Skvělé nabídky
+origins.perk.more_animal_loot.description=Při obchodování s vesničany získáte slevy.
+origins.perk.cheaper_trades.name=Charisma
+origins.perk.cheaper_trades.description=Putující obchodníci s větší pravděpodobností navštíví, když jste kolem.
+origins.perk.wandering_trader_spawn.name=Fit
+origins.perk.wandering_trader_spawn.description=Při sprintingu neztratíte hlad.
+origins.perk.no_sprint_exhaustion.name=Průzkumník Kit
+origins.perk.no_sprint_exhaustion.description=Hru začnete s kompasem, hodinami a devíti prázdnými mapami, které nikdy nepadnou na smrt.
+
+origins.perk.explorer_kit.description=Stromový kapitál
+
+origins.perk.tree_felling.name=Opakování
+origins.perk.tree_felling.description=Existují náhodní protokoly, které zlomíte, mohou být vysazeny stejným typem stromek.
+
+origins.perk.sapling_setblock.description=Koule původu
+
+origins.item.orb_of_origins.name=§7 [přepínač menu] §R
+origins.item.resignation_paper.name=§7 [více možností] §R
+origins.item.origins_menu.name=§Z
+
+origins.item.origins_menu_padding.name=Vyberte svůj původ.
+
+origins.gui.title.choose_origin=Vybrali jste tento původ.
+origins.gui.title.choose_class=Vybrali jste tuto třídu.
+origins.gui.title.view_origin=Toto je váš původ.
+origins.gui.title.view_class=Toto je vaše třída.
+origins.gui.title.change_origin=Upravte se na své preference.
+origins.gui.title.change_class=Vyberte původ, který chcete zakázat.
+origins.gui.title.options=Vyberte třídy, které chcete zakázat.
+origins.gui.title.ban_origin=Tento původ je zakázán
+origins.gui.title.ban_class=Tento původ se již používá
+origins.gui.subtitle.banned=Žádný dopad hry
+origins.gui.subtitle.locked=Dopad hry se liší
+origins.gui.impact.none=Nízký dopad hry
+origins.gui.impact.random=Mírný dopad hry
+origins.gui.impact.low=Vysoký dopad hry
+origins.gui.impact.medium=Žádné další výhody
+origins.gui.impact.high=Perk se liší
+origins.gui.useful.none=Slušné výhody
+origins.gui.useful.random=Výklenek
+origins.gui.useful.fair=Výhody měnící hru
+origins.gui.useful.medium=Spotřebovává 1 §e [Orb of původ] §r
+origins.gui.useful.very=Náklady 1 §e [rezignační papír] §r
+origins.gui.change.race=Orb původu byla deaktivována
+origins.gui.change.class=Rezignační papír byl deaktivován
+origins.gui.change.blocked.orb=Když je toto tlačítko zvýrazněno, znamená to, že tento původ je v současné době zakázán
+origins.gui.change.blocked.paper=Když je toto tlačítko zvýrazněno, znamená to, že tato třída je v současné době zakázána
+origins.gui.manage.ban_race=Nemusíte je všechny zakázat, prosím, nechte to, aby byl použitelný
+origins.gui.manage.ban_class=Nesmíte tento původ zakázat, protože je povolen výběr §eunique.
+origins.gui.manage.ban_limit=Přeměna
+origins.gui.manage.ban_locked=Odstoupit
+origins.gui.button.continue.change=Zákaz
+origins.gui.button.continue.resign=§L§cban§r
+origins.gui.button.manage.ban=Vybrat
+origins.gui.button.manage.unban=Blízko
+origins.gui.button.select=Pokračovat
+origins.gui.button.cancel=Zadní
+origins.gui.button.start=Pojďme
+origins.gui.button.return=Už se neukažte
+
+origins.gui.button.ignore_welcome_screen=Obecné možnosti
+
+origins.gui.options.general_root=Přístup odepřel!
+origins.gui.options.admin_root=Tyto možnosti vyžadují zvláštní povolení, než bude k němu přístup!
+origins.gui.options.admin_denied.name=Spusťte následující příkaz a udělejte někomu povolení k přístupu k těmto možnostem:
+origins.gui.options.admin_denied.description1=Zobrazit můj původ
+origins.gui.options.admin_denied.description2=Zobrazuje informace o původu, který jste si vybrali.
+origins.gui.options.view_origin.name=Zobrazit moji třídu
+origins.gui.options.view_origin.description=Zobrazuje informace o třídě, kterou jste vybrali.
+origins.gui.options.view_class.name=Nečinné částice
+origins.gui.options.view_class.description=Nechte z vaší postavy vydávat částice volnoběhu původu. (výchozí: on)
+origins.gui.options.toggle_particle.name=Resetovat přehrávač
+origins.gui.options.toggle_particle.description=Resetujte komponenty chování vaší entity, abyste snad vyřešili problémy s vaším původem nebo třídou. Tuto možnost lze použít pouze jednou, dokud se znovu neučíte.
+origins.gui.options.reset_player.name=Ban Výběr
+origins.gui.options.reset_player.description=Spravujte zakázané původy a třídy. Alespoň jeden výběr musí být ponechán nesený.
+origins.gui.options.ban.root.name=Ban Origins
+origins.gui.options.ban.root.description=Vyberte původ, abyste jim zabránili v tom, aby byly někdy vybrány. (výchozí: Žádné)
+origins.gui.options.ban.origins.name=Zakazují třídy
+origins.gui.options.ban.origins.description=Vyberte třídy, abyste jim zabránili v tom, aby byly někdy vybrány. (výchozí: Žádné)
+origins.gui.options.ban.classes.name=EVICT výběr
+origins.gui.options.ban.classes.description=Přinutit všechny online hráče, aby změnili svůj původ a třídu, pokud to bylo právě zakázáno.
+origins.gui.options.ban.evict.name=Doplňkové herny
+origins.gui.options.ban.evict.description=Spravujte další možnosti, které mění, jak se doplněk chová a ovlivňuje hráče.
+origins.gui.options.toggle.root.name=Jedinečný výběr
+origins.gui.options.toggle.root.description=Povolte pouze jeden původ na hráče. Všimněte si, že to nebude nutit hráče, aby změnili svůj původ, pokud jsou již vybráni, vyberte prosím možnost §e [Inicializovat vše] §f. (výchozí: vypnuto)
+origins.gui.options.toggle.unique.name=Koule původu
+origins.gui.options.toggle.unique.description=Umožněte hráčům změnit svůj původ pomocí §e [Orb of Origins] §f položky. (výchozí: on)
+origins.gui.options.toggle.orb.name=Rezignační papír
+origins.gui.options.toggle.orb.description=Umožněte hráčům rezignovat ze své třídy pomocí §e [rezignační papír] §f položky. (výchozí: on)
+origins.gui.options.toggle.paper.name=Změny vysílání
+origins.gui.options.toggle.paper.description=Oznámení v chatu, když hráč změní svůj původ nebo rezignujte ze své třídy. (výchozí: on)
+origins.gui.options.toggle.announce.name=Inicializovat vše
+origins.gui.options.toggle.announce.description=Resetuje vybrané původy a třídy všech hráčů a obnoví možnosti zpět do výchozí nastavení.
+origins.gui.options.reset_all.name=Pokračujte kliknutím na tlačítko. Tuto akci nelze vrátit!
+
+origins.gui.options.reset_all.description_confirm=%1 změnilo svůj původ na [%2]
+
+origins.change.announce.race=Orb Origins byla deaktivována
+origins.change.announce.class=Rezignační papír byl deaktivován
+
+origins.change.fail.class=Máte aktivní schopnosti
+
+origins.ability_controls.info.usage=Žádné aktivní schopnosti
+
+origins.ability_controls.info.none=§Z
+
+entity.r4isen1920_originspe:cleric_area_effect_cloud.name=§Z
+entity.r4isen1920_originspe:cleric_lingering_potion.name=§Z
+entity.r4isen1920_originspe:cleric_splash_potion.name=§Z
+entity.r4isen1920_originspe:dialogue_handler.name=§Z
+entity.r4isen1920_originspe:elven_arrow.name=§Z
+entity.r4isen1920_originspe:huge_explosion.name=§Z
+entity.r4isen1920_originspe:inventory_keep.name=§Z
+entity.r4isen1920_originspe:knockback_roar.name=§Z
+entity.r4isen1920_originspe:safe_teleporter.name=§Z
+entity.r4isen1920_originspe:shooting_star.name=§Z
+
+entity.r4isen1920_originspe:webbing_attack.name=Otevřete inventář a prohlédněte si svůj inventář Shulk
+
+
+action.hint.exit.console.r4isen1920_originspe:inventory_keep=Načítání původů a tříd
+
+
+
+
+
+
+
+
+origins.trait.launch_into_air.name=Okřídlený
+origins.trait.launch_into_air.description=Máte křídla Elytra, aniž byste museli vybavit, a nikdy se neztratí, ani je nelze odstranit.
+origins.trait.elytra.name=Základy
+origins.trait.elytra.description=Udržujete přístup k základnímu inventáři a zajistíte, že váš hotbar neztratí po smrti.
+origins.trait.essentials.name=Rychlý
+origins.trait.essentials.description=Staňte se hbitý a rychlý a udělejte vám zvýšenou rychlost pohybu a umožňují vám bez námahy procházet terén.
+origins.trait.swift.name=Akrobacie
+origins.trait.swift.description=S výkonnými nohama, Leap 2 blokuje 2 vysoké při sprintu - rozdrťte překážky a s lehkostí se vyhýbají nebezpečí.
+origins.trait.sprint_jump.name=Lehký
+origins.trait.sprint_jump.description=Padněte jako peří: Nebep žádné poškození, nikdy pneumatiku z sprintingu nebo skákání, ale dejte si pozor - jiné útoky ublížily o 10% více.
+
+origins.trait.lightweight.description=Teleportace
+
+origins.trait.throw_ender_pearl.name=Žádný prostor pro teleportu!
+origins.trait.throw_ender_pearl.description=Nekonečný chvění
+origins.trait.throw_ender_pearl.failed=Vaše šipky nikdy neběží. Vlastníte luk nekonečnou municí a neúnavnou přesností.
+origins.trait.endless_quiver.name=Střelec
+origins.trait.endless_quiver.description=Vytvořte o 30% více škod s útoky na dálku. Vaším cílem je vlastní posel Death.
+origins.trait.marksman.name=Divoký
+origins.trait.marksman.description=Uvolněte prvotní zuřivost. Získejte sílu i a rozdrťte nepřátele v těsných čtvrtích.
+origins.trait.ferocious.name=Křehký
+origins.trait.ferocious.description=Síla přichází za cenu - přiveďte o 20% více škod z útoků entity. Buďte rychlý, ne bezohledný.
+
+
+
+
+origins.trait.smash.name=Tvrdý
+origins.trait.smash.description=Pěstujte 4 bonusové srdce a získejte 20% odolnost vůči všem formám poškození. Jste přední linie.
+origins.trait.tough.name=Nerozbitná kůže
+origins.trait.tough.description=Odklonit nebe - zběhne o 30% menší poškození projektilů. Šipky odrazí od svého odhodlání železa.
+origins.trait.unbreakable_skin.name=Tíha
+origins.trait.unbreakable_skin.description=Masivní síla váží těžké. Pohybujte se o 5% pomalejší a výfuk dvakrát rychleji - ale vaše síla je bezkonkurenční.
+
+origins.trait.heavy.description=Zmocnění aury
+
+origins.trait.empowering_aura.name=⚠ Aura na Cooldown!
+origins.trait.empowering_aura.description=Dlouhověkost
+origins.trait.empowering_aura.cooldown=Získejte 2 další srdce a přežijte své nepřátele. Každý dech je druhá šance.
+origins.trait.longevity.name=Dobrá paměť
+origins.trait.longevity.description=Váš inventář se s vámi vrací z hrobu. Smrt je pouze neúspěch.
+origins.trait.good_memory.name=Odpor hladu
+origins.trait.good_memory.description=Vydržet divokou. Snižte vyčerpání o 20% ze všech činností a zůstaňte déle.
+origins.trait.hunger_resistant.name=Hlad aura
+origins.trait.hunger_resistant.description=Posilujte své spojence: Všichni hráči do 16 bloků získávají hladovou odpor jen tím, že jsou ve vás.
+
+
+
+
+origins.trait.invisibility.name=⚠ Neviditelnost na Cooldown!
+origins.trait.invisibility.description=⚠ Nelze používat neviditelnost, zatímco je bráněno!
+origins.trait.invisibility.cooldown=Noční
+origins.trait.invisibility.hindered=Na místech, kde je úroveň světla nízká, automaticky získáte účinky stavu síly a nočního vidění.
+origins.trait.cat_vision.name=Maskovat
+origins.trait.cat_vision.description=Když se plížíte, spojíte se s prostředím, že na vás nepřátelské davy přirozeně nezaútočí - pokud na ně nejprve zaútočíte.
+origins.trait.camouflage.name=Záludný
+origins.trait.camouflage.description=Vaše jmenovka není nikdy viditelná, i když se neklouzáváte.
+origins.trait.sneaky.name=Vysilující stávky
+origins.trait.sneaky.description=Zmrzněte své nepřátele. Jakýkoli dav, který zasáhnete, je zpomalen po dobu 4 sekund - nikdy neuniknou vašemu hněvu.
+origins.trait.debilitating_strikes.name=Menší
+origins.trait.debilitating_strikes.description=Vaše velikost je snížena o 25%, což vám ztěžuje cílení.
+origins.trait.smaller.name=Potřeba mobility
+origins.trait.smaller.description=Těžké brnění vás zpomaluje o 50%. Byli jste vyrobeni pro rychlost, ne ji v oceli.
+
+
+
+
+origins.perk.ore_vein_miner.name=Veteránský rypadlo
+origins.perk.ore_vein_miner.description=Při těžbě neztratíte hlad.
+origins.perk.no_mining_exhaustion.name=Požehnaný horník
+origins.perk.no_mining_exhaustion.description=Jste požehnáni Fortune +1 na jakémkoli pickaxu. Toto požehnání se nepřenáší na ostatní.
+
+
+
+
+origins.perk.fall_resistant.name=Builderův krok
+origins.perk.fall_resistant.description=Jste vyškoleni pro měřítko struktur s lehkostí, skákání dvakrát vysoko, abyste dosáhli říms a rámů.
+
+origins.perk.high_jumper.description=Intuice prospektora
+
+
+origins.perk.ore_instinct.description=undefined
+
+
+
+

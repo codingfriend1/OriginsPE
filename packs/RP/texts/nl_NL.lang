@@ -1,0 +1,533 @@
+
+pack.name=Deze add-on voegt verschillende oorsprong en klassen met passieve vaardigheden toe aan het spel, waarin je aan het begin van je avontuur kiest. Gemaakt door R4isen1920.
+
+
+origins.welcome_message=(Scroll naar beneden om Changelog te zien)
+
+
+origins.race.random.name=U wordt toegewezen aan een van de volgende hieronder vermelde oorsprong, alleen als deze beschikbaar is voor gebruik:
+origins.race.random.description=U wordt toegewezen aan een willekeurige beschikbare oorsprong.
+origins.race.random.description_changed=Menselijk
+origins.race.human.name=Een gewone mens. Uw gewone Minecraft -ervaring wacht op.
+origins.race.human.description=Merling
+origins.race.merling.name=Deze natuurlijke inwoners van de oceaan zijn niet gewend om te lang uit het water te zijn.
+origins.race.merling.description=Gunstig
+origins.race.arachnid.name=Hun klimvaardigheden en de mogelijkheid om hun vijanden in Spiderweb te vangen, maken de Arachnid perfecte jagers.
+origins.race.arachnid.description=Blazeborn
+origins.race.blazeborn.name=Late afstammelingen van de brand, de blazeborn zijn van nature immuun voor de gevaren van de onderkant.
+origins.race.blazeborn.description=Vogel
+origins.race.avian.name=De aviaire race heeft hun vermogen om lang geleden te vliegen verloren. Nu zijn deze vreedzame wezens te zien glijden van de ene plaats naar de andere.
+origins.race.avian.description=Spook
+origins.race.phantom.name=Als half-mens en halffantom nakomelingen kunnen deze wezens schakelen tussen een fantoom en een normale vorm.
+origins.race.phantom.description=Katachtig
+origins.race.feline.name=Met hun katachtige uiterlijk sluipt de katachtige weg. Met de behendigheid van katten landen ze altijd veilig op hun voeten.
+origins.race.feline.description=Elytrian
+origins.race.elytrian.name=Vaak vliegend in de wind, zijn elytres ongemakkelijk als ze niet genoeg ruimte boven hun hoofd hebben.
+origins.race.elytrian.description=Enderiaans
+origins.race.enderian.name=Geboren als zonen en dochters van de Ender Dragon, Enderianen zijn in staat om te teleporteren, maar zijn kwetsbaar voor water.
+origins.race.enderian.description=Schulk
+origins.race.shulk.name=Gerelateerd aan shulkers, zijn de lichamen van de shulk uitgerust met een beschermende schaalachtige huid.
+origins.race.shulk.description=Vos
+origins.race.kitsune.name=Vossen zijn, hoewel zwak in termen van vitaliteit, hun aangeboren spirituele vaardigheden gebruiken om hun kracht te verbergen en te versterken.
+origins.race.kitsune.description=Slimecicaans
+origins.race.slimecican.name=Deels menselijk, deels slijm. Heel onaangenaam om aan te raken met je blote handen.
+origins.race.slimecican.description=Starborne
+origins.race.starborne.name=Omdat je geboren bent uit de sterren, ben je een geweldloze, door sterren geobsedeerde, mysterieuze en potentieel krachtige persoon die van de sterren viel in deze blokachtige wereld waarin we leven.
+origins.race.starborne.description=Inchling
+origins.race.inchling.name=Afstammelingen van de kleinste stam, deze wezens zijn net zo behendig als hun grootte.
+origins.race.inchling.description=Bij
+origins.race.bee.name=Bijen zijn cool. Ze vliegen, genieten van bloemen en sterven.
+origins.race.bee.description=Zwenk
+origins.race.piglin.name=Dominant ras van de Nether, deze humanoïde wezens gebruiken hun pure spierkracht en beschikt over hun goud.
+origins.race.piglin.description=Elven
+origins.race.elf.name=Elegante en behendige wezens met een diepe verbinding met de natuur, bekwaam in boogschieten, waarover ze zijn aangescherpt dankzij hun grote levensduur.
+origins.race.elf.description=Voidwalker
+origins.race.voidwalker.name=Geboren in de diepten van een sinister rijk, heb je het vermogen verworven om donkere energieën van binnenuit te manipuleren en te benutten om anderen te schaden.
+origins.race.voidwalker.description=Waarzegger
+origins.race.diviner.name=Diviners bezitten het vermogen om gebruik te maken van de mystieke energieën van het universum, waardoor ze worden gebruikt om andere spelers in nood te beschermen en te helpen.
+
+
+
+
+
+origins.race.scout.name=Falconaties zijn onbevreesde pathfinders die in de lucht lanceren, over verraderlijk terrein glijden en vijandelijke posities blootleggen voordat de strijd begint. Met onverzettelijke momentum en hoge behendigheid zijn ze de wind voor de storm.
+
+
+origins.race.attacker.name=Swordsmen staken met dodelijke snelheid en precisie, teleporterend door het slagveld en het ontketenen van verwoestende volleys van afstand en melee -aanvallen. Hun taak is eenvoudig - de dreiging in aanmerking voordat het uw bondgenoten bereikt.
+
+
+origins.race.defender.name=Guardians zijn titanen die in gevaar springen, met geweld naar beneden slaan en hun bondgenoten beschermen met pure veerkracht. Met ijzeren huid en ongeëvenaarde standvastigheid zijn ze de muur die geen vijand kruist.
+
+
+origins.race.supporter.name=Sages Channel Celestial Energy om hun bondgenoten te beschermen, empowerment en in stand te houden. Hun aura transformeert het tij van de strijd - het bevorderen van kracht, onoverwinnelijkheid en hoop op hun team op de donkerste momenten.
+
+
+origins.race.rogue.name=Nachtbladen verdwijnen in een oogwenk, slaat uit ongeziene plaatsen en buigt het slagveld in hun voordeel. Masters van bedrog en sabotage, ze gedijen in chaos - het schrijven van vijanden en het leiden van de overwinning van de schaduwen.
+
+
+origins.class.caver.name=Cavers gedijen ondergronds, detecteren ertsen, mijnbouw eindeloos en vallen zonder angst. In de diepte zien ze wat anderen missen.
+
+
+origins.class.carpenter.name=Timmerlieden springen hoger, bouwen sneller en ruilen slimmer. Met bereik en veerkracht vormen ze de wereld met gemak.
+
+
+origins.class.shepherd.name=Herders groeien en verzamelen zich met zorg. Hun aanwezigheid voedt het leven, verdubbelt de oogsten en roept dieren aan hun zijde.
+origins.class.shepherd.description=Vakman
+
+
+
+
+
+origins.class.random.name=U wordt toegewezen aan een willekeurige beschikbare klasse.
+origins.class.random.description=Nitwit
+origins.class.random.description_changed=Nitwits zijn nergens echt goed in. Je gaat door zonder extra eigenschappen.
+origins.class.nitwit.name=Strijder
+origins.class.nitwit.description=Deze eervolle jagers hebben de grote moed om hun vijanden neer te halen.
+origins.class.warrior.name=Boogschutter
+origins.class.warrior.description=Eén schot, één kill. In staat om doelen over een grote afstand neer te halen.
+origins.class.archer.name=Schurk
+origins.class.archer.description=Meestal bekend als dieven en rovers, zijn schurken bekwaam in hinderlagen en stealth -aanvallen.
+origins.class.rogue.name=Beestmeester
+origins.class.rogue.description=Beastmasters zijn eenzame mensen die de voorkeur geven aan het gezelschap van dieren.
+origins.class.beastmaster.name=Smid
+origins.class.beastmaster.description=Galuste vrienden van iedereen, smeden kunnen beter gereedschap, wapens en pantser creëren.
+origins.class.blacksmith.name=Geestelijke
+origins.class.blacksmith.description=Ze hebben geleerd hoe ze de magische aanwezige in de wereld kunnen kanaliseren en dat in hun voordeel kunnen gebruiken.
+origins.class.cleric.name=Kok
+origins.class.cleric.description=Er is niemand beter om uw voedsel te bereiden, behalve een kok.
+origins.class.cook.name=Boer
+origins.class.cook.description=Van boeren is bekend dat ze iedereen voedsel bieden zolang iemand zich kan herinneren.
+origins.class.farmer.name=Handelaar
+origins.class.farmer.description=Altijd op zoek naar een extra smaragd, zijn handelaren bekwame handelaren.
+origins.class.merchant.name=Rancher
+origins.class.merchant.description=Door dieren het meeste te halen, kunnen veehouders veel nuttige middelen verzamelen.
+origins.class.rancher.name=Mijnwerker
+origins.class.rancher.description=Mijnwerkers zijn de meest bekwame in het opgraven van de schatten van de aarde.
+origins.class.miner.name=Houthakker
+origins.class.miner.description=Bomen moeten uitkijken wanneer houthakkers in de buurt zijn.
+origins.class.lumberjack.name=Ontdekkingsreiziger
+origins.class.lumberjack.description=Ontdekkingsreizigers vinden gemakkelijk hun weg door het moeilijkste terrein en ontdekken verborgen oriëntatiepunten.
+
+origins.class.explorer.description=Oorsprongskenmerken:
+
+origins.trait.has=Je kunt onder water ademen, maar niet op het land. Statuseffecten zoals water ademhaling kunnen u echter helpen bij uw ondernemingen.
+origins.trait.water_breathing.name=Aqua Affinity
+origins.trait.water_breathing.description=U kunt blokken onder water breken zoals anderen op het land doen en perfect onder water kunnen zien.
+origins.trait.aqua_affinity.name=Zee -bewoner
+origins.trait.aqua_affinity.description=Onderwater mobs zullen je niet van nature schaden of aanvallen, tenzij je ze eerst aanvalt.
+origins.trait.sea_creature.name=Zoals water
+origins.trait.sea_creature.description=Je blijft natuurlijk op het water drijven en zinken door te sluipen wanneer je maar wilt.
+origins.trait.like_water.name=Ocean's Gift
+origins.trait.like_water.description=U bent onkwetsbaar door schade die door tridenten wordt toegebracht.
+origins.trait.no_trident_damage.name=Breekbaar
+origins.trait.no_trident_damage.description=Je hebt 3 minder gezondheidsharten dan mensen.
+origins.trait.fragile.name=Simpel
+origins.trait.fragile.description=Wanneer je een vijand in melee raakt, raken ze tijdelijk vast in een spinnenweb en vertraagt ​​en vergift het doel verder. Heeft een cooldown van 13 seconden.
+origins.trait.webbing.name=Web Cocon
+origins.trait.webbing.description=Zolang je in een spinnenweb staat, verzacht u alle opgenomen schade.
+origins.trait.master_of_webs.name=Klimmen
+origins.trait.master_of_webs.description=Je bent in staat om elk solide blok te beklimmen waar je snel naar kijkt door de springknop vast te houden. Eraf vallen terwijl klimmens worden ontvangen schade ontvangen.
+origins.trait.climbing.name=Carnivoor
+origins.trait.climbing.description=Uw dieet is beperkt tot vlees, en u kunt niet eten noch interageren met groentebehandelingen.
+origins.trait.carnivore.name=Ondoordringbaar
+origins.trait.carnivore.description=Wanneer u magma, brandweer of lava -schade opneemt, wordt de gezondheid die u verloren onmiddellijk hersteld en verhoogt de schade die u toebrengt tijdelijk.
+origins.trait.fire_immunity.name=Nether -bewoner
+origins.trait.fire_immunity.description=Je natuurlijke spawn zal in de onderkant zijn.
+origins.trait.nether_spawn.name=In de zaal
+origins.trait.nether_spawn.description=Wanneer je in brand staat, wordt elke menigte die je raakt en de mobs eromheen ontstoken en in brand worden gestoken. Dit kan slechts om de 3 seconden worden geactiveerd.
+origins.trait.burning_wrath.name=Hotbloedig
+origins.trait.burning_wrath.description=Vanwege je hete lichaam branden gif op, waardoor je immuun is voor de effecten van gif en hongersstatus.
+origins.trait.hotblooded.name=Watervrees
+origins.trait.hotblooded.description=U krijgt in de loop van de tijd schade terwijl u in contact is met water.
+origins.trait.water_vulnerability.name=Staartwind
+origins.trait.water_vulnerability.description=Je bent een beetje sneller te voet dan anderen, terwijl je ook efficiënter kunt sprinten.
+origins.trait.tailwind.name=Vedergewicht
+origins.trait.tailwind.description=Je valt zo zachtjes op de grond als een veer zou.
+origins.trait.slow_falling.name=Vegetarisch
+origins.trait.slow_falling.description=Uw dieet is beperkt tot groenten en u kunt niet eten of interageren met vleesverbruiksartikelen.
+origins.trait.vegetarian.name=Frisse lucht
+origins.trait.vegetarian.description=Tijdens het slapen moet je bed op een hoogte van minimaal 70 blokken zijn, zodat je frisse lucht kunt ademen.
+origins.trait.fresh_air.name=U moet op een hoogte van minimaal 70 blokken slapen
+origins.trait.fresh_air.description=Fantomiseren
+origins.trait.fresh_air.sleep_fail=Gebruik het vermogen om te veranderen in de toeschouwingsmodus. Je verlaat deze staat als je stilstaat.
+origins.trait.phantomize.name=Spiritueel lichaam
+origins.trait.phantomize.description=In de toeschouwersmodus ben je onzichtbaar van anderen en kun je door blokken doorkruisen en kun je niet met iets anders communiceren.
+origins.trait.invisibility.name=Ondoden
+origins.trait.invisibility.description=Je begint daglicht te verbranden als je niet onzichtbaar of in water bent. Hoofdkleding vermindert de schade van zonlicht met 50%.
+origins.trait.burns_in_daylight.name=Sterke enkels
+origins.trait.burns_in_daylight.description=Je neemt nooit schade aan de herfst, het maakt niet uit op welke hoogte je valt.
+
+origins.trait.fall_immunity.description=Negen levens
+
+origins.trait.nine_lives.name=Zwakke armen
+origins.trait.nine_lives.description=Als je niet onder het effect van kracht bent, blokkeert je langzamer en valt je zwakker aan.
+origins.trait.weak_arms.name=Katachtige uiterlijk
+origins.trait.weak_arms.description=Creepers zijn bang voor je en zullen alleen ontploffen als je ze eerst aanvalt.
+
+
+
+
+
+origins.trait.claustrophobia.name=Brosse botten
+origins.trait.claustrophobia.description=Je raakt meer schade door vallen en vliegen in blokken.
+origins.trait.more_kinetic_damage.name=Luchtstrijder
+origins.trait.more_kinetic_damage.description=Je rijdt meer schade terwijl je glijdt met een elytra.
+
+origins.trait.aerial_combatant.description=Bang voor kalebassen
+
+origins.trait.pumpkin_hate.name=Bekend gezicht
+origins.trait.pumpkin_hate.description=Monsters en andere Endermans zullen je niet aanvallen, zelfs als je ze rechtstreeks naar hen kijkt zonder een gesneden pompoen te dragen, tenzij je ze eerst aanvalt.
+origins.trait.familiar_face.name=Hoarder
+origins.trait.familiar_face.description=Activeer de mogelijkheid om over te schakelen naar een andere voorraadruimte. Zodat u meer items kunt opslaan met 9 extra slots die zelfs bij de dood worden bewaard.
+origins.trait.shulk_inventory.name=Shulk -inventaris
+origins.trait.shulk_inventory.description=Stevige huid
+origins.trait.shulk_inventory.label=Zelfs zonder pantser te dragen, biedt uw huid natuurlijke bescherming en krijgt dus 20% minder schade door elke bron.
+origins.trait.natural_armor.name=Grote eetlust
+origins.trait.natural_armor.description=Je raakt gemakkelijk uitgeput en legt meer honger uit dan normaal.
+origins.trait.more_exhaustion.name=Onhandig
+origins.trait.more_exhaustion.description=De manier waarop je handen worden gevormd, biedt geen manier om een ​​schild rechtop te houden. Als je probeert te blokkeren met een schild, zal het onmiddellijk breken, ongeacht betoveringen die erop worden toegepast.
+origins.trait.no_shield.name=Sterke armen
+origins.trait.no_shield.description=U bent sterker en kunt stenen blokken breken zonder dat u een pikelaar nodig hebt.
+origins.trait.strong_arms.name=Beëindiging
+origins.trait.strong_arms.description=Je reis begint uiteindelijk.
+origins.trait.end_spawn.name=Snelvoetig
+origins.trait.end_spawn.description=Vanwege uw kortere benen en lage uitputting wordt uw bewegingssnelheid verhoogd en wordt uw grootte verlaagd.
+origins.trait.fast_footed.name=Bonzen
+origins.trait.fast_footed.description=Laad het vaardigheidsitem op door het vast te houden en spring in de richting waarnaar u kijkt. Hoe meer de lading, hoe groter de afstand zal zijn.
+origins.trait.pounce.name=Berry Craver
+origins.trait.pounce.description=Zoete bessen herstelt meer hongerpunten wanneer ze worden gegeten, en zouden soms regeneratie -effecten verlenen. U bent ook niet beschadigd door bessenstruiken.
+origins.trait.berry_craver.name=Kleiner hart
+origins.trait.berry_craver.description=Vanwege uw algehele kleinere formaat is uw hart kleiner, waardoor uw maximale gezondheid door 4 harten wordt verlaagd.
+origins.trait.smaller_heart.name=Snel metabolisme
+origins.trait.smaller_heart.description=Met je snelheid en een kleinere maag krijg je meer honger dan normaal.
+origins.trait.fast_metabolism.name=Veerkrachtig lichaam
+origins.trait.fast_metabolism.description=Je verzacht een groot deel van de valschade vanwege je veerkrachtige maar toch plakkerige lichaam.
+origins.trait.bouncy_body.name=Super Jump
+origins.trait.bouncy_body.description=Je slijm -erfgoed geeft je een verbeterde sprong, waardoor je hoger kunt springen. Terug kloppen en schade toebrengen aan nabijgelegen mobs bij het landen. Dit passieve vermogen kan slechts om de 3 seconden worden geactiveerd.
+origins.trait.high_jump.name=Kleverig
+origins.trait.high_jump.description=Elke entiteit die je in melee aanvalt, wordt vertraagd en vermindert de schade die je met 10%wordt toegebracht. Je ziet er ook groen en slijmerig uit.
+origins.trait.sticky.name=Fragmentatie
+origins.trait.sticky.description=Je krimpt naar een deel van je maat als je gezondheid valt, evenals je maximale gezondheidspunten. 
+origins.trait.fragmentation.name=Herstel
+origins.trait.fragmentation.description=Je kunt slijmballen consumeren en eten om een ​​verloren deel van jezelf te herstellen.
+origins.trait.slime_ball_consume.name=Spanning
+origins.trait.slime_ball_consume.description=Dit accumuleert langzaam over je heen. Zodra het is gevuld, zul je gewelddadig ontploffen - alles beschadigen dat je omringt. Al uw vaardigheden koelt echter sneller af als uw [stress] 70%is.
+origins.trait.stress.name=Mediteren
+origins.trait.stress.description=Verminder de [stress] verzameld door te sluipen, zolang je maar op volle gezondheid bent.
+origins.trait.meditate.name=Kosmisch geschenk
+origins.trait.meditate.description=Starbornes zijn wezens gezegend door de lucht. Getroffen door minder zwaartekracht, kun je hoger springen en met gratie terug naar de grond afdalen - geen enkele valschade aan het wonen.
+origins.trait.cosmic_gift.name=Hyper Leap
+origins.trait.cosmic_gift.description=Stuw naar een bepaalde richting waar u naar kijkt en lanceert entiteiten waarin u in de lucht was. Heeft een korte cooldown voor elk gebruik.
+origins.trait.hyper_leap.name=Vallende ster
+origins.trait.hyper_leap.description=Vuurt een sterrenprojectiel af in de richting waarin u kijkt en beschadigt mobs bij impact. Heeft een cooldown voor elk gebruik.
+origins.trait.shooting_star.name=Geweldloos
+origins.trait.shooting_star.description=Starbornes hebben de kans om tijdelijk geïmmobiliseerd te worden wanneer ze worden geschaad door een andere entiteit. In deze staat wordt uw visie ook tijdelijk gehinderd.
+origins.trait.no_hitting.name=Koude vacuüm
+origins.trait.no_hitting.description=Starbornes zijn gewend aan de kou van de enorme kosmos, waardoor tweemaal de brandschade wordt opgenomen - warmte die ze niet gewend zijn.
+origins.trait.burning.name=Vlot
+origins.trait.burning.description=Inchlings zijn immuun voor doornen en op snelheid gebaseerde schade.
+origins.trait.nimble.name=Hyperactief
+origins.trait.nimble.description=Je kunt suiker consumeren, zelfs als je vol bent, waardoor een tijdelijke bewegingssnelheidstimulatie wordt toegekend.
+origins.trait.hyper_active.name=Kleine apetiet
+origins.trait.hyper_active.description=Het consumeren van suiker is voldoende voor uw behoeften, omdat het langdurige verzadigingseffecten aan u geeft. Minder voedsel vereisen om door te gaan.
+origins.trait.small_apetite.name=Hapklaar
+origins.trait.small_apetite.description=Je bent vele malen kleiner en hebt 5 minder harten in vergelijking met die van een gewone mens.
+origins.trait.bite_sized.name=Giftig
+origins.trait.bite_sized.description=Wanneer u crit -schade aanricht, brengt het dodelijk gif toe aan het doelwit dat 7 seconden duurt. Vervolgens vermindert het aantal [stinger] met één. Dit vermogen zal niet activeren op entiteiten die al het effect hebben.
+origins.trait.poisonous.name=Dodelijkheid
+origins.trait.poisonous.description=Je richt 50% meer schade aan doelen die je pijn doet, getroffen met fataal gif.
+origins.trait.poison_bonus_damage.name=Stingers
+origins.trait.poison_bonus_damage.description=U draagt ​​tot 7 stingers tegelijk en wordt gebruikt telkens wanneer u gifschade toebrengt. Zodra alle stingers zijn opgebruikt, zult u zeker vergaan en sterven.
+origins.trait.sacrifice_stinger.name=Stuifmeel
+origins.trait.sacrifice_stinger.description=Gedurende de dag kun je op elke bloem staan ​​en sluipen om elke [stinger] te herstellen die je misschien hebt verloren. Dit zal echter de bloem breken.
+origins.trait.bloom.name=Dag-
+origins.trait.bloom.description=Je werkt het beste op een zonnige dag, dus je bent verzwakt en ga 's nachts langzaam of als het overdag begint te regenen.
+origins.trait.nighttime.name=Korte levensduur
+origins.trait.nighttime.description=Bijen hebben 3 minder harten dan mensen.
+origins.trait.lifespan.name=Nectar -dieet
+origins.trait.lifespan.description=Je kunt geen normaal voedsel eten en alleen bloemen kunnen consumeren.
+origins.trait.nectar_diet.name=Trots
+origins.trait.nectar_diet.description=Hoe meer gouden items u in uw inventaris bij zich hebt, gedragen of vastgehouden, hoe minder schade u van elke bron krijgt. U kunt op deze manier tot 90% van de schade beperken.
+origins.trait.pride.name=Fraining Firepower
+origins.trait.pride.description=Je melee -aanval brengt extra schade toe aan 10% van de schade die je hebt aangebracht. Verder verhoogt de extra schade die met 10% wordt toegebracht per nabijgelegen entiteiten die binnen 6 blokken aanwezig zijn.
+origins.trait.increased_attack_per_entity.name=Vraatzucht
+origins.trait.increased_attack_per_entity.description=Je krijgt nog honger dan normaal bij het aanvullen van gezondheid.
+origins.trait.gluttony.name=Moed
+origins.trait.gluttony.description=U bent immuun voor zwakte en de statuseffecten.
+origins.trait.courage.name=Lifeweaver
+origins.trait.courage.description=Regenereert de gezondheid onmiddellijk op basis van de opgebouwde schade die binnen 3 seconden wordt aangericht na ontvangst. Vervolgens verleent u de absorptie gedurende 12 seconden die schaalt, afhankelijk van de hoeveelheid ontvangen schade.
+origins.trait.lifeweaver.name=Snel
+origins.trait.lifeweaver.description=Word wendbaar en snel, waardoor u een verhoogde bewegingssnelheid geeft, zodat u moeiteloos het terrein kunt doorkruisen.
+origins.trait.agility.name=Beelzebub
+origins.trait.agility.description=Melee -aanvallen zullen extra schade aanrichten op basis van uw ontbrekende gezondheid. Brengt vervolgens een stapel [Beelzebub] op aanval op, tot drie.
+origins.trait.beelzebub.name=Soulburst
+origins.trait.beelzebub.description=Wanneer [Beelzebub] drie stapels bereikt, alles verbruikt en extra schade aanricht op basis van de totale schade die wordt aangericht bij het verwerven van de stapels.
+origins.trait.soulburst.name=Umbrale sluier
+origins.trait.soulburst.description=Snilt jezelf in een donkere energie bij het sprinten, het verlenen van extra snelheid en het vermijden van projectielschade.
+origins.trait.umbral_veil.name=Sinistere aura
+origins.trait.umbral_veil.description=Passieve mobs in de buurt zijn bang voor je aanwezigheid en zullen van je wegrennen.
+origins.trait.sinister_aura.name=Life Drain
+origins.trait.sinister_aura.description=Wanneer u schade aanricht, wordt uw gezondheid verminderd door de ontbrekende gezondheid van het doelwit, tot 50% van uw maximale gezondheid. Wanneer uw gezondheid gelijk is aan 1, zal dit niet verder verminderen.
+origins.trait.life_drain.name=President
+origins.trait.life_drain.description=Punch met de mogelijkheid geselecteerd om op een andere speler te werpen. Bij cast verhoogt zowel u als de maximale gezondheid van de andere speler met 50% tot 60% van uw beide gezondheid samen.
+origins.trait.prescience.name=Orakel
+origins.trait.prescience.description=Wanneer onder [Prescience], wordt alle schade die u opneemt en die wordt ontvangen, aan de andere speler gestraald.
+origins.trait.oracle.name=Aegis
+origins.trait.oracle.description=Alle externe schade die rechtstreeks wordt opgevoerd, zal 50% van de schade terugbuigen aan de aanvaller.
+origins.trait.aegis.name=Goddelijke aura
+origins.trait.aegis.description=Spelers die onder het effect van [Prescience] zullen gloeien en kunnen door muren worden gezien. Deze gloed zal echter altijd op u blijven bestaan.
+origins.trait.divine_aura.name=Breekbaarheid
+origins.trait.divine_aura.description=Hoe minder gezondheid u hebt, hoe gevoeliger u door schade komt.
+origins.trait.fragility.name=Instabiliteit
+origins.trait.fragility.description=Voor elk uniek statuseffect dat op u wordt toegepast, wordt uw maximale gezondheid met 1 verminderd. Wanneer uw gezondheid gelijk is aan 1, zal dit niet verder verminderen.
+
+origins.trait.instability.description=Klasse voordelen:
+
+origins.perk.has=In de schaduw
+
+origins.perk.stealth.name=Wendbaarheid
+origins.perk.stealth.description=Je kunt sneller te voet gaan dan anderen terwijl je je boog of kruisboog trekt.
+origins.perk.less_bow_slowdown.name=Nauwkeurigheid
+origins.perk.less_bow_slowdown.description=Alle pijlen die je schiet, reizen in een rechte lijn, getroffen door geen zwaartekracht.
+origins.perk.no_projectile_divergence.name=Schild
+origins.perk.no_projectile_divergence.description=Je krijgt extra bescherming wanneer je jezelf blokkeert met een schild.
+origins.perk.less_shield_slowdown.name=Toornbloedlust
+origins.perk.less_shield_slowdown.description=U krijgt kracht die toeneemt, hoe lager uw huidige gezondheid is.
+origins.perk.less_health_more_attack.name=Fauna -vrienden
+origins.perk.less_health_more_attack.description=Dieren die u tam, ontvangen een permanente buff voor hun gezondheid.
+origins.perk.tamed_animal_boost.name=Effectieve empathie
+origins.perk.tamed_animal_boost.description=Alle drankjeseffecten die u mogelijk heeft, worden ook toegepast op de mobs die u hebt getemd.
+origins.perk.effective_empathy.name=Goede maaltijden
+origins.perk.effective_empathy.description=Voedingsmiddelen die u kookt, zal extra verzadiging verlenen wanneer u wordt gegeten.
+origins.perk.more_saturated_food.name=Verjongende soep
+origins.perk.more_saturated_food.description=Stoofschotels die u maakt, kunnen regeneratie -effecten toestaan.
+origins.perk.better_stew.name=Bekwaam brouwen
+origins.perk.better_stew.description=Door de lengte van drankjeseffecten met behulp van Redstone te verlengen, wordt elk drankje dat u brouwt verder uitgebreid.
+origins.perk.longer_potions.name=Krachtige brouwsels
+origins.perk.longer_potions.description=Elk drankje dat je brouwt, wordt meer versterkt wanneer je het met Glowstone brouwt.
+origins.perk.powerful_potions.name=Geweldig vakmanschap
+origins.perk.powerful_potions.description=Alle apparatuur die u maakt of Smith zal een verhoogde duurzaamheid, efficiëntie, schade en misschien zelfs Fortune hebben.
+origins.perk.quality_equipment.name=Efficiënte reparaties
+origins.perk.quality_equipment.description=Hoogwaardige apparatuur die u hebt gemaakt, zijn gemakkelijker te repareren en kan meer duurzaamheidspunten herstellen.
+origins.perk.efficient_repairs.name=Groene duim
+origins.perk.efficient_repairs.description=Bij het planten van gewassen is er een kans dat deze onmiddellijk zal groeien.
+origins.perk.fast_crop_growth.name=Overvloedige oogst
+origins.perk.fast_crop_growth.description=Bij het oogsten van gewassen ontvangt u soms twee keer de opbrengst.
+origins.perk.more_crop_drops.name=Meer geboorten
+origins.perk.more_crop_drops.description=Dieren gefokt als je in de buurt bent, hebben de kans om meerdere baby's te produceren.
+origins.perk.twin_breeding.name=Opruimend
+origins.perk.twin_breeding.description=Je kunt soms meer materiaal ontvangen van het doden van mobs.
+origins.perk.more_animal_loot.name=Geweldige deals
+origins.perk.more_animal_loot.description=Je krijgt kortingen bij het handelen met dorpelingen.
+origins.perk.cheaper_trades.name=Charisma
+origins.perk.cheaper_trades.description=Zwante handelaren bezoeken vaker wanneer u in de buurt bent.
+origins.perk.wandering_trader_spawn.name=Fit
+origins.perk.wandering_trader_spawn.description=Je verliest niet honger tijdens het sprinten.
+origins.perk.no_sprint_exhaustion.name=Explorer Kit
+origins.perk.no_sprint_exhaustion.description=Je begint het spel met een kompas, een klok en negen lege kaarten die nooit zullen vallen bij de dood.
+
+origins.perk.explorer_kit.description=Tree Capitator
+
+origins.perk.tree_felling.name=Herbeplant
+origins.perk.tree_felling.description=Er zijn een kanslogboeken die u doorbreekt, kunnen worden herhaald met hetzelfde type boompje.
+
+origins.perk.sapling_setblock.description=Orb van oorsprong
+
+origins.item.orb_of_origins.name=§7 [menu schakelaar] §r
+origins.item.resignation_paper.name=§7 [meer opties] §r
+origins.item.origins_menu.name=§Z
+
+origins.item.origins_menu_padding.name=Kies uw oorsprong.
+
+origins.gui.title.choose_origin=Je hebt deze oorsprong gekozen.
+origins.gui.title.choose_class=U hebt deze klasse geselecteerd.
+origins.gui.title.view_origin=Dit is uw oorsprong.
+origins.gui.title.view_class=Dit is jouw klas.
+origins.gui.title.change_origin=Pas je aan je voorkeuren aan.
+origins.gui.title.change_class=Selecteer Oorsprong om te verbieden.
+origins.gui.title.options=Selecteer klassen om te verbieden.
+origins.gui.title.ban_origin=Deze oorsprong is verboden
+origins.gui.title.ban_class=Deze oorsprong wordt al gebruikt
+origins.gui.subtitle.banned=Geen gameplay -impact
+origins.gui.subtitle.locked=Gameplay -impact varieert
+origins.gui.impact.none=Lage gameplay impact
+origins.gui.impact.random=Matige gameplay impact
+origins.gui.impact.low=Hoge gameplay impact
+origins.gui.impact.medium=Geen extra voordelen
+origins.gui.impact.high=Perk varieert
+origins.gui.useful.none=Fatsoenlijke voordelen
+origins.gui.useful.random=Niche -voordelen
+origins.gui.useful.fair=Spelveranderende voordelen
+origins.gui.useful.medium=Verbruikt 1 §e [orb of origins] §r
+origins.gui.useful.very=Kosten 1 §e [ontslagpapier] §r
+origins.gui.change.race=De orb van herkomst is uitgeschakeld
+origins.gui.change.class=Het ontslagpapier is uitgeschakeld
+origins.gui.change.blocked.orb=Wanneer deze knop wordt gemarkeerd, betekent dit dat deze oorsprong momenteel is verbannen
+origins.gui.change.blocked.paper=Wanneer deze knop wordt gemarkeerd, betekent dit dat deze klasse momenteel is verbannen
+origins.gui.manage.ban_race=U mag ze niet allemaal verbieden, laat het er dan toe om bruikbaar te zijn
+origins.gui.manage.ban_class=U mag deze oorsprong niet verbieden, aangezien §Eunique selectie§f is ingeschakeld
+origins.gui.manage.ban_limit=Wijziging
+origins.gui.manage.ban_locked=Ontslag nemen
+origins.gui.button.continue.change=Verbannen
+origins.gui.button.continue.resign=§L§cban§r
+origins.gui.button.manage.ban=Uitkiezen
+origins.gui.button.manage.unban=Dichtbij
+origins.gui.button.select=Doorgaan
+origins.gui.button.cancel=Rug
+origins.gui.button.start=Laten we gaan
+origins.gui.button.return=Laat niet meer zien
+
+origins.gui.button.ignore_welcome_screen=Algemene opties
+
+origins.gui.options.general_root=Toegang geweigerd!
+origins.gui.options.admin_root=Deze opties vereisen een speciale toestemming voordat deze toegankelijk is!
+origins.gui.options.admin_denied.name=Voer het volgende opdracht uit om iemand toestemming te geven om toegang te krijgen tot deze opties:
+origins.gui.options.admin_denied.description1=Bekijk mijn oorsprong
+origins.gui.options.admin_denied.description2=Toont informatie over de oorsprong die u hebt gekozen.
+origins.gui.options.view_origin.name=Bekijk mijn klas
+origins.gui.options.view_origin.description=Toont informatie over de klas die u hebt geselecteerd.
+origins.gui.options.view_class.name=IJdele deeltjes
+origins.gui.options.view_class.description=Laat de inactieve deeltjes van uw oorsprong uit uw karakter uitstoten. (Standaard: aan)
+origins.gui.options.toggle_particle.name=Reset speler
+origins.gui.options.toggle_particle.description=Reset de gedragscomponenten van uw entiteit om hopelijk problemen met uw oorsprong of klasse op te lossen. Deze optie kan slechts eenmaal worden gebruikt totdat u opnieuw aansluit.
+origins.gui.options.reset_player.name=Selectie van verbod
+origins.gui.options.reset_player.description=Beheer verboden oorsprong en klassen. Minstens één selectie moet los worden gehouden.
+origins.gui.options.ban.root.name=BAN HERINNEN
+origins.gui.options.ban.root.description=Selecteer oorsprong om te voorkomen dat ze ooit worden gekozen. (Standaard: geen)
+origins.gui.options.ban.origins.name=Verbod klassen
+origins.gui.options.ban.origins.description=Selecteer klassen om te voorkomen dat ze ooit worden geselecteerd. (Standaard: geen)
+origins.gui.options.ban.classes.name=Selectie
+origins.gui.options.ban.classes.description=Dwing alle online spelers om hun oorsprong en klasse te veranderen als deze net is verbannen.
+origins.gui.options.ban.evict.name=Add-on gamerules
+origins.gui.options.ban.evict.description=Beheer extra opties die verandert hoe de add-on zich gedraagt ​​en de spelers beïnvloedt.
+origins.gui.options.toggle.root.name=Unieke selectie
+origins.gui.options.toggle.root.description=Laat slechts één oorsprong per speler toe. Merk op dat dit spelers niet dwingt hun oorsprong te wijzigen als dit al is geselecteerd, selecteer de §E [Initialiseer alles] §F -optie om dit te doen. (Standaard: uit)
+origins.gui.options.toggle.unique.name=Orb van oorsprong
+origins.gui.options.toggle.unique.description=Sta spelers toe hun oorsprong te wijzigen met behulp van de §e [orb of origins] §f item. (Standaard: aan)
+origins.gui.options.toggle.orb.name=Ontslagpapier
+origins.gui.options.toggle.orb.description=Sta spelers toe om af te treden uit hun klasse met behulp van het §E [ontslagpapier] §F -item. (Standaard: aan)
+origins.gui.options.toggle.paper.name=Uitzending wijzigingen
+origins.gui.options.toggle.paper.description=Kondig in de chat aan wanneer een speler zijn van oorsprong verandert of ontslag neemt van zijn klas. (Standaard: aan)
+origins.gui.options.toggle.announce.name=Initialiseer alles
+origins.gui.options.toggle.announce.description=Reset alle geselecteerde oorsprong en klassen van alle spelers en herstelt opties terug naar de standaardinstellingen.
+origins.gui.options.reset_all.name=Klik opnieuw op de knop om door te gaan. Deze actie kan niet ongedaan worden gemaakt!
+
+origins.gui.options.reset_all.description_confirm=%1 heeft hun oorsprong veranderd in [%2]
+
+origins.change.announce.race=De Orb of Origins is uitgeschakeld
+origins.change.announce.class=Het ontslagpapier is uitgeschakeld
+
+origins.change.fail.class=Je hebt actieve vaardigheden
+
+origins.ability_controls.info.usage=Geen actieve vaardigheden
+
+origins.ability_controls.info.none=§Z
+
+entity.r4isen1920_originspe:cleric_area_effect_cloud.name=§Z
+entity.r4isen1920_originspe:cleric_lingering_potion.name=§Z
+entity.r4isen1920_originspe:cleric_splash_potion.name=§Z
+entity.r4isen1920_originspe:dialogue_handler.name=§Z
+entity.r4isen1920_originspe:elven_arrow.name=§Z
+entity.r4isen1920_originspe:huge_explosion.name=§Z
+entity.r4isen1920_originspe:inventory_keep.name=§Z
+entity.r4isen1920_originspe:knockback_roar.name=§Z
+entity.r4isen1920_originspe:safe_teleporter.name=§Z
+entity.r4isen1920_originspe:shooting_star.name=§Z
+
+entity.r4isen1920_originspe:webbing_attack.name=Open inventaris om uw Shulk -inventaris te bekijken
+
+
+action.hint.exit.console.r4isen1920_originspe:inventory_keep=Oorsprong en klassen laden
+
+
+
+
+
+
+
+
+origins.trait.launch_into_air.name=Vleugels
+origins.trait.launch_into_air.description=Je hebt elytravleugels zonder dat je er iets hoeft uit te rusten en gaat nooit verloren of kan worden verwijderd.
+origins.trait.elytra.name=Essentie
+origins.trait.elytra.description=U behoudt toegang tot essentiële inventaris en zorgt ervoor dat uw hotbar niet verloren gaat bij de dood.
+origins.trait.essentials.name=Snel
+origins.trait.essentials.description=Word wendbaar en snel, waardoor u een verhoogde bewegingssnelheid geeft, zodat u moeiteloos het terrein kunt doorkruisen.
+origins.trait.swift.name=Acrobatiek
+origins.trait.swift.description=Met krachtige benen blokkeert Leap 2 hoog tijdens het sprinten - verpletteer obstakels en ontwijk gevaar met gemak.
+origins.trait.sprint_jump.name=Lichtgewicht
+origins.trait.sprint_jump.description=Val als een veer: neem geen herfstschade op, verminder nooit van sprinten of springen, maar pas op - andere aanvallen deden 10% meer pijn.
+
+origins.trait.lightweight.description=Teleportatie
+
+origins.trait.throw_ender_pearl.name=Geen ruimte om daar te teleporteren!
+origins.trait.throw_ender_pearl.description=Eindeloze pijlkoker
+origins.trait.throw_ender_pearl.failed=Je pijlen lopen nooit droog. Huur je boog uit met oneindige munitie en meedogenloze precisie.
+origins.trait.endless_quiver.name=Scherpschutter
+origins.trait.endless_quiver.description=Doe 30% meer schade toe aan afstandsaanvallen. Uw doel is de eigen boodschapper van de dood.
+origins.trait.marksman.name=Woest
+origins.trait.marksman.description=Ontketende primaire woede. Krijg kracht I en verpletter vijanden in dichtbij.
+origins.trait.ferocious.name=Breekbaar
+origins.trait.ferocious.description=Power komt met een prijs - neem 20% meer schade aan door entiteitsaanvallen. Wees snel, niet roekeloos.
+
+
+
+
+origins.trait.smash.name=Moeilijk
+origins.trait.smash.description=Kweek 4 bonusharten en krijg 20% ​​weerstand tegen alle vormen van schade. Jij bent de frontlinie.
+origins.trait.tough.name=Onbreekbare huid
+origins.trait.tough.description=Duit de lucht af - neem 30% minder schade aan van projectielen. Pijlen stuiteren van je ijzeren besluit.
+origins.trait.unbreakable_skin.name=Zwaarte
+origins.trait.unbreakable_skin.description=Massieve kracht weegt zwaar. Verplaats 5% langzamer en uitlaat twee keer zo snel uitlaat - maar uw macht is ongeëvenaard.
+
+origins.trait.heavy.description=Empowerment Aura
+
+origins.trait.empowering_aura.name=⚠ Aura op cooldown!
+origins.trait.empowering_aura.description=Levensduur
+origins.trait.empowering_aura.cooldown=Krijg 2 extra harten en overleed je vijanden. Elke ademhaling is een tweede kans.
+origins.trait.longevity.name=Goed geheugen
+origins.trait.longevity.description=Uw inventaris keert met u terug van het graf. De dood is slechts een tegenslag.
+origins.trait.good_memory.name=Hongerweerstand
+origins.trait.good_memory.description=Het wild verdragen. Verminder de uitputting met 20% van alle activiteiten en blijf langer vol.
+origins.trait.hunger_resistant.name=Honger aura
+origins.trait.hunger_resistant.description=Empower je bondgenoten: alle spelers binnen 16 blokken krijgen hongerweerstand door in de buurt van je te zijn.
+
+
+
+
+origins.trait.invisibility.name=⚠ Onzichtbaarheid op cooldown!
+origins.trait.invisibility.description=⚠ Kan onzichtbaarheid niet gebruiken terwijl hij wordt gehinderd!
+origins.trait.invisibility.cooldown=Nacht-
+origins.trait.invisibility.hindered=Op plaatsen waar het lichtniveau laag is, krijgt u automatisch de kracht- en nachtzichtstatuseffecten.
+origins.trait.cat_vision.name=Camouflage
+origins.trait.cat_vision.description=Je gaat op in de omgeving als je sluipt, die vijandige mobs zullen je niet natuurlijk aanvallen - tenzij je ze eerst aanvalt.
+origins.trait.camouflage.name=Stiekem
+origins.trait.camouflage.description=Je naamplaatje is nooit altijd zichtbaar, zelfs als je niet sluipt.
+origins.trait.sneaky.name=Slopende stakingen
+origins.trait.sneaky.description=Verlucht je vijanden. Elke menigte die je raakt, wordt 4 seconden vertraagd - ze zullen nooit aan je toorn ontsnappen.
+origins.trait.debilitating_strikes.name=Kleiner
+origins.trait.debilitating_strikes.description=Je maat wordt met 25%verminderd, waardoor je moeilijker op je kunt targeten.
+origins.trait.smaller.name=Behoefte aan mobiliteit
+origins.trait.smaller.description=Zware pantser vertraagt ​​je met 50%. Je bent gemaakt voor snelheid, niet in staal geslagen.
+
+
+
+
+origins.perk.ore_vein_miner.name=Veteraan graafmachine
+origins.perk.ore_vein_miner.description=Je verliest geen honger tijdens het mijnen.
+origins.perk.no_mining_exhaustion.name=Gezegende mijnwerker
+origins.perk.no_mining_exhaustion.description=Je bent gezegend met Fortune +1 op elke piklaxe die je gebruikt. Deze zegen gaat niet over naar anderen.
+
+
+
+
+origins.perk.fall_resistant.name=Bouwersstap
+origins.perk.fall_resistant.description=Je bent getraind om structuren gemakkelijk te schalen en twee keer zo hoog te springen om richels en frames te bereiken.
+
+origins.perk.high_jumper.description=De intuïtie van Prospector
+
+
+origins.perk.ore_instinct.description=undefined
+
+
+
+

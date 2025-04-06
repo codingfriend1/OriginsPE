@@ -1,0 +1,533 @@
+
+pack.name=Dette tillegget tilfører flere opprinnelser og klasser med passive evner til spillet, der du velger ved starten av eventyret ditt. Opprettet av R4ISEN1920.
+
+
+origins.welcome_message=(Bla nedover for å se Changelog)
+
+
+origins.race.random.name=Du vil bli tildelt en av følgende opprinnelser som er listet opp nedenfor, bare hvis den er tilgjengelig for bruk:
+origins.race.random.description=Du blir tildelt et tilfeldig tilgjengelig opprinnelse.
+origins.race.random.description_changed=Menneskelig
+origins.race.human.name=Et vanlig menneske. Din vanlige Minecraft -opplevelse venter.
+origins.race.human.description=Merling
+origins.race.merling.name=Disse naturlige innbyggerne i havet er ikke vant til å være ute av vannet for lenge.
+origins.race.merling.description=Arachnid
+origins.race.arachnid.name=Deres klatreevner og evnen til å felle fiendene sine i Spiderweb gjør Arachnid perfekte jegere.
+origins.race.arachnid.description=Blazeborn
+origins.race.blazeborn.name=Sent etterkommere av Blaze, Blazeborn er naturlig immun mot farene til Nederen.
+origins.race.blazeborn.description=Avian
+origins.race.avian.name=Avian -løpet har mistet evnen til å fly for lenge siden. Nå kan disse fredelige skapningene sees som glir fra et sted til et annet.
+origins.race.avian.description=Fantom
+origins.race.phantom.name=Som halvmenneskelig og halvfantom avkom, kan disse skapningene bytte mellom et fantom og en normal form.
+origins.race.phantom.description=Feline
+origins.race.feline.name=Med sitt kattlignende utseende, skremmer feline-skremmer bort. Med katterens fingerferdighet lander de alltid trygt på beina.
+origins.race.feline.description=Elytrian
+origins.race.elytrian.name=Ofte flyr rundt i vinden, er elytriere ukomfortable når de ikke har nok plass over hodet.
+origins.race.elytrian.description=Enderian
+origins.race.enderian.name=Enderianere er født som sønner og døtre til Ender Dragon, og er i stand til å teleportere, men er sårbare for vann.
+origins.race.enderian.description=Shulk
+origins.race.shulk.name=Relatert til shulkers er kroppene til shulken utstyrt med en beskyttende skalllignende hud.
+origins.race.shulk.description=Rev
+origins.race.kitsune.name=Rever er, selv om de er svake når det gjelder vitalitet, utnytter sine medfødte åndelige evner til å skjule og styrke deres kraft.
+origins.race.kitsune.description=Slimekikaner
+origins.race.slimecican.name=Del menneskelig, del slim. Veldig ubehagelig å ta på med bare hender.
+origins.race.slimecican.description=Starborne
+origins.race.starborne.name=Når du er født fra stjernene, er du en ikke-voldelig, stjernobsessert, mystisk og potensielt mektig person som falt fra stjernene inn i denne blokkerende verdenen vi lever i.
+origins.race.starborne.description=Inchling
+origins.race.inchling.name=Etterkommere av den minste stammen er disse skapningene like kvikke som størrelsen.
+origins.race.inchling.description=Bie
+origins.race.bee.name=Bier er kule. De flyr, koser seg med blomster og dør.
+origins.race.bee.description=Piglin
+origins.race.piglin.name=Dominant Race of the Nether, disse humanoide skapningene bruker deres rene brawn og kan skryte av gullet sitt.
+origins.race.piglin.description=Elven
+origins.race.elf.name=Elegante og smidige vesener med en dyp forbindelse til naturen, dyktig i bueskyting, som de har slått sammen takket være deres store levetid.
+origins.race.elf.description=Voidwalker
+origins.race.voidwalker.name=Født i dypet av et uhyggelig rike, har du fått evnen til å manipulere og utnytte mørke energier innenfra for å skade andre.
+origins.race.voidwalker.description=Diviner
+origins.race.diviner.name=Diviners har evnen til å benytte seg av de mystiske energiene i universet, og utøver dem for å beskytte og hjelpe andre spillere i nød.
+
+
+
+
+
+origins.race.scout.name=Falconeers er uredde stifinders som lanserer i himmelen, glir over forrædersk terreng og avdekker fiendens posisjoner før slaget begynner. Med unyielding momentum og høy smidighet, er de vinden før stormen.
+
+
+origins.race.attacker.name=Sverdsmenn streiker med dødelig hastighet og presisjon, teleporterer gjennom slagmarken og slipper løs ødeleggende volleier av rekkevidde og nærkampangrep. Jobben deres er enkel - eliminere trusselen før den når dine allierte.
+
+
+origins.race.defender.name=Foresatte er titaner som hopper i fare, smeller ned med makt og beskytter sine allierte med ren motstandskraft. Med jernhud og uovertruffen styrke er de veggen som ingen fiende krysser.
+
+
+origins.race.supporter.name=Vismenn kanaliserer himmelsk energi til å beskytte, styrke og opprettholde sine allierte. Deres aura forvandler tidevannet av kamp - gripende styrke, uovervinnelighet og håper til laget sitt i de mørkeste øyeblikkene.
+
+
+origins.race.rogue.name=Nightblades forsvinner i et øyeblikk, og slår fra usettede steder og bøyer slagmarken i deres favør. Masters of Deception and Sabotage, de trives i kaos - krenkende fiender og veileder seier fra skyggene.
+
+
+origins.class.caver.name=Cavers trives underjordiske, sensingmalm, gruvedrift uendelig og faller uten frykt. I dypet ser de hva andre savner.
+
+
+origins.class.carpenter.name=Snekkere hopper høyere, bygger raskere og handler smartere. Med rekkevidde og spenst, former de verden med letthet.
+
+
+origins.class.shepherd.name=Hyrder vokser og samles med omhu. Deres tilstedeværelse mater livet, dobler høstinger og kaller dyr til sin side.
+origins.class.shepherd.description=Håndverker
+
+
+
+
+
+origins.class.random.name=Du blir tildelt en tilfeldig tilgjengelig klasse.
+origins.class.random.description=Nitwit
+origins.class.random.description_changed=Nitwits er ikke veldig bra på noe. Du vil fortsette uten ekstra egenskaper.
+origins.class.nitwit.name=Kriger
+origins.class.nitwit.description=Disse ærefulle jagerflyene har stort mot til å ta ned fiendene sine.
+origins.class.warrior.name=Bueskytter
+origins.class.warrior.description=Ett skudd, ett drap. I stand til å ta ned mål over stor avstand.
+origins.class.archer.name=Rogue
+origins.class.archer.description=Vanligvis er kjent for å være tyver og ranere, er rogues dyktige i bakhold og stealth -angrep.
+origins.class.rogue.name=Beastmaster
+origins.class.rogue.description=Beastmasters er ensomme mennesker som foretrekker selskap med dyr.
+origins.class.beastmaster.name=Smed
+origins.class.beastmaster.description=Verdsatte venner av noen, smeder er i stand til å lage bedre verktøy, våpen og rustning.
+origins.class.blacksmith.name=Geistlig
+origins.class.blacksmith.description=De har lært å kanalisere den magiske nåtiden i verden og bruke den til deres fordel.
+origins.class.cleric.name=Kokk
+origins.class.cleric.description=Det er ingen bedre å tilberede maten annet enn en kokk.
+origins.class.cook.name=Bonde
+origins.class.cook.description=Bønder har vært kjent for å gi alle mat så lenge alle kan huske.
+origins.class.farmer.name=Kjøpmann
+origins.class.farmer.description=Leter alltid etter en ekstra smaragd, kjøpmenn er dyktige handelsmenn.
+origins.class.merchant.name=Rancher
+origins.class.merchant.description=Å få mest mulig ut av dyr, er ranchers i stand til å samle mange nyttige ressurser.
+origins.class.rancher.name=Gruvearbeider
+origins.class.rancher.description=Gruvearbeidere er de dyktigste til å grave opp jordens skatter.
+origins.class.miner.name=Lumberjack
+origins.class.miner.description=Trær bør passe på når trelastjakker er rundt.
+origins.class.lumberjack.name=Explorer
+origins.class.lumberjack.description=Utforskere finner veien gjennom det vanskeligste terrenget enkelt og oppdager skjulte landemerker.
+
+origins.class.explorer.description=Opprinnelsesegenskaper:
+
+origins.trait.has=Du kan puste under vann, men ikke på land. Statuseffekter som vannpust kan imidlertid hjelpe deg i dine satsinger.
+origins.trait.water_breathing.name=Aqua Affinity
+origins.trait.water_breathing.description=Du kan bryte blokker under vann som andre gjør på land, og kunne se perfekt under vann.
+origins.trait.aqua_affinity.name=Sea innbygger
+origins.trait.aqua_affinity.description=Under vannmobber vil ikke naturlig skade eller angripe deg, med mindre du angriper dem først.
+origins.trait.sea_creature.name=Som vann
+origins.trait.sea_creature.description=Du holder deg naturlig flytende på vannet og synker ved å snike deg når du vil.
+origins.trait.like_water.name=Ocean's gave
+origins.trait.like_water.description=Du er usårbar fra skader som er behandlet av trninger.
+origins.trait.no_trident_damage.name=Skjør
+origins.trait.no_trident_damage.description=Du har 3 mindre helsehjerter enn mennesker.
+origins.trait.fragile.name=Webbing
+origins.trait.fragile.description=Når du treffer en fiende i nærkamp, ​​blir de midlertidig fast i et spindelvev, og bremser og forgir målet ytterligere. Har en 13-sekunders nedkjøling.
+origins.trait.webbing.name=Nettkokong
+origins.trait.webbing.description=Så lenge du står i et spindelvev, reduserer du eventuelle skader som er tatt.
+origins.trait.master_of_webs.name=Klatring
+origins.trait.master_of_webs.description=Du er i stand til å klatre opp i enhver solid blokk du ser raskt på ved å holde hoppknappen. Falling av mens klatring reduserer mottatt fallskader.
+origins.trait.climbing.name=Carnivore
+origins.trait.climbing.description=Kostholdet ditt er begrenset til kjøtt, og du vil ikke kunne spise eller samhandle med forbruksvarer med grønnsaker.
+origins.trait.carnivore.name=Ugjennomtrengelig
+origins.trait.carnivore.description=Hver gang du tar magma, ild- eller lavasade, vil helsen du mistet umiddelbart bli gjenopprettet, og øker skadene du påfører midlertidig.
+origins.trait.fire_immunity.name=Nether innbygger
+origins.trait.fire_immunity.description=Din naturlige gyte vil være i nederst.
+origins.trait.nether_spawn.name=Ember
+origins.trait.nether_spawn.description=Når du er i brann, vil enhver mobb som du treffer og mobbene rundt den bli antent og bli satt i brann. Dette kan bare utløses en gang hvert tredje sekund.
+origins.trait.burning_wrath.name=Hotblooded
+origins.trait.burning_wrath.description=På grunn av den varme kroppen din, brenner gift, noe som gjør deg immun mot gift og sultestatuseffekter.
+origins.trait.hotblooded.name=Hydrofobi
+origins.trait.hotblooded.description=Du får skader over tid mens du er i kontakt med vann.
+origins.trait.water_vulnerability.name=Tailwind
+origins.trait.water_vulnerability.description=Du er litt raskere til fots enn andre, mens du også kan sprint mer effektivt.
+origins.trait.tailwind.name=Fjærvekt
+origins.trait.tailwind.description=Du faller så forsiktig til bakken som en fjær ville gjort.
+origins.trait.slow_falling.name=Vegetarianer
+origins.trait.slow_falling.description=Kostholdet ditt er begrenset til grønnsaker, og du vil ikke kunne spise eller samhandle med kjøttforbruk.
+origins.trait.vegetarian.name=Frisk luft
+origins.trait.vegetarian.description=Når du sover, må sengen din være i en høyde av minst 70 blokker, slik at du kan puste frisk luft.
+origins.trait.fresh_air.name=Du må sove i en høyde av minst 70 blokker
+origins.trait.fresh_air.description=Fantomiser
+origins.trait.fresh_air.sleep_fail=Bruk evnen til å bli til tilskuermodus. Du går ut av denne tilstanden når du står stille.
+origins.trait.phantomize.name=Åndelig kropp
+origins.trait.phantomize.description=Mens du er i tilskuermodus, er du usynlig fra andre og kan krysse gjennom blokker, og du vil ikke kunne samhandle med noe annet.
+origins.trait.invisibility.name=Vandøde
+origins.trait.invisibility.description=Du begynner å brenne i dagslys hvis du ikke er usynlig eller i vann. Hodeklær reduserer skader på sollys med 50%.
+origins.trait.burns_in_daylight.name=Sterke ankler
+origins.trait.burns_in_daylight.description=Du tar aldri høstskader, uansett hvor du faller.
+
+origins.trait.fall_immunity.description=Ni liv
+
+origins.trait.nine_lives.name=Svake armer
+origins.trait.nine_lives.description=Når du ikke er under styrke, blokkerer du saktere og angriper svakere.
+origins.trait.weak_arms.name=Kattelignende utseende
+origins.trait.weak_arms.description=Creepers er redd for deg og vil bare eksplodere hvis du angriper dem først.
+
+
+
+
+
+origins.trait.claustrophobia.name=Sprø bein
+origins.trait.claustrophobia.description=Du tar mer skade på å falle og fly inn i blokker.
+origins.trait.more_kinetic_damage.name=Luftkamp
+origins.trait.more_kinetic_damage.description=Du takler mer skade når du glir med en elytra.
+
+origins.trait.aerial_combatant.description=Redd for kalebasser
+
+origins.trait.pumpkin_hate.name=Kjent ansikt
+origins.trait.pumpkin_hate.description=Monstre og andre Endermans vil ikke angripe deg selv om du ser direkte på dem uten å ha på deg et utskåret gresskar, med mindre du angriper dem først.
+origins.trait.familiar_face.name=Hoarder
+origins.trait.familiar_face.description=Utløs muligheten til å bytte til et annet lagerområde. Slik at du kan lagre flere varer med 9 ekstra spor som holdes selv ved døden.
+origins.trait.shulk_inventory.name=Shulk Inventory
+origins.trait.shulk_inventory.description=Solid hud
+origins.trait.shulk_inventory.label=Selv uten å bruke rustning, gir huden din naturlig beskyttelse og får 20% mindre skade fra noen kilde.
+origins.trait.natural_armor.name=Stor appetitt
+origins.trait.natural_armor.description=Du blir lett utmattet og tapper mer sult enn normalt.
+origins.trait.more_exhaustion.name=Uhåndterlig
+origins.trait.more_exhaustion.description=Måten hendene dine dannes gir ingen måte å holde et skjold oppreist på. Forsøk på å blokkere med et skjold vil øyeblikkelig bryte det uavhengig av fortryllelser som brukes på det.
+origins.trait.no_shield.name=Sterke armer
+origins.trait.no_shield.description=Du er sterkere og kan bryte steinblokker uten å kreve noe pickaxe.
+origins.trait.strong_arms.name=Slutt innbygger
+origins.trait.strong_arms.description=Reisen din begynner til slutt.
+origins.trait.end_spawn.name=Fast fot
+origins.trait.end_spawn.description=På grunn av dine kortere ben og lav utmattelse økes bevegelseshastigheten din og størrelsen din reduseres.
+origins.trait.fast_footed.name=Slå
+origins.trait.fast_footed.description=Lad evnen til å holde den og hoppe i den retningen du ser på. Jo mer ladningen, jo større blir avstanden.
+origins.trait.pounce.name=Berry Craver
+origins.trait.pounce.description=Søte bær gjenoppretter flere sultpunkter når de spises, og vil noen ganger gi regenereringseffekter. Du er heller ikke skadet fra bærbusker.
+origins.trait.berry_craver.name=Mindre hjerte
+origins.trait.berry_craver.description=På grunn av din generelle mindre størrelse, er hjertet ditt mindre, noe som resulterer i at din maksimale helse blir senket med 4 hjerter.
+origins.trait.smaller_heart.name=Rask metabolisme
+origins.trait.smaller_heart.description=Med hastigheten, og en mindre mage, blir du mer sulten enn vanlig.
+origins.trait.fast_metabolism.name=Sprett kropp
+origins.trait.fast_metabolism.description=Du reduserer en stor del av høstskadene på grunn av din sprett, men klissete kropp.
+origins.trait.bouncy_body.name=Superhopp
+origins.trait.bouncy_body.description=Slim -arven gir deg et forbedret sprang, slik at du kan hoppe høyere. Å slå tilbake og håndtere skader på mobber i nærheten ved landing. Denne passive evnen kan bare utløses en gang hvert tredje sekund.
+origins.trait.high_jump.name=Klissete
+origins.trait.high_jump.description=Enhver enhet som angriper deg i nærkamp blir bremset, og reduserer skaden som er påført deg med 10%. Du ser også grønn og slimete ut.
+origins.trait.sticky.name=Fragmentering
+origins.trait.sticky.description=Du krymper til en del av størrelsen din når helsen din faller, så vel som dine maksimale helsepunkter. 
+origins.trait.fragmentation.name=Bedring
+origins.trait.fragmentation.description=Du kan konsumere og spise slimkuler for å gjenvinne en tapt del av deg selv.
+origins.trait.slime_ball_consume.name=Stress
+origins.trait.slime_ball_consume.description=Dette samler seg i hele deg med langsom hastighet. Når den er fylt opp, eksploderer du voldsomt - å skade alt som omgir deg. Imidlertid avkjøles alle dine evner raskere hvis [stresset] er på 70%.
+origins.trait.stress.name=Meditere
+origins.trait.stress.description=Redusere [stresset] akkumulert ved å snike seg, så lenge du er på full helse.
+origins.trait.meditate.name=Kosmisk gave
+origins.trait.meditate.description=Starbornes er vesener velsignet av himmelen. Berørt av mindre tyngdekraft, er du i stand til å hoppe høyere og stige tilbake til bakken med nåde - og tar ingen fallskader overhodet.
+origins.trait.cosmic_gift.name=Hyper sprang
+origins.trait.cosmic_gift.description=Driv mot en viss retning du ser på, og lansere enheter du var i luft. Har en kort nedkjøling før hver bruk.
+origins.trait.hyper_leap.name=Skytestjerne
+origins.trait.hyper_leap.description=Avfyrer et stjerneprosjektil mot retningen du ser på, og skader mobber på påvirkning. Har en nedkjøling før hver bruk.
+origins.trait.shooting_star.name=Ikke -voldelig
+origins.trait.shooting_star.description=Starbornes har en sjanse til å bli midlertidig immobilisert når de blir skadet av en annen enhet. I denne tilstanden er visjonen din også midlertidig hindret.
+origins.trait.no_hitting.name=Kaldt vakuum
+origins.trait.no_hitting.description=Starbornes er vant til kulden i den enorme kosmos, og tar derfor dobbelt brannskadene - varme som de ikke er vant til.
+origins.trait.burning.name=Kvikk
+origins.trait.burning.description=Inchlings er immun mot torner og hastighetsbasert skade.
+origins.trait.nimble.name=Hyperaktiv
+origins.trait.nimble.description=Du er i stand til å konsumere sukker selv om du er full, og gir et midlertidig hastighetshastighetsøkning.
+origins.trait.hyper_active.name=Liten apetitt
+origins.trait.hyper_active.description=Forbruk av sukker er nok for dine behov, ettersom det er gir langvarige metningseffekter for deg. Krever mindre mat for å fortsette.
+origins.trait.small_apetite.name=Bite-size
+origins.trait.small_apetite.description=Du er mange ganger mindre og har 5 mindre hjerter sammenlignet med et vanlig menneske.
+origins.trait.bite_sized.name=Giftig
+origins.trait.bite_sized.description=Når du takler kritiske skader, påfører du dødelig gift til målet som varer 7 sekunder. Reduserer deretter [stinger] -tallet med en. Denne evnen vil ikke utløse enheter som allerede har effekten.
+origins.trait.poisonous.name=Dødelighet
+origins.trait.poisonous.description=Du behandler 50% mer skade på mål du har skadet plaget av dødelig gift.
+origins.trait.poison_bonus_damage.name=Stingers
+origins.trait.poison_bonus_damage.description=Du har opptil 7 stingers om gangen, og brukes hver gang du påfører giftskade. Når alle stingers er brukt opp, er du bundet til å gå til grunne og dø.
+origins.trait.sacrifice_stinger.name=Pollenat
+origins.trait.sacrifice_stinger.description=I løpet av dagen kan du stå på hvilken som helst blomst og snike seg for å gjenopprette enhver [stinger] du kan ha mistet. Dette vil imidlertid ødelegge blomsten.
+origins.trait.bloom.name=Daglig
+origins.trait.bloom.description=Du jobber best på en solskinnsdag, og dermed blir du svekket og beveger deg sakte om natten, eller hvis det begynner å regne om dagen.
+origins.trait.nighttime.name=Kort levetid
+origins.trait.nighttime.description=Bier har 3 mindre hjerter enn mennesker.
+origins.trait.lifespan.name=Nektar diett
+origins.trait.lifespan.description=Du kan ikke spise normal mat, og bare kunne konsumere blomster.
+origins.trait.nectar_diet.name=Stolthet
+origins.trait.nectar_diet.description=Jo mer gullartikler du har i varelageret ditt, slitt eller holdt, jo mindre skade vil du motta fra hvilken som helst kilde. Du kan dempe opptil 90% av skadene mottatt på denne måten.
+origins.trait.pride.name=Skryter av ildkraft
+origins.trait.pride.description=Melee -angrepet ditt påfører ytterligere skade som tilsvarer 10% av skaden du har gjort. Øker ytterligere den ekstra skaden som ble behandlet med 10% per nærliggende enheter som er til stede innen 6 blokker.
+origins.trait.increased_attack_per_entity.name=Gluttony
+origins.trait.increased_attack_per_entity.description=Du blir enda mer sulten enn vanlig når du fyller på helsen.
+origins.trait.gluttony.name=Mot
+origins.trait.gluttony.description=Du er immun mot svakhet og visne statuseffekter.
+origins.trait.courage.name=LifeWeaver
+origins.trait.courage.description=Regenererer umiddelbart helse basert på den akkumulerte skaden som er tatt innen 3 sekunder etter mottak av den. Deretter gir absorpsjon i 12 sekunder som skalaer avhengig av mottatt skade.
+origins.trait.lifeweaver.name=Rask
+origins.trait.lifeweaver.description=Bli kvikk og rask, og gi deg økt bevegelseshastighet, slik at du kan krysse terrenget uten problemer.
+origins.trait.agility.name=Beelzebub
+origins.trait.agility.description=Melee -angrep vil takle ytterligere skade basert på din manglende helse. Deretter belaster en bunke med [Beelzebub] på angrep, opptil tre.
+origins.trait.beelzebub.name=Soulburst
+origins.trait.beelzebub.description=Når [Beelzebub] når tre stabler, forbruker det hele og takler ytterligere skade basert på den totale skaden som blir behandlet når du anskaffer stablene.
+origins.trait.soulburst.name=Umbral slør
+origins.trait.soulburst.description=Hylser deg selv i en mørk energi når du sprint, gir ekstra hastighet og unngår eventuelle prosjektilskader.
+origins.trait.umbral_veil.name=Uhyggelig aura
+origins.trait.umbral_veil.description=Passive mobber i nærheten er skremt med din tilstedeværelse, og vil stikke av fra deg.
+origins.trait.sinister_aura.name=Livsavløp
+origins.trait.sinister_aura.description=Hver gang du takler skade, reduseres helsen din av målets manglende helse, opptil 50% av din maksimale helse. Når helsen din er lik 1, vil dette ikke redusere ytterligere.
+origins.trait.life_drain.name=Prescience
+origins.trait.life_drain.description=Slå med muligheten som er valgt til å kaste på en annen spiller. Ved rollebesetning øker du både deg og den andre spillerens Max Health med 50% til 60% av begge helsen din.
+origins.trait.prescience.name=Oracle
+origins.trait.prescience.description=Når du er under [Prescience], vil eventuelle skader du tar og helbrede mottatt, bli sprengt til den andre spilleren.
+origins.trait.oracle.name=Aegis
+origins.trait.oracle.description=Eventuelle eksterne skader som er tatt direkte vil avlede 50% av skaden tilbake til angriperen.
+origins.trait.aegis.name=Guddommelig aura
+origins.trait.aegis.description=Spillere under effekten av [prescience] vil gløde, og kan sees gjennom vegger. Imidlertid vil denne gløden alltid vedvare på deg.
+origins.trait.divine_aura.name=Skjørhet
+origins.trait.divine_aura.description=Jo mindre helse du har, jo mer utsatt er du fra noen skade.
+origins.trait.fragility.name=Ustabilitet
+origins.trait.fragility.description=For hver unik statuseffekt som brukes på deg, vil din maksimale helse reduseres med 1. Når helsen din er lik 1, vil dette ikke redusere ytterligere.
+
+origins.trait.instability.description=Klasse fordeler:
+
+origins.perk.has=I skyggene
+
+origins.perk.stealth.name=Smidighet
+origins.perk.stealth.description=Du kan bevege deg raskere til fots enn andre mens du tegner bow eller armbue.
+origins.perk.less_bow_slowdown.name=Presisjon
+origins.perk.less_bow_slowdown.description=Alle pilene du skyter reiser i en rett linje, påvirket av ingen tyngdekraft.
+origins.perk.no_projectile_divergence.name=Skjold
+origins.perk.no_projectile_divergence.description=Du får ekstra beskyttelse når du blokkerer deg med et skjold.
+origins.perk.less_shield_slowdown.name=Wrath Bloodlust
+origins.perk.less_shield_slowdown.description=Du får styrke som øker, jo lavere er din nåværende helse.
+origins.perk.less_health_more_attack.name=Fauna venner
+origins.perk.less_health_more_attack.description=Dyr du tamer får en permanent buff til helsen deres.
+origins.perk.tamed_animal_boost.name=Effektiv empati
+origins.perk.tamed_animal_boost.description=Eventuelle potioneffekter du måtte ha vil også bli brukt på mobbene du har temmet.
+origins.perk.effective_empathy.name=Gode ​​måltider
+origins.perk.effective_empathy.description=Mat du lager mat vil gi ekstra metning når du spises.
+origins.perk.more_saturated_food.name=Foryngende suppe
+origins.perk.more_saturated_food.description=Gryter du lager kan gi regenereringseffekter.
+origins.perk.better_stew.name=Dyktig brygging
+origins.perk.better_stew.description=Ved å utvide lengden på potioneffekter ved hjelp av Redstone, vil enhver potion du brygger bli utvidet ytterligere.
+origins.perk.longer_potions.name=Potente brygger
+origins.perk.longer_potions.description=Enhver potion du brygger vil bli mer forsterket når du brygger den med glowstone.
+origins.perk.powerful_potions.name=Stor håndverk
+origins.perk.powerful_potions.description=Alt utstyr du håndverk eller Smith vil ha økt holdbarhet, effektivitet, skade og kanskje til og med Fortune I.
+origins.perk.quality_equipment.name=Effektive reparasjoner
+origins.perk.quality_equipment.description=Utstyr av høy kvalitet du har laget er lett mer reparerbare og kan gjenopprette mer holdbarhetspunkter.
+origins.perk.efficient_repairs.name=Grønn tommel
+origins.perk.efficient_repairs.description=Når du planter avlinger, er det en sjanse for at den umiddelbart vil vokse.
+origins.perk.fast_crop_growth.name=Rikholdig høst
+origins.perk.fast_crop_growth.description=Når du høster avlinger, mottar du noen ganger dobbelt så mye utbyttet.
+origins.perk.more_crop_drops.name=Flere fødsler
+origins.perk.more_crop_drops.description=Dyr avlet når du er i nærheten, har en sjanse til å produsere flere babyer.
+origins.perk.twin_breeding.name=Scavenging
+origins.perk.twin_breeding.description=Du kan noen ganger motta mer materiale fra å drepe mobber.
+origins.perk.more_animal_loot.name=Gode ​​tilbud
+origins.perk.more_animal_loot.description=Du får rabatter når du handler med landsbyboere.
+origins.perk.cheaper_trades.name=Karisma
+origins.perk.cheaper_trades.description=Det er mer sannsynlig at vandrende handelsmenn besøker når du er i nærheten.
+origins.perk.wandering_trader_spawn.name=Passe
+origins.perk.wandering_trader_spawn.description=Du mister ikke sult når du sprint.
+origins.perk.no_sprint_exhaustion.name=Explorer Kit
+origins.perk.no_sprint_exhaustion.description=Du starter spillet med et kompass, en klokke og ni tomme kart som aldri vil slippe på døden.
+
+origins.perk.explorer_kit.description=Trekapital
+
+origins.perk.tree_felling.name=Omplanting
+origins.perk.tree_felling.description=Det er en sjanselogger du bryter kan bli gjenplantet med samme type sapling.
+
+origins.perk.sapling_setblock.description=ORB av opprinnelse
+
+origins.item.orb_of_origins.name=§7 [vekslemeny] §R
+origins.item.resignation_paper.name=§7 [Flere alternativer] §R
+origins.item.origins_menu.name=§Z
+
+origins.item.origins_menu_padding.name=Velg opprinnelse.
+
+origins.gui.title.choose_origin=Du har valgt denne opprinnelsen.
+origins.gui.title.choose_class=Du har valgt denne klassen.
+origins.gui.title.view_origin=Dette er din opprinnelse.
+origins.gui.title.view_class=Dette er klassen din.
+origins.gui.title.change_origin=Tilpasse deg preferansene dine.
+origins.gui.title.change_class=Velg opprinnelse for å forby.
+origins.gui.title.options=Velg klasser for å forby.
+origins.gui.title.ban_origin=Denne opprinnelsen er forbudt
+origins.gui.title.ban_class=Denne opprinnelsen brukes allerede
+origins.gui.subtitle.banned=Ingen spillpåvirkning
+origins.gui.subtitle.locked=Spillvirkning varierer
+origins.gui.impact.none=Lav spillpåvirkning
+origins.gui.impact.random=Moderat spillpåvirkning
+origins.gui.impact.low=Høy spillpåvirkning
+origins.gui.impact.medium=Ingen ekstra fordeler
+origins.gui.impact.high=Perk varierer
+origins.gui.useful.none=Anstendige fordeler
+origins.gui.useful.random=Nisje fordeler
+origins.gui.useful.fair=Game-Changing Perks
+origins.gui.useful.medium=Forbruker 1 §e [orb av opprinnelse] §r
+origins.gui.useful.very=Koster 1 §E [avskjedingspapir] §r
+origins.gui.change.race=Opprinnelseskulen er deaktivert
+origins.gui.change.class=Avskjedighetspapiret er deaktivert
+origins.gui.change.blocked.orb=Når denne knappen er fremhevet, betyr det at denne opprinnelsen for øyeblikket er utestengt
+origins.gui.change.blocked.paper=Når denne knappen er fremhevet, betyr det at denne klassen for øyeblikket er utestengt
+origins.gui.manage.ban_race=Du kan ikke forby dem alle, vær så snill å la en være brukbar
+origins.gui.manage.ban_class=Du kan ikke forby dette opprinnelsen, da §Eunique Selection§f er aktivert
+origins.gui.manage.ban_limit=Endre
+origins.gui.manage.ban_locked=Si opp
+origins.gui.button.continue.change=Forby
+origins.gui.button.continue.resign=§L§Cban§r
+origins.gui.button.manage.ban=Velge
+origins.gui.button.manage.unban=Lukke
+origins.gui.button.select=Fortsette
+origins.gui.button.cancel=Tilbake
+origins.gui.button.start=La oss gå
+origins.gui.button.return=Ikke vis igjen
+
+origins.gui.button.ignore_welcome_screen=Generelle alternativer
+
+origins.gui.options.general_root=Tilgang nektet!
+origins.gui.options.admin_root=Disse alternativene krever en spesiell tillatelse før den kan nås!
+origins.gui.options.admin_denied.name=Kjør følgende kommando for å gi noen tillatelse til å få tilgang til disse alternativene:
+origins.gui.options.admin_denied.description1=Se min opprinnelse
+origins.gui.options.admin_denied.description2=Viser informasjon om opprinnelsen du har valgt.
+origins.gui.options.view_origin.name=Se klassen min
+origins.gui.options.view_origin.description=Viser informasjon om klassen du har valgt.
+origins.gui.options.view_class.name=Tomgangspartikler
+origins.gui.options.view_class.description=La opprinnelses tomgangspartikler avgi fra karakteren din. (standard: på)
+origins.gui.options.toggle_particle.name=Tilbakestill spiller
+origins.gui.options.toggle_particle.description=Tilbakestiller enhetens atferdskomponenter for forhåpentligvis å ordne problemer med opprinnelsen eller klassen. Dette alternativet kan bare brukes en gang til du blir med på nytt.
+origins.gui.options.reset_player.name=Forbudsvalg
+origins.gui.options.reset_player.description=Administrer forbudt opprinnelse og klasser. Minst ett utvalg må holdes uankt.
+origins.gui.options.ban.root.name=Forbud opprinnelse
+origins.gui.options.ban.root.description=Velg opprinnelse for å forhindre at de noen gang blir valgt. (Standard: Ingen)
+origins.gui.options.ban.origins.name=Forbudsklasser
+origins.gui.options.ban.origins.description=Velg klasser for å forhindre at de noen gang blir valgt. (Standard: Ingen)
+origins.gui.options.ban.classes.name=Evict utvalg
+origins.gui.options.ban.classes.description=Tving alle online spillere til å endre opprinnelse og klasse hvis den nettopp er forbudt.
+origins.gui.options.ban.evict.name=Tilleggsspiller
+origins.gui.options.ban.evict.description=Administrer flere alternativer som endrer hvordan tillegget oppfører seg og påvirker spillerne.
+origins.gui.options.toggle.root.name=Unikt utvalg
+origins.gui.options.toggle.root.description=Bare tillate en opprinnelse per spiller. Merk at dette ikke vil tvinge spillere til å endre opprinnelse hvis de allerede er valgt, vennligst velg §e [initialiser alt] §f -alternativet for å gjøre det. (Standard: Av)
+origins.gui.options.toggle.unique.name=ORB av opprinnelse
+origins.gui.options.toggle.unique.description=La spillerne endre opprinnelse ved å bruke §e [orb of origins] §f -elementet. (standard: på)
+origins.gui.options.toggle.orb.name=Fratredelse
+origins.gui.options.toggle.orb.description=Tillat spillerne å trekke seg fra klassen sin ved å bruke §e [fratredelsespapir] §f -varen. (standard: på)
+origins.gui.options.toggle.paper.name=Sendte endringer
+origins.gui.options.toggle.paper.description=Kunngjør i chatten når en spiller endrer opprinnelse eller trekker seg fra klassen. (standard: på)
+origins.gui.options.toggle.announce.name=Initialiser alt
+origins.gui.options.toggle.announce.description=Tilbakestiller alle spillerens valgte opprinnelse og klasser, og gjenoppretter alternativene tilbake til standardinnstillingene.
+origins.gui.options.reset_all.name=Klikk på knappen igjen for å fortsette. Denne handlingen kan ikke angres!
+
+origins.gui.options.reset_all.description_confirm=%1 har endret opprinnelse til [%2]
+
+origins.change.announce.race=Opprinnelseskortet er deaktivert
+origins.change.announce.class=Avskjedighetspapiret er deaktivert
+
+origins.change.fail.class=Du har aktive evner
+
+origins.ability_controls.info.usage=Ingen aktive evner
+
+origins.ability_controls.info.none=§Z
+
+entity.r4isen1920_originspe:cleric_area_effect_cloud.name=§Z
+entity.r4isen1920_originspe:cleric_lingering_potion.name=§Z
+entity.r4isen1920_originspe:cleric_splash_potion.name=§Z
+entity.r4isen1920_originspe:dialogue_handler.name=§Z
+entity.r4isen1920_originspe:elven_arrow.name=§Z
+entity.r4isen1920_originspe:huge_explosion.name=§Z
+entity.r4isen1920_originspe:inventory_keep.name=§Z
+entity.r4isen1920_originspe:knockback_roar.name=§Z
+entity.r4isen1920_originspe:safe_teleporter.name=§Z
+entity.r4isen1920_originspe:shooting_star.name=§Z
+
+entity.r4isen1920_originspe:webbing_attack.name=Åpent lager for å se Shulk Inventory
+
+
+action.hint.exit.console.r4isen1920_originspe:inventory_keep=Laster opprinnelse og klasser
+
+
+
+
+
+
+
+
+origins.trait.launch_into_air.name=Vinget
+origins.trait.launch_into_air.description=Du har elytravinger uten å måtte utstyre noe, og går aldri tapt og kan ikke fjernes.
+origins.trait.elytra.name=Essentials
+origins.trait.elytra.description=Du beholder tilgangen til essensiell lager, og sikrer at hotbaren din ikke går tapt ved døden.
+origins.trait.essentials.name=Rask
+origins.trait.essentials.description=Bli kvikk og rask, og gi deg økt bevegelseshastighet, slik at du kan krysse terrenget uten problemer.
+origins.trait.swift.name=Akrobatikk
+origins.trait.swift.description=Med kraftige ben, hopp 2 blokker høyt mens du sprint - knus hindringer og unngå fare med letthet.
+origins.trait.sprint_jump.name=Lett
+origins.trait.sprint_jump.description=Fall som en fjær: Ta ingen fallskader, aldri dekk fra sprint eller hopping, men pass på - andre angrep skader 10% mer.
+
+origins.trait.lightweight.description=Teleportering
+
+origins.trait.throw_ender_pearl.name=Ikke rom for å teleportere der!
+origins.trait.throw_ender_pearl.description=Endless Quiver
+origins.trait.throw_ender_pearl.failed=Pilene dine blir aldri tørre. Bruk baugen din med uendelig ammunisjon og nådeløs presisjon.
+origins.trait.endless_quiver.name=Skarpskytter
+origins.trait.endless_quiver.description=Takle 30% mer skade med varierte angrep. Målet ditt er dødens egen messenger.
+origins.trait.marksman.name=Voldsom
+origins.trait.marksman.description=Unleash Primal Fury. Få styrke jeg og knuse fiender i nære kvartaler.
+origins.trait.ferocious.name=Skjør
+origins.trait.ferocious.description=Kraften kommer til en pris - ta 20% mer skade fra enhetsangrep. Vær rask, ikke hensynsløs.
+
+
+
+
+origins.trait.smash.name=Vanskelig
+origins.trait.smash.description=Voks 4 bonushjerter og får 20% motstand mot alle former for skade. Du er frontlinjen.
+origins.trait.tough.name=Uknuselig hud
+origins.trait.tough.description=Avlyne himmelen - Ta 30% mindre skade fra prosjektilene. Pilene spretter av jernoppløsningen.
+origins.trait.unbreakable_skin.name=Tyngde
+origins.trait.unbreakable_skin.description=Massiv kraft veier tung. Flytt 5% tregere og eksos dobbelt så raskt - men din makt er uovertruffen.
+
+origins.trait.heavy.description=Empowering Aura
+
+origins.trait.empowering_aura.name=⚠ Aura på cooldown!
+origins.trait.empowering_aura.description=Lang levetid
+origins.trait.empowering_aura.cooldown=Få 2 ekstra hjerter og overgå fiendene dine. Hvert pust er en ny sjanse.
+origins.trait.longevity.name=Godt minne
+origins.trait.longevity.description=Inventaret ditt kommer tilbake med deg fra graven. Døden er bare et tilbakeslag.
+origins.trait.good_memory.name=Sultemotstand
+origins.trait.good_memory.description=Tåle naturen. Reduser utmattelse med 20% fra alle aktiviteter og hold deg full lenger.
+origins.trait.hunger_resistant.name=Sult Aura
+origins.trait.hunger_resistant.description=Empower dine allierte: Alle spillere innen 16 blokker får sultemotstand bare ved å være i nærheten av deg.
+
+
+
+
+origins.trait.invisibility.name=⚠ Usynlighet på cooldown!
+origins.trait.invisibility.description=⚠ Kan ikke bruke usynlighet mens den er hindret!
+origins.trait.invisibility.cooldown=Nattlig
+origins.trait.invisibility.hindered=På steder der lysnivået er lavt, får du automatisk styrke- og nattsynsstatuseffektene.
+origins.trait.cat_vision.name=Kamuflere
+origins.trait.cat_vision.description=Du smelter sammen med miljøet når du sniker deg, at fiendtlige mobber ikke naturlig angriper deg - med mindre du angriper dem først.
+origins.trait.camouflage.name=Sneaky
+origins.trait.camouflage.description=Navneskiltet ditt er aldri alltid synlig, selv når du ikke sniker deg.
+origins.trait.sneaky.name=Ødeleggende streik
+origins.trait.sneaky.description=Krøpp fiendene dine. Enhver mobb du treffer blir bremset i 4 sekunder - de vil aldri unnslippe din vrede.
+origins.trait.debilitating_strikes.name=Mindre
+origins.trait.debilitating_strikes.description=Størrelsen din reduseres 25%, noe som gjør deg vanskeligere å målrette.
+origins.trait.smaller.name=Behov for mobilitet
+origins.trait.smaller.description=Tung rustning bremser deg med 50%. Du ble laget for hastighet, og ikke trakk den ut i stål.
+
+
+
+
+origins.perk.ore_vein_miner.name=Veteran gravemaskin
+origins.perk.ore_vein_miner.description=Du mister ikke sult når du gruver.
+origins.perk.no_mining_exhaustion.name=Velsignet gruvearbeider
+origins.perk.no_mining_exhaustion.description=Du er velsignet med Fortune +1 på hva pickaxe du bruker. Denne velsignelsen overføres ikke til andre.
+
+
+
+
+origins.perk.fall_resistant.name=Byggerens trinn
+origins.perk.fall_resistant.description=Du er trent til å skalere strukturer med letthet, og hopper dobbelt så høyt for å nå avsatser og rammer.
+
+origins.perk.high_jumper.description=Prospektors intuisjon
+
+
+origins.perk.ore_instinct.description=undefined
+
+
+
+

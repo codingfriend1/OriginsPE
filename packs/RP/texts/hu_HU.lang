@@ -1,0 +1,533 @@
+
+pack.name=Ez a kiegészítő számos eredet és osztály passzív képességekkel jár a játékhoz, amelyben a kaland kezdete után választja. Készítette: R4ISEN1920.
+
+
+origins.welcome_message=(Görgessen lefelé, hogy lássa a változást)
+
+
+origins.race.random.name=Az alábbiakban felsorolt ​​eredetek egyikéhez rendelik, csak akkor, ha az elérhető:
+origins.race.random.description=Egy véletlenszerű eredethez rendelik.
+origins.race.random.description_changed=Emberi
+origins.race.human.name=Rendszeres ember. A szokásos Minecraft tapasztalatai várnak.
+origins.race.human.description=Zúzó
+origins.race.merling.name=Az óceán természetes lakosai nem szoktak túl sokáig kimenni a vízből.
+origins.race.merling.description=Pókféle
+origins.race.arachnid.name=Mászó képességeik és az a képességük, hogy csapdába ejtsék az ellenségeket a Spiderwebben, az Arachnid tökéletes vadászokat teszi.
+origins.race.arachnid.description=Világos
+origins.race.blazeborn.name=A láng késő leszármazottai, a Blazeborn természetesen immunis az alsó veszélyeivel szemben.
+origins.race.blazeborn.description=Madár
+origins.race.avian.name=A madárverseny már régen elvesztette képességét. Most ezek a békés lények láthatók, hogy az egyik helyről a másikra csúsznak.
+origins.race.avian.description=Fantom
+origins.race.phantom.name=Fél ember és félig fantom utódokként ezek a lények válthatnak a fantom és a normál forma között.
+origins.race.phantom.description=Macskaféle
+origins.race.feline.name=A macskaszerű megjelenésükkel a macskafélék kúszónövények távol vannak. A macskák ügyességével mindig biztonságosan landolnak a lábukra.
+origins.race.feline.description=Elytrian
+origins.race.elytrian.name=Gyakran repülnek a szélben, az elytrians kényelmetlen, ha nincs elég helyük a fejük felett.
+origins.race.elytrian.description=Enderiai
+origins.race.enderian.name=Az Ender Dragon fiaként és lányaiként született enderiak képesek teleportálni, de kiszolgáltatottak a vízre.
+origins.race.enderian.description=Bili
+origins.race.shulk.name=A Shulkers-hez kapcsolódóan a shulk testei védőhéjszerű bőrrel vannak felszerelve.
+origins.race.shulk.description=Róka
+origins.race.kitsune.name=A rókák, bár a vitalitás szempontjából gyengék, veleszületett szellemi képességeiket felhasználják erejük elrejtésére és megerősítésére.
+origins.race.kitsune.description=Karcsúszó
+origins.race.slimecican.name=Részben ember, rész iszap. Nagyon kellemetlen, hogy érintse meg a csupasz kezét.
+origins.race.slimecican.description=Csillagterületű
+origins.race.starborne.name=A csillagokból született erőszak nélküli, csillag megszállott, titokzatos és potenciálisan hatalmas ember vagy, aki a csillagokból esett ebbe a blokkos világba, amelyben élünk.
+origins.race.starborne.description=Becsapás
+origins.race.inchling.name=A legkisebb törzs leszármazottai, ezek a lények ugyanolyan karcsúak, mint méretük.
+origins.race.inchling.description=Méh
+origins.race.bee.name=A méhek hűvösek. Repülnek, élvezik a virágokat és meghalnak.
+origins.race.bee.description=Malacka
+origins.race.piglin.name=Az alsó domináns faj, ezek a humanoid lények puszta bántalmazásukat használják, és büszkélkedhetnek aranyukkal.
+origins.race.piglin.description=Elfek
+origins.race.elf.name=Elegáns és agilis lények, amelyek mélyen kapcsolatosak a természettel, az íjászatban képzettek, amelyek felett nagy élettartamuknak köszönhetően csiszolták.
+origins.race.elf.description=Voidwalker
+origins.race.voidwalker.name=A baljós birodalom mélyén született, és megszerezte a képességét, hogy a sötét energiákat belülről manipulálja és kihasználja, hogy másokat károsítson.
+origins.race.voidwalker.description=Jós
+origins.race.diviner.name=Az elválasztók képesek arra, hogy bekapcsolják az univerzum misztikus energiáit, és megvédik és segítik őket a rászorulók védelme és segítése érdekében.
+
+
+
+
+
+origins.race.scout.name=A falkonok félelem nélküli útfajták, akik elindulnak az égboltba, átcsúsznak az áruló terepen, és feltárják az ellenséges pozíciókat, mielőtt a csata megkezdődne. A hangtalan lendület és a nagy agilitás mellett a szél a vihar előtt.
+
+
+origins.race.attacker.name=A kardok halálos sebességgel és pontossággal sztrájkolnak, teleportálnak a csatatéren, és a távolsági és közelharci támadások pusztító röplabdáit szabadítják fel. Munkájuk egyszerű - kiküszöböli a fenyegetést, mielőtt eléri a szövetségeseit.
+
+
+origins.race.defender.name=A gyámok olyan titánok, akik veszélybe ugornak, erővel csapnak le, és szövetségeseiket puszta ellenálló képességgel védik. A vasbőrrel és a páratlan erősséggel azok a fal, amelyekben nem keresztezik az ellenség.
+
+
+origins.race.supporter.name=A Sages az égi energiát csatornázza szövetségeseik pajzsa, felhatalmazása és fenntartása érdekében. Aurájuk átalakítja a csata dagályát - az erőt, a legyőzhetetlenséget és a reményt a csapatuknak a legsötétebb pillanatokban.
+
+
+origins.race.rogue.name=Az éjszakai pajzsok egy pillanat alatt eltűnnek, láthatatlan helyektől ütve és a csatatéren meghajolva a javukra. A megtévesztés és a szabotázs mesterek káoszban virágznak - az ellenségeket és az árnyékokból származó győzelmet.
+
+
+origins.class.caver.name=A barlangok a föld alatt virágzik, érceket érzékelnek, végtelenül bányásznak és félelem nélkül esnek le. A mélységben látják, amit mások hiányoznak.
+
+
+origins.class.carpenter.name=Az ácsok magasabbra ugornak, gyorsabban építenek és okosabbak. Az eléréssel és az ellenálló képességgel könnyedén alakítják a világot.
+
+
+origins.class.shepherd.name=A pásztorok nőnek és óvatosan gyűlnek össze. Jelenlétük táplálja az életet, megduplázza a betakarításokat, és az állatokat oldalra hívja.
+origins.class.shepherd.description=Kézműves
+
+
+
+
+
+origins.class.random.name=Egy véletlenszerűen elérhető osztályhoz rendelnek.
+origins.class.random.description=Hülye
+origins.class.random.description_changed=A nitwits semmiben nem igazán jó. További tulajdonságok nélkül folytatja.
+origins.class.nitwit.name=Harcos
+origins.class.nitwit.description=Ezeknek a tiszteletreméltó harcosoknak nagy bátorsága van az ellenség levételére.
+origins.class.warrior.name=Íjász
+origins.class.warrior.description=Egy lövés, egy gyilkosság. Képes nagy távolságra levenni a célokat.
+origins.class.archer.name=Gazember
+origins.class.archer.description=Általában tolvajoknak és rablóknak ismert, hogy a gazemberek jártas a csapdákban és a lopakodó támadásokban.
+origins.class.rogue.name=Vadállat
+origins.class.rogue.description=A Beastmasters magányos emberek, akik inkább az állatok társaságát részesítik előnyben.
+origins.class.beastmaster.name=Kovács
+origins.class.beastmaster.description=Bárki értékes barátai, a kovácsok jobb eszközöket, fegyvereket és páncélokat tudnak létrehozni.
+origins.class.blacksmith.name=Pap
+origins.class.blacksmith.description=Megtanultak, hogyan lehet a mágia jelenlétét a világon átirányítani, és ezt előnyeikre használni.
+origins.class.cleric.name=Szakács
+origins.class.cleric.description=Senki sem jobb, ha az ételt csak szakácsnak készíti el.
+origins.class.cook.name=Mezőgazdasági termelő
+origins.class.cook.description=A mezőgazdasági termelőkről ismert, hogy mindenkinek élelmet nyújtanak, amíg bárki emlékszik.
+origins.class.farmer.name=Kereskedő
+origins.class.farmer.description=Mindig további smaragdot keres, a kereskedők jártas kereskedők.
+origins.class.merchant.name=Farmer
+origins.class.merchant.description=Az állatok közül a lehető legtöbbet hozva a gazdaságok sok hasznos forrást tudnak összegyűjteni.
+origins.class.rancher.name=Bányász
+origins.class.rancher.description=A bányászok a legismertebbek a Föld kincseinek ásására.
+origins.class.miner.name=Favágó
+origins.class.miner.description=A fáknak vigyázniuk kell, amikor a favágók körül vannak.
+origins.class.lumberjack.name=Felfedező
+origins.class.lumberjack.description=A felfedezők könnyen megtalálják az utat a legnehezebb terepen, és felfedezik a rejtett tereptárgyakat.
+
+origins.class.explorer.description=Eredeti tulajdonságok:
+
+origins.trait.has=Lélegezhet a víz alatt, de nem a szárazföldön. Az olyan állapothatások, mint például a víz légzése, segíthetnek a vállalkozásaiban.
+origins.trait.water_breathing.name=Aqua rokonság
+origins.trait.water_breathing.description=Lehet, hogy megtörheti a víz alatti blokkokat, mint mások a szárazföldön, és tökéletesen láthatják a víz alatt.
+origins.trait.aqua_affinity.name=Tengeri lakos
+origins.trait.aqua_affinity.description=A víz alatti mobok természetesen nem ártanak és nem támadnak meg, hacsak nem támadják meg őket.
+origins.trait.sea_creature.name=Mint a víz
+origins.trait.sea_creature.description=Természetesen felszínen maradsz a vízen, és süllyedsz úgy, hogy besurranó, amikor csak akarja.
+origins.trait.like_water.name=Óceáni ajándék
+origins.trait.like_water.description=A tridensek által okozott károk miatt sebezhetetlen.
+origins.trait.no_trident_damage.name=Törékeny
+origins.trait.no_trident_damage.description=3 kevesebb egészséggel rendelkezik, mint az emberek.
+origins.trait.fragile.name=Szövet
+origins.trait.fragile.description=Amikor közelharci ellenséget ütött el, átmenetileg beragadnak egy pókhálóba, és tovább lelassítják és megmérik a célt. 13 másodperces hűtéssel rendelkezik.
+origins.trait.webbing.name=Webkonoon
+origins.trait.webbing.description=Mindaddig, amíg egy pókhálóban állsz, enyhítik az esetleges károkat.
+origins.trait.master_of_webs.name=Mászó
+origins.trait.master_of_webs.description=Az ugrásgomb tartásával felmászhat minden olyan szilárd blokkra, amelyet gyorsan megnéz. A mászás közben leesik, hogy enyhítse a kapott esési károkat.
+origins.trait.climbing.name=Húsevő
+origins.trait.climbing.description=Az étrend a húsra korlátozódik, és nem fog enni, és nem is kölcsönhatásba léphet a zöldségfogyasztókkal.
+origins.trait.carnivore.name=Áthatolhatatlan
+origins.trait.carnivore.description=Amikor magmát, tűz- vagy lávakárosodást szed, az elvesztett egészség azonnal helyreállítja, és ideiglenesen növeli az általa okozott károkat.
+origins.trait.fire_immunity.name=Alsó lakos
+origins.trait.fire_immunity.description=A természetes ívásod alsó részén lesz.
+origins.trait.nether_spawn.name=Parázs
+origins.trait.nether_spawn.description=Amikor tűzben van, minden olyan mobot, amelyet megütött, és a körülötte lévő mobokat meggyújtják, és felgyújtják. Ez csak 3 másodpercenként egyszer kiváltható.
+origins.trait.burning_wrath.name=Hálófedélű
+origins.trait.burning_wrath.description=Forró testének köszönhetően a méregek égnek, és immunis a méreg és az éhség státusának hatásaitól.
+origins.trait.hotblooded.name=Víziszony
+origins.trait.hotblooded.description=Idővel károkat kap, miközben a vízzel érintkezik.
+origins.trait.water_vulnerability.name=Hátszél
+origins.trait.water_vulnerability.description=Egy kicsit gyorsabb vagy gyalog, mint mások, miközben képesek is hatékonyabban sprintni.
+origins.trait.tailwind.name=Tollas súly
+origins.trait.tailwind.description=Olyan óvatosan esik a földre, mint egy toll.
+origins.trait.slow_falling.name=Vegetáriánus
+origins.trait.slow_falling.description=Az étrend a zöldségekre korlátozódik, és nem fog enni, és nem is kölcsönhatásba léphet a húsfogyasztókkal.
+origins.trait.vegetarian.name=Friss levegő
+origins.trait.vegetarian.description=Alváskor az ágyának legalább 70 blokk magasságban kell lennie, így friss levegőt lélegezhet.
+origins.trait.fresh_air.name=Legalább 70 blokk magasságban kell aludnia
+origins.trait.fresh_air.description=Fantomizál
+origins.trait.fresh_air.sleep_fail=Használja a képességi elemet, hogy néző módba forduljon. Kilépsz ebből az állapotból, amikor állsz.
+origins.trait.phantomize.name=Lelki test
+origins.trait.phantomize.description=Miközben néző módban van, láthatatlan vagy másoktól, és áthatolhat a blokkokon, és nem tud kölcsönhatásba lépni mással.
+origins.trait.invisibility.name=Élőholtak
+origins.trait.invisibility.description=Nappali fényben kezd égeni, ha nem láthatatlan vagy vízben. A fejfedő 50%-kal csökkenti a napfény károsodását.
+origins.trait.burns_in_daylight.name=Erős boka
+origins.trait.burns_in_daylight.description=Soha nem veszi az őszi károkat, függetlenül attól, hogy melyik magasságból esik le.
+
+origins.trait.fall_immunity.description=Kilenc élet
+
+origins.trait.nine_lives.name=Gyenge fegyverek
+origins.trait.nine_lives.description=Ha nem az erő hatása alatt van, akkor lassabban blokkok és gyengébb támadnak.
+origins.trait.weak_arms.name=Macskaszerű megjelenés
+origins.trait.weak_arms.description=A kúszónövények félnek tőled, és csak akkor fognak felrobbanni, ha először megtámadják őket.
+
+
+
+
+
+origins.trait.claustrophobia.name=Törékeny csontok
+origins.trait.claustrophobia.description=Több károkat szenved a leesés és a blokkokba repülése miatt.
+origins.trait.more_kinetic_damage.name=Légi harcos
+origins.trait.more_kinetic_damage.description=Több károkat okoz, amikor elcsúsz egy Elytra -val.
+
+origins.trait.aerial_combatant.description=Félek a töktől
+
+origins.trait.pumpkin_hate.name=Ismerős arc
+origins.trait.pumpkin_hate.description=A szörnyek és más endermanok még akkor sem támadnak meg téged, ha közvetlenül rájuk néznek, anélkül, hogy faragott tököt viselnének, hacsak nem támadják meg őket.
+origins.trait.familiar_face.name=Kócos
+origins.trait.familiar_face.description=Vigyázzon arra a képességre, hogy váltson egy másik készletterületre. Lehetővé téve, hogy több elemt tároljon további 9 további résidővel, amelyeket még halálkor is megőriznek.
+origins.trait.shulk_inventory.name=Shulk leltár
+origins.trait.shulk_inventory.description=Erős bőr
+origins.trait.shulk_inventory.label=Még a páncél viselése nélkül is a bőr természetes védelmet nyújt, így 20% -kal kevesebb károkat kap bármely forrásból.
+origins.trait.natural_armor.name=Nagy étvágy
+origins.trait.natural_armor.description=Könnyedén kimerülhet, és a normálnál jobban kimerül.
+origins.trait.more_exhaustion.name=Ormótlan
+origins.trait.more_exhaustion.description=A kezed kialakulásának módja nem biztosítja a pajzs egyenes tartását. A pajzsgal történő blokkolás megkísérlése azonnal megszakítja, függetlenül attól, hogy a rá vonatkozó varázslatok.
+origins.trait.no_shield.name=Erős fegyverek
+origins.trait.no_shield.description=Erősebb vagy, és megtörheti a kőtömböket, anélkül, hogy bármilyen csákányt igényelne.
+origins.trait.strong_arms.name=Vége lakó
+origins.trait.strong_arms.description=Az utad a végén kezdődik.
+origins.trait.end_spawn.name=Gyors lábú
+origins.trait.end_spawn.description=A rövidebb lábak és az alacsony kimerültség miatt növekszik a mozgási sebesség, és a méreted csökken.
+origins.trait.fast_footed.name=Lecsap
+origins.trait.fast_footed.description=Töltse fel a képességet úgy, hogy megtartja, és ugorjon be a nézett irányba. Minél több a töltés, annál nagyobb lesz a távolság.
+origins.trait.pounce.name=Bogyós dörzsölés
+origins.trait.pounce.description=Az édes bogyók több éhségpontot helyreállítanak, amikor fogyasztják, és néha regenerációs hatásokat adnak. Ön nem sérült meg a bogyós bokroktól.
+origins.trait.berry_craver.name=Kisebb szív
+origins.trait.berry_craver.description=A teljes kisebb méret miatt a szíved kisebb, így a maximális egészségi állapotát 4 szív csökkenti.
+origins.trait.smaller_heart.name=Gyors metabolizmus
+origins.trait.smaller_heart.description=A sebességgel és egy kisebb gyomorral éhesebbé válik, mint általában.
+origins.trait.fast_metabolism.name=Goromba test
+origins.trait.fast_metabolism.description=A bukós, mégis ragacsos test miatt enyhíti az őszi károk nagy részét.
+origins.trait.bouncy_body.name=Szuperugrás
+origins.trait.bouncy_body.description=A iszap öröksége továbbfejlesztett ugrást tesz lehetővé, lehetővé téve, hogy magasabbra ugorjon. Kopogni és a közeli mobok sérüléseinek a leszálláskor. Ezt a passzív képességet csak 3 másodpercenként csak egyszer lehet kivonni.
+origins.trait.high_jump.name=Ragadós
+origins.trait.high_jump.description=Bármely entitás, amely a közelharcban megtámad, lelassul, és 10%-kal csökkenti az Ön által okozott károkat. Te is zöldnek és nyálkásnak tűnsz.
+origins.trait.sticky.name=Széttöredezettség
+origins.trait.sticky.description=A méretének egy részére zsugorodsz, amikor az egészsége csökken, valamint a maximális egészségügyi pontok. 
+origins.trait.fragmentation.name=Gyógyulás
+origins.trait.fragmentation.description=Fogyaszthat és megélhet a iszapgolyókat, hogy visszaszerezze magát egy elveszett adagot.
+origins.trait.slime_ball_consume.name=Feszültség
+origins.trait.slime_ball_consume.description=Ez lassú sebességgel halmozódik fel. Miután kitöltötte, hevesen felrobban - minden, ami körülvesz. Azonban minden képessége gyorsabban lehűl, ha a stressz 70%.
+origins.trait.stress.name=Elmélkedik
+origins.trait.stress.description=Csökkentse a besurranás által felhalmozott stresszt, mindaddig, amíg teljes egészségi állapotban van.
+origins.trait.meditate.name=Kozmikus ajándék
+origins.trait.meditate.description=A Starbornes az égbolt által áldott lények. A kevesebb gravitáció által befolyásolva magasabbra tud ugrani, és kegyelemmel visszaereszkedhet a földre - semmilyen esési károkat okozhat.
+origins.trait.cosmic_gift.name=Hiperkugor
+origins.trait.cosmic_gift.description=Húzza meg egy bizonyos irány felé, amelyet megnéz, és indítsa el az entitásokat, amelyekben a levegőben volt. Minden használat előtt rövid hűtéssel rendelkezik.
+origins.trait.hyper_leap.name=Hullócsillag
+origins.trait.hyper_leap.description=Csillag lövedéket lőtt az általa megvizsgált irány felé, és károsítja a mobokat az ütközésre. Minden használat előtt van egy hűtés.
+origins.trait.shooting_star.name=Erőszakmentes
+origins.trait.shooting_star.description=A Starbornesnek esélye van arra, hogy ideiglenesen immobilizálódjanak, amikor egy másik entitás sérti őket. Ebben az állapotban a látásod is ideiglenesen akadályozza.
+origins.trait.no_hitting.name=Hideg vákuum
+origins.trait.no_hitting.description=A Starbornes hozzászokott a hatalmas kozmosz hidegségéhez, ezért kétszer a tűzkárosodást veszi fel - hőt, amelyhez nem szoktak.
+origins.trait.burning.name=Fürge
+origins.trait.burning.description=Az inchlingek immunis a tövis és a sebesség-alapú károsodás ellen.
+origins.trait.nimble.name=Hiperaktív
+origins.trait.nimble.description=Még akkor is fogyaszthat cukrot, ha tele van, és ideiglenes mozgássebesség -növekedést biztosít.
+origins.trait.hyper_active.name=Kis apetit
+origins.trait.hyper_active.description=A cukor fogyasztása elegendő az Ön igényeihez, mivel ez tartós telítettség hatást gyakorol Önnek. Kevesebb ételt igényel a továbblépéshez.
+origins.trait.small_apetite.name=Harapós méretű
+origins.trait.small_apetite.description=Sokszor kisebb vagy, és 5 -nél kevesebb szíved van a szokásos emberhez képest.
+origins.trait.bite_sized.name=Mérgező
+origins.trait.bite_sized.description=Amikor a kritikus károkat okozza, végzetes mérgezést okoz a 7 másodpercig tartó célpontnak. Ezután csökkenti a [Stinger] számot egy -egyvel. Ez a képesség nem vált ki azokra az entitásokra, amelyek már rendelkeznek.
+origins.trait.poisonous.name=Végzet
+origins.trait.poisonous.description=50% -kal nagyobb károkat okoz a céloknál, amelyeket a halálos méreg szenved.
+origins.trait.poison_bonus_damage.name=Dugó
+origins.trait.poison_bonus_damage.description=Ön egyszerre akár 7 csípőt is hordoz, és minden alkalommal használja, amikor mérgező károkat okoz. Miután az összes szúrót felhasználták, elpusztul és meghal.
+origins.trait.sacrifice_stinger.name=Pollenátum
+origins.trait.sacrifice_stinger.description=A nap folyamán bármilyen virágon állhat, és besurranhat, hogy visszaszerezze az esetlegesen elvesztett [Stinger] -et. Ez azonban megszakítja a virágot.
+origins.trait.bloom.name=Napi
+origins.trait.bloom.description=A legjobban dolgozik egy napsütéses napon, így gyengült és lassan mozog éjjel, vagy ha napközben esik.
+origins.trait.nighttime.name=Rövid élettartam
+origins.trait.nighttime.description=A méheknek 3 kevesebb szívük van, mint az emberek.
+origins.trait.lifespan.name=Nektár étrend
+origins.trait.lifespan.description=Nem lehet normális ételeket enni, és csak virágokat fogyaszthat.
+origins.trait.nectar_diet.name=Büszkeség
+origins.trait.nectar_diet.description=Minél több arany tárgyat hordoz a leltárban, kopott vagy tartva, annál kevesebb károkat kap bármely forrásból. Az így kapott károk akár 90% -át enyhítheti.
+origins.trait.pride.name=Büszkélkedő tűzerővel
+origins.trait.pride.description=A közelharci támadása további károkat okoz, amelyek megegyeznek az Ön által elért kár 10% -ával. Tovább növeli a további károsodást, amelyet a közeli entitásokonként 10% -kal kezelnek, 6 blokkon belül.
+origins.trait.increased_attack_per_entity.name=Torkosság
+origins.trait.increased_attack_per_entity.description=Az egészség feltöltésekor még éhesebb lesz, mint általában.
+origins.trait.gluttony.name=Bátorság
+origins.trait.gluttony.description=Immunis vagy a gyengeségtől és az állapothatásoktól.
+origins.trait.courage.name=Élettartam
+origins.trait.courage.description=Azonnal regenerálja az egészséget a felhalmozódott károk alapján, amelyeket 3 másodpercen belül vett be, amikor megkapja. Ezután 12 másodpercig támogatja az abszorpciót, amely a kapott károk mértékétől függően skálázódik.
+origins.trait.lifeweaver.name=Gyors
+origins.trait.lifeweaver.description=Légy izgalmas és gyors, megnövekedett mozgási sebességet adva, lehetővé téve a terep könnyedén áthaladást.
+origins.trait.agility.name=Belzebub
+origins.trait.agility.description=A közelharci támadások további károkat okoznak a hiányzó egészsége alapján. Ezután egy halom [Beelzebub] -ot vádol a támadásra, legfeljebb háromig.
+origins.trait.beelzebub.name=Lélektelő
+origins.trait.beelzebub.description=Amikor a [Beelzebub] eléri a három halomot, mindet elfogyasztja, és a halom megszerzésekor a teljes károk alapján további károkat okoz.
+origins.trait.soulburst.name=Ásás fátyol
+origins.trait.soulburst.description=Szabadítja magát egy sötét energiába, amikor sprint, további sebességet biztosít és elkerüli a lövedékes károkat.
+origins.trait.umbral_veil.name=Baljós aura
+origins.trait.umbral_veil.description=A közeli passzív mobok rémítik a jelenlétét, és elmenekülnek tőled.
+origins.trait.sinister_aura.name=Élettartam
+origins.trait.sinister_aura.description=Ha károsodást okoz, az egészségét a cél hiányzó egészsége csökkenti, a maximális egészség legfeljebb 50% -át. Ha az egészsége egyenlő 1 -vel, ez nem fog tovább csökkenteni.
+origins.trait.life_drain.name=Előtalat
+origins.trait.life_drain.description=Punch azzal a képességgel, hogy egy másik játékosra dobja. Az öntvény után mindkét egészségének 50–60% -ával növeli mind Önt, mind a másik játékos maximális egészségét.
+origins.trait.prescience.name=Jóslat
+origins.trait.prescience.description=Ha a [előtét] alatt van, akkor a beérkezett károsodást és a gyógyulást a másik játékosnak robbantják fel.
+origins.trait.oracle.name=Égisz
+origins.trait.oracle.description=A közvetlenül vett külső károk a támadónak a károk 50% -át elpusztítják.
+origins.trait.aegis.name=Isteni aura
+origins.trait.aegis.description=Az [előzetes] hatása alatt álló játékosok ragyognak, és a falakon keresztül láthatók. Ez a ragyogás azonban mindig is fennmarad.
+origins.trait.divine_aura.name=Törékenység
+origins.trait.divine_aura.description=Minél kevesebb egészséged van, annál hajlamosabb vagy bármilyen károk miatt.
+origins.trait.fragility.name=Instabilitás
+origins.trait.fragility.description=Az Önre alkalmazott minden egyedi állapothatás esetén a maximális egészség 1 -rel csökken. Ha az egészsége 1 -es, akkor ez nem fog tovább csökkenteni.
+
+origins.trait.instability.description=Osztálytények:
+
+origins.perk.has=Az árnyékban
+
+origins.perk.stealth.name=Agilitás
+origins.perk.stealth.description=Gyorsan mozoghat gyalog, mint mások, miközben az íjat vagy a számszeríjat húzza.
+origins.perk.less_bow_slowdown.name=Pontosság
+origins.perk.less_bow_slowdown.description=Az összes nyíl egyenes vonalban utazik, amelyet a gravitáció nem befolyásol.
+origins.perk.no_projectile_divergence.name=Pajzspárt
+origins.perk.no_projectile_divergence.description=További védelmet kap, amikor pajzsmal blokkolja magát.
+origins.perk.less_shield_slowdown.name=Harag vérvilág
+origins.perk.less_shield_slowdown.description=Olyan erőt szerez, amely növeli a jelenlegi egészség alacsonyabb szintjét.
+origins.perk.less_health_more_attack.name=Fauna barátok
+origins.perk.less_health_more_attack.description=A szelíd állatok állandóan kapnak egy állandó buff -ot az egészségükre.
+origins.perk.tamed_animal_boost.name=Hatékony empátia
+origins.perk.tamed_animal_boost.description=Bármely bájithatást, amelyet esetleg lehet, a megszelídített mobokra is alkalmazzák.
+origins.perk.effective_empathy.name=Jó ételek
+origins.perk.effective_empathy.description=A főzött ételek további telítettséget biztosítanak, ha fogyasztják.
+origins.perk.more_saturated_food.name=Megújító leves
+origins.perk.more_saturated_food.description=A készített pörköltek regenerációs hatásokat adhatnak.
+origins.perk.better_stew.name=Jártas sörfőzés
+origins.perk.better_stew.description=A bájitalhatások hosszának meghosszabbításával a Redstone segítségével minden főzőlapot tovább bővítünk.
+origins.perk.longer_potions.name=Erős sörfőzde
+origins.perk.longer_potions.description=Bármely főzet, amelyet főzött, jobban megerősítik, ha a Glowstone -val főzik.
+origins.perk.powerful_potions.name=Nagyszerű kivitelezés
+origins.perk.powerful_potions.description=Bármely kézműves vagy Smith berendezés megnöveli a tartósságot, a hatékonyságot, a károkat, és talán még a Fortune I -t is.
+origins.perk.quality_equipment.name=Hatékony javítás
+origins.perk.quality_equipment.description=Az Ön által készített kiváló minőségű berendezések könnyen javíthatók, és helyreállíthatják a tartóssági pontokat.
+origins.perk.efficient_repairs.name=Zöld hüvelykujj
+origins.perk.efficient_repairs.description=A növények ültetésekor van egy esély, hogy azonnal növekedni fog.
+origins.perk.fast_crop_growth.name=Bőséges betakarítás
+origins.perk.fast_crop_growth.description=A növények betakarításakor néha kétszer kapják meg a hozamot.
+origins.perk.more_crop_drops.name=Több szülés
+origins.perk.more_crop_drops.description=Az állatok, akiket körül tenyésztettek, lehetősége van több csecsemő előállítására.
+origins.perk.twin_breeding.name=Megsemmisítés
+origins.perk.twin_breeding.description=Időnként több anyagot kaphat a csőcselék megöléséből.
+origins.perk.more_animal_loot.name=Nagyszerű ajánlatok
+origins.perk.more_animal_loot.description=Kedvezményeket kap, ha falusiakkal kereskednek.
+origins.perk.cheaper_trades.name=Karizma
+origins.perk.cheaper_trades.description=A vándorló kereskedők nagyobb valószínűséggel látogatnak meg, amikor közel állsz.
+origins.perk.wandering_trader_spawn.name=Illő
+origins.perk.wandering_trader_spawn.description=A sprintkor nem veszíti el az éhségét.
+origins.perk.no_sprint_exhaustion.name=Felfedező készlet
+origins.perk.no_sprint_exhaustion.description=A játékot iránytűvel, órával és kilenc üres térképpel kezdi el, amelyek soha nem esnek le a halálra.
+
+origins.perk.explorer_kit.description=Fa kapitátor
+
+origins.perk.tree_felling.name=Újratelepítés
+origins.perk.tree_felling.description=Van egy esélyes napló, amelyet megszakíthat, ugyanolyan típusú csemete újratelepíthető.
+
+origins.perk.sapling_setblock.description=Származási gömb
+
+origins.item.orb_of_origins.name=7. § [Kapcsoló menü] §r
+origins.item.resignation_paper.name=7. § [További lehetőségek] §r
+origins.item.origins_menu.name=§Z
+
+origins.item.origins_menu_padding.name=Válassza ki az eredetét.
+
+origins.gui.title.choose_origin=Ön választotta ezt az eredetét.
+origins.gui.title.choose_class=Ön kiválasztotta ezt az osztályt.
+origins.gui.title.view_origin=Ez az Ön eredete.
+origins.gui.title.view_class=Ez az osztályod.
+origins.gui.title.change_origin=Alkalmazkodjon a preferenciáihoz.
+origins.gui.title.change_class=Válassza ki az Origins -t a betiltáshoz.
+origins.gui.title.options=Válassza ki az osztályokat a betiltáshoz.
+origins.gui.title.ban_origin=Ezt az eredetet tiltják
+origins.gui.title.ban_class=Ezt az eredet már használják
+origins.gui.subtitle.banned=Nincs játékmenet hatás
+origins.gui.subtitle.locked=A játékmenet -ütés változó
+origins.gui.impact.none=Alacsony játékmenet -ütés
+origins.gui.impact.random=Mérsékelt játékmenet -ütközés
+origins.gui.impact.low=Magas játékmenet -ütés
+origins.gui.impact.medium=Nincsenek további előnyök
+origins.gui.impact.high=Perk változó
+origins.gui.useful.none=Tisztességes javak
+origins.gui.useful.random=Résfürdők
+origins.gui.useful.fair=Játékváltó javak
+origins.gui.useful.medium=1 §E [Origins gömbje] §R fogyaszt
+origins.gui.useful.very=Költségek 1 §e [lemondási papír] §r
+origins.gui.change.race=A származási gömb le van tiltva
+origins.gui.change.class=A lemondási papírt le van tiltva
+origins.gui.change.blocked.orb=Amikor ezt a gombot kiemelik, ez azt jelenti, hogy ez az eredet jelenleg tilos
+origins.gui.change.blocked.paper=Amikor ezt a gombot kiemelik, ez azt jelenti, hogy ezt az osztályt jelenleg betiltották
+origins.gui.manage.ban_race=Lehet, hogy nem tiltja meg mindet, kérjük, hagyja, hogy használható legyen
+origins.gui.manage.ban_class=Lehet, hogy nem tiltja ezt az eredetét, mivel a §eunique selection§f engedélyezve van
+origins.gui.manage.ban_limit=Változás
+origins.gui.manage.ban_locked=Lemond
+origins.gui.button.continue.change=Tilalom
+origins.gui.button.continue.resign=§L§cban§r
+origins.gui.button.manage.ban=Válasszon
+origins.gui.button.manage.unban=Közeli
+origins.gui.button.select=Folytatódik
+origins.gui.button.cancel=Vissza
+origins.gui.button.start=Menjünk
+origins.gui.button.return=Ne mutasd meg újra
+
+origins.gui.button.ignore_welcome_screen=Általános lehetőségek
+
+origins.gui.options.general_root=Hozzáférés megtagadva!
+origins.gui.options.admin_root=Ezeknek az opcióknak a hozzáférése előtt speciális engedély szükséges!
+origins.gui.options.admin_denied.name=Futtassa a következő parancsot, hogy valaki engedélyt adjon ezen lehetőségek eléréséhez:
+origins.gui.options.admin_denied.description1=Tekintse meg az eredetemet
+origins.gui.options.admin_denied.description2=Információkat mutat a kiválasztott eredetről.
+origins.gui.options.view_origin.name=Tekintse meg az osztályomat
+origins.gui.options.view_origin.description=Információkat mutat a kiválasztott osztályról.
+origins.gui.options.view_class.name=Tétlen részecskék
+origins.gui.options.view_class.description=Engedje meg, hogy az eredete alapjárati részecskéi kibocsátsanak a karakteréből. (Alapértelmezés: BE)
+origins.gui.options.toggle_particle.name=Visszaállító lejátszó
+origins.gui.options.toggle_particle.description=Visszaállítja az entitás viselkedési összetevőit, hogy remélhetőleg megoldja a problémákat az eredetével vagy az osztályával. Ez az opció csak egyszer használható, amíg újra nem csatlakozik.
+origins.gui.options.reset_player.name=Tiltásválasztás
+origins.gui.options.reset_player.description=Kezelje a tiltott eredeteket és osztályokat. Legalább egy választást meg kell tartani.
+origins.gui.options.ban.root.name=Betiltás eredete
+origins.gui.options.ban.root.description=Válassza ki az Origins lehetőséget, hogy megakadályozzák őket, hogy valaha is megválaszthassák. (Alapértelmezés: Nincs)
+origins.gui.options.ban.origins.name=Tiltja az órákat
+origins.gui.options.ban.origins.description=Válassza ki az osztályokat, hogy megakadályozzák őket. (Alapértelmezés: Nincs)
+origins.gui.options.ban.classes.name=Kilakoltatás kiválasztása
+origins.gui.options.ban.classes.description=Kényszerezze az összes online játékost, hogy változtassa meg eredetét és osztályát, ha csak betiltották.
+origins.gui.options.ban.evict.name=Kiegészítő gamerules
+origins.gui.options.ban.evict.description=Kezelje a kiegészítő lehetőségeket, amelyek megváltoztatják a kiegészítő viselkedését és befolyásolását a játékosok számára.
+origins.gui.options.toggle.root.name=Egyedi választás
+origins.gui.options.toggle.root.description=Csak egy lejátszónként engedélyez egy eredetét. Vegye figyelembe, hogy ez nem kényszeríti a játékosokat az eredetük megváltoztatására, ha már kiválasztották, kérjük, válassza ki a §e [Inicializing mindent] §f opció ehhez. (Alapértelmezés: KI)
+origins.gui.options.toggle.unique.name=Származási gömb
+origins.gui.options.toggle.unique.description=Engedje meg, hogy a játékosok megváltoztassák eredetüket a §e [Orbs of Orbs] §F elem segítségével. (Alapértelmezés: BE)
+origins.gui.options.toggle.orb.name=Lemondási papír
+origins.gui.options.toggle.orb.description=Engedje meg, hogy a játékosok lemondhassanak osztályukból a §e [lemondási papír] §f elem segítségével. (Alapértelmezés: BE)
+origins.gui.options.toggle.paper.name=Sugárzási változások
+origins.gui.options.toggle.paper.description=Hirdetje be a csevegést, amikor egy játékos megváltoztatja származását vagy lemondását az osztályukból. (Alapértelmezés: BE)
+origins.gui.options.toggle.announce.name=Inicializáljon mindent
+origins.gui.options.toggle.announce.description=Visszaállítja az összes játékos kiválasztott eredetét és osztályát, és visszaállítja az opciókat az alapértelmezett beállításokhoz.
+origins.gui.options.reset_all.name=A folytatáshoz kattintson újra a gombra. Ezt a műveletet nem lehet visszavonni!
+
+origins.gui.options.reset_all.description_confirm=A%1 az eredetüket [%2] -re változtatta.
+
+origins.change.announce.race=Az eredet gömbje le van tiltva
+origins.change.announce.class=A lemondási papírt le van tiltva
+
+origins.change.fail.class=Aktív képességeid vannak
+
+origins.ability_controls.info.usage=Nincs aktív képesség
+
+origins.ability_controls.info.none=§Z
+
+entity.r4isen1920_originspe:cleric_area_effect_cloud.name=§Z
+entity.r4isen1920_originspe:cleric_lingering_potion.name=§Z
+entity.r4isen1920_originspe:cleric_splash_potion.name=§Z
+entity.r4isen1920_originspe:dialogue_handler.name=§Z
+entity.r4isen1920_originspe:elven_arrow.name=§Z
+entity.r4isen1920_originspe:huge_explosion.name=§Z
+entity.r4isen1920_originspe:inventory_keep.name=§Z
+entity.r4isen1920_originspe:knockback_roar.name=§Z
+entity.r4isen1920_originspe:safe_teleporter.name=§Z
+entity.r4isen1920_originspe:shooting_star.name=§Z
+
+entity.r4isen1920_originspe:webbing_attack.name=Nyissa meg a leltárt a shulk leltár megtekintéséhez
+
+
+action.hint.exit.console.r4isen1920_originspe:inventory_keep=Az eredet és az osztályok betöltése
+
+
+
+
+
+
+
+
+origins.trait.launch_into_air.name=Szárnyas
+origins.trait.launch_into_air.description=Van Elytra szárnyai, anélkül, hogy fel kellene szerelnie, és soha nem veszíthet el, és nem lehet eltávolítani.
+origins.trait.elytra.name=Alapvető elemek
+origins.trait.elytra.description=Megtartja az alapvető készlethez való hozzáférést, biztosítva, hogy a hotbarát ne veszítse el halál után.
+origins.trait.essentials.name=Gyors
+origins.trait.essentials.description=Légy izgalmas és gyors, megnövekedett mozgási sebességet adva, lehetővé téve a terep könnyedén áthaladást.
+origins.trait.swift.name=Akrobatika
+origins.trait.swift.description=Erőteljes lábakkal a 2 -es ugrás magasra blokkolja a sprint közben - az akadályokat összetörni és könnyedén megkerülni a veszélyeket.
+origins.trait.sprint_jump.name=Könnyűsúlyú
+origins.trait.sprint_jump.description=Olyan, mint egy toll: Ne vegyen be őszi károkat, soha ne fáradjon a sprint vagy ugrástól, de vigyázzon - más támadások 10% -kal többet fájnak.
+
+origins.trait.lightweight.description=Teletortálás
+
+origins.trait.throw_ender_pearl.name=Nincs hely ott teleportálni!
+origins.trait.throw_ender_pearl.description=Végtelen remegés
+origins.trait.throw_ender_pearl.failed=A nyilak soha nem futnak ki szárazon. Viselje az íjat végtelen lőszerrel és könyörtelen pontossággal.
+origins.trait.endless_quiver.name=Mesterlövész
+origins.trait.endless_quiver.description=30% -kal több károkat okozhat a támadásokkal. Célja a halál saját hírnöke.
+origins.trait.marksman.name=Kegyetlen
+origins.trait.marksman.description=Engedje el az elsődleges haragot. Szerezzen erőt I -t, és összetörje az ellenségeket a közelben.
+origins.trait.ferocious.name=Törékeny
+origins.trait.ferocious.description=A hatalom áron érkezik - 20% -kal több károkat okozhat a szervezeti támadásoktól. Légy gyors, nem gondatlan.
+
+
+
+
+origins.trait.smash.name=Kemény
+origins.trait.smash.description=Növeljen 4 bónusz szívet, és szerezzen 20% -os ellenállást a sérülések minden formájával szemben. Te vagy a frontvonal.
+origins.trait.tough.name=Törhetetlen bőr
+origins.trait.tough.description=LEJELENTEN AZ ÉS az égboltot - 30% -kal kevesebb károkat okozhat a lövedékekből. A nyilak visszapattannak a vasfeloldásról.
+origins.trait.unbreakable_skin.name=Nehézség
+origins.trait.unbreakable_skin.description=A hatalmas teljesítmény súlya nehéz. Mozgassa az 5% -kal lassabban és a kipufogógázban kétszer olyan gyorsan - de a hatalma páratlan.
+
+origins.trait.heavy.description=Az aura felhatalmazása
+
+origins.trait.empowering_aura.name=⚠ Aura a Cooldown -on!
+origins.trait.empowering_aura.description=Hosszú élet
+origins.trait.empowering_aura.cooldown=Szerezzen be 2 extra szívet, és túllépje ellenségeidet. Minden lélegzet egy második esély.
+origins.trait.longevity.name=Jó memória
+origins.trait.longevity.description=Készleted visszatér veled a sírból. A halál csak visszaesést jelent.
+origins.trait.good_memory.name=Éhség ellenállás
+origins.trait.good_memory.description=Elviselje a vadon. Csökkentse a kimerültséget 20% -kal az összes tevékenységből, és maradjon tovább.
+origins.trait.hunger_resistant.name=Éhség aura
+origins.trait.hunger_resistant.description=Felhatalmazza szövetségeseit: Az összes játékos 16 blokkon belül éhség ellenállást szerez azáltal, hogy a közelében van.
+
+
+
+
+origins.trait.invisibility.name=⚠ Láthatatlanság a COOLDOWN -on!
+origins.trait.invisibility.description=⚠ Nem tudja használni a láthatatlanságot, miközben akadályozta!
+origins.trait.invisibility.cooldown=Éjszakai
+origins.trait.invisibility.hindered=Azokon a helyeken, ahol a fényszint alacsony, automatikusan megkapja az erősség és az éjszakai látás állapotát.
+origins.trait.cat_vision.name=Álcázás
+origins.trait.cat_vision.description=Összekevered a környezetbe, amikor bukkan, hogy az ellenséges mobok természetesen nem fognak megtámadni téged - hacsak nem támadják meg őket.
+origins.trait.camouflage.name=Alattomos
+origins.trait.camouflage.description=Az adattáblája soha nem mindig látható, még akkor sem, ha nem besurransz.
+origins.trait.sneaky.name=Gyengítő sztrájkok
+origins.trait.sneaky.description=Törölje ellenségeidet. Bármely mob, amelyet eltalált, 4 másodpercig lelassul - soha nem kerülnek el a haragodból.
+origins.trait.debilitating_strikes.name=Kisebb
+origins.trait.debilitating_strikes.description=A mérete 25%-kal csökken, így nehezebb megcélozni.
+origins.trait.smaller.name=Mobilitás igénye
+origins.trait.smaller.description=A nehéz páncél 50%-kal lelassít. A sebességért készítették, nem pedig acélba vágták ki.
+
+
+
+
+origins.perk.ore_vein_miner.name=Veterán kotrógép
+origins.perk.ore_vein_miner.description=A bányászatkor nem veszíti el az éhségét.
+origins.perk.no_mining_exhaustion.name=Áldott bányász
+origins.perk.no_mining_exhaustion.description=Önt megáldott a Fortune +1 -rel, bármi csákóban. Ez az áldás nem jut át ​​másoknak.
+
+
+
+
+origins.perk.fall_resistant.name=Builder lépése
+origins.perk.fall_resistant.description=Képzte a szerkezetek méretezését könnyedén, kétszer olyan magasra ugrik, hogy elérje a párkányokat és a kereteket.
+
+origins.perk.high_jumper.description=Kutatóintuíció
+
+
+origins.perk.ore_instinct.description=undefined
+
+
+
+

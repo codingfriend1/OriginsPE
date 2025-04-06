@@ -1,0 +1,533 @@
+
+pack.name=Це доповнення додає до гри кілька походження та занять з пасивними здібностями, в яких ви обираєте на початку своєї пригоди. Створений R4isen1920.
+
+
+origins.welcome_message=(Прокрутіть униз, щоб побачити ChangeLog)
+
+
+origins.race.random.name=Вам буде призначено одне з наступних витоків, перелічених нижче, лише якщо він доступний для використання:
+origins.race.random.description=Вам буде призначено випадкове доступне походження.
+origins.race.random.description_changed=Людський
+origins.race.human.name=Звичайна людина. Ваш звичайний досвід Minecraft чекає.
+origins.race.human.description=Мандрівка
+origins.race.merling.name=Ці природні мешканці океану не звикли занадто довго бути поза водою.
+origins.race.merling.description=Арахнід
+origins.race.arachnid.name=Їх здібності для сходження та здатність захоплювати своїх ворогів у Spiderweb роблять арахнід ідеальним мисливцям.
+origins.race.arachnid.description=Блазен
+origins.race.blazeborn.name=Пізні нащадки спалаху, Блейзборн, природно, імунітет до небезпеки Нетер.
+origins.race.blazeborn.description=Пташиний
+origins.race.avian.name=Гонка птахів втратила здатність літати давно. Тепер ці мирні істоти можна побачити, як ковзають з одного місця в інше.
+origins.race.avian.description=Фантом
+origins.race.phantom.name=Як напівлюдський і напівфантомний потомство, ці істоти можуть перемикатися між фантомом і нормальною формою.
+origins.race.phantom.description=Котячий
+origins.race.feline.name=З їх котячим зовнішнім виглядом котячі відлякують плазуни. З спритністю котів вони завжди безпечно приземляються на ноги.
+origins.race.feline.description=Елітрійський
+origins.race.elytrian.name=Часто летячи на вітрах, елітрійці незручно, коли їм не вистачає місця над головою.
+origins.race.elytrian.description=Ендеріан
+origins.race.enderian.name=Народжені як сини і дочки Дракона Ендера, Ендеріани здатні телепортувати, але вразливі до води.
+origins.race.enderian.description=Шалк
+origins.race.shulk.name=Пов’язані з Шулькерами, тіла Шулька оснащені захисною шкірою оболонки.
+origins.race.shulk.description=Лисиця
+origins.race.kitsune.name=Лисиці, хоч і слабкі з точки зору життєвої сили, використовують свої вроджені духовні здібності, щоб приховати та зміцнити свою силу.
+origins.race.kitsune.description=Слімецикан
+origins.race.slimecican.name=Частина людини, частина слизу. Дуже неприємно торкатися голими руками.
+origins.race.slimecican.description=Зоряна
+origins.race.starborne.name=Будучи народженими від зірок, ти ненасильницька, одержима зіркою, загадкову та потенційно потужну людину, яка потрапила із зірок у цей блокітний світ, в якому ми живемо.
+origins.race.starborne.description=Інт
+origins.race.inchling.name=Нащадки найменшого племені ці істоти такі ж спритні, як і їх розмір.
+origins.race.inchling.description=Бджола
+origins.race.bee.name=Бджоли круті. Вони літають, насолоджуються квітами і вмирають.
+origins.race.bee.description=Свиней
+origins.race.piglin.name=Домінуюча раса Nether, ці гуманоїдні істоти використовують їх чистий сальок і можуть похвалитися золотом.
+origins.race.piglin.description=Ельфіз
+origins.race.elf.name=Елегантні та спритні істоти з глибоким зв’язком з природою, кваліфікованими в стрільбі з лука, над якими вони відточували завдяки великому тривожному житті.
+origins.race.elf.description=Voidwalker
+origins.race.voidwalker.name=Народившись у глибині зловісної сфери, ви набули здатності маніпулювати та використовувати темні енергії зсередини, щоб завдати шкоди іншим.
+origins.race.voidwalker.description=Ворог
+origins.race.diviner.name=Diviners володіє здатністю скористатися містичними енергіями Всесвіту, що володіє ними для захисту та допомоги іншим гравцям, які потребують.
+
+
+
+
+
+origins.race.scout.name=Falconeers - це безстрашні шляхи, які запускаються на небо, ковзаючи по підступній місцевості та розкриваючи позиції противника до початку битви. З непорушним імпульсом і високою спритністю вони є вітер перед штормом.
+
+
+origins.race.attacker.name=Мечівці страйкують зі смертельною швидкістю та точністю, телепортуються по полі бою і розкриваючи руйнівні залпи діапазонів та ближнього бою. Їх робота проста - вигадайте загрозу до того, як вона досягне ваших союзників.
+
+
+origins.race.defender.name=Охоронці - це титани, які стрибають у небезпеку, грюкаючи силою і захищаючи своїх союзників із чистою стійкістю. З залізною шкірою та неперевершеною стійкістю вони - це стіна, яку немає ворогів.
+
+
+origins.race.supporter.name=Мудрі -канал небесної енергії для екранування, розширення можливостей та підтримки своїх союзників. Їх аура перетворює приплив битви - надає силу, непереможність та надію на свою команду в найтемніші моменти.
+
+
+origins.race.rogue.name=Нічні розбійники зникають у мить ока, вдарившись із небачених місць і згинаючи поле битви на їх користь. Майстри обману та саботажу, вони процвітають у хаосі - орієнтують ворогів і керують перемогою з тіней.
+
+
+origins.class.caver.name=Кейверс процвітає під землею, відчуваючи руди, нескінченно видобуває і падаючи без страху. У глибині вони бачать, що пропускають інші.
+
+
+origins.class.carpenter.name=Тесляри стрибають вище, будучи швидше, і торгуйте розумнішими. З охопленням та стійкістю вони легко формують світ.
+
+
+origins.class.shepherd.name=Пастухи ростуть і збираються обережно. Їх присутність живить життя, подвоює врожай і викликає тварин на їх бік.
+origins.class.shepherd.description=Майстер
+
+
+
+
+
+origins.class.random.name=Вам буде призначено випадковий доступний клас.
+origins.class.random.description=Нітвіт
+origins.class.random.description_changed=Nitwits насправді ні в чому не добре. Ви продовжите без додаткових рис.
+origins.class.nitwit.name=Воїн
+origins.class.nitwit.description=Ці почесні бійці мають велику сміливість зняти своїх ворогів.
+origins.class.warrior.name=Лучник
+origins.class.warrior.description=Один постріл, одне вбивство. Здатний зняти цілі на великій відстані.
+origins.class.archer.name=Шахрайство
+origins.class.archer.description=Зазвичай, як відомо, є злодіями та грабіжниками, шахраї володіють засідками та нападами.
+origins.class.rogue.name=Звір
+origins.class.rogue.description=Beastmasters - це одиночні люди, які віддають перевагу компанії тварин.
+origins.class.beastmaster.name=Коваль
+origins.class.beastmaster.description=Цінні друзі будь -кого, ковальки здатні створити кращі інструменти, зброю та броню.
+origins.class.blacksmith.name=Священнослужитель
+origins.class.blacksmith.description=Вони навчилися спрямувати магічний подарунок у світі та використовувати це на свою користь.
+origins.class.cleric.name=Готувати
+origins.class.cleric.description=Немає кращого готувати їжу, крім кухаря.
+origins.class.cook.name=Фермер
+origins.class.cook.description=Фермери, як відомо, забезпечують усім їжею стільки, скільки кожен може запам'ятати.
+origins.class.farmer.name=Торговець
+origins.class.farmer.description=Завжди шукаючи додатковий смарагд, торговці - досвідчені торговці.
+origins.class.merchant.name=Ранник
+origins.class.merchant.description=Використовуючи максимум тварин, ранчо здатні зібрати багато корисних ресурсів.
+origins.class.rancher.name=Шахтар
+origins.class.rancher.description=Шахтарі є найбільш досвідченими в копанні скарбів Землі.
+origins.class.miner.name=Дроворуб
+origins.class.miner.description=Дерева повинні стежити, коли навколо лісорубів.
+origins.class.lumberjack.name=Дослідник
+origins.class.lumberjack.description=Дослідники легко знаходять шлях через найскладнішу місцевість і відкривають приховані орієнтири.
+
+origins.class.explorer.description=Риси походження:
+
+origins.trait.has=Ви можете дихати під водою, але не на суші. Однак ефекти статусу, такі як дихання води, можуть допомогти вам у ваших підприємствах.
+origins.trait.water_breathing.name=Аква спорідненість
+origins.trait.water_breathing.description=Ви можете зламати блоки під водою, як це роблять інші на суші, і зможете бачити ідеально під водою.
+origins.trait.aqua_affinity.name=Морський мешканець
+origins.trait.aqua_affinity.description=Підводні натовпи, природно, не шкодять і не нападають на вас, якщо тільки якщо ви не нападете на них спочатку.
+origins.trait.sea_creature.name=Як вода
+origins.trait.sea_creature.description=Ви, природно, залишаєтесь на плаву на воді і топаєте, підкрадаючись, коли захочете.
+origins.trait.like_water.name=Подарунок океану
+origins.trait.like_water.description=Ви невразливі від пошкодження, завдані трипентам.
+origins.trait.no_trident_damage.name=Крихкий
+origins.trait.no_trident_damage.description=У вас 3 менше серця здоров'я, ніж люди.
+origins.trait.fragile.name=Павутини
+origins.trait.fragile.description=Коли ви потрапили на ворога в ближньому бою, вони тимчасово застрягли в павутингу, а також уповільнюють і отруюють ціль. Має 13-секундне розкладання.
+origins.trait.webbing.name=Веб -кокон
+origins.trait.webbing.description=Поки ви стоїте в павутині, ви пом'якшуєте будь -які пошкодження.
+origins.trait.master_of_webs.name=Сходження
+origins.trait.master_of_webs.description=Ви можете піднятися на будь -який суцільний блок, на який ви швидко дивитесь, тримаючи кнопку стрибка. Відпадання під час підйому пом'якшує пошкодження падіння.
+origins.trait.climbing.name=Хижак
+origins.trait.climbing.description=Ваша дієта обмежена м'ясом, і ви не зможете їсти і не спілкуватися з овочевими витратними матеріалами.
+origins.trait.carnivore.name=Непроникний
+origins.trait.carnivore.description=Щоразу, коли ви берете пошкодження магми, вогню або лави, здоров'я, яке ви втратили, негайно відновлять, і тимчасово збільшує шкоду, яку ви завдаєте.
+origins.trait.fire_immunity.name=Міні -житель
+origins.trait.fire_immunity.description=Ваш природний нерест буде в Нідер.
+origins.trait.nether_spawn.name=Ембер
+origins.trait.nether_spawn.description=Коли ви підпалите, будь -яка моб, яку ви вдарите, і мафії навколо нього будуть запалені та підпалити. Це може бути спрацьовано лише один раз на 3 секунди.
+origins.trait.burning_wrath.name=Гаряче клово
+origins.trait.burning_wrath.description=Завдяки вашому гарячому тілу отрути спалюють, що робить вас імунітетом до ефектів отрути та голоду.
+origins.trait.hotblooded.name=Гідрофобія
+origins.trait.hotblooded.description=Ви отримуєте пошкодження з часом, перебуваючи в контакті з водою.
+origins.trait.water_vulnerability.name=Вітер
+origins.trait.water_vulnerability.description=Ви трохи швидше пішки, ніж інші, а також зможете спринтувати більш ефективно.
+origins.trait.tailwind.name=Вага
+origins.trait.tailwind.description=Ви падаєте так само обережно на землю, як це було б перо.
+origins.trait.slow_falling.name=Вегетаріанський
+origins.trait.slow_falling.description=Ваша дієта обмежена овочами, і ви не зможете їсти і не взаємодіяти з м'ясними витратними матеріалами.
+origins.trait.vegetarian.name=Свіже повітря
+origins.trait.vegetarian.description=Під час сну ваше ліжко повинно бути на висоті щонайменше 70 блоків, щоб ви могли дихати свіжим повітрям.
+origins.trait.fresh_air.name=Вам потрібно спати на висоті щонайменше 70 блоків
+origins.trait.fresh_air.description=Фантомізувати
+origins.trait.fresh_air.sleep_fail=Використовуйте елемент можливості, щоб перетворитися на режим глядача. Ви виходите з цього стану, коли стоїте на місці.
+origins.trait.phantomize.name=Духовне тіло
+origins.trait.phantomize.description=Перебуваючи в режимі глядача, ви невидимі від інших і можете пройти через блоки, і ви не зможете взаємодіяти ні з чим іншим.
+origins.trait.invisibility.name=Нежить
+origins.trait.invisibility.description=Ви починаєте горіти при денному світлі, якщо ви не невидимі або у воді. Ведучий укладення зменшує пошкодження сонячного світла на 50%.
+origins.trait.burns_in_daylight.name=Сильні щиколотки
+origins.trait.burns_in_daylight.description=Ви ніколи не приймаєте пошкодження осені, незалежно від того, з якої висоти ви падаєте.
+
+origins.trait.fall_immunity.description=Дев'ять життів
+
+origins.trait.nine_lives.name=Слабкі руки
+origins.trait.nine_lives.description=Коли не під впливом сили, ви міні блокуєте повільніше і нападаєте на слабкішу.
+origins.trait.weak_arms.name=Кітподібна зовнішність
+origins.trait.weak_arms.description=Кризильні бояться вас і вибухнуть лише в тому випадку, якщо ви нападете на них спочатку.
+
+
+
+
+
+origins.trait.claustrophobia.name=Крихкі кістки
+origins.trait.claustrophobia.description=Ви отримуєте більше шкоди від падіння та польоту в блоки.
+origins.trait.more_kinetic_damage.name=Повітряний бойовий
+origins.trait.more_kinetic_damage.description=Ви завдаєте більше шкоди, коли ви ковзаєте з елітрою.
+
+origins.trait.aerial_combatant.description=Злякано гарбузів
+
+origins.trait.pumpkin_hate.name=Знайоме обличчя
+origins.trait.pumpkin_hate.description=Монстри та інші ендермани не нападуть на вас, навіть якщо ви дивитесь прямо на них, не носячи різьблену гарбуз, якщо ви не атакуєте їх спочатку.
+origins.trait.familiar_face.name=Накопичувач
+origins.trait.familiar_face.description=Запустити можливість переходу на інший простір запасів. Що дозволяє зберігати більше предметів з 9 додатковими слотами, які зберігаються навіть після смерті.
+origins.trait.shulk_inventory.name=Інвентар Шулька
+origins.trait.shulk_inventory.description=Міцна шкіра
+origins.trait.shulk_inventory.label=Навіть без носіння броні, ваша шкіра забезпечує природний захист, тим самим отримуючи на 20% менше шкоди від будь -якого джерела.
+origins.trait.natural_armor.name=Великий апетит
+origins.trait.natural_armor.description=Ви легко виснажуєте, виснажуючи більше голоду, ніж зазвичай.
+origins.trait.more_exhaustion.name=Безглуздий
+origins.trait.more_exhaustion.description=Те, як утворюються ваші руки, не забезпечують способу тримати щит вертикально. Спроба заблокувати щита негайно порушить його незалежно від закладів, застосованих до нього.
+origins.trait.no_shield.name=Сильна рука
+origins.trait.no_shield.description=Ви сильніші і можете зламати кам'яні блоки, не вимагаючи жодного пікаксу.
+origins.trait.strong_arms.name=Кінцевий житель
+origins.trait.strong_arms.description=Ваша подорож починається зрештою.
+origins.trait.end_spawn.name=Швидкий
+origins.trait.end_spawn.description=Через коротші ноги та низьке виснаження швидкість руху збільшується, а розмір зменшується.
+origins.trait.fast_footed.name=Накинути
+origins.trait.fast_footed.description=Заряджайте предмет здатності, тримаючи його і стрибайте у напрямку, на який ви дивитесь. Чим більше заряд, тим більша відстань буде.
+origins.trait.pounce.name=Беррі Кравер
+origins.trait.pounce.description=Солодкі ягоди відновлюють більше точок голоду при їжі, а іноді і надають наслідки регенерації. Ви також не пошкоджені з ягідних кущів.
+origins.trait.berry_craver.name=Менше серце
+origins.trait.berry_craver.description=Через загальний менший розмір, ваше серце менше, що призводить до того, що ваше максимальне здоров'я знизиться на 4 серця.
+origins.trait.smaller_heart.name=Швидкий метаболізм
+origins.trait.smaller_heart.description=З вашою швидкістю та меншим шлунком ви стаєте більш голодними, ніж зазвичай.
+origins.trait.fast_metabolism.name=Підстрибне тіло
+origins.trait.fast_metabolism.description=Ви пом'якшуєте велику частину пошкодження падіння через ваше підстрибне, але липке тіло.
+origins.trait.bouncy_body.name=Супер стрибок
+origins.trait.bouncy_body.description=Ваша спадщина слизу дає вам покращений стрибок, що дозволяє вам стрибати вище. Відбиваючи назад і завдаючи шкоди сусіднім мафіям при посадці. Ця пасивна здатність може бути тригеркою лише раз на 3 секунди.
+origins.trait.high_jump.name=Липкий
+origins.trait.high_jump.description=Будь -яка організація, яка нападає на вас у ближньому бою, сповільнюється, і зменшує шкоду, завдану вам на 10%. Ви також виглядаєте зеленим і струнким.
+origins.trait.sticky.name=Фрагментація
+origins.trait.sticky.description=Ви скорочуєте частину свого розміру, коли ваше здоров'я падає, а також ваші максимальні точки здоров'я. 
+origins.trait.fragmentation.name=Відновлення
+origins.trait.fragmentation.description=Ви можете споживати і їсти кулі слизу, щоб відновити втрачену частину себе.
+origins.trait.slime_ball_consume.name=Стрес
+origins.trait.slime_ball_consume.description=Це накопичується по всій повільній швидкості. Після того, як він заповниться, ви насильно вибухаєте - пошкоджуючи все, що вас оточує. Однак усі ваші здібності охолоджуються швидше, якщо ваш [стрес] становить 70%.
+origins.trait.stress.name=Медитувати
+origins.trait.stress.description=Зменшити [стрес] накопичений шляхом підкрадання, до тих пір, поки ви на повному здоров’ї.
+origins.trait.meditate.name=Космічний подарунок
+origins.trait.meditate.description=Зоряні дороги - істоти, благословлені небом. Вражений меншою силою тяжіння, ви зможете стрибнути вище і спуститися назад на землю з благодаттю - не завдаючи пошкодження падіння.
+origins.trait.cosmic_gift.name=Гіпер -стрибок
+origins.trait.cosmic_gift.description=Просуньте до певного напрямку, на який ви дивитесь, і запускаючи суб'єкти, в яких ви потрапили в повітря. Має коротке прискорення перед кожним використанням.
+origins.trait.hyper_leap.name=Зірка
+origins.trait.hyper_leap.description=Вистрілює зірковий снаряд у напрямку, на який ви дивитесь, пошкоджуючи мафії від удару. Має перенесення перед кожним використанням.
+origins.trait.shooting_star.name=Ненасильницький
+origins.trait.shooting_star.description=Зорянин має шанс на тимчасове знерухомлення, коли їм шкодить інша сутність. У такому стані ваше бачення також тимчасово перешкоджає.
+origins.trait.no_hitting.name=Холодний вакуум
+origins.trait.no_hitting.description=Зоряні народжені звикли до холодності величезного космосу, тому завдають удвічі більше пошкодження вогню - нагрівання, до якого їх не звикли.
+origins.trait.burning.name=Спритний
+origins.trait.burning.description=Інчінги застраховані від шипів та пошкоджень на основі швидкості.
+origins.trait.nimble.name=Гіперактивна
+origins.trait.nimble.description=Ви можете вживати цукор, навіть якщо ви наповнені, надаючи тимчасове підвищення швидкості руху.
+origins.trait.hyper_active.name=Невеликий апетит
+origins.trait.hyper_active.description=Споживання цукру достатньо для ваших потреб, оскільки він надає вам тривалий ефект насичення. Вимагаючи менше їжі продовжувати.
+origins.trait.small_apetite.name=Укус
+origins.trait.small_apetite.description=Ви багато разів менші і маєте на 5 менше сердець порівняно з звичайною людиною.
+origins.trait.bite_sized.name=Отруйний
+origins.trait.bite_sized.description=Коли ви завдаєте критичної шкоди, завдає фатальну отруту цілі, яка триває 7 секунд. Потім зменшує кількість [Stinger] на один. Ця здатність не спричинить організації, які вже мають ефект.
+origins.trait.poisonous.name=Смерть
+origins.trait.poisonous.description=Ви завдаєте на 50% більше шкоди цілям, яким ви зашкодили, страждаючи фатальною отрутою.
+origins.trait.poison_bonus_damage.name=Жалоби
+origins.trait.poison_bonus_damage.description=Ви перевозите до 7 жалонів одночасно, і використовуєтесь щоразу, коли ви нанесли пошкодження отрути. Після того, як всі стінгери будуть використані, ви зобов’язані загинути і померти.
+origins.trait.sacrifice_stinger.name=Пилат
+origins.trait.sacrifice_stinger.description=Протягом дня ви можете стояти на будь -якій квітці і підкрастись, щоб відновити будь -які [Stinger], які ви, можливо, втратили. Однак це зламає квітку.
+origins.trait.bloom.name=Добовий
+origins.trait.bloom.description=Ви найкраще працюєте в сонячний день, таким чином, ви ослаблені і рухаєтесь повільно вночі або якщо починають дощ протягом дня.
+origins.trait.nighttime.name=Короткий термін експлуатації
+origins.trait.nighttime.description=Бджоли мають 3 менше сердець, ніж люди.
+origins.trait.lifespan.name=Нектарна дієта
+origins.trait.lifespan.description=Ви не можете їсти звичайну їжу і мати можливість споживати квіти.
+origins.trait.nectar_diet.name=Гордість
+origins.trait.nectar_diet.description=Чим більше золотих предметів, які ви несете у своєму інвентаризації, зношеному або завданні, тим менше шкоди ви отримаєте від будь -якого джерела. Ви можете пом'якшити до 90% збитків, отриманих таким чином.
+origins.trait.pride.name=Похвалити вогневу силу
+origins.trait.pride.description=Ваша атака для ближнього бою завдає додаткову шкоду, що еквівалентно 10% від шкоди, яку ви завдали. Подальше збільшує додаткову шкоду, завдану на 10% за сусідні суб'єкти, присутні в межах 6 кварталів.
+origins.trait.increased_attack_per_entity.name=Обжерливість
+origins.trait.increased_attack_per_entity.description=Ви стаєте ще більш голодними, ніж зазвичай, коли поповнюєте здоров'я.
+origins.trait.gluttony.name=Мужність
+origins.trait.gluttony.description=Ви не застраховані від слабкості та в'янути ефекти статусу.
+origins.trait.courage.name=Життя
+origins.trait.courage.description=Негайно відновлює здоров'я на основі накопиченої шкоди, отриманої протягом 3 секунд після його отримання. Потім надає поглинання на 12 секунд, що масштабується залежно від кількості отриманої шкоди.
+origins.trait.lifeweaver.name=Швидкий
+origins.trait.lifeweaver.description=Станьте спритними та швидкими, надаючи вам збільшити швидкість руху, що дозволяє вам без зусиль переходити місцевість.
+origins.trait.agility.name=Беельзевуб
+origins.trait.agility.description=Атака ближнього бою завдає додаткової шкоди на основі вашого зниклого здоров'я. Потім заряджає один стек [beelzebub] на атаку, до трьох.
+origins.trait.beelzebub.name=Душа
+origins.trait.beelzebub.description=Коли [BeelzeBub] досягає трьох стек, споживає все це та завдає додаткової шкоди залежно від загальної шкоди, завданої при придбанні стеків.
+origins.trait.soulburst.name=Винна завіса
+origins.trait.soulburst.description=Скорочуючи себе в темній енергії при спринті, надаючи додаткову швидкість і уникаючи будь -яких пошкоджень снарядів.
+origins.trait.umbral_veil.name=Зловісна аура
+origins.trait.umbral_veil.description=Поруч пасивні мафії злякані вашою присутністю, і втектимуть від вас.
+origins.trait.sinister_aura.name=ЖИТТЯ
+origins.trait.sinister_aura.description=Щоразу, коли ви завдаєте шкоди, ваше здоров'я знижується за відсутнім здоров’ям цілі, до 50% вашого максимального здоров'я. Коли ваше здоров'я дорівнює 1, це більше не зменшить.
+origins.trait.life_drain.name=Передузія
+origins.trait.life_drain.description=Пам’ять з можливістю, вибраними для кидання на іншого гравця. Після складання збільшується як ви, так і на Health іншого гравця на 50% до 60% обох здоров’я разом.
+origins.trait.prescience.name=Оракул
+origins.trait.prescience.description=Коли під [попереднім направленням] будь -яка шкода, яку ви отримаєте, і отримана зцілення, буде підірвана іншим гравцеві.
+origins.trait.oracle.name=Егіда
+origins.trait.oracle.description=Будь -яка зовнішня шкода безпосередньо відмовиться від 50% відшкодування зловмиснику.
+origins.trait.aegis.name=Божественна аура
+origins.trait.aegis.description=Гравці, що впливають на [презентацію], світиться, і їх можна побачити через стіни. Однак це сяйво завжди буде наполегливо на вас.
+origins.trait.divine_aura.name=Крихкість
+origins.trait.divine_aura.description=Чим менше здоров’я у вас є, тим більш сприйнятливі від будь -яких збитків.
+origins.trait.fragility.name=Нестабільність
+origins.trait.fragility.description=Для кожного унікального ефекту статусу, що застосовується до вас, ваше максимальне здоров'я буде зменшено на 1. Коли ваше здоров'я дорівнює 1, це більше не зменшить.
+
+origins.trait.instability.description=Класні перки:
+
+origins.perk.has=У тіні
+
+origins.perk.stealth.name=Спритність
+origins.perk.stealth.description=Ви можете рухатися швидше пішки, ніж інші, малюючи лук або арбалет.
+origins.perk.less_bow_slowdown.name=Точність
+origins.perk.less_bow_slowdown.description=Усі стрілки, які ви стріляєте в подорож по прямій лінії, впливаючи на тяжкість.
+origins.perk.no_projectile_divergence.name=Щит
+origins.perk.no_projectile_divergence.description=Ви отримуєте додатковий захист, блокуючи себе щитом.
+origins.perk.less_shield_slowdown.name=Гнів крові
+origins.perk.less_shield_slowdown.description=Ви набуваєте сили, що збільшується, ніж менший ваш сучасний здоров'я.
+origins.perk.less_health_more_attack.name=Друзі фауни
+origins.perk.less_health_more_attack.description=Тварини, яких ви приручили, отримують постійне бафу для свого здоров’я.
+origins.perk.tamed_animal_boost.name=Ефективне співпереживання
+origins.perk.tamed_animal_boost.description=Будь -які ефекти зілля, які ви можете мати, також будуть застосовані до мобів, яких ви приручили.
+origins.perk.effective_empathy.name=Гарна страва
+origins.perk.effective_empathy.description=Їжа, яку ви готуєте, надасть додаткову насиченість при з'їденому.
+origins.perk.more_saturated_food.name=Омолоджуючий суп
+origins.perk.more_saturated_food.description=Ставки, які ви робите, можуть надати ефекти регенерації.
+origins.perk.better_stew.name=Досвідчений заварка
+origins.perk.better_stew.description=Розширюючи довжину ефекту зілля за допомогою Redstone, будь -яке зілля, яке ви заварюєте, буде додатково розширеним.
+origins.perk.longer_potions.name=Потужні заварки
+origins.perk.longer_potions.description=Будь -яке зілля, яке ви заварюєте, буде більш посиленим, коли заварює його з Glowstone.
+origins.perk.powerful_potions.name=Чудова майстерність
+origins.perk.powerful_potions.description=Будь -яке обладнання, яке ви маєте або Сміт, матиме збільшення довговічності, ефективності, пошкодження, а може навіть і до фортуни I.
+origins.perk.quality_equipment.name=Ефективний ремонт
+origins.perk.quality_equipment.description=Якісне обладнання, яке ви створили, легко ремонтується і може відновити більше точок міцності.
+origins.perk.efficient_repairs.name=Зелений великий палець
+origins.perk.efficient_repairs.description=При посадці культури є шанс, що він негайно зросте.
+origins.perk.fast_crop_growth.name=Ряжний урожай
+origins.perk.fast_crop_growth.description=Під час збирання врожаю ви іноді отримуєте вдвічі більше врожаю.
+origins.perk.more_crop_drops.name=Більше народжень
+origins.perk.more_crop_drops.description=Тварини, виведені, коли ви поруч, мають шанс виробляти декількох дітей.
+origins.perk.twin_breeding.name=Відлякувати
+origins.perk.twin_breeding.description=Ви можете іноді отримувати більше матеріалів від вбивства мафіонів.
+origins.perk.more_animal_loot.name=Чудові пропозиції
+origins.perk.more_animal_loot.description=Ви отримуєте знижки під час торгівлі з жителями села.
+origins.perk.cheaper_trades.name=Харизма
+origins.perk.cheaper_trades.description=Блукаючі торговці частіше відвідують, коли ви поруч.
+origins.perk.wandering_trader_spawn.name=Підходити
+origins.perk.wandering_trader_spawn.description=Ви не втрачаєте голоду, коли спринтуєте.
+origins.perk.no_sprint_exhaustion.name=Комплект Explorer
+origins.perk.no_sprint_exhaustion.description=Ви починаєте гру з компаса, годинника та дев'яти порожніх карт, які ніколи не впадуть на смерть.
+
+origins.perk.explorer_kit.description=Столиця дерева
+
+origins.perk.tree_felling.name=Пересадка
+origins.perk.tree_felling.description=Є шанс, які ви розбиваєте, можуть бути пересадженими тим самим типом саджанця.
+
+origins.perk.sapling_setblock.description=Куля походження
+
+origins.item.orb_of_origins.name=§7 [Меню перемикання] §r
+origins.item.resignation_paper.name=§7 [Більше варіантів] §r
+origins.item.origins_menu.name=§Z
+
+origins.item.origins_menu_padding.name=Виберіть своє походження.
+
+origins.gui.title.choose_origin=Ви вибрали це походження.
+origins.gui.title.choose_class=Ви вибрали цей клас.
+origins.gui.title.view_origin=Це ваше походження.
+origins.gui.title.view_class=Це ваш клас.
+origins.gui.title.change_origin=Пристосуватися до своїх уподобань.
+origins.gui.title.change_class=Виберіть Витоки для заборони.
+origins.gui.title.options=Виберіть заняття для заборони.
+origins.gui.title.ban_origin=Це походження заборонено
+origins.gui.title.ban_class=Це походження вже використовується
+origins.gui.subtitle.banned=Немає впливу на геймплей
+origins.gui.subtitle.locked=Вплив у геймплеї змінюється
+origins.gui.impact.none=Низький вплив гри
+origins.gui.impact.random=Помірний вплив геймплея
+origins.gui.impact.low=Високий геймплей
+origins.gui.impact.medium=Немає додаткових привілеїв
+origins.gui.impact.high=Пушир змінюється
+origins.gui.useful.none=Гідні привілеї
+origins.gui.useful.random=Ніші
+origins.gui.useful.fair=Змінюючі ігри привілеї
+origins.gui.useful.medium=Споживає 1 §e [orb of Origins] §r
+origins.gui.useful.very=Витрати 1 §e [Доповідь про відставку] §r
+origins.gui.change.race=Куля походження була відключена
+origins.gui.change.class=Домашній документ відключений
+origins.gui.change.blocked.orb=Коли ця кнопка виділяється, це означає, що це походження зараз заборонено
+origins.gui.change.blocked.paper=Коли ця кнопка виділяється, це означає, що цей клас зараз заборонений
+origins.gui.manage.ban_race=Ви можете не заборонити їх усіх, будь ласка, залиште, щоб він був зручним для використання
+origins.gui.manage.ban_class=Ви не можете заборонити це походження, оскільки §eUnique Selection§f увімкнено
+origins.gui.manage.ban_limit=Зміна
+origins.gui.manage.ban_locked=Подати у відставку
+origins.gui.button.continue.change=Заборона
+origins.gui.button.continue.resign=§L§cban§r
+origins.gui.button.manage.ban=Обраний
+origins.gui.button.manage.unban=Закривати
+origins.gui.button.select=Продовжувати
+origins.gui.button.cancel=Спинка
+origins.gui.button.start=Підемо
+origins.gui.button.return=Не показуйте більше
+
+origins.gui.button.ignore_welcome_screen=Загальні варіанти
+
+origins.gui.options.general_root=Доступ заперечується!
+origins.gui.options.admin_root=Ці параметри потребують спеціального дозволу, перш ніж до нього можна отримати доступ!
+origins.gui.options.admin_denied.name=Запустіть наступну команду, щоб дати комусь дозвіл на доступ до цих параметрів:
+origins.gui.options.admin_denied.description1=Переглянути моє походження
+origins.gui.options.admin_denied.description2=Показує інформацію про вибране вами походження.
+origins.gui.options.view_origin.name=Переглянути мій клас
+origins.gui.options.view_origin.description=Показує інформацію про обраний вами клас.
+origins.gui.options.view_class.name=Простої частинки
+origins.gui.options.view_class.description=Дозвольте випромінювати частинки вашого походження від вашого персонажа. (за замовчуванням: увімкнено)
+origins.gui.options.toggle_particle.name=Скидання гравця
+origins.gui.options.toggle_particle.description=Скидає компоненти поведінки вашої організації, щоб сподіватися, що вирішувати проблеми з вашим походженням чи класом. Цей варіант можна використовувати лише один раз, поки ви не приєднаєтесь.
+origins.gui.options.reset_player.name=Вибір заборони
+origins.gui.options.reset_player.description=Керуйте забороненим походженням та заняттями. Щонайменше один відбір повинен залишатися без заборони.
+origins.gui.options.ban.root.name=Забороняти походження
+origins.gui.options.ban.root.description=Виберіть походження, щоб запобігти їх вибору. (за замовчуванням: Ні)
+origins.gui.options.ban.origins.name=Заборона заняття
+origins.gui.options.ban.origins.description=Виберіть заняття, щоб запобігти їх вибору. (за замовчуванням: Ні)
+origins.gui.options.ban.classes.name=Виселення відбору
+origins.gui.options.ban.classes.description=Змусити всіх гравців в Інтернеті змінити своє походження та клас, якщо його щойно заборонили.
+origins.gui.options.ban.evict.name=Надбудові геймерули
+origins.gui.options.ban.evict.description=Керуйте додатковими варіантами, які змінюють те, як надбудова поводиться та впливає на гравців.
+origins.gui.options.toggle.root.name=Унікальний вибір
+origins.gui.options.toggle.root.description=Дозволити лише одне походження на гравця. Зауважте, що це не змусить гравців змінювати своє походження, якщо вже вибрано, будь ласка, виберіть §e [Ініціалізувати все] §f ​​для цього. (за замовчуванням: вимкнення)
+origins.gui.options.toggle.unique.name=Куля походження
+origins.gui.options.toggle.unique.description=Дозвольте гравцям змінити своє походження за допомогою §e [orb of Origins] §f пункт. (за замовчуванням: увімкнено)
+origins.gui.options.toggle.orb.name=Відставка
+origins.gui.options.toggle.orb.description=Дозвольте гравцям подати у відставку зі свого класу за допомогою §e [відставки] пункту §f. (за замовчуванням: увімкнено)
+origins.gui.options.toggle.paper.name=Зміни трансляції
+origins.gui.options.toggle.paper.description=Оголосити в чаті, коли гравець змінює своє походження або подає у відставку зі свого класу. (за замовчуванням: увімкнено)
+origins.gui.options.toggle.announce.name=Ініціалізуйте все
+origins.gui.options.toggle.announce.description=Скидає вибрані витоки та класи гравця, а також відновлює параметри до налаштувань за замовчуванням.
+origins.gui.options.reset_all.name=Знову натисніть кнопку, щоб продовжити. Цю дію не можна скасувати!
+
+origins.gui.options.reset_all.description_confirm=%1 змінив своє походження на [%2]
+
+origins.change.announce.race=Куля походження була відключена
+origins.change.announce.class=Домашній документ відключений
+
+origins.change.fail.class=Ви маєте активні здібності
+
+origins.ability_controls.info.usage=Немає активних здібностей
+
+origins.ability_controls.info.none=§Z
+
+entity.r4isen1920_originspe:cleric_area_effect_cloud.name=§Z
+entity.r4isen1920_originspe:cleric_lingering_potion.name=§Z
+entity.r4isen1920_originspe:cleric_splash_potion.name=§Z
+entity.r4isen1920_originspe:dialogue_handler.name=§Z
+entity.r4isen1920_originspe:elven_arrow.name=§Z
+entity.r4isen1920_originspe:huge_explosion.name=§Z
+entity.r4isen1920_originspe:inventory_keep.name=§Z
+entity.r4isen1920_originspe:knockback_roar.name=§Z
+entity.r4isen1920_originspe:safe_teleporter.name=§Z
+entity.r4isen1920_originspe:shooting_star.name=§Z
+
+entity.r4isen1920_originspe:webbing_attack.name=Відкрийте інвентар, щоб переглянути свій інвентар Шулька
+
+
+action.hint.exit.console.r4isen1920_originspe:inventory_keep=Завантаження походження та заняття
+
+
+
+
+
+
+
+
+origins.trait.launch_into_air.name=Крилатий
+origins.trait.launch_into_air.description=У вас є крила елітра, не потребуючи оснащення будь -якого, і ніколи не втрачається і не можна видалити.
+origins.trait.elytra.name=Основи
+origins.trait.elytra.description=Ви зберігаєте доступ до необхідного інвентаризації, гарантуючи, що ваша гаряча панель не втрачається після смерті.
+origins.trait.essentials.name=Швидкий
+origins.trait.essentials.description=Станьте спритними та швидкими, надаючи вам збільшити швидкість руху, що дозволяє вам без зусиль переходити місцевість.
+origins.trait.swift.name=Акробатика
+origins.trait.swift.description=З потужними ногами, стрибайте 2 блоки високо під час спринту - розчавлюйте перешкоди та легко ухиляйтесь від небезпеки.
+origins.trait.sprint_jump.name=Легкий
+origins.trait.sprint_jump.description=Падіння, як перо: не завдайте пошкодження падіння, ніколи не втомлюйтеся від спринту чи стрибків, але будьте обережні - інші напади шкодять на 10% більше.
+
+origins.trait.lightweight.description=Телепортація
+
+origins.trait.throw_ender_pearl.name=Там немає місця для телепорту!
+origins.trait.throw_ender_pearl.description=Нескінченний сагайдак
+origins.trait.throw_ender_pearl.failed=Ваші стрілки ніколи не сухого. Витягніть свій лук нескінченним боєприпасом і невблаганною точністю.
+origins.trait.endless_quiver.name=Двигун
+origins.trait.endless_quiver.description=Завдайте на 30% більше шкоди при атаках. Ваша мета - власний посланник смерті.
+origins.trait.marksman.name=Лютий
+origins.trait.marksman.description=Розв’яжіть первинну лють. Набрати сили я і розчавив ворогів у близьких кварталах.
+origins.trait.ferocious.name=Крихкий
+origins.trait.ferocious.description=Потужність приходить за ціною - забирайте на 20% більше збитків від атак суб'єкта господарювання. Будьте швидкими, не необачними.
+
+
+
+
+origins.trait.smash.name=Жорсткий
+origins.trait.smash.description=Вирощуйте 4 бонусні серця і набрайте 20% стійкість до всіх форм пошкоджень. Ви - передня лінія.
+origins.trait.tough.name=Незлухаюча шкіра
+origins.trait.tough.description=Відхилити небо - завдайте 30% менше шкоди від снарядів. Стрілки відскочать від вашої залізної рішучості.
+origins.trait.unbreakable_skin.name=Важкість
+origins.trait.unbreakable_skin.description=Масивна потужність важить важку. Перемістіть на 5% повільніше і вичерпуйте вдвічі швидше - але ваша сила не має собі рівних.
+
+origins.trait.heavy.description=Розширення можливостей аури
+
+origins.trait.empowering_aura.name=⚠ Аура на COODOWN!
+origins.trait.empowering_aura.description=Довговічність
+origins.trait.empowering_aura.cooldown=Отримайте 2 зайві серця і переживають своїх ворогів. Кожне дихання - це другий шанс.
+origins.trait.longevity.name=Хороша пам’ять
+origins.trait.longevity.description=Ваш інвентар повертається з вами з могили. Смерть - це просто невдача.
+origins.trait.good_memory.name=Голодування
+origins.trait.good_memory.description=Терпіти дику. Зменшіть виснаження на 20% від усіх видів діяльності та довше залишайтеся повноцінними.
+origins.trait.hunger_resistant.name=Голодна аура
+origins.trait.hunger_resistant.description=Роздайте можливість своїм союзникам: Усі гравці в межах 16 блоків отримують голодування, просто будучи поруч.
+
+
+
+
+origins.trait.invisibility.name=⚠ Невидимість на COOLDOWN!
+origins.trait.invisibility.description=⚠ Неможливо використовувати невидимість, перешкоджаючи!
+origins.trait.invisibility.cooldown=Нічний
+origins.trait.invisibility.hindered=У місцях, де рівень світла низький, ви автоматично отримуєте ефекти статусу сили та нічного зору.
+origins.trait.cat_vision.name=Камуфляж
+origins.trait.cat_vision.description=Ви поєднуєте з навколишнім середовищем, коли ви прокрадаєте, ці ворожі мови, природно, не нападуть на вас - якщо ви не нападете на них спочатку.
+origins.trait.camouflage.name=Підлий
+origins.trait.camouflage.description=Ваша табличка ніколи не завжди видно, навіть коли ви не підкрадаєтесь.
+origins.trait.sneaky.name=Виснажливі страйки
+origins.trait.sneaky.description=Калізуйте ворогів. Будь -який натовп, який ви потрапили, сповільнюється протягом 4 секунд - вони ніколи не уникнуть вашого гніву.
+origins.trait.debilitating_strikes.name=Менший
+origins.trait.debilitating_strikes.description=Ваш розмір знижується на 25%, що ускладнює націлення.
+origins.trait.smaller.name=Потреба в мобільності
+origins.trait.smaller.description=Важка броня сповільнює вас на 50%. Ви були створені для швидкості, а не витрачаючи його в сталь.
+
+
+
+
+origins.perk.ore_vein_miner.name=Екскаватор ветеранів
+origins.perk.ore_vein_miner.description=Ви не втрачаєте голоду під час видобутку.
+origins.perk.no_mining_exhaustion.name=Благословенний шахтар
+origins.perk.no_mining_exhaustion.description=Ви благословляєте Fortune +1 на будь -який пікакс, який ви використовуєте. Це благословення не передається іншим.
+
+
+
+
+origins.perk.fall_resistant.name=Крок будівельника
+origins.perk.fall_resistant.description=Ви навчаєтесь масштабувати структури з легкістю, стрибаючи вдвічі більше, щоб досягти уступів та рамок.
+
+origins.perk.high_jumper.description=Інтуїція проспектора
+
+
+origins.perk.ore_instinct.description=undefined
+
+
+
+

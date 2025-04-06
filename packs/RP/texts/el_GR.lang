@@ -1,0 +1,533 @@
+
+pack.name=Αυτό το add-on προσθέτει αρκετές καταβολές και μαθήματα με παθητικές ικανότητες στο παιχνίδι, στο οποίο επιλέγετε κατά την έναρξη της περιπέτειας σας. Δημιουργήθηκε από το R4ISEN1920.
+
+
+origins.welcome_message=(Μετακινηθείτε προς τα κάτω για να δείτε Changelog)
+
+
+origins.race.random.name=Θα σας ανατεθεί σε μία από τις ακόλουθες προέλευσης που αναφέρονται παρακάτω, μόνο αν είναι διαθέσιμο για χρήση:
+origins.race.random.description=Θα σας ανατεθεί σε τυχαία διαθέσιμη προέλευση.
+origins.race.random.description_changed=Ανθρώπινος
+origins.race.human.name=Ένας κανονικός άνθρωπος. Η συνηθισμένη εμπειρία σας Minecraft περιμένει.
+origins.race.human.description=Μιρλλίστ
+origins.race.merling.name=Αυτοί οι φυσικοί κάτοικοι του ωκεανού δεν χρησιμοποιούνται για να είναι έξω από το νερό για πολύ καιρό.
+origins.race.merling.description=Αραχνοειδές έντομο
+origins.race.arachnid.name=Οι ικανότητές τους για αναρρίχηση και η ικανότητα να παγιδεύουν τους εχθρούς τους στο Spiderweb κάνουν τους Arachnid Perfect Hunters.
+origins.race.arachnid.description=Φλόγας
+origins.race.blazeborn.name=Οι καθυστερημένοι απόγονοι της πυρκαγιάς, ο Blazeborn είναι φυσικά άνοσοι στους κινδύνους του Κάτω.
+origins.race.blazeborn.description=Πτηνών
+origins.race.avian.name=Ο αγώνας των πτηνών έχει χάσει την ικανότητά τους να πετάξουν πριν από πολύ καιρό. Τώρα αυτά τα ειρηνικά πλάσματα μπορούν να δουν να γλιστρούν από το ένα μέρος στο άλλο.
+origins.race.avian.description=Φάντασμα
+origins.race.phantom.name=Ως μισοί και μισοί απόγονοι, αυτά τα πλάσματα μπορούν να αλλάξουν ανάμεσα σε ένα φάντασμα και μια κανονική μορφή.
+origins.race.phantom.description=Αιλουροειδής
+origins.race.feline.name=Με την εμφάνισή τους που μοιάζει με γάτα, η γάτα τρομοκρατεί τους ανανεώνεται. Με την επιδεξιότητα των γατών, προσγειώνονται πάντα με ασφάλεια στα πόδια τους.
+origins.race.feline.description=Ελύτριτος
+origins.race.elytrian.name=Συχνά πετώντας γύρω από τους ανέμους, οι Elytrians είναι άβολα όταν δεν έχουν αρκετό χώρο πάνω από το κεφάλι τους.
+origins.race.elytrian.description=Ενδερμικός
+origins.race.enderian.name=Γεννημένος ως γιοι και κόρες του Ender Dragon, οι Enderians είναι ικανοί να τηλεμεταφέρουν αλλά είναι ευάλωτοι στο νερό.
+origins.race.enderian.description=Κούνημα
+origins.race.shulk.name=Σχετικά με τους Shulkers, τα σώματα του shulk είναι εξοπλισμένα με προστατευτικό δέρμα που μοιάζει με κέλυφος.
+origins.race.shulk.description=Αλεπού
+origins.race.kitsune.name=Οι αλεπούδες είναι, αν και αδύναμες όσον αφορά τη ζωτικότητα, χρησιμοποιούν τις έμφυτες πνευματικές τους ικανότητες για να κρύψουν και να ενισχύσουν τη δύναμή τους.
+origins.race.kitsune.description=Λεπτός
+origins.race.slimecican.name=Μέρος του ανθρώπου, μερικής λάσπης. Πολύ δυσάρεστο να αγγίξετε με τα γυμνά χέρια σας.
+origins.race.slimecican.description=Αστεροειδής
+origins.race.starborne.name=Γεννημένος από τα αστέρια, είστε ένα μη βίαιο, αστέρι-εμμονή, μυστηριώδες και δυνητικά ισχυρό άτομο που έπεσε από τα αστέρια σε αυτόν τον μπλοκαρισμένο κόσμο στον οποίο ζούμε.
+origins.race.starborne.description=Κλάδος
+origins.race.inchling.name=Οι απόγονοι της μικρότερης φυλής, αυτά τα πλάσματα είναι τόσο ευκίνητα όσο το μέγεθός τους.
+origins.race.inchling.description=Μέλισσα
+origins.race.bee.name=Οι μέλισσες είναι δροσερές. Πετάξουν, απολαμβάνουν λουλούδια και πεθαίνουν.
+origins.race.bee.description=Χοίρος
+origins.race.piglin.name=Κυρίαρχη φυλή του Κάτω, αυτά τα ανθρωποειδή πλάσματα χρησιμοποιούν το καθαρό τους και το χρυσό τους.
+origins.race.piglin.description=Ελαιώδης
+origins.race.elf.name=Κομψά και ευκίνητα όντα με βαθιά σύνδεση με τη φύση, εξειδικευμένα στην τοξοβολία, πάνω από τα οποία έχουν βελτιώσει χάρη στη μεγάλη διάρκεια ζωής τους.
+origins.race.elf.description=Κενός
+origins.race.voidwalker.name=Γεννημένος στα βάθη ενός απειλητικού χώρου, έχετε αποκτήσει τη δυνατότητα να χειριστείτε και να αξιοποιήσετε τις σκοτεινές ενέργειες από μέσα σε να βλάψουν τους άλλους.
+origins.race.voidwalker.description=Μάντης
+origins.race.diviner.name=Οι Diviners διαθέτουν την ικανότητα να αξιοποιούν τις μυστικιστικές ενέργειες του σύμπαντος, χειρίζοντας τους να προστατεύσουν και να βοηθήσουν άλλους παίκτες που έχουν ανάγκη.
+
+
+
+
+
+origins.race.scout.name=Οι Falconeers είναι ατρόμητοι διαδρομές που ξεκινούν στον ουρανό, γλιστρώντας σε ύπουλο έδαφος και αποκαλύπτοντας θέσεις του εχθρού πριν αρχίσει η μάχη. Με την απρόσκοπτη ορμή και την υψηλή ευελιξία, είναι ο άνεμος πριν από την καταιγίδα.
+
+
+origins.race.attacker.name=Οι ξιφομάλευρες απεργούν με θανατηφόρα ταχύτητα και ακρίβεια, τηλεμεταφέρουν μέσα από το πεδίο της μάχης και απελευθερώνουν καταστροφικές επιθέσεις των επιθέσεων και των μάχης. Η δουλειά τους είναι απλή - απομακρύνει την απειλή πριν φτάσει στους συμμάχους σας.
+
+
+origins.race.defender.name=Οι κηδεμόνες είναι Τιτάνες που πηδούν σε κίνδυνο, χτυπώντας με δύναμη και προστατεύοντας τους συμμάχους τους με καθαρή ανθεκτικότητα. Με το σιδερένιο δέρμα και την απαράμιλλη σθένος, είναι ο τοίχος που δεν διασχίζει καμία διασταύρωση.
+
+
+origins.race.supporter.name=SAGES Channel Celestial Energy για να προστατεύσει, να ενδυναμώσει και να διατηρήσει τους συμμάχους τους. Η αύρα τους μεταμορφώνει την παλίρροια της μάχης -χορηγώντας δύναμη, αήττητη και ελπίδα στην ομάδα τους στις πιο σκοτεινές στιγμές.
+
+
+origins.race.rogue.name=Οι νυχτερινές φυλές εξαφανίζονται με το μάτι, χτυπώντας από αόρατα μέρη και κάμπτοντας το πεδίο της μάχης προς όφελός τους. Δασκάλους εξαπάτησης και σαμποτάζ, ευδοκιμούν σε εχθρούς του χάους και καθοδηγώντας τη νίκη από τις σκιές.
+
+
+origins.class.caver.name=Οι διασπορά ευδοκιμούν υπόγεια, ανιχνεύοντας μεταλλεύματα, εξόρυξη ατελείωτα και πέφτουν χωρίς φόβο. Στο βαθύ, βλέπουν τι λείπουν οι άλλοι.
+
+
+origins.class.carpenter.name=Οι ξυλουργοί πηδούν ψηλότερα, χτίζουν γρηγορότερα και εμπορεύονται πιο έξυπνα. Με προσέγγιση και ανθεκτικότητα, διαμορφώνουν τον κόσμο με ευκολία.
+
+
+origins.class.shepherd.name=Οι ποιμένες μεγαλώνουν και συγκεντρώνονται με προσοχή. Η παρουσία τους τροφοδοτεί τη ζωή, διπλασιάζει τις συγκομιδές και καλεί τα ζώα στο πλευρό τους.
+origins.class.shepherd.description=Τεχνίτης
+
+
+
+
+
+origins.class.random.name=Θα σας ανατεθεί σε μια τυχαία διαθέσιμη κλάση.
+origins.class.random.description=Ανόητος
+origins.class.random.description_changed=Τα Nitwits δεν είναι πραγματικά καλά σε τίποτα. Θα συνεχίσετε χωρίς επιπλέον χαρακτηριστικά.
+origins.class.nitwit.name=Πολεμιστής
+origins.class.nitwit.description=Αυτοί οι αξιότιμοι μαχητές έχουν το μεγάλο θάρρος να πάρουν τους εχθρούς τους.
+origins.class.warrior.name=Τοξότης
+origins.class.warrior.description=Ένα πλάνο, ένα σκοτώσει. Ικανή να πάρει τους στόχους σε μεγάλη απόσταση.
+origins.class.archer.name=Κατεργάρης
+origins.class.archer.description=Συνήθως γνωστό ότι είναι κλέφτες και ληστές, οι απατεώνες είναι ικανοί σε ενέδρες και επιθέσεις μυστικότητας.
+origins.class.rogue.name=Θηρίτης
+origins.class.rogue.description=Οι Beastmasters είναι μοναχικοί άνθρωποι που προτιμούν την εταιρεία των ζώων.
+origins.class.beastmaster.name=Σιδηρουργός
+origins.class.beastmaster.description=Οι αξιόλογοι φίλοι οποιουδήποτε, οι σιδηρουργοί είναι σε θέση να δημιουργήσουν καλύτερα εργαλεία, όπλα και πανοπλία.
+origins.class.blacksmith.name=Κληρικός
+origins.class.blacksmith.description=Έχουν μάθει πώς να διοχετεύσουν το μαγικό παρόν στον κόσμο και να το χρησιμοποιήσουν προς όφελός τους.
+origins.class.cleric.name=Μάγειρας
+origins.class.cleric.description=Δεν υπάρχει κανένας καλύτερος για να προετοιμάσετε το φαγητό σας εκτός από έναν μάγειρα.
+origins.class.cook.name=Γεωργός
+origins.class.cook.description=Οι αγρότες είναι γνωστό ότι παρέχουν σε όλους τους τροφή για όσο διάστημα μπορεί κανείς να θυμηθεί.
+origins.class.farmer.name=Εμπορος
+origins.class.farmer.description=Πάντα ψάχνετε για ένα επιπλέον σμαράγδι, οι έμποροι είναι ικανοί έμποροι.
+origins.class.merchant.name=Κτηματίας
+origins.class.merchant.description=Αξιοποιώντας στο έπακρο τα ζώα, οι κτηνοτρόφοι είναι σε θέση να συγκεντρώσουν πολλούς χρήσιμους πόρους.
+origins.class.rancher.name=Μεταλλωρύχος
+origins.class.rancher.description=Οι ανθρακωρύχοι είναι οι πιο ικανοί να σκάψουν τους θησαυρούς της Γης.
+origins.class.miner.name=Ξυλοκόπος
+origins.class.miner.description=Τα δέντρα θα πρέπει να προσέχουν όταν τα ξυλεία είναι γύρω.
+origins.class.lumberjack.name=Εξερευνητής
+origins.class.lumberjack.description=Οι εξερευνητές βρίσκουν το δρόμο τους μέσα από το πιο δύσκολο έδαφος εύκολα και ανακαλύπτουν κρυμμένα ορόσημα.
+
+origins.class.explorer.description=Χαρακτηριστικά προέλευσης:
+
+origins.trait.has=Μπορείτε να αναπνεύσετε υποβρύχια, αλλά όχι στη γη. Τα αποτελέσματα της κατάστασης, όπως η αναπνοή νερού, μπορεί να σας βοηθήσουν στις επιχειρήσεις σας.
+origins.trait.water_breathing.name=Aqua συγγένεια
+origins.trait.water_breathing.description=Μπορείτε να σπάσετε μπλοκ υποβρύχια, όπως κάνουν άλλοι στη γη, και να μπορείτε να δείτε τέλεια υποβρύχια.
+origins.trait.aqua_affinity.name=Κάτοικος της θάλασσας
+origins.trait.aqua_affinity.description=Οι υποβρύχια όχλοι δεν θα βλάψουν φυσικά ούτε θα σας επιτεθούν, εκτός αν τους επιτεθείτε πρώτα.
+origins.trait.sea_creature.name=Σαν νερό
+origins.trait.sea_creature.description=Φυσικά παραμένετε στη ζωή στο νερό και βυθίζοντας περνώντας όποτε θέλετε.
+origins.trait.like_water.name=Το δώρο του ωκεανού
+origins.trait.like_water.description=Είστε άτρωτοι από τις ζημιές που αντιμετωπίζονται από τα tridents.
+origins.trait.no_trident_damage.name=Εύθραυστος
+origins.trait.no_trident_damage.description=Έχετε 3 λιγότερες καρδιές υγείας από τους ανθρώπους.
+origins.trait.fragile.name=Ούγια
+origins.trait.fragile.description=Όταν χτυπάτε έναν εχθρό στη μάχη, παίρνουν προσωρινά κολλημένοι σε μια αράχνη και περαιτέρω επιβραδύνουν και δηλητηριάζουν τον στόχο. Έχει ένα cooldown 13 δευτερολέπτων.
+origins.trait.webbing.name=Κουκούλι στο διαδίκτυο
+origins.trait.webbing.description=Όσο στέκεστε σε μια αράχνη, μετριάζετε τυχόν ζημιές.
+origins.trait.master_of_webs.name=Ορειβασία
+origins.trait.master_of_webs.description=Είστε σε θέση να ανεβείτε σε κάθε συμπαγές μπλοκ που κοιτάζετε γρήγορα κρατώντας το κουμπί Jump. Πτώση ενώ αναρρίχηση μετριάζει τη ζημιά πτώσης που έλαβε.
+origins.trait.climbing.name=Σαρκοφάγο
+origins.trait.climbing.description=Η διατροφή σας περιορίζεται στο κρέας και δεν θα μπορείτε να τρώτε ούτε να αλληλεπιδράσετε με αναλώσιμα λαχανικά.
+origins.trait.carnivore.name=Αδιαπέραστος
+origins.trait.carnivore.description=Κάθε φορά που παίρνετε το μάγμα, τη φωτιά ή τη ζημιά από λάβα, η υγεία που χάσατε θα αποκατασταθεί αμέσως και προσωρινά αυξάνει τη ζημιά που προκαλείτε.
+origins.trait.fire_immunity.name=Κάτοικος
+origins.trait.fire_immunity.description=Η φυσική σας ωοτοκία θα είναι στο Κάτω.
+origins.trait.nether_spawn.name=Χόβολη
+origins.trait.nether_spawn.description=Όταν είστε σε πυρκαγιά, οποιοσδήποτε όχλος που χτυπήσατε και οι όχλοι γύρω του θα αναφλεγούν και θα πυρποληθούν. Αυτό μπορεί να ενεργοποιηθεί μόνο μία φορά κάθε 3 δευτερόλεπτα.
+origins.trait.burning_wrath.name=Χυμός
+origins.trait.burning_wrath.description=Λόγω του καυτού σώματος σας, τα Venoms καίγονται, καθιστώντας σας άνοσους σε εφέ δηλητήριο και πείνας.
+origins.trait.hotblooded.name=Υδροφοβία
+origins.trait.hotblooded.description=Λαμβάνετε ζημιές με την πάροδο του χρόνου ενώ βρίσκεστε σε επαφή με το νερό.
+origins.trait.water_vulnerability.name=Ανεμος εκ των όπισθεν
+origins.trait.water_vulnerability.description=Είστε λίγο πιο γρήγορα με τα πόδια από άλλους, ενώ ταυτόχρονα είναι σε θέση να σπριντ πιο αποτελεσματικά.
+origins.trait.tailwind.name=Πυγμάχος ελαφρού βάρους
+origins.trait.tailwind.description=Πέφτετε τόσο απαλά στο έδαφος όσο θα ήταν ένα φτερό.
+origins.trait.slow_falling.name=Χορτοφάγος
+origins.trait.slow_falling.description=Η διατροφή σας περιορίζεται στα λαχανικά και δεν θα μπορείτε να τρώτε ούτε να αλληλεπιδράσετε με τα αναλώσιμα του κρέατος.
+origins.trait.vegetarian.name=Φρέσκος αέρας
+origins.trait.vegetarian.description=Όταν κοιμάστε, το κρεβάτι σας πρέπει να βρίσκεται σε υψόμετρο τουλάχιστον 70 μπλοκ, ώστε να μπορείτε να αναπνεύσετε καθαρό αέρα.
+origins.trait.fresh_air.name=Πρέπει να κοιμηθείτε σε υψόμετρο τουλάχιστον 70 μπλοκ
+origins.trait.fresh_air.description=Φανταστώ
+origins.trait.fresh_air.sleep_fail=Χρησιμοποιήστε το στοιχείο ικανότητας για να μετατραπεί σε λειτουργία θεατών. Βγαίνετε αυτή την κατάσταση όταν στέκεστε ακίνητοι.
+origins.trait.phantomize.name=Πνευματικό σώμα
+origins.trait.phantomize.description=Ενώ βρίσκεστε σε λειτουργία θεατών, είστε αόρατοι από τους άλλους και μπορείτε να διασχίσετε τα μπλοκ και δεν μπορείτε να αλληλεπιδράσετε με οτιδήποτε άλλο.
+origins.trait.invisibility.name=Βυθίζω
+origins.trait.invisibility.description=Αρχίζετε να καίτε στο φως της ημέρας εάν δεν είστε αόρατοι ή σε νερό. Τα headwear μειώνουν τη βλάβη του ήλιου κατά 50%.
+origins.trait.burns_in_daylight.name=Ισχυροί αστραγάλοι
+origins.trait.burns_in_daylight.description=Ποτέ δεν παίρνετε ζημιά πτώσης, ανεξάρτητα από το ύψος που πέφτετε.
+
+origins.trait.fall_immunity.description=Εννέα ζωές
+
+origins.trait.nine_lives.name=Αδύνατα όπλα
+origins.trait.nine_lives.description=Όταν δεν είναι κάτω από την επίδραση της δύναμης, εσείς τα ορυχεία μπλοκ πιο αργά και επιτίθενται πιο αδύναμα.
+origins.trait.weak_arms.name=Εμφάνιση με γάτα
+origins.trait.weak_arms.description=Οι σκυλάκτες φοβούνται από εσάς και θα εκραγούν μόνο αν τους επιτεθείτε πρώτα.
+
+
+
+
+
+origins.trait.claustrophobia.name=Εύθραυστα οστά
+origins.trait.claustrophobia.description=Λαμβάνετε περισσότερες ζημιές από την πτώση και την πετάξτε σε μπλοκ.
+origins.trait.more_kinetic_damage.name=Πολεμιστής
+origins.trait.more_kinetic_damage.description=Αντιμετωπίζετε περισσότερες ζημιές καθώς γλιστράτε με ένα Elytra.
+
+origins.trait.aerial_combatant.description=Φοβάται από κολοκύθες
+
+origins.trait.pumpkin_hate.name=Οικείο πρόσωπο
+origins.trait.pumpkin_hate.description=Τα τέρατα και οι άλλοι endermans δεν θα σας επιτεθούν ακόμα και αν τα κοιτάξετε απευθείας χωρίς να φοράτε μια σκαλιστή κολοκύθα, εκτός αν τα επιτεθείτε πρώτα.
+origins.trait.familiar_face.name=Κρατών
+origins.trait.familiar_face.description=Ενεργοποιήστε την ικανότητα να μεταβείτε σε διαφορετικό χώρο απογραφής. Επιτρέποντάς σας να αποθηκεύσετε περισσότερα αντικείμενα με 9 επιπλέον υποδοχές που διατηρούνται ακόμη και μετά το θάνατο.
+origins.trait.shulk_inventory.name=Απογραφή
+origins.trait.shulk_inventory.description=Ανθεκτικό δέρμα
+origins.trait.shulk_inventory.label=Ακόμη και χωρίς να φοράτε πανοπλία, το δέρμα σας παρέχει φυσική προστασία που λαμβάνει έτσι 20% λιγότερη ζημιά από οποιαδήποτε πηγή.
+origins.trait.natural_armor.name=Μεγάλη όρεξη
+origins.trait.natural_armor.description=Μπορείτε εύκολα να εξαντληθείτε, εξαντλώντας περισσότερη πείνα από το κανονικό.
+origins.trait.more_exhaustion.name=Δυσκίνητος
+origins.trait.more_exhaustion.description=Ο τρόπος με τον οποίο σχηματίζονται τα χέρια σας δεν παρέχει κανέναν τρόπο να κρατάτε μια ασπίδα όρθια. Η προσπάθεια να μπλοκάρει με μια ασπίδα θα το σπάσει αμέσως ανεξάρτητα από την εφαρμογή του.
+origins.trait.no_shield.name=Δυνατά όπλα
+origins.trait.no_shield.description=Είστε ισχυρότεροι και μπορείτε να σπάσετε πέτρινα μπλοκ χωρίς να απαιτήσετε οποιαδήποτε Pickaxe.
+origins.trait.strong_arms.name=Τελικός κάτοικος
+origins.trait.strong_arms.description=Το ταξίδι σας αρχίζει στο τέλος.
+origins.trait.end_spawn.name=Ταχέως προς τα πόδια
+origins.trait.end_spawn.description=Λόγω των μικρότερων ποδιών σας και της χαμηλής εξάντλησης, η ταχύτητα κίνησης σας αυξάνεται και το μέγεθός σας μειώνεται.
+origins.trait.fast_footed.name=Εφόρμηση
+origins.trait.fast_footed.description=Φορτίστε το στοιχείο ικανότητας κρατώντας το και πηδήξτε προς την κατεύθυνση που κοιτάζετε. Όσο περισσότερο η χρέωση, τόσο μεγαλύτερη είναι η απόσταση.
+origins.trait.pounce.name=Μούρο
+origins.trait.pounce.description=Τα γλυκά μούρα αποκαθιστούν περισσότερα σημεία πείνας όταν τρώγονται και μερικές φορές θα χορηγούν αποτελέσματα αναγέννησης. Επίσης, δεν έχετε καταστραφεί από θάμνους μούρων.
+origins.trait.berry_craver.name=Μικρότερη καρδιά
+origins.trait.berry_craver.description=Λόγω του συνολικού μικρότερου μεγέθους σας, η καρδιά σας είναι μικρότερη, με αποτέλεσμα τη μέγιστη υγεία σας να μειώνεται κατά 4 καρδιές.
+origins.trait.smaller_heart.name=Γρήγορος μεταβολισμός
+origins.trait.smaller_heart.description=Με την ταχύτητά σας και ένα μικρότερο στομάχι, παίρνετε πιο πεινασμένοι από το συνηθισμένο.
+origins.trait.fast_metabolism.name=Γευστικό σώμα
+origins.trait.fast_metabolism.description=Μπορείτε να μετριάσετε ένα μεγάλο μέρος της βλάβης πτώσης λόγω του bouncy αλλά κολλώδες σώμα σας.
+origins.trait.bouncy_body.name=Σούπερ άλμα
+origins.trait.bouncy_body.description=Η κληρονομιά σας Slime σας δίνει ένα βελτιωμένο άλμα, επιτρέποντάς σας να πηδήξετε ψηλότερα. Χτυπώντας πίσω και αντιμετωπίζοντας ζημιές σε κοντινά όχλους κατά την προσγείωση. Αυτή η παθητική ικανότητα μπορεί να ενεργοποιηθεί μόνο μία φορά κάθε 3 δευτερόλεπτα.
+origins.trait.high_jump.name=Κολλώδης
+origins.trait.high_jump.description=Οποιαδήποτε οντότητα που σας επιτίθεται σε μάχη επιβραδύνεται και μειώνει τη ζημιά που σας προκαλείται κατά 10%. Φαίνεσαι επίσης πράσινο και γλοιώδες.
+origins.trait.sticky.name=Θρυμματισμός
+origins.trait.sticky.description=Μπορείτε να συρρικνωθείτε σε ένα μέρος του μεγέθους σας καθώς πέφτει η υγεία σας, καθώς και τα μέγιστα σημεία υγείας σας. 
+origins.trait.fragmentation.name=Ανάκτηση
+origins.trait.fragmentation.description=Μπορείτε να καταναλώσετε και να φάτε μπάλες λάσπης για να ανακτήσετε ένα χαμένο τμήμα του εαυτού σας.
+origins.trait.slime_ball_consume.name=Στρες
+origins.trait.slime_ball_consume.description=Αυτό συσσωρεύεται σε όλους σας με αργό ρυθμό. Μόλις γεμίσει, θα εκραγεί βίαια - καταστρέφοντας όλα όσα σας περιβάλλουν. Ωστόσο, όλες οι ικανότητές σας «δροσίζουν ταχύτερα εάν το [άγχος] σας είναι στο 70%.
+origins.trait.stress.name=Σκέπτομαι
+origins.trait.stress.description=Μειώστε το [άγχος] που συσσωρεύεται από το γλίστρημα, για όσο διάστημα είστε σε πλήρη υγεία.
+origins.trait.meditate.name=Κοσμικό δώρο
+origins.trait.meditate.description=Τα Starbornes είναι όντα ευλογημένα από τον ουρανό. Επηρεασμένοι από λιγότερη βαρύτητα, είστε σε θέση να πηδήξετε ψηλότερα και να κατεβείτε πίσω στο έδαφος με χάρη - δεν παίρνετε καμιά βλάβη πτώσης.
+origins.trait.cosmic_gift.name=Υπερ -άλμα
+origins.trait.cosmic_gift.description=Προωθήστε μια συγκεκριμένη κατεύθυνση που κοιτάζετε και εκκινώντας οντότητες που βρίσκεστε στον αέρα. Έχει μια σύντομη ψύξη πριν από κάθε χρήση.
+origins.trait.hyper_leap.name=Διάττων αστήρ
+origins.trait.hyper_leap.description=Πυρκαγιά ένα αστέρι βλήμα προς την κατεύθυνση που κοιτάζετε, καταστρέφοντας τους όχλους στον αντίκτυπο. Έχει ένα cooldown πριν από κάθε χρήση.
+origins.trait.shooting_star.name=Μη βίαιος
+origins.trait.shooting_star.description=Οι Starbornes έχουν την ευκαιρία να ακινητοποιηθούν προσωρινά κάθε φορά που βλάπτονται από μια άλλη οντότητα. Σε αυτή την κατάσταση, το όραμά σας παρεμποδίζεται επίσης προσωρινά.
+origins.trait.no_hitting.name=Κρύο κενό
+origins.trait.no_hitting.description=Οι Starbornes χρησιμοποιούνται για την ψυχρότητα του τεράστιου κόσμου, λαμβάνοντας έτσι δύο φορές τη ζημιά πυρκαγιάς - θερμότητα που δεν είναι συνηθισμένα.
+origins.trait.burning.name=Ευκίνητος
+origins.trait.burning.description=Τα inchlings είναι άνοσοι σε αγκάθια και βλάβες με βάση την ταχύτητα.
+origins.trait.nimble.name=Υπερ-ενεργός
+origins.trait.nimble.description=Είστε σε θέση να καταναλώσετε ζάχαρη ακόμη και αν είστε γεμάτοι, παρέχοντας μια προσωρινή ώθηση ταχύτητας κίνησης.
+origins.trait.hyper_active.name=Μικρή απόσταση
+origins.trait.hyper_active.description=Η κατανάλωση ζάχαρης είναι αρκετή για τις ανάγκες σας, καθώς σας δίνει μακροχρόνια αποτελέσματα κορεσμού. Απαιτώντας λιγότερα τρόφιμα για να συνεχίσετε.
+origins.trait.small_apetite.name=Τσίμπημα μεγέθους
+origins.trait.small_apetite.description=Είστε πολλές φορές μικρότερες και έχετε 5 λιγότερες καρδιές σε σύγκριση με εκείνη ενός κανονικού ανθρώπου.
+origins.trait.bite_sized.name=Δηλητηριώδης
+origins.trait.bite_sized.description=Όταν αντιμετωπίζετε ζημιά Crit, προκαλεί θανατηφόρο δηλητήριο στο στόχο που διαρκεί 7 δευτερόλεπτα. Στη συνέχεια, μειώνει το [stinger] μετράει κατά ένα. Αυτή η ικανότητα δεν θα ενεργοποιήσει σε οντότητες που έχουν ήδη το αποτέλεσμα.
+origins.trait.poisonous.name=Μοιραίο
+origins.trait.poisonous.description=Μπορείτε να ασχοληθείτε με 50% περισσότερη ζημιά σε στόχους που βλάπτετε πληγώστε με θανατηφόρο δηλητήριο.
+origins.trait.poison_bonus_damage.name=Τσιγγούνης
+origins.trait.poison_bonus_damage.description=Μεταφέρετε μέχρι και 7 stingers κάθε φορά και χρησιμοποιείται κάθε φορά που προκαλείτε ζημιά δηλητηριάσεων. Μόλις εξαντληθούν όλοι οι Stingers, είστε υποχρεωμένοι να χάσετε και να πεθάνετε.
+origins.trait.sacrifice_stinger.name=Γύρη
+origins.trait.sacrifice_stinger.description=Κατά τη διάρκεια της ημέρας, μπορείτε να σταθείτε σε οποιοδήποτε λουλούδι και να γλιστρήσετε για να ανακτήσετε οποιοδήποτε [stinger] μπορεί να έχετε χάσει. Ωστόσο, αυτό θα σπάσει το λουλούδι.
+origins.trait.bloom.name=Ημερήσιος
+origins.trait.bloom.description=Εργάζεστε καλύτερα σε μια ηλιόλουστη μέρα, έτσι αποδυναμώνετε και κινούνται αργά τη νύχτα ή αν αρχίσει να βρέχει κατά τη διάρκεια της ημέρας.
+origins.trait.nighttime.name=Σύντομη διάρκεια ζωής
+origins.trait.nighttime.description=Οι μέλισσες έχουν 3 λιγότερες καρδιές από τους ανθρώπους.
+origins.trait.lifespan.name=Δίαιτα νέκταρ
+origins.trait.lifespan.description=Δεν μπορείτε να φάτε κανονικά τρόφιμα και να είστε σε θέση να καταναλώνουν μόνο λουλούδια.
+origins.trait.nectar_diet.name=Υπερηφάνεια
+origins.trait.nectar_diet.description=Όσο πιο χρυσά αντικείμενα μεταφέρετε στο απόθεμά σας, φοριέται ή κρατήθηκε, τόσο λιγότερες ζημιές θα λάβετε από οποιαδήποτε πηγή. Μπορείτε να μετριάσετε έως και το 90% των ζημιών που λαμβάνονται με αυτόν τον τρόπο.
+origins.trait.pride.name=Καυχάται η δύναμη πυρός
+origins.trait.pride.description=Η επίθεση με τη μάχη σας προκαλεί πρόσθετες ζημιές ισοδύναμη με το 10% των ζημιών που έχετε αντιμετωπίσει. Περαιτέρω αυξάνει την πρόσθετη ζημιά που αντιμετωπίζεται κατά 10% ανά κοντινή οντότητες που υπάρχουν εντός 6 μπλοκ.
+origins.trait.increased_attack_per_entity.name=Λαιμαργία
+origins.trait.increased_attack_per_entity.description=Παίρνετε ακόμα πιο πεινασμένοι από το συνηθισμένο κατά την αναπλήρωση της υγείας.
+origins.trait.gluttony.name=Θάρρος
+origins.trait.gluttony.description=Είστε άνοσοι από την αδυναμία και τα αποτελέσματα της κατάστασης.
+origins.trait.courage.name=Σωσίβιος
+origins.trait.courage.description=Αμέσως αναγεννά την υγεία με βάση τη συσσωρευμένη ζημιά που λήφθηκε εντός 3 δευτερολέπτων κατά τη λήψη της. Στη συνέχεια, χορηγεί απορρόφηση για 12 δευτερόλεπτα που κλιμακώνονται ανάλογα με την ποσότητα ζημιών που λαμβάνονται.
+origins.trait.lifeweaver.name=Ταχύς
+origins.trait.lifeweaver.description=Γίνετε ευκίνητοι και γρήγοροι, παρέχοντας σας αυξημένη ταχύτητα κίνησης, επιτρέποντάς σας να διασχίσετε το έδαφος αβίαστα.
+origins.trait.agility.name=Βελζεβούλ
+origins.trait.agility.description=Οι επιθέσεις Melee θα αντιμετωπίσουν πρόσθετες ζημιές με βάση την υγεία σας. Στη συνέχεια, χρεώνει μια στοίβα του [Beelzebub] σε επίθεση, μέχρι τρεις.
+origins.trait.beelzebub.name=Ψυχραιμία
+origins.trait.beelzebub.description=Όταν το [Beelzebub] φτάσει σε τρεις στοίβες, καταναλώνει όλα αυτά και ασχολείται με πρόσθετες ζημιές με βάση τη συνολική ζημιά που αντιμετωπίζεται κατά την απόκτηση των στοίβων.
+origins.trait.soulburst.name=Βούτυρο
+origins.trait.soulburst.description=Περνάτε σε μια σκοτεινή ενέργεια όταν σπρώχνει, παρέχοντας πρόσθετη ταχύτητα και αποφεύγοντας οποιαδήποτε ζημιά στο βλήμα.
+origins.trait.umbral_veil.name=Απειλητική αύρα
+origins.trait.umbral_veil.description=Σε κοντινά παθητικά όχλους φοβούνται με την παρουσία σας και θα ξεφύγει από εσάς.
+origins.trait.sinister_aura.name=Διαρροή ζωής
+origins.trait.sinister_aura.description=Κάθε φορά που αντιμετωπίζετε ζημιές, η υγεία σας μειώνεται από την υγεία του στόχου, μέχρι το 50% της μέγιστης υγείας σας. Όταν η υγεία σας είναι ίση με 1, αυτό δεν θα μειώσει περαιτέρω.
+origins.trait.life_drain.name=Πρόγνωση
+origins.trait.life_drain.description=Διάτρηση με την ικανότητα που επιλέχθηκε να ρίξει σε έναν άλλο παίκτη. Μετά το cast, αυξάνει τόσο εσείς όσο και η μέγιστη υγεία του άλλου παίκτη κατά 50% έως 60% και των δύο της υγείας σας σε συνδυασμό.
+origins.trait.prescience.name=Μαντείο
+origins.trait.prescience.description=Όταν κάτω από την [Prescience], οποιαδήποτε ζημιά που παίρνετε και θεραπεύεται θα υποβληθεί θα καταστραφεί στον άλλο παίκτη.
+origins.trait.oracle.name=Σκέπη
+origins.trait.oracle.description=Οποιαδήποτε εξωτερική ζημιά που λαμβάνεται απευθείας θα εκτρέψει το 50% της βλάβης πίσω στον επιτιθέμενο.
+origins.trait.aegis.name=Θεϊκή αύρα
+origins.trait.aegis.description=Οι παίκτες υπό την επίδραση της [Prescience] θα λάμψουν και μπορούν να δουν μέσα από τοίχους. Ωστόσο, αυτή η λάμψη θα παραμένει πάντα σε σας.
+origins.trait.divine_aura.name=Εύθραυστο
+origins.trait.divine_aura.description=Όσο λιγότερη υγεία έχετε, τόσο πιο ευαίσθητο είστε από οποιαδήποτε ζημιά.
+origins.trait.fragility.name=Αστάθεια
+origins.trait.fragility.description=Για κάθε μοναδικό αποτέλεσμα κατάστασης που εφαρμόζεται σε εσάς, η μέγιστη υγεία σας θα μειωθεί κατά 1. Όταν η υγεία σας είναι ίση με 1, αυτό δεν θα μειώσει περαιτέρω.
+
+origins.trait.instability.description=ΠΕΡΙΟΡΙΣΜΕΝΑ ΤΑΧΥΤΗΤΑ:
+
+origins.perk.has=Στις σκιές
+
+origins.perk.stealth.name=Ευκινησία
+origins.perk.stealth.description=Μπορείτε να μετακινηθείτε γρηγορότερα με τα πόδια από τους άλλους, ενώ σχεδιάζετε το τόξο ή το βέλος σας.
+origins.perk.less_bow_slowdown.name=Ακρίβεια
+origins.perk.less_bow_slowdown.description=Όλα τα βέλη που πυροβολείτε ταξίδια σε μια ευθεία γραμμή, που επηρεάζονται από καμία βαρύτητα.
+origins.perk.no_projectile_divergence.name=Ασπίδα
+origins.perk.no_projectile_divergence.description=Παίρνετε πρόσθετη προστασία όταν μπλοκάρετε τον εαυτό σας με ασπίδα.
+origins.perk.less_shield_slowdown.name=Οργή αιμοδοσίας
+origins.perk.less_shield_slowdown.description=Κερδίζετε δύναμη που αυξάνει το χαμηλότερο είναι η τρέχουσα υγεία σας.
+origins.perk.less_health_more_attack.name=Φίλοι πανίδας
+origins.perk.less_health_more_attack.description=Τα ζώα που δαμάσκουν λαμβάνουν ένα μόνιμο buff για την υγεία τους.
+origins.perk.tamed_animal_boost.name=Αποτελεσματική ενσυναίσθηση
+origins.perk.tamed_animal_boost.description=Οποιαδήποτε αποτελέσματα φίλτρου που μπορεί να έχετε θα εφαρμοστεί επίσης στους όχλους που έχετε εξημερώσει.
+origins.perk.effective_empathy.name=Καλά γεύματα
+origins.perk.effective_empathy.description=Τα τρόφιμα που μαγειρεύετε θα χορηγούν επιπλέον κορεσμό όταν τρώγονται.
+origins.perk.more_saturated_food.name=Αναζωογονητική σούπα
+origins.perk.more_saturated_food.description=Τα stews που κάνετε μπορούν να χορηγήσουν αποτελέσματα αναγέννησης.
+origins.perk.better_stew.name=Ικανός ζυθοποιία
+origins.perk.better_stew.description=Με την επέκταση του μήκους των αποτελεσμάτων του φίλτρου χρησιμοποιώντας το Redstone, κάθε φίλτρο που θα παρασκευαστεί θα επεκταθεί περαιτέρω.
+origins.perk.longer_potions.name=Ισχυρές παρασκευές
+origins.perk.longer_potions.description=Οποιοδήποτε φίλτρο που παρασκευάζετε θα ενισχυθεί περισσότερο όταν το ζυθοποιείτε με λάμψη.
+origins.perk.powerful_potions.name=Μεγάλη χειροτεχνία
+origins.perk.powerful_potions.description=Οποιοσδήποτε εξοπλισμός που σκάφη ή Smith θα έχει αυξήσει την ανθεκτικότητα, την αποτελεσματικότητα, τη ζημιά και ίσως ακόμη και την τύχη.
+origins.perk.quality_equipment.name=Αποδοτικές επισκευές
+origins.perk.quality_equipment.description=Οι εξοπλισμοί υψηλής ποιότητας που έχετε δημιουργήσει είναι εύκολα πιο επισκευασμένοι και μπορούν να αποκαταστήσουν περισσότερα σημεία ανθεκτικότητας.
+origins.perk.efficient_repairs.name=Πράσινο αντίχειρα
+origins.perk.efficient_repairs.description=Κατά τη φύτευση καλλιεργειών, υπάρχει πιθανότητα να αυξηθεί αμέσως.
+origins.perk.fast_crop_growth.name=Πλούσια συγκομιδή
+origins.perk.fast_crop_growth.description=Κατά τη συγκομιδή καλλιεργειών, μερικές φορές λαμβάνετε διπλάσια απόδοση.
+origins.perk.more_crop_drops.name=Περισσότερες γεννήσεις
+origins.perk.more_crop_drops.description=Τα ζώα που εκτρέφονται όταν είστε γύρω έχουν την ευκαιρία να παράγουν πολλαπλά μωρά.
+origins.perk.twin_breeding.name=Καθαρισμός
+origins.perk.twin_breeding.description=Είστε σε θέση να λάβετε μερικές φορές περισσότερο υλικό από τη δολοφονία των όχλων.
+origins.perk.more_animal_loot.name=Υπέροχες προσφορές
+origins.perk.more_animal_loot.description=Παίρνετε εκπτώσεις όταν διαπραγματεύεστε με χωρικούς.
+origins.perk.cheaper_trades.name=Χάρισμα
+origins.perk.cheaper_trades.description=Οι περιπλανώμενοι έμποροι είναι πιο πιθανό να επισκεφθούν όταν είστε γύρω.
+origins.perk.wandering_trader_spawn.name=Κατάλληλος
+origins.perk.wandering_trader_spawn.description=Δεν χάνετε την πείνα όταν σπριντ.
+origins.perk.no_sprint_exhaustion.name=Κιτ εξερευνητή
+origins.perk.no_sprint_exhaustion.description=Ξεκινάτε το παιχνίδι με μια πυξίδα, ένα ρολόι και εννέα άδειους χάρτες που δεν θα πέσουν ποτέ στο θάνατο.
+
+origins.perk.explorer_kit.description=Δέντρων
+
+origins.perk.tree_felling.name=Αναδημιουργώ
+origins.perk.tree_felling.description=Υπάρχει ένα τυχαίο αρχείο καταγραφής που θα σπάσετε μπορεί να αναπαραχθεί με τον ίδιο τύπο φυλάκισης.
+
+origins.perk.sapling_setblock.description=Σφαίρα προέλευσης
+
+origins.item.orb_of_origins.name=§7 [μενού εναλλαγής] §R
+origins.item.resignation_paper.name=§7 [περισσότερες επιλογές] §R
+origins.item.origins_menu.name=§Z
+
+origins.item.origins_menu_padding.name=Επιλέξτε την προέλευσή σας.
+
+origins.gui.title.choose_origin=Έχετε επιλέξει αυτήν την προέλευση.
+origins.gui.title.choose_class=Έχετε επιλέξει αυτήν την τάξη.
+origins.gui.title.view_origin=Αυτή είναι η προέλευσή σας.
+origins.gui.title.view_class=Αυτή είναι η τάξη σας.
+origins.gui.title.change_origin=Προσαρμόστε τις προτιμήσεις σας.
+origins.gui.title.change_class=Επιλέξτε Origins για απαγόρευση.
+origins.gui.title.options=Επιλέξτε τάξεις για απαγόρευση.
+origins.gui.title.ban_origin=Αυτή η προέλευση απαγορεύεται
+origins.gui.title.ban_class=Αυτή η προέλευση χρησιμοποιείται ήδη
+origins.gui.subtitle.banned=Χωρίς επιπτώσεις στο παιχνίδι
+origins.gui.subtitle.locked=Ο αντίκτυπος του παιχνιδιού ποικίλλει
+origins.gui.impact.none=Χαμηλή επίδραση παιχνιδιού
+origins.gui.impact.random=Μέτρια επίπτωση στο παιχνίδι
+origins.gui.impact.low=Υψηλή επίδραση παιχνιδιού
+origins.gui.impact.medium=Χωρίς επιπλέον προνόμια
+origins.gui.impact.high=Ποικίλλει
+origins.gui.useful.none=Αξιοπρεπή προνόμια
+origins.gui.useful.random=Εξειδικευμένα
+origins.gui.useful.fair=Προνόμια που αλλάζουν παιχνίδι
+origins.gui.useful.medium=Καταναλώνει 1 §e [Orb of Origins] §r
+origins.gui.useful.very=Κόστος 1 §e [χαρτί παραίτησης] §R
+origins.gui.change.race=Η σφαίρα προέλευσης έχει απενεργοποιηθεί
+origins.gui.change.class=Το έγγραφο παραίτησης έχει απενεργοποιηθεί
+origins.gui.change.blocked.orb=Όταν το κουμπί αυτό επισημαίνεται, αυτό σημαίνει ότι αυτή η προέλευση απαγορεύεται αυτή τη στιγμή
+origins.gui.change.blocked.paper=Όταν το κουμπί αυτό επισημαίνεται, αυτό σημαίνει ότι αυτή η κλάση απαγορεύεται αυτή τη στιγμή
+origins.gui.manage.ban_race=Μπορεί να μην απαγορεύετε όλα αυτά, παρακαλώ αφήστε για να μπορέσετε να χρησιμοποιήσετε
+origins.gui.manage.ban_class=Δεν επιτρέπεται να απαγορεύσετε αυτήν την προέλευση, καθώς η επιλογή §eunique είναι ενεργοποιημένη
+origins.gui.manage.ban_limit=Αλλαγή
+origins.gui.manage.ban_locked=Παραιτούμαι
+origins.gui.button.continue.change=Απαγόρευση
+origins.gui.button.continue.resign=§L§cban§r
+origins.gui.button.manage.ban=Επιλέγω
+origins.gui.button.manage.unban=Κοντά
+origins.gui.button.select=Συνεχίζω
+origins.gui.button.cancel=Πίσω
+origins.gui.button.start=Πάμε
+origins.gui.button.return=Μην εμφανίζετε ξανά
+
+origins.gui.button.ignore_welcome_screen=Γενικές επιλογές
+
+origins.gui.options.general_root=Δεν επιτρέπεται η πρόσβαση!
+origins.gui.options.admin_root=Αυτές οι επιλογές απαιτούν ειδική άδεια πριν να είναι προσβάσιμες!
+origins.gui.options.admin_denied.name=Εκτελέστε την ακόλουθη εντολή για να δώσετε σε κάποιον την άδεια πρόσβασης σε αυτές τις επιλογές:
+origins.gui.options.admin_denied.description1=Δείτε την προέλευσή μου
+origins.gui.options.admin_denied.description2=Δείχνει πληροφορίες σχετικά με την προέλευση που έχετε επιλέξει.
+origins.gui.options.view_origin.name=Δείτε την τάξη μου
+origins.gui.options.view_origin.description=Εμφανίζει πληροφορίες σχετικά με την τάξη που έχετε επιλέξει.
+origins.gui.options.view_class.name=Σωματίδια αδράνειας
+origins.gui.options.view_class.description=Αφήστε τα αδρανή σωματίδια της προέλευσής σας να εκπέμπουν από τον χαρακτήρα σας. (προεπιλογή: ON)
+origins.gui.options.toggle_particle.name=Επαναφορά του παίκτη
+origins.gui.options.toggle_particle.description=Επαναφέρει τα εξαρτήματα συμπεριφοράς της οντότητας σας για να διορθώσετε τα προβλήματα με την προέλευση ή την τάξη σας. Αυτή η επιλογή μπορεί να χρησιμοποιηθεί μόνο μία φορά μέχρι να επανεμφανιστεί.
+origins.gui.options.reset_player.name=Επιλογή απαγόρευσης
+origins.gui.options.reset_player.description=Διαχειριστείτε τις απαγορευμένες ρίζες και τις τάξεις. Τουλάχιστον μία επιλογή πρέπει να διατηρηθεί μη σχεδιασμένη.
+origins.gui.options.ban.root.name=Απαγόρευση προέλευσης
+origins.gui.options.ban.root.description=Επιλέξτε Origins για να τους εμποδίσετε να επιλεγούν ποτέ. (προεπιλογή: Κανένα)
+origins.gui.options.ban.origins.name=Απαγόρευση τάξεων
+origins.gui.options.ban.origins.description=Επιλέξτε τάξεις για να τους αποτρέψετε ποτέ να επιλεγούν. (προεπιλογή: Κανένα)
+origins.gui.options.ban.classes.name=Εκχύλιση επιλογής
+origins.gui.options.ban.classes.description=Αναγκάστε όλους τους παίκτες σε απευθείας σύνδεση να αλλάξουν την προέλευσή τους και την τάξη τους εάν έχει μόλις απαγορευτεί.
+origins.gui.options.ban.evict.name=Add-on gamerules
+origins.gui.options.ban.evict.description=Διαχειριστείτε πρόσθετες επιλογές που αλλάζουν τον τρόπο με τον οποίο το πρόσθετο συμπεριφέρεται και επηρεάζει τους παίκτες.
+origins.gui.options.toggle.root.name=Μοναδική επιλογή
+origins.gui.options.toggle.root.description=Αφήστε μόνο μία προέλευση ανά παίκτη. Σημειώστε ότι αυτό δεν θα αναγκάσει τους παίκτες να αλλάξουν την προέλευσή τους εάν έχουν ήδη επιλεγεί, επιλέξτε το §E [αρχικοποιήστε τα πάντα] §F επιλογή για να το κάνετε. (προεπιλογή: OFF)
+origins.gui.options.toggle.unique.name=Σφαίρα προέλευσης
+origins.gui.options.toggle.unique.description=Επιτρέψτε στους παίκτες να αλλάξουν την προέλευσή τους χρησιμοποιώντας το στοιχείο §e [Orb of Origins]. (προεπιλογή: ON)
+origins.gui.options.toggle.orb.name=Χαρτί παραίτησης
+origins.gui.options.toggle.orb.description=Επιτρέψτε στους παίκτες να παραιτηθούν από την τάξη τους χρησιμοποιώντας το στοιχείο §e [χαρτί παραίτησης]. (προεπιλογή: ON)
+origins.gui.options.toggle.paper.name=Αλλαγές εκπομπής
+origins.gui.options.toggle.paper.description=Ανακοινώστε στη συνομιλία όταν ένας παίκτης αλλάζει την προέλευσή του ή παραιτείται από την τάξη τους. (προεπιλογή: ON)
+origins.gui.options.toggle.announce.name=Αρχικοποιήστε τα πάντα
+origins.gui.options.toggle.announce.description=Επαναφέρει όλες τις επιλεγμένες ρίζες και μαθήματα του παίκτη και αποκαθιστά τις επιλογές πίσω στις προεπιλεγμένες ρυθμίσεις.
+origins.gui.options.reset_all.name=Κάντε κλικ στο κουμπί ξανά για να συνεχίσετε. Αυτή η ενέργεια δεν μπορεί να ανατραπεί!
+
+origins.gui.options.reset_all.description_confirm=%1 έχει αλλάξει την προέλευσή τους στο [%2]
+
+origins.change.announce.race=Η σφαίρα της προέλευσης έχει απενεργοποιηθεί
+origins.change.announce.class=Το έγγραφο παραίτησης έχει απενεργοποιηθεί
+
+origins.change.fail.class=Έχετε ενεργές ικανότητες
+
+origins.ability_controls.info.usage=Χωρίς ενεργές ικανότητες
+
+origins.ability_controls.info.none=§Z
+
+entity.r4isen1920_originspe:cleric_area_effect_cloud.name=§Z
+entity.r4isen1920_originspe:cleric_lingering_potion.name=§Z
+entity.r4isen1920_originspe:cleric_splash_potion.name=§Z
+entity.r4isen1920_originspe:dialogue_handler.name=§Z
+entity.r4isen1920_originspe:elven_arrow.name=§Z
+entity.r4isen1920_originspe:huge_explosion.name=§Z
+entity.r4isen1920_originspe:inventory_keep.name=§Z
+entity.r4isen1920_originspe:knockback_roar.name=§Z
+entity.r4isen1920_originspe:safe_teleporter.name=§Z
+entity.r4isen1920_originspe:shooting_star.name=§Z
+
+entity.r4isen1920_originspe:webbing_attack.name=Ανοίξτε το απόθεμα για να δείτε το απόθεμά σας
+
+
+action.hint.exit.console.r4isen1920_originspe:inventory_keep=Φόρτωση προέλευσης και τάξεων
+
+
+
+
+
+
+
+
+origins.trait.launch_into_air.name=Φτερωτός
+origins.trait.launch_into_air.description=Έχετε φτερά Elytra χωρίς να χρειάζεται να εξοπλίσετε και δεν χάνεται ποτέ ούτε μπορεί να αφαιρεθεί.
+origins.trait.elytra.name=Βασικά
+origins.trait.elytra.description=Διατηρείτε την πρόσβαση σε βασικό απόθεμα, εξασφαλίζοντας ότι η ζεστή γραμμή σας δεν έχει χαθεί μετά το θάνατο.
+origins.trait.essentials.name=Ταχύς
+origins.trait.essentials.description=Γίνετε ευκίνητοι και γρήγοροι, παρέχοντας σας αυξημένη ταχύτητα κίνησης, επιτρέποντάς σας να διασχίσετε το έδαφος αβίαστα.
+origins.trait.swift.name=Ακροβασία
+origins.trait.swift.description=Με ισχυρά πόδια, άλμα 2 μπλοκ ψηλά ενώ σπριντ - συντρίβουν τα εμπόδια και αποφεύγουν τον κίνδυνο με ευκολία.
+origins.trait.sprint_jump.name=Πυγμάχος ελαφρού βάρους
+origins.trait.sprint_jump.description=Πτώση σαν φτερό: Μην παίρνετε καμία βλάβη πτώσης, ποτέ δεν κουράζετε από το σπριντ ή το άλμα, αλλά προσέξτε - άλλες επιθέσεις βλάπτουν 10% περισσότερο.
+
+origins.trait.lightweight.description=Τηλεμεταφορά
+
+origins.trait.throw_ender_pearl.name=Δεν υπάρχει χώρος για τηλεμεταφορά εκεί!
+origins.trait.throw_ender_pearl.description=Ατέλειωτος
+origins.trait.throw_ender_pearl.failed=Τα βέλη σας δεν τρέχουν ποτέ ξηρά. Αδέσετε το τόξο σας με άπειρα πυρομαχικά και αμείλικτη ακρίβεια.
+origins.trait.endless_quiver.name=Σκοπευτής
+origins.trait.endless_quiver.description=Συμφωνήστε 30% περισσότερη ζημιά με επιθέσεις που κυμαίνονται. Ο στόχος σας είναι ο αγγελιοφόρος του θανάτου.
+origins.trait.marksman.name=Αγριος
+origins.trait.marksman.description=Απελευθερώστε την Primal Fury. Κερδίστε δύναμη i και συντρίψτε τους εχθρούς σε κοντινά τρίμηνα.
+origins.trait.ferocious.name=Εύθραυστος
+origins.trait.ferocious.description=Η ισχύς έρχεται σε τιμή - πάρτε 20% περισσότερη ζημιά από επιθέσεις οντοτήτων. Να είστε γρήγοροι, όχι απερίσκεπτοι.
+
+
+
+
+origins.trait.smash.name=Σκληρός
+origins.trait.smash.description=Αναπτύξτε 4 καρδιές μπόνους και κερδίστε 20% αντίσταση σε όλες τις μορφές ζημιών. Είστε η πρώτη γραμμή.
+origins.trait.tough.name=Άθραυστο δέρμα
+origins.trait.tough.description=Εκτρέψτε τον ουρανό - πάρτε 30% λιγότερη ζημιά από τα βλήματα. Τα βέλη αναπηδούν από την επίλυση του σιδήρου σας.
+origins.trait.unbreakable_skin.name=Βαρύτητα
+origins.trait.unbreakable_skin.description=Η μαζική δύναμη ζυγίζει βαριά. Μετακινήστε 5% πιο αργή και εξάτμιση δύο φορές πιο γρήγορα - αλλά η δύναμη σας είναι ασύγκριτη.
+
+origins.trait.heavy.description=Ενδυναμωτική αύρα
+
+origins.trait.empowering_aura.name=⚠ Aura στο Cooldown!
+origins.trait.empowering_aura.description=Μακροβιότητα
+origins.trait.empowering_aura.cooldown=Κερδίστε 2 επιπλέον καρδιές και ξεπεράστε τους εχθρούς σας. Κάθε αναπνοή είναι μια δεύτερη ευκαιρία.
+origins.trait.longevity.name=Καλή μνήμη
+origins.trait.longevity.description=Το απόθεμά σας επιστρέφει μαζί σας από τον τάφο. Ο θάνατος είναι απλώς μια οπισθοδρόμηση.
+origins.trait.good_memory.name=Αντίσταση πείνας
+origins.trait.good_memory.description=Υπομείνει το άγριο. Μειώστε την εξάντληση κατά 20% από όλες τις δραστηριότητες και παραμείνετε πλήρεις.
+origins.trait.hunger_resistant.name=Πείνα αύρα
+origins.trait.hunger_resistant.description=Ενισχύστε τους συμμάχους σας: Όλοι οι παίκτες μέσα σε 16 μπλοκ κερδίζουν αντίσταση πείνας μόνο με το να είναι κοντά σας.
+
+
+
+
+origins.trait.invisibility.name=⚠ Αόρατο στο Cooldown!
+origins.trait.invisibility.description=⚠ δεν μπορεί να χρησιμοποιήσει αόρατο ενώ παρεμποδίζεται!
+origins.trait.invisibility.cooldown=Νυκτερινός
+origins.trait.invisibility.hindered=Σε μέρη όπου το επίπεδο φωτός είναι χαμηλό, παίρνετε αυτόματα τα αποτελέσματα της αντοχής και της νυχτερινής όρασης.
+origins.trait.cat_vision.name=Καμουφλάζ
+origins.trait.cat_vision.description=Αναμειγνύετε με το περιβάλλον όταν γλιστρήσετε, ότι οι εχθρικοί όχλοι δεν θα σας επιτεθούν φυσικά - εκτός αν τους επιτεθείτε πρώτα.
+origins.trait.camouflage.name=Υπουλος
+origins.trait.camouflage.description=Η πινακίδα σας δεν είναι ποτέ πάντα ορατή, ακόμα και όταν δεν γλιστράτε.
+origins.trait.sneaky.name=Εξουθενωτικές απεργίες
+origins.trait.sneaky.description=Κρατήστε τους εχθρούς σας. Οποιοσδήποτε όχλος χτυπάτε επιβραδύνεται για 4 δευτερόλεπτα - δεν θα ξεφύγουν ποτέ από την οργή σας.
+origins.trait.debilitating_strikes.name=Μικρότερος
+origins.trait.debilitating_strikes.description=Το μέγεθός σας μειώνεται κατά 25%, καθιστώντας σας πιο δύσκολο να στοχεύσετε.
+origins.trait.smaller.name=Ανάγκη κινητικότητας
+origins.trait.smaller.description=Η βαριά πανοπλία σας επιβραδύνει κατά 50%. Είσαι φτιαγμένος για ταχύτητα, χωρίς να το βγάζεις με χάλυβα.
+
+
+
+
+origins.perk.ore_vein_miner.name=Βετεράνος εκσκαφέας
+origins.perk.ore_vein_miner.description=Δεν χάνετε την πείνα όταν εξόρυξη.
+origins.perk.no_mining_exhaustion.name=Ευλογημένος ανθρακωρύχος
+origins.perk.no_mining_exhaustion.description=Είστε ευλογημένοι με τύχη +1 σε ό, τι Pickaxe χρησιμοποιείτε. Αυτή η ευλογία δεν μεταφέρεται σε άλλους.
+
+
+
+
+origins.perk.fall_resistant.name=Βήμα του οικοδόμου
+origins.perk.fall_resistant.description=Είστε εκπαιδευμένοι να κλιμακώσετε δομές με ευκολία, πηδώντας δύο φορές ψηλά για να φτάσετε στα χέρια και τα πλαίσια.
+
+origins.perk.high_jumper.description=Διαίσθηση του ερευνητή
+
+
+origins.perk.ore_instinct.description=undefined
+
+
+
+

@@ -1366,7 +1366,7 @@
                 {
                   "test": "target_distance",
                   "operator": "<=",
-                  "value": 64,
+                  "value": 16,
                   "subject": "other"
                 },
                 {

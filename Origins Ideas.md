@@ -16,16 +16,17 @@
 | **🎯 Endless Quiver**       | ✅ Your arrows never run dry. Wield your bow with infinite ammo and relentless precision. |
 | **🏹 Marksman**             | ✅ Deal 30% more damage with ranged attacks. Your aim is death’s own messenger. |
 | **🦍 Ferocious**            | ✅ Unleash primal fury. Gain Strength I and crush enemies in close quarters. |
+| **🎯 Precision**            | All arrows you shoot travel in a straight line, affected by no gravity. |
 | **💔 Fragile**              | ✅ Power comes at a price — take 20% more damage from entity attacks. Be swift, not reckless. |
 | **☄️ Smash**                | ✅ Leap sky-high and slam the earth with cataclysmic force, dealing 10 damage to all foes within 6 blocks. Grants fall damage immunity. |
 | **🛡️ Tough**                | ✅ Grow 4 bonus hearts and gain 20% resistance to all forms of damage. You are the frontline. |
 | **🪨 Unbreakable Skin**     | ✅ Deflect the skies — take 30% less damage from projectiles. Arrows bounce off your iron resolve. |
 | **⚖️ Heavy**                | ✅ Massive power weighs heavy. Move 5% slower and exhaust twice as fast — but your might is unmatched. |
-| **🌟 Empowering Aura**      | ✅ Activate a radiant surge: Become invincible and bless all allies within 64 blocks with Speed, Strength, Resistance, Regeneration, and higher jumps for 4 seconds. 9-second cooldown. |
+| **🌟 Empowering Aura**      | ✅ Activate a radiant surge: Become invincible and bless all allies within 16 blocks with Speed, Strength, Resistance, Regeneration, and higher jumps for 4 seconds. 9-second cooldown. |
 | **🧠 Good Memory**          | ✅ Your inventory returns with you from the grave. Death is merely a setback. |
 | **💖 Longevity**            | ✅ Gain 2 extra hearts and outlast your enemies. Every breath is a second chance. |
 | **🍞 Hunger Resistant**     | Endure the wild. Reduce exhaustion from all activities and stay full longer. |
-| **🌾 Hunger Aura**          | Empower your allies: All players within 64 blocks gain Hunger Resistance just by being near you. |
+| **🌾 Hunger Aura**          | Empower your allies: All players within 16 blocks gain Hunger Resistance just by being near you. |
 | **⚡ Swift**                | ✅ Move like the wind with a 40% speed boost — perfect for rapid assaults, dodging danger, or crossing vast lands. |
 | **🕶️ Invisibility**         | ✅ Slip into the shadows and move swiftly. Vanish for 60 seconds with a 12-second cooldown. Perfect for ambushes and escapes. |
 | **🏹 Marksman**             | ✅ Deal 30% more damage with ranged attacks. Your aim is death’s own messenger. |
@@ -40,10 +41,10 @@
 
 | **Origin**       | **Active Ability**                                           | **Passive Abilities**                                        |
 | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 🦅 **Falconeer**  | **🚀 Gift of the Winds** *Soar skyward with explosive force.* | 🪽 **Winged** 🎒 **Essentials ** **⚡ Swift**  **💥 Sprint Jump** **🌬️ Lightweight** |
-| ⚔️ **Swordsman**  | **🌀 Teleport** *Teleport instantly across space.*            | 🎯 **Endless Quiver** 🏹 **Marksman** 🦍 **Ferocious** 💔 **Fragile** |
+| 🦅 **Falconeer**  | **🚀 Gift of the Winds** *Soar skyward with explosive force.* | 🪽 **Winged** 🎒 **Essentials** **⚡ Swift**  **💥 Sprint Jump** **🌬️ Lightweight** |
+| ⚔️ **Swordsman**  | **🌀 Teleport** *Teleport instantly across space.*            | 🎯 **Endless Quiver** 🏹 **Marksman** 🦍 **Ferocious** **🎯 Precision**💔 **Fragile** |
 | 🛡 **Guardian**   | **☄️ Smash**<br/>*Leap and slam, damaging all nearby enemies.* | 🛡️ **Tough** 🪨 **Unbreakable Skin** ⚖️ **Heavy**               |
-| ✨ **Sage**       | **🌟 Empowering Aura** *Grant invincibility and powerful buffs to allies.* | 🧠 **Good Memory** 💖 **Longevity** 🍞 **Hunger Resistant** 🌾 **Hunger Aura**  **⚡ Swift** |
+| ✨ **Sage**       | **🌟 Empowering Aura** *Grant invincibility to self and powerful buffs to allies.* | 🧠 **Good Memory** 💖 **Longevity** 🍞 **Hunger Resistant** 🌾 **Hunger Aura**  **⚡ Swift** |
 | 🕶 **Nightblade** | **🕶️ Invisibility** *Disappear for 60 seconds with a 12s cooldown.* | **🏹 Marksman** 🗡️ **Debilitating Strikes**🐱 **Cat Vision**🧍‍♂️ **Camouflage** 👁️ **Sneaky**   **🔎 Smaller** **🪖 Need for Mobility** |
 
 
@@ -72,7 +73,7 @@
 |                 | **Effective Empathy**      | Any potion effects you may have will also be applied to the mobs you've tamed. |
 |                 | **Good Meals**             | Foods you cook will grant additional saturation when eaten.  |
 |                 | **Rejuvenating Soup**      | Stews you make can grant regeneration effects.               |
-| **🔨 Craftsman** | **Great Craftsmanship**    | Any equipment you craft or smith will have increased durability, efficiency, damage, and maybe even Fortune I. |
+| **🔨 Craftsman** | **Great Craftsmanship**    | Any equipment you craft or smith will have increased durability, efficiency, damage, and even Fortune I. |
 |                 | **Potent Brews**           | Any potion you brew will be more amplified when brewing it with glowstone. |
 |                 | **Efficient Repairs**      | High-quality equipments you have crafted are easily more repairable and can restore more durability points. |
 

@@ -1,5 +1,5 @@
 
-import { world } from "@minecraft/server";
+import { world, GameMode } from "@minecraft/server";
 
 import { toAllPlayers } from "../../../origins/player";
 import { ResourceBar } from "../../../origins/resource_bar";
@@ -22,7 +22,7 @@ function phantomize({ player }) {
 }
 
 function checkMovement(player) {
-  if (!player.hasTag('_phantomized')) return;
+  if (!player.hasTag('_phantomized') && player.getGameMode() !== GameMode.spectator) return;
 
   const currentPos = player.location;
   const lastPosStr = player.getDynamicProperty('r4isen1920_originspe:last_pos');

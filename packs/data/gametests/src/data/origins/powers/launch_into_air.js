@@ -34,7 +34,7 @@ function launch_into_air({ player }) {
       if (!(e instanceof LocationOutOfWorldBoundariesError)) throw e
     }
 
-    new ResourceBar(2, 0, 100, 30)
+    new ResourceBar(2, 0, 100, 10)
         .push(player)
 
   } else {

@@ -4,6 +4,7 @@ import { system, world } from "@minecraft/server";
 import { openScreenPickerGUI, runDialogueCommand } from "./gui";
 import { closeAbilityHotbar } from "./controls";
 import { removeTags } from "../utils/tags";
+import { setup } from "../utils/PubSub";
 import { initModules, resetPlayerAttributes } from "./player";
 import { _SCOREBOARD } from "./resource_bar";
 
@@ -35,7 +36,12 @@ const _A = system.run(initialize)
 world.afterEvents.playerSpawn.subscribe(
   event => {
     const { initialSpawn, player } = event;
-    if (!initialSpawn) return
+    if (!initialSpawn) {
+      console.log(`${event.player.nameTag} has respawned! Running Setup Menu Item`)
+      player.triggerEvent('r4isen1920_originspe:setupMenuItem')
+      setup.publish('r4isen1920_originspe:setupMenuItem', player)
+      return
+    }
 
     _SCOREBOARD('gui').setScore(player, 0);
 

@@ -32,6 +32,7 @@ function checkHasLanded(player) {
       location: player.location,
       maxDistance: AOE_RADIUS,
       excludeFamilies: ['inanimate'],
+      excludeTypes: ['minecraft:player', 'minecraft:villager'], // Exclude players and villagers
       excludeTags: ['power_smash']
     });
 

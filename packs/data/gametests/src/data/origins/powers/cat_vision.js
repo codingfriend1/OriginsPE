@@ -8,19 +8,22 @@ import { toAllPlayers } from "../../../origins/player";
  */
 function cat_vision(player) {
 
-  if (!player.hasTag('power_cat_vision') && !player.hasTag('perk_cat_vision')) return
+  if (!player.hasTag('power_cat_vision')) return
 
   player.triggerEvent('r4isen1920_originspe:light_level');
   const lightLevel = player.getProperty('r4isen1920_originspe:light_level');
 
-  if (lightLevel < 8) {
-    player.addEffect('night_vision', TicksPerSecond * 12, { showParticles: false });
-    player.addEffect('strength', TicksPerSecond * 12, { amplifier: 0, showParticles: false });
-  } else {
-    player.removeEffect('night_vision');
-    player.removeEffect('strength');
-  }
+  player.addEffect('night_vision', TicksPerSecond * 70, { showParticles: false });
+  // player.addEffect('strength', TicksPerSecond * 12, { amplifier: 0, showParticles: false });
+
+  // if (lightLevel <= 14) {
+  //   player.addEffect('night_vision', TicksPerSecond * 12, { showParticles: false });
+  //   player.addEffect('strength', TicksPerSecond * 12, { amplifier: 0, showParticles: false });
+  // } else {
+  //   player.removeEffect('night_vision');
+  //   player.removeEffect('strength');
+  // }
 
 }
 
-toAllPlayers(cat_vision, 3)
+toAllPlayers(cat_vision, TicksPerSecond * 60)

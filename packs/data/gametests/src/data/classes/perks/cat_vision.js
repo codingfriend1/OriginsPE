@@ -1,1 +1,0 @@
-import "../../origins/powers/cat_vision"

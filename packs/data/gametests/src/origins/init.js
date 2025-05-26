@@ -37,9 +37,9 @@ world.afterEvents.playerSpawn.subscribe(
   event => {
     const { initialSpawn, player } = event;
     if (!initialSpawn) {
-      console.log(`${event.player.nameTag} has respawned! Running Setup Menu Item`)
       player.triggerEvent('r4isen1920_originspe:setupMenuItem')
       setup.publish('r4isen1920_originspe:setupMenuItem', player)
+      setup.publish('r4isen1920_originspe:teleport_family', event)
       return
     }
 

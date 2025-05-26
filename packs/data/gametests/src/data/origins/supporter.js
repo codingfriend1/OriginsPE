@@ -5,9 +5,10 @@ export const supporter = {
     'longevity',
     'hunger_resistant',
     'hunger_aura',
-    'swift'
+    'swift',
+    'teleport_family'
   ],
   'controls': [
-    'empowering_aura'
+    'empowering_aura',
   ]
 }

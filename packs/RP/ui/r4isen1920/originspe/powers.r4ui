@@ -920,6 +920,13 @@
         }
       },
       {
+        "teleport_family@origin_powers.origin_powers_container_template": {
+          "$power_name": "origins.trait.teleport_family.name",
+          "$power_description": "origins.trait.teleport_family.description",
+          "$power_icon_index": "teleport_family"
+        }
+      },
+      {
         "good_memory@origin_powers.origin_powers_container_template": {
           "$power_name": "origins.trait.good_memory.name",
           "$power_description": "origins.trait.good_memory.description"
